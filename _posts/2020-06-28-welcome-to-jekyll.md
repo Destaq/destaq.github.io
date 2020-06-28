@@ -1,10 +1,11 @@
 ---
-layout: post
+layout: single
 title:  "Welcome to Jekyll!"
 date:   2020-06-28 12:11:24 +0200
 categories: jekyll update
+entries_layout: grid
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+You will find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:
 
@@ -18,7 +19,7 @@ Jekyll also offers powerful support for code snippets:
 def print_hi(name)
   puts "Hi, #{name}"
 end
-print_hi('Tom')
+print_hi('Simon')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 

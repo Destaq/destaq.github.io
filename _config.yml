@@ -20,8 +20,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 github_username: Destaq
-minimal_mistakes_skin: default
+minimal_mistakes_skin: dirt
 search: true
+repository: "Destaq/destaq.github.io"
 
 # Build settings
 markdown: kramdown
@@ -57,34 +58,38 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name: "Simon Ilincev"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "My awesome biography limited to a sentence or two goes here."
+  location: Prague, Czech Republic
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://simonilincev.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/Destaq"
+    - label: "Email"
+      icon: "fab fa-fw fa-envelope"
+      url: "mailto:simon@simonilincev.com"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://simonilincev.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/Destaq"
+    - label: "Email"
+      icon: "fab fa-fw fa-envelope"
+      url: "mailto:simon@simonilincev.com"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/"
 
 defaults:
   # _posts
