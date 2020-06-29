@@ -17,7 +17,7 @@ title: Simon Ilincev
 email: simon@simonilincev.com
 description: Personal and portfolio website for Simon Ilincev, backend programmer (Python, Java, JavaScript) studying to be a software engineer.
 github_username: Destaq
-# minimal_mistakes_skin: contrast
+minimal_mistakes_skin: contrast
 search: true
 repository: "Destaq/destaq.github.io"
 
@@ -66,12 +66,19 @@ author:
     - label: "Email"
       icon: "fa fa-fw fa-envelope"
       url: "mailto:simon@simonilincev.com"
-    - label: "Stack Overflow"
+    - label: " Stack Overflow"
       icon: "fab fa-stack-overflow"
       url: "https://stackoverflow.com/users/12876940/destaq"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
+
+# setup DISQUS instead
+comments:
+  provider: "facebook"
+  facebook:
+    num_posts: 5
+    color_scheme: "light"
 
 footer:
   links:
@@ -81,7 +88,7 @@ footer:
     - label: "Email"
       icon: "fa fa-fw fa-envelope"
       url: "mailto:simon@simonilincev.com"
-    - label: "Stack Overflow"
+    - label: " Stack Overflow"
       icon: "fab fa-stack-overflow"
       url: "https://stackoverflow.com/users/12876940/destaq"
     # - label: "Instagram"
