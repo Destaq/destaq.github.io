@@ -59,7 +59,7 @@ plugins:
 
 author:
   name: "Simon Ilincev"
-  avatar: "/assets/images/bio_photo.jpg"
+  avatar: "/assets/images/bio_photo.png"
   bio: "My awesome biography limited to a sentence or two goes here."
   location: Prague, Czech Republic
   links:
