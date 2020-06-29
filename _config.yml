@@ -15,12 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 title: Simon Ilincev
 email: simon@simonilincev.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: Personal and portfolio website for Simon Ilincev, backend programmer (Python, Java, JavaScript) studying to be a software engineer.
 github_username: Destaq
-minimal_mistakes_skin: dirt
+# minimal_mistakes_skin: contrast
 search: true
 repository: "Destaq/destaq.github.io"
 
@@ -61,32 +58,32 @@ author:
   name: "Simon Ilincev"
   avatar: "/assets/images/bio_photo.png"
   bio: "My awesome biography limited to a sentence or two goes here."
-  location: Prague, Czech Republic
+  location: Prague, Czechia
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://simonilincev.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Destaq"
     - label: "Email"
       icon: "fa fa-fw fa-envelope"
       url: "mailto:simon@simonilincev.com"
+    - label: "Stack Overflow"
+      icon: "fab fa-stack-overflow"
+      url: "https://stackoverflow.com/users/12876940/destaq"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
 
 footer:
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://simonilincev.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Destaq"
     - label: "Email"
       icon: "fa fa-fw fa-envelope"
       url: "mailto:simon@simonilincev.com"
+    - label: "Stack Overflow"
+      icon: "fab fa-stack-overflow"
+      url: "https://stackoverflow.com/users/12876940/destaq"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   url: "https://instagram.com/"
