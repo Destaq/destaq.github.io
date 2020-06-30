@@ -16,6 +16,6 @@ Other than that, I enjoy writing fantasy novels, playing chess, and biking aroun
 {: .notice--success}
 
 <figure style="width: 300px" class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/bio_photo.png" alt="Biking around Prague">
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/biking.jpg" alt="biking around the neighborhood">
   <figcaption>Favorite mode of transportation: biking!</figcaption>
 </figure> 
