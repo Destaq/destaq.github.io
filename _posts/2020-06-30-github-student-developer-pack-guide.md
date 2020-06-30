@@ -7,6 +7,11 @@ entries_layout: grid
 tags: github student learning
 toc: true
 toc_sticky: true
+header:
+  image: /assets/images/posts/pack_offers.png
+  image_description: top 3 tools from the pack
+  caption: The [GitHub Student Developer Pack](https://education.github.com/pack)
+  # teaser: /assets/images/posts/github_backpack.png # NOTE: only displays with blog having: 'entries_layout: grid'
 ---
 
 ## Introduction to the Pack
