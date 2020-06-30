@@ -27,7 +27,7 @@ feature_row:
     alt: "github repos overview"
     title: "Transparency"
     excerpt: "Most of my projects are open-source on GitHub with permissive licenses."
-    url: "#test-link"
+    url: "https://simonilincev.com/portfolio/"
     btn_label: "More projects..."
     btn_class: "btn--primary"
   - image_path: /assets/images/pypidownloads.png
