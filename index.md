@@ -16,7 +16,7 @@ header:
 
 excerpt: "Backend programmer on the software engineering route interested in machine learning and data analysis."
 intro: 
-  - excerpt: "Hi, I'm Simon, an American high schooler currently living in Europe. I deeply enjoy programming and writing, and code in Python, Java, and Javascript."
+  - excerpt: "Hi, I'm Simon, an American high schooler currently living in Europe. I deeply enjoy programming and writing, and code in Python, Java, and JavaScript."
 
 feature_row:
   - image_path: assets/images/readable.png
