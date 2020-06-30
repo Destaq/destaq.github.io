@@ -57,7 +57,7 @@ plugins:
 author:
   name: "Simon Ilincev"
   avatar: "/assets/images/bio_photo.png"
-  bio: "Backend Python and Java programmer interested in machine learning and analysis."
+  bio: "Backend Python and Java programmer interested in machine learning and data analysis."
   location: Prague, Czechia
   links:
     - label: "GitHub"
