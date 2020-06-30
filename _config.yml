@@ -57,7 +57,7 @@ plugins:
 author:
   name: "Simon Ilincev"
   avatar: "/assets/images/bio_photo.png"
-  bio: "My awesome biography limited to a sentence or two goes here."
+  bio: "Backend Python and Java programmer interested in machine learning and analysis."
   location: Prague, Czechia
   links:
     - label: "GitHub"
@@ -66,8 +66,8 @@ author:
     - label: "Email"
       icon: "fa fa-fw fa-envelope"
       url: "mailto:simon@simonilincev.com"
-    - label: " Stack Overflow"
-      icon: "fab fa-stack-overflow"
+    - label: "Stack Overflow"
+      icon: "fab fa-fw fa-stack-overflow"
       url: "https://stackoverflow.com/users/12876940/destaq"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
@@ -88,8 +88,8 @@ footer:
     - label: "Email"
       icon: "fa fa-fw fa-envelope"
       url: "mailto:simon@simonilincev.com"
-    - label: " Stack Overflow"
-      icon: "fab fa-stack-overflow"
+    - label: "Stack Overflow"
+      icon: "fab fa-fw fa-stack-overflow"
       url: "https://stackoverflow.com/users/12876940/destaq"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
