@@ -3,6 +3,7 @@ title: Portfolio
 permalink: /portfolio/
 toc: true
 toc_sticky: true
+excerpt: Simon Ilincev's portfolio, demonstrating programs written primarily in Python and available on GitHub.
 gallery:
   - url: https://github.com/Destaq/low-face-mode
     image_path: /assets/images/portfolio/facedocs.png

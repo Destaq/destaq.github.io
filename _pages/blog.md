@@ -3,7 +3,6 @@ title: "Blog Posts by Year"
 permalink: /blog/
 layout: posts
 author_profile: true
+excerpt: These are the Simon Ilincev's blog posts, sorted by year. They cover topics such as his programming journey, tutorials, resources, or tips and tricks.
 ---
 I document my programming journey, tips, and what I've learned in the posts below. You can find out more about my experience with coding or how to solve a specific problem by searching for a post on this site or simply scrolling below.
-
-*This page shows blog posts sorted by **year**. You can also view posts sorted [by category](https://simonilincev.com/categories/) or [by tag](https://simonilincev.com/tags/).*

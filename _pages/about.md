@@ -1,6 +1,7 @@
 ---
 title: About Me
 permalink: /about/
+excerpt: Simon Ilincev is a 2x published author, dedicated programmer, and high school sophomore. He is interested in Machine Learning and Data Analysis, and has over a hundred stars on his GitHub repositories.
 ---
 
 I am a high school sophomore studying in the capital of the Czech Republic, a [2x author](https://www.goodreads.com/author/show/19271921.Simon_Ilincev), and dedicated programmer. I've been studying Python for the past three years, advancing to the level of intermediate/advanced with over a hundred stars for my repositories on GitHub, and enjoy writing backend and utility programs.
