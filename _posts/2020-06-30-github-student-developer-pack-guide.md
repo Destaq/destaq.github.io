@@ -62,7 +62,7 @@ You're halfway done if you have reached this point! All that's left is to apply 
 ### View Offers and Wait
 Once you have filled out the form and submitted your request, all you have to do now is wait. The GitHub team is pretty busy, so they may take a few days to respond to your request - it may take up to one week for them to accept or deny your application. However, I've found from my applications that it usually only takes a few days.
 
-You can view the status of your application at any time by going back to [the signup site]("https://education.github.com/discount_requests/new"). To the right, you should see a table displaying the status of all of your applications, and you will also receive an email to your primary email account detailing whether or not your application has been accepted.
+You can view the status of your application at any time by going back to [the signup site](https://education.github.com/discount_requests/new). To the right, you should see a table displaying the status of all of your applications, and you will also receive an email to your primary email account detailing whether or not your application has been accepted.
 
 ![How it may look](/assets/images/posts/pack_approved.png){: .align-center}
 
