@@ -33,7 +33,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 analytics:
   provider: "google"
   google:
-    tracking_id: "UA-1234567-8"
+    tracking_id: "UA-145818774-2"
     anonymize_ip: false # default
 
 include:

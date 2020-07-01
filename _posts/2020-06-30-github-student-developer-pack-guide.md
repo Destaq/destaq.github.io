@@ -7,6 +7,7 @@ entries_layout: grid
 tags: github student learning
 toc: true
 toc_sticky: true
+excerpt: A simple, easy-to-follow guide for accessing the GitHub Student Developer Pack and the many tools from tech companies offered for free within.
 header:
   image: /assets/images/posts/pack_offers.png
   image_description: top 3 tools from the pack
