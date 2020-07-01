@@ -81,10 +81,9 @@ author:
 
 # setup DISQUS instead
 comments:
-  provider: "facebook"
-  facebook:
-    num_posts: 5
-    color_scheme: "light"
+  provider: "disqus"
+  disqus:
+    shortname: "simonilincev"
 
 footer:
   links:
