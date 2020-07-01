@@ -20,6 +20,7 @@ github_username: Destaq
 minimal_mistakes_skin: contrast
 search: true
 repository: "Destaq/destaq.github.io"
+locale: "en-US"
 
 # Build settings
 markdown: kramdown
