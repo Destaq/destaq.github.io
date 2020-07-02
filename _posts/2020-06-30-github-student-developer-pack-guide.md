@@ -28,7 +28,7 @@ Although it takes some time to go through the application process and get your a
 ### Create a GitHub account
 If you do not yet have a GitHub account, you must make one in order to apply. If you already do, feel free to skip this section and head down to [the next](#fill-out-your-details).
 
-1. Go to [the GitHub website](https://www.github.com)
+1. Go to [the GitHub website](https://www.github.com).
 
 2. Go to the top left and click the `Sign Up` button.
 
@@ -47,7 +47,7 @@ You're halfway done if you have reached this point! All that's left is to apply 
 
 1. Go to the GSDP page [here](https://education.github.com/discount_requests/new).
 2. You will see a form, which needs to be filled out for a successful application. The form fields are intuitive, but I'll go through them below so you can get an idea of what needs to be written and what to put if you're having any trouble.
-- **What best describes your academic status?**<br>You are a student, so student is the applicable radio button here
+- **What best describes your academic status?**<br>You are a student, so student is the applicable radio button here.
 - **What e-mail address do you use for school?**<br>You should already have your primary email show up, however, if you have a school email address you should add that as it will increase your chance of success.
 - **What is the name of your school?**<br>Type in your full school name. You may see it there, in which case all you have to do is select it. If not (which happened to me and is caused by having a smaller school) simply type out the full name anyway, but note that you may be asked to provide more information.
 - **Academic proof**<br>You need to prove that you are a student. You can do so in one of the following ways (note that documents *must* be dated):
