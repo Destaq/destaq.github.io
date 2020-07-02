@@ -66,7 +66,7 @@ You can view the status of your application at any time by going back to [the si
 
 ![How it may look](/assets/images/posts/pack_approved.png){: .align-center}
 
-If it's been accepted, great! You can go to [https://education.github.com/pack/offers](https://education.github.com/pack/offers) and browse through the hundred-plus offers they have, signing up for them as you wish.
+If it's been accepted, great! You can go to [the offers page](https://education.github.com/pack/offers) and browse through the hundred-plus offers they have, signing up for them as you wish.
 
 If not, the GitHub team will most likely send you an email or information detailing why the application was rejected. This is usually due to a bad evidence image, insufficient detail, or missing information. All you have to do is write another application and make sure to include what you missed.
 
