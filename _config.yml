@@ -24,7 +24,8 @@ analytics:
   provider: "google"
   google:
     tracking_id: "UA-145818774-2"
-    anonymize_ip: true # comply with privacy laws
+    # comply with privacy laws
+    anonymize_ip: true
 
 include:
   - _pages
