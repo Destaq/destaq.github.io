@@ -46,19 +46,6 @@ gallery3:
     alt: "subreddit r/wallpaper"
     title: "taken from a million+ strong Reddit community"
 
-gallery4:
-  - url: https://github.com/KodyVS/Discord-Bot-Development
-    image_path: /assets/images/portfolio/commands.png
-    alt: "commands available for bot"
-    title: "dozens of available commands"
-  - url: https://github.com/KodyVS/Discord-Bot-Development
-    image_path: /assets/images/portfolio/tiorun.png
-    alt: "bot in action, running code"
-    title: "run code in hundreds of languages"
-  - url: https://github.com/KodyVS/Discord-Bot-Development
-    image_path: /assets/images/portfolio/beeping.png
-    alt: "pomodoro timer bot beeping"
-    title: "bot joins your voice channels and beeps for you"
 ---
 
 ## Introduction
@@ -71,7 +58,7 @@ All of my major projects are hosted on GitHub, and you can find the source code 
 ### low-face-mode
 {% include gallery caption="**Save your battery** by dimming the screen when not in front of your computer." %}
 
-This is perhaps my most favorite project, one that has steadily gained stars and downloads on GitHub as well as frequent questions on social media. `low-face-mode` provides an entertaining alternative to constantly shutting down your computer - it simply dims and brightens the screen based on whether or not you are in the camera's view.
+This is my most popular project, one that has steadily gained stars and downloads on GitHub as well as frequent questions on social media. `low-face-mode` provides an entertaining alternative to constantly shutting down your computer - it simply dims and brightens the screen based on whether or not you are in the camera's view.
 
 It includes:
 - custom facial recogntion
@@ -79,6 +66,30 @@ It includes:
 - face detection
 
 The above means that your computer will dim (using AppleScript) and brighten based on whether anyone is in the field of view. I'm planning on expanding it to shut down the computer entirely, but the current project is already in use as [my most starred repo](https://github.com/Destaq/low-face-mode), with 70 stars and counting.
+
+### language-statistics
+[![](https://raw.githubusercontent.com/Destaq/language-statistics/master/screenshots/output.svg)](https://github.com/Destaq/language-statistics){: .align-center}
+
+This is perhaps my favorite project, as I love visualizations and statistics. It displays a GitHub repo-esque colorbar for your directory straight from the command-line, which can be viewed as a png or svg image.
+
+I was always greatly annoyed by the fact that the GitHub language bar that showed which languages were in a repo was only limited to GitHub, and could not be run by itself. So, I set out to recreate this as a Python package. Now with my program, you can just run `statistics` from anywhere in your terminal and gain a beautiful colorbar, like the one seen above - and best of all, it's highly customizable.
+
+These are some features, which I trust make it even better than GitHub's `linguist`:
+- choose to exclude certain filetypes
+- specify the depth to which the program searches from the root directory
+- control how your exported image looks
+- pick the limit at which files blend into `Other`
+- decide the colors used and maximum number of filetypes
+
+This even supports named files, such as a `Dockerfile` or a `Cakefile`. You can find out more by reading the `README.md` at [the repo](https://github.com/Destaq/language-statistics), or even by downloading it yourself.
+
+### wallpaper-learn
+[![](https://raw.githubusercontent.com/Destaq/wallpaper-learn/master/screenshots/hanzilearn.png)](https://github.com/Destaq/wallpaper-learn){: .align-center .width-half}
+I've recently started learning Mandarin, and I've dabbled in French and Spanish in the past. One thing visibly apparent is that **there is no program to help with passive vocabulary strengthening** - and so I set out to fix this.
+
+Wallpapers are surprisingly easy to control from Python, and Python has a beautiful, albeit not well maintained or known library, `pycairo`. I used `pycairo` to generate images for vocabulary relating to different languages, selectable from the command-line. You could also choose to create images relating to states or countries, and even mix and match.
+
+The result was an ever-shifting Desktop wallpaper with a flashcard theme, one that encouraged learning visually without the added work. For example for Mandarin, this was the Chinese character, pronunciation, category, and meaning (see the images above, and click `Open in new tab` to view them in a larger format. You can also [visit the repository](https://github.com/Destaq/wallpaper-learn)).
 
 ### chess-graph
 {% include gallery id="gallery2" caption="Get **advanced insight** into your game with a chess visualization." %}
@@ -99,23 +110,6 @@ I always liked having nice backgrounds for my computer, whether I was using it o
 So, I decided that I would write a quick Python program that would download *x* number of wallpaper images from Reddit each morning and set them as my custom, shifting wallpaper. Through this project, I learned about setting up bots, the `praw` library, and expanded my knowledge of web scraping with `urrllib`.
 
 When I shared this project online, I was pleased to find that many Mac and even Windows and Linux people were using it. This encouraged me to write a detailed README.md (available as a blog post) about how to setup Reddit bots, and subsequently led to hundreds of clones and 40 stars for [the repository](https://github.com/Destaq/reddit-wallpapers).
-
-### discord-programming-bot
-{% include gallery id="gallery4" caption="A Discord bot for programmers" %}
-
-Discord is the perfect social media platform for tech-savvy people, and as such it is a meeting place for many programmers. I had the honor of being able to join a small Discord 'server' with about two dozen other serious programmers, and we eventually decided to start working on our very own Discord bot.
-
-Programming Discord bots is quite different from regular Python code, as it frequently encompasses HTML and multithreading. However, this was nonetheless a great challenge for myself and the half-dozen others that I was working with the project on, and we spent many late nights opening pull requests or writing code.
-
-This bot is still in development, but it has many yet-unseen features that I'd like to share, such as:
-- running code from multiple languages in Discord (IDE/REPL)
-- customizable productivity timers with Opus and `discord[voice]`
-- coding leaderboards based on time spent coding
-- programming challenges from Project Euler, Daily Programmer, and Reddit
-- SQL, private file storage
-- Python documentation
-
-Although this program isn't 'free and in the wild', so to speak, it's still [available on GitHub](https://github.com/KodyVS/Discord-Bot-Development) and is being continually worked on. Eventually, our team plans on releasing it to the public so servers around the globe can use all of the bot's functions.
 
 ## Conclusion
 I'm always open to working on new projects, and they are the best part of programming to me - *solving problems through a few lines of code*. It always puts a smile on my face when I see a new download or star, and I hope that I am making a small difference for the people that are using my code.
