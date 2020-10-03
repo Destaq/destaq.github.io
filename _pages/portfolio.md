@@ -55,6 +55,20 @@ Working on projects is my favorite part of programming, and it's my goal to make
 All of my major projects are hosted on GitHub, and you can find the source code and more information about theme there.
 
 ## Projects
+### life-calendar
+[Online Life Calendar](https://www.onlinelifecalendar.com) is my most ambitious project ever. In essence, it is a life planner, todo list, and accountability app all wrapped into one. Built with ES6 JavaScript and Python + Flask, the site is hosted at [onlinelifecalendar.com](https://www.onlinelifecalendar.com/).
+
+![Preview of Life Calendar](/assets/images/portfolio/videopreview.png){: .align-center}
+
+**Features**
+- View your life anywhere from days to decades
+- Color code stages of your life based on events
+- Fill out stages of your life with text and images
+- Set specific goals for yourself as simple cards
+- View detailed statistics about your life and download your own life calendar
+
+...and a lot more! Online Life Calendar is completely free, has over half a hundred users at the time of writing, and I hope that it is a useful tool for motivation and planning. You can view the source code at the repository [here](https://www.github.com/Destaq/life-calendar).
+
 ### low-face-mode
 {% include gallery caption="**Save your battery** by dimming the screen when not in front of your computer." %}
 
