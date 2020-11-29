@@ -54,6 +54,8 @@ Working on projects is my favorite part of programming, and it's my goal to make
 
 All of my major projects are hosted on GitHub, and you can find the source code and more information about theme there.
 
+Likewise, you can view all repositories of mine (including ones not mentioned here) on [my GitHub page](https://github.com/Destaq?tab=repositories).
+
 ## Projects
 ### life-calendar
 [Online Life Calendar](https://www.onlinelifecalendar.com) is my most ambitious project ever. In essence, it is a life planner, todo list, and accountability app all wrapped into one. Built with ES6 JavaScript and Python + Flask, the site is hosted at [onlinelifecalendar.com](https://www.onlinelifecalendar.com/).
