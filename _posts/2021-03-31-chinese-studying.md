@@ -9,7 +9,7 @@ toc: true
 toc_sticky: true
 excerpt: My study tips and resources after 9 months of studying Chinese, collected into one blog post.
 header:
-  image: /assets/images/posts/chinese_characters.jpg
+  image: /assets/images/posts/chinese_characters.jpeg
 ---
 
 Over recent months, this blog has sat silent as I've wholly invested myself into learning Chinese. On the side, I've been working on Chinese-related programming projects both [public](https://github.com/Destaq/chinese-sentence-miner) and private, but this has been my main focus.
