@@ -16,7 +16,7 @@ header:
 
 excerpt: "Full-stack Python & JavaScript developer interested in server-side web development and automation."
 intro: 
-  - excerpt: "Hi, I'm Simon, an American high schooler currently living in Europe. I enjoy programming and language learning, and primarily web develop with Nuxt.js and Flask."
+  - excerpt: "Hi, I'm Simon, an American high schooler currently living in Europe. I enjoy programming and language learning, and primarily develop with Nuxt.js and Flask."
 
 feature_row:
   - image_path: assets/images/readable.png
