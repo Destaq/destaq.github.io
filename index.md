@@ -14,9 +14,9 @@ header:
     - label: "About me..."
       url: "https://simonilincev.com/about/"
 
-excerpt: "Backend Python & JavaScript programmer interested in server-side web development and automation."
+excerpt: "Full-stack Python & JavaScript developer interested in server-side web development and automation."
 intro: 
-  - excerpt: "Hi, I'm Simon, an American high schooler currently living in Europe. I deeply enjoy programming and writing, and code in Python, Java, and JavaScript."
+  - excerpt: "Hi, I'm Simon, an American high schooler currently living in Europe. I enjoy programming and language learning, and primarily web develop with Nuxt.js and Flask."
 
 feature_row:
   - image_path: assets/images/readable.png

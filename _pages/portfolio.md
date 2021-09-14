@@ -50,12 +50,19 @@ gallery3:
 
 ## Introduction
 
-Working on projects is my favorite part of programming, and it's my goal to make useful and open-source projects that people can learn from and share. Most of my projects are written in Python, as that is the language that I have been using for the longest, but I'm working on smaller JavaScript and Java programs as well in my free time.
+Working on projects is my favorite part of programming, and it's my goal to make useful and open-source projects that people can learn from and share. Most of my projects are written in Python and JavaScript, and the frameworks I most commonly use are Nuxt.js (Vue) and Flask (Python).
 
-All of my major projects are hosted on GitHub, and you can find the source code and more information about theme there.
+All of my major projects are hosted on GitHub, and you can find the source code and more information about them there.
 
 Likewise, you can view all repositories of mine (including ones not mentioned here) on [my GitHub page](https://github.com/Destaq?tab=repositories).
 
+## Hackathons Wins
+### Develop to Disrupt
+I won 'Best Solo Hack' for the first hackathon I participated in, a 48-hour online one with nearly a hundred submissions. The theme was disrupting an industry, and my submission, a language learning tool named SurgeLingo that leveraged natural language processing and PostgreSQL databases to provide learners with personalized sentences, effectivel did this with the foreign language learning industry.
+
+You can view the hackathon submission on the Devpost page [here](https://devpost.com/software/surgelingo), along with a video and more detailed description. Equally, you can run it locally by forking the [backend](https://github.com/Destaq/surgelingo-backend) and [frontend](https://github.com/Destaq/surgelingo-backend) off Github.
+
+![Example of a SurgeLingo sentence](https://res.cloudinary.com/devpost/image/fetch/s--XyRz8T_9--/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://raw.githubusercontent.com/Destaq/surgelingo-backend/main/static/surgelingo_example.png){: .align-center}
 ## Projects
 ### life-calendar
 [Online Life Calendar](https://www.onlinelifecalendar.com) is my most ambitious project ever. In essence, it is a life planner, todo list, and accountability app all wrapped into one. Built with ES6 JavaScript and Python + Flask, the site is hosted at [onlinelifecalendar.com](https://www.onlinelifecalendar.com/).
