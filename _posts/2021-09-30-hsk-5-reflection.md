@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "HSK 5 in 15 months - Chinese-learning Tools, Tips, and Techniques I've Learned in one Guide"
-date: 2021-03-31 13:02:08 +0100
+date: 2021-09-30 11:42:36 +0200
 categories: updates chinese guides
 entries_layout: grid
 tags: hsk mandarin personal-life language-learning
