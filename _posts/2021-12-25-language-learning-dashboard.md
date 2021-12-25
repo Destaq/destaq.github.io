@@ -5,8 +5,7 @@ date: 2021-12-25 12:11:24 +0100
 categories: tutorial resources
 entries_layout: grid
 tags: github student learning
-toc: true
-toc_sticky: true
+toc: false
 excerpt: As shared recently, I've been spending a lot of time learning Mandarin Chinese lately. To track my progress, I've built a language-learning dashboard I'd like to share.
 header:
     image: /assets/images/posts/dashboard_preview.png
