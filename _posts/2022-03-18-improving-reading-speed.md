@@ -20,8 +20,6 @@ With this in mind, I thought I’d write this post and share my experiences achi
 
 Before beginning, I’d just like to clarify that this is discussing ‘normal’ reading as opposed to speed reading - both have their uses but this is the one most likely useful to us as learners.
 
-<hr>
-
 ## Tips
 
 ### Read extensively
