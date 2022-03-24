@@ -4,7 +4,7 @@ permalink: /contact/
 layout: single
 excerpt: Contact Simon Ilincev easily through this page with a message and your email address.
 ---
-For work enquiries, general questions, or queries about other projects you can contact me at **[simon@simonilincev.com](mailto:simon@simonilincev.com)** or fill out the form below.
+For work enquiries, general questions, or queries about other projects you can contact me at **[simon [at] simonilincev [dot] com](mailto:simon@simonilincev.com)** or fill out the form below.
 
 <html>
 <head>

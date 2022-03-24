@@ -58,7 +58,7 @@ feature_row4:
   - image_path: /assets/images/email.png
     alt: "java email class"
     title: "Contact Me"
-    excerpt: "If you have any questions, offers, or comments, please don't hesitate to let me know! You can reach me at `simon@simonilincev.com` or [on GitHub](https://github.com/Destaq)."
+    excerpt: "If you have any questions, offers, or comments, please don't hesitate to let me know! You can reach me at `simon [at] simonilincev [dot] com` or [on GitHub](https://github.com/Destaq)."
     url: "mailto:simon@simonilincev.com"
     btn_label: "Send me an email..."
     btn_class: "btn--primary"
