@@ -18,7 +18,7 @@ After all, if you can consume a larger volume of foreign-language input in the s
 
 With this in mind, I thought I’d write this post and share my experiences achieving a relatively decent reading speed. Native speakers typically read between 300 to 700 characters per minute (cpm); when reading for leisure myself, I hover around 430. This is still at the lower end of the spectrum, but it’s been a nearly twofold increase on last fall and still rising thanks to a few useful strategies I want to outline today.
 
-Before beginning, I’d just like to clarify that this is discussing ‘normal’ reading as opposed to speed reading - both have their uses but this is the one most likely useful to us as learners.
+Before beginning, I’d just like to clarify that this is discussing ‘normal’ reading as opposed to [speed reading](https://en.wikipedia.org/wiki/Speed_reading) - both have their uses but this is the one most likely useful to us as learners.
 
 ## Tips
 
@@ -44,9 +44,9 @@ Lastly, through LWR you strengthen the connections between a character’s sound
 
 ### Tone police, begone!
 
-The ‘tone police’ I just mentioned are those little voices in your head making you second doubt yourself, tapping on a word just to check you have the pronunciation right or didn’t miss that tone change pair. While useful in solidifying proper pronunciation and word memory, I’ve personally found this often getting out of hand. To quote John from Sinosplice:
+The ‘tone police’ I just mentioned are those little voices in your head making you second doubt yourself, tapping on a word just to check you have the pronunciation right or didn’t miss that tone change pair. While useful in solidifying proper pronunciation and word memory, I’ve personally found this often getting out of hand. [To quote John from Sinosplice](https://www.sinosplice.com/life/archives/2017/02/16/subvocalization-while-reading-chinese):
 
-I found that when I would read a Chinese text, I was reading it aloud very deliberately in my head (subvocalizing). The problem was that I had obsessed over correct tones for so long that I just couldn’t stop. This slowed me down even more than normal subvocalization would be expected to do. So even when I was just reading for purely informational purposes, my brain was insisting that I had to pronounce every tone of every word (in my head) exactly right. I knew this was slowing me down a lot, but I couldn’t stop! The “tone police” in my head were out of control.
+> I found that when I would read a Chinese text, I was reading it aloud very deliberately in my head (subvocalizing). The problem was that I had obsessed over correct tones for so long that I just couldn’t stop. This slowed me down even more than normal subvocalization would be expected to do. So even when I was just reading for purely informational purposes, my brain was insisting that I had to pronounce every tone of every word (in my head) exactly right. I knew this was slowing me down a lot, but I couldn’t stop! The “tone police” in my head were out of control.
 
 Sounds familiar? You’re not alone. I’ve seen this perfectionism relatively often among learners, and it is a real obstacle to quicker reading. Apart from LWR and excessive flashcards, another solution to this is to make it more difficult to check words. This advice doesn’t only apply to tones - if you’re experiencing urges to double-check the English meanings of words, this falls under the same umbrella. One way around this is to not use one-click pop-up dictionaries or graded readers with pinyin on top - using a native app with a slow CN-CN dictionary such as 微信读书 or a Kindle is a good workaround. If that’s not feasible, just consciously reminding yourself not to check can help build a good habit of not doing so.
 
@@ -68,11 +68,11 @@ One thing to be careful about is how you time yourself. I’d recommend reading 
 
 For the most accurate results, aim for at least 15 focused minutes, and then divide your characters read by that number.
 
-A useful site for character counting is here, paste in the text read and count characters from the 无空格 row (not 字符 which includes whitespace and newlines).
+A useful site for character counting is [here](https://charcounter.com/zh/), paste in the text read and count characters from the 无空格 row (not 字符 which includes whitespace and newlines).
 
 ### Auto-scrolling
 
-In a similar vein to LWR, auto-pacing is when you have whatever you are reading automatically scroll. Apps such as 微信读书 that support this are perhaps more suitable for upper-intermediate or advanced learners, but there are also online solutions such as teleprompters - or the good old sliding finger on touchscreen.
+In a similar vein to LWR, auto-pacing is when you have whatever you are reading automatically scroll. Apps such as 微信读书 that support this are perhaps more suitable for upper-intermediate or advanced learners, but there are also online solutions such as [teleprompters](https://zacue.com/) - or the good old sliding finger on touchscreen.
 
 The reason that this is useful is the same as LWR’s - by setting the speed to just slightly above the one you’re comfortable with, you’ll become more comfortable with said higher speed - and also be less likely to heed the tone police and pause to look up not completely familiar words. It might take a couple weeks to see results, but as long as the difference between your speed and the scrolling/running speed isn’t too big, they should come!
 
@@ -80,7 +80,7 @@ And just to reiterate - this is a speed just above your comfortable one. It shou
 
 ###  Practice, practice, practice
 
-There’s no substitute for practice. The more you read, the better - and so the faster you’ll get at it. A Chinese-Forums post shows a graph demonstrating just this. There isn’t really much to say here - more reading means greater familiarity with words, more words known, increased grammar mastery and so a higher cpm.
+There’s no substitute for practice. The more you read, the better - and so the faster you’ll get at it. A [Chinese-Forums post](https://www.chinese-forums.com/forums/topic/60492-extensive-reading-and-reading-speed/) shows a graph demonstrating just this. There isn’t really much to say here - more reading means greater familiarity with words, more words known, increased grammar mastery and so a higher cpm.
 
 <hr>
 
