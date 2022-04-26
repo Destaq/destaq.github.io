@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "I Tracked my Chinese Learning for Three Months - Takeaways"
-date: 2022-04-27 8:50:00 +0100
+date: 2022-04-26 8:50:00 +0100
 categories: reflections chinese
 entries_layout: grid
 tags: mandarin personal-life
