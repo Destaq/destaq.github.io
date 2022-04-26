@@ -23,7 +23,7 @@ The dashboard that I used for tracking was one I programmed myself last year, an
 ### General
 ![](https://preview.redd.it/gor3blsfuzq81.png?width=640&crop=smart&auto=webp&s=7f437f0e84e26db002ce75be92935f20c74d9024)
 
-The *Characters Read*, *Chapters Read*, *Books Read* and *Episodes/Movies Watched* all include data from before the beginning of 2022, but had large jumps even so (shown in charts below)
+The *Characters Read*, *Chapters Read*, *Books Read* and *Episodes/Movies Watched* all include data from before the beginning of 2022, but had large jumps even so (shown in charts below).
 
 ![](https://preview.redd.it/wuyvvmsfuzq81.png?width=2440&format=png&auto=webp&s=f26a24159d3f89392dac14f2839f6f6c4ae2f7f0)
 
@@ -74,7 +74,7 @@ But without further ado, here are the main resources I used these three months.
 - [微信读书](https://weread.qq.com/): aforementioned Chinese reading app. The platform to use, with the best quality of Chinese content. Everything is free (you just need to do some daily check-ins) except for some xianxia/wuxia/xuanhuan stuff as of the latest update. Luckily, the premium subscription cost pennies. Lots better than other learner-based solutions as you can interact with natives, have a much better UI, wider range of books, and more.
 
 #### Writing
-Barely did any writing out of the requirements I have for school. But a few tools I can recommend are [r/WriteStreakCN](reddit.com/r/WriteStreakCN) (used for my [fiction writing](https://simonilincev.com/webnovels) project) and [LangCorrect](https://langcorrect.com/).
+Barely did any writing outside of the requirements I have for school. But a few tools I can recommend are [r/WriteStreakCN](reddit.com/r/WriteStreakCN) (used for my [fiction writing](https://simonilincev.com/webnovels) project) and [LangCorrect](https://langcorrect.com/).
 
 ### Tracking
 
