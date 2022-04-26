@@ -2,7 +2,7 @@
 layout: single
 title: "Winter Holiday Project: A Language Learning Dashboard"
 date: 2021-12-25 12:11:24 +0100
-categories: tutorial resources
+categories: tutorial resources project
 entries_layout: grid
 tags: github student learning
 toc: false
