@@ -37,7 +37,7 @@ Thanks to lots of reading (over 160 hours), my reading saw quite a bit of a jump
 
 Regular VRChat practice also pushed up speaking to a ~B2 level, but its still the second-weakest given my location in a non-Chinese speaking country. Listening, however, went a bit up as well as I began listening to audiobooks (much more attractive than podcasts).
 
-Finally, writing saw a big boost as well, as I started seriously preparing for the end-of-year Mandarin exams I'll be taking (handwritten, unfortunately). I had lots of writing assignments and even practiced writing some Chinese fiction content of my own - find it under a secret link on my website [here](simonilincev.com/webnovels) (note everything is in Chinese).
+Finally, writing saw a big boost as well, as I started seriously preparing for the end-of-year Mandarin exams I'll be taking (handwritten, unfortunately). I had lots of writing assignments and even practiced writing some Chinese fiction content of my own - find it under a secret link on my website [here](https://www.simonilincev.com/webnovels) (note everything is in Chinese).
 
 ### Time Breakdown
 <figure class="half">
@@ -56,7 +56,7 @@ I learned a lot during this process, and saw a significant shift in some of the 
 
 ### Resources
 
-Before getting started on resources that I used, I'd just like to share a link to another project than I've been working on a lot recently - [Heavenly Path](heavenlypath.notion.site). I'm on of its 5 editors, and we've been working on this as a massive repository of human-curated Chinese learning content for those at the intermediate and above stages. And I'm not just 吹牛ing (bragging) here - we managed to get it pinned to the [r/ChineseLanguage](reddit.com/r/ChineseLanguage) sidebar - so do check it out if you're a Chinese learner!
+Before getting started on resources that I used, I'd just like to share a link to another project than I've been working on a lot recently - [Heavenly Path](https://heavenlypath.notion.site). I'm on of its 5 editors, and we've been working on this as a massive repository of human-curated Chinese learning content for those at the intermediate and above stages. And I'm not just 吹牛ing (bragging) here - we managed to get it pinned to the [r/ChineseLanguage](https://reddit.com/r/ChineseLanguage) sidebar - so do check it out if you're a Chinese learner!
 
 But without further ado, here are the main resources I used these three months.
 
@@ -74,7 +74,7 @@ But without further ado, here are the main resources I used these three months.
 - [微信读书](https://weread.qq.com/): aforementioned Chinese reading app. The platform to use, with the best quality of Chinese content. Everything is free (you just need to do some daily check-ins) except for some xianxia/wuxia/xuanhuan stuff as of the latest update. Luckily, the premium subscription cost pennies. Lots better than other learner-based solutions as you can interact with natives, have a much better UI, wider range of books, and more.
 
 #### Writing
-Barely did any writing outside of the requirements I have for school. But a few tools I can recommend are [r/WriteStreakCN](reddit.com/r/WriteStreakCN) (used for my [fiction writing](https://simonilincev.com/webnovels) project) and [LangCorrect](https://langcorrect.com/).
+Barely did any writing outside of the requirements I have for school. But a few tools I can recommend are [r/WriteStreakCN](https://www.reddit.com/r/WriteStreakCN) (used for my [fiction writing](https://simonilincev.com/webnovels) project) and [LangCorrect](https://langcorrect.com/).
 
 ### Tracking
 
