@@ -20,7 +20,8 @@ A year or so ago, I found the thought of spending over 30-40 mins on just a simp
 
 [![r/ChineseLanguage - A guide and 5 defenses against Chinese reading fatigue](https://preview.redd.it/z36n5jhyh8791.jpg?width=777&format=pjpg&auto=webp&s=d949b2a93940133adad7307c6836f27a36271a39)](https://preview.redd.it/z36n5jhyh8791.jpg?width=777&format=pjpg&auto=webp&s=d949b2a93940133adad7307c6836f27a36271a39)
 
-Time spent reading on 微信读书 recently{: style="text-align: center; font-size:0.7em; color:gray"}
+Time spent reading on 微信读书 recently
+{: style="text-align: center; font-size:0.7em; color:gray"}
 
 
 What I'll be sharing here will also be drawn from discussions I've had with some other Chinese-language bookworms who've the stamina to read for longer periods of time as well. But before launching into the thick of it all, I'd first like to make clear a few things:
