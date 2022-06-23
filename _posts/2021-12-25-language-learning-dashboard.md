@@ -10,7 +10,6 @@ excerpt: As shared recently, I've been spending a lot of time learning Mandarin 
 header:
     image: /assets/images/posts/dashboard_preview.png
     image_description: a screenshot of the dashboard in action
-    caption: A screenshot of the dashboard
     # teaser: /assets/images/posts/github_backpack.png # NOTE: only displays with blog having: 'entries_layout: grid'
 ---
 
