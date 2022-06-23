@@ -46,7 +46,9 @@ Your original goal may have been to read some of the 4 Great Classics, but if yo
 
 ### Relative difficulty
 
-I write 'relative' here because what may be simple for you might be challenging for another learner, and vice versa. As for 'difficulty' --- mountains of research shows that you shouldn't be reading anything below 90% comprehension (where you understand 90% of the *words* on the page). Even at this point, content will be quite difficult and hence diminish stamina.Ideal, 'extensive' content theoretically begins at the 98% boundary; I've found the closer I get to 100%, the more I can read in one sitting. The latter might sound difficult to reach, but if you're reading webnovels with millions of characters you can go chapters without reaching for a dictionary surprisingly quickly. Another thing this does mean, however, is that it might not be the best idea to jump straight into 《三体》--- while a good book, it and similar more complex stories are not accessible to more intermediate learners.
+I write 'relative' here because what may be simple for you might be challenging for another learner, and vice versa. As for 'difficulty' --- mountains of research shows that you shouldn't be reading anything below 90% comprehension (where you understand 90% of the *words* on the page). Even at this point, content will be quite difficult and hence diminish stamina.
+
+Ideal, 'extensive' content theoretically begins at the 98% boundary; I've found the closer I get to 100%, the more I can read in one sitting. The latter might sound difficult to reach, but if you're reading webnovels with millions of characters you can go chapters without reaching for a dictionary surprisingly quickly. Another thing this does mean, however, is that it might not be the best idea to jump straight into 《三体》--- while a good book, it and similar more complex stories are not accessible to more intermediate learners.
 
 [![r/ChineseLanguage - A guide and 5 defenses against Chinese reading fatigue](https://preview.redd.it/w32wrqoyo8791.png?width=1280&format=png&auto=webp&s=118b202158c2f1cadd838e4fea4f93c5e85f02a6)](https://preview.redd.it/w32wrqoyo8791.png?width=1280&format=png&auto=webp&s=118b202158c2f1cadd838e4fea4f93c5e85f02a6)
 
@@ -86,7 +88,9 @@ On Heavenly Path, I wrote an entire post dedicated to improving your reading spe
 
 ## \#4: Find and set aside a *reading time*
 
-If you only have a limited amount of time to spend reading each day, yet want to rapidly build up your stamina, nothing helps more than making a consistent habit of it. I'm not talking about the general habit of just reading each day --- if you do so all over the place in short bursts, *stamina* improvement will clearly be negligible.However, by carving out a decent chunk of time when you feel best prepared to consume foreign content, this improvement is likely to be much more visible. What's more, if this chunk is regularly at roughly the same time, you'll accustom your brain into being in optimal Chinese-reading mode (that is, maximum-energy-allocated-towards-reading-Chinese mode); each session's energy/stamina will be at a high and continually pushing up against this limit will help make it only higher.
+If you only have a limited amount of time to spend reading each day, yet want to rapidly build up your stamina, nothing helps more than making a consistent habit of it. I'm not talking about the general habit of just reading each day --- if you do so all over the place in short bursts, *stamina* improvement will clearly be negligible.
+
+However, by carving out a decent chunk of time when you feel best prepared to consume foreign content, this improvement is likely to be much more visible. What's more, if this chunk is regularly at roughly the same time, you'll accustom your brain into being in optimal Chinese-reading mode (that is, maximum-energy-allocated-towards-reading-Chinese mode); each session's energy/stamina will be at a high and continually pushing up against this limit will help make it only higher.
 
 Personally, I've found a couple hours late in the evening to be most conducive towards longer reading --- my mind is free from the worries of the day and body relaxed. However, others have found morning hours make it easier to read longer --- trial and error will quickly reveal what works best for you. Of course, if you want to read during other times of the day then by all means do so, but if you're explicitly working on stamina and have limited time to dedicate towards reading, aim for times closest to your previous reading sessions.
 
@@ -96,7 +100,9 @@ This may not be as immediately obvious, but is still quite significant. Font, te
 
 [![r/ChineseLanguage - A guide and 5 defenses against Chinese reading fatigue](https://preview.redd.it/2fheytsfp8791.png?width=650&format=png&auto=webp&s=3f0609a86798cf2d158846c1c1cce45027e2ebbd)](https://preview.redd.it/2fheytsfp8791.png?width=650&format=png&auto=webp&s=3f0609a86798cf2d158846c1c1cce45027e2ebbd)
 
-Finally, one last factor to bear in mind is the device you use to read. Some might find e-readers or paper books to be comparatively easier on the eyes. Even for those who don't, the distraction a phone's many apps pose or its small screen size can serve as obstacles to reading for long.Should you be reading a lot in Chinese now or in the future, a specialized device may be worth the investment. A discussion and comparison of such readers can be found [here](https://heavenlypath.notion.site/E-ink-Readers-for-Chinese-Novels-49de9c819e004202afe15f9d50d229a6).
+Finally, one last factor to bear in mind is the device you use to read. Some might find e-readers or paper books to be comparatively easier on the eyes. Even for those who don't, the distraction a phone's many apps pose or its small screen size can serve as obstacles to reading for long.
+
+Should you be reading a lot in Chinese now or in the future, a specialized device may be worth the investment. A discussion and comparison of such readers can be found [here](https://heavenlypath.notion.site/E-ink-Readers-for-Chinese-Novels-49de9c819e004202afe15f9d50d229a6).
 
 ---------------
 
