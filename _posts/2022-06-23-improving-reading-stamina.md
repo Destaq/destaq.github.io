@@ -82,7 +82,7 @@ To give quite the simplification, reading faster = reading more in the same time
 
 On Heavenly Path, I wrote an entire post dedicated to improving your reading speed [here](https://heavenlypath.notion.site/Improving-your-Reading-Speed-Seven-Strategies-78257ff11d36484d933dd126e198d676). By making use of the 7 main strategies described, I've now brought my reading speed up to 500 cpm from somewhere probably below 200 this time last year. Perhaps the most important of these is once more finding extensive, understandable content --- another learner saw an improvement of 80 to 180 cpm in a couple of months by investing in some appropriately-leveled graded readers.
 
-[![r/ChineseLanguage - A guide and 5 defenses against Chinese reading fatigue](https://preview.redd.it/9x7q6o2to8791.png?width=1280&format=png&auto=webp&s=11da943ab29ae3be020702fbc2bbfb39bf28cfe4)](https://preview.redd.it/9x7q6o2to8791.png?width=1280&format=png&auto=webp&s=11da943ab29ae3be020702fbc2bbfb39bf28cfe4)
+[![r/ChineseLanguage - A guide and 5 defenses against Chinese reading fatigue](https://preview.redd.it/kwgq6foe6e791.jpg?width=1910&format=pjpg&auto=webp&s=9351587f42ecdacc13f17f9aeb082b7c4d2204d8)](https://preview.redd.it/kwgq6foe6e791.jpg?width=1910&format=pjpg&auto=webp&s=9351587f42ecdacc13f17f9aeb082b7c4d2204d8)
 
 ## \#4: Find and set aside a *reading time*
 
