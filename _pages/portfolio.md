@@ -50,11 +50,11 @@ gallery3:
 
 ## Introduction
 
-Working on projects is my favorite part of programming, and it's my goal to make useful and open-source projects that people can learn from and share. Most of my projects are written in Python and JavaScript, and the frameworks I most commonly use are Nuxt.js (Vue) and Flask (Python).
+Working on projects is my favorite part of programming, with my goal having always been to make useful, open-source tools that people can learn from and share. Most of them are written in Python and JavaScript, usually with the NuxtJS and Flask frameworks.
 
-All of my major projects, and smaller ones too, are hosted on GitHub. You can find their source code and more detailed descriptions on my profile [there](https://github.com/Destaq?tab=repositories).
+The majority of my projects, including many of those mentioned below, are hosted on GitHub. You can find their source code and more detailed descriptions there, all easily accessible from [my profile](https://github.com/Destaq) on the platform.
 
-For a briefer overview, a one-page resume summarizing my computer science accomplishments, skills, and awards can be downloaded [here][1].
+Alternatively, you can view and/or download [my resume][1] directly from this site.
 
 ## Hackathons Wins
 ### Develop to Disrupt
