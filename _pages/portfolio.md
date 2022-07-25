@@ -56,6 +56,8 @@ All of my major projects are hosted on GitHub, and you can find the source code 
 
 Likewise, you can view all repositories of mine (including ones not mentioned here) on [my GitHub page](https://github.com/Destaq?tab=repositories).
 
+For a briefer overview, a one-page resume summarizing my computer science accomplishments, skills, and awards can be downloaded [here][1].
+
 ## Hackathons Wins
 ### Develop to Disrupt
 I won 'Best Solo Hack' for the first hackathon I participated in, a 48-hour online one with nearly a hundred submissions. The theme was disrupting an industry, and my submission, a language learning tool named SurgeLingo that leveraged natural language processing and PostgreSQL databases to provide learners with personalized sentences, effectivel did this with the foreign language learning industry.
@@ -138,3 +140,5 @@ When I shared this project online, I was pleased to find that many Mac and even 
 I'm always open to working on new projects, and they are the best part of programming to me - *solving problems through a few lines of code*. It always puts a smile on my face when I see a new download or star, and I hope that I am making a small difference for the people that are using my code.
 
 I hope that in the future I will be able to continue to find novel, interesting projects to work on, and I know that in the meantime I'll continue to educate myself and learn as a programmer.
+
+[1]:{{ site.url }}/assets/portfolio/resume_copy.pdf
