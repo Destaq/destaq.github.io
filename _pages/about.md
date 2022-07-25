@@ -10,7 +10,7 @@ I am a high school senior studying in the capital of the Czech Republic, [2x aut
 {: .notice--success}
 
 Coding has always been a hobby of mine, and since early 2019 I have been putting time and effort into making that hobby a career path. But regardless of where the future takes me, I know that I'll be approaching it with confidence.
-{: .notice--success}±
+{: .notice--success}
 
 But my goal is ultimately computer science; I'm continuing in my Python studies both in and out of school, as well as learning NuxtJS and SQL in order to better create full-stack web applications.
 {: .notice--success}
