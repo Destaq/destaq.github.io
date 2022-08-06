@@ -139,4 +139,4 @@ I'm always open to working on new projects, and they are the best part of progra
 
 I hope that in the future I will be able to continue to find novel, interesting projects to work on, and I know that in the meantime I'll continue to educate myself and learn as a programmer.
 
-[1]:{{ site.url }}/downloads/resume_copy.pdf
+[1]:{{ site.url }}/downloads/resume.pdf
