@@ -18,16 +18,16 @@ header:
 ## Introduction
 Have you ever wanted to just finish that one program, read another chapter of your tech book, or get your programming work done but not been able to?
 
-In the modern day and age, especially as programmers, it can be a true challenge to get the job done - even if we want to do so! Whether it's a movie, household chore, or simply tiredness, we may often avoid doing things we don't want to do or fail to make as much progress in our programs as we wanted to.
+In the modern day and age, especially as programmers, it can be a true challenge to get the job done — even if we want to do so! Whether it's a movie, household chore, or simply tiredness, we may often avoid doing things we don't want to do or fail to make as much progress in our programs as we wanted to.
 
 ![coins and pomodoro](/assets/images/posts/pomo_coins.jpg){: .align-center}
 
 ## The Technique
-When you're losing hope - that's where the **Pomodoro Technique** comes in. This is a time-tested, proven strategy that focused on effective time-management to help overcome procrastination and skyrocket productivity. It was invented in the 1980s by the Italian software engineer Francesco Cirillo, and has been used by millions since.
+When you're losing hope — that's where the **Pomodoro Technique** comes in. This is a time-tested, proven strategy that focused on effective time-management to help overcome procrastination and skyrocket productivity. It was invented in the 1980s by the Italian software engineer Francesco Cirillo, and has been used by millions since.
 
 The Pomodoro Method has been scientifically found to be a better and more productive way of staying on top of things and accomplishing more. There are dozens of applications and websites dedicated to it, and it's been discussed on Lifehacker, BusinessInsider, and even Forbes.
 
-By using this technique, I've managed to boost my productivity - and learning pace - a number of ways. For example:
+By using this technique, I've managed to boost my productivity — and learning pace — a number of ways. For example:
 - I went from writing 750 words an hour for my fantasy novels to 5000+.
 - I was able to program for nearly double the amount each day.
 - Schoolwork become much less overwhelming and easily manageable.
@@ -37,7 +37,7 @@ By using this technique, I've managed to boost my productivity - and learning pa
 
 ## How do I start?
 
-This method is deceptively easy - there's only five, easy-to-remember steps, but it makes a real difference.
+This method is deceptively easy — there's only five, easy-to-remember steps, but it makes a real difference.
 
 ![trickling red sand in hourglass](/assets/images/posts/hourglass.jpg){: .align-center}
 
@@ -49,7 +49,7 @@ This method is deceptively easy - there's only five, easy-to-remember steps, but
 4. Take a short, 5-minute break. You can walk around, browse social media, or do anything you want in these 5 minutes.
 5. Repeat steps 2-4 four times before taking a longer break that is 20-30 minutes long. Make sure to step outside or walk around, and then you can repeat the whole process again, taking a longer break each four so-called 'pomodoros'.
 
-It's dead easy. Just code, learn, read - do whatever you want to get done, really - for 25 minutes, take a break, and then repeat. 
+It's dead easy. Just code, learn, read — do whatever you want to get done, really — for 25 minutes, take a break, and then repeat. 
 
 ### Words of Advice
 
@@ -57,7 +57,7 @@ All you need is one pomodoro, as each 25 + 5 minute block is called, to get star
 
 It's going to be hard in the beginning to get started, and you may find your attention wandering or have trouble staying focused. The first session or two, you might *really* want to throw in the towel and give up.
 
-Whatever you do, don't listen to those instincts. If you get up, click over to another site (we're not counting Stack Overflow here) or fall out of the loop - your pomodoro session is as good as over, no matter the time on the clock. Your brain will lose continuity and it will be virtually impossible to get back into that productive programming 'zone'.
+Whatever you do, don't listen to those instincts. If you get up, click over to another site (we're not counting Stack Overflow here) or fall out of the loop — your pomodoro session is as good as over, no matter the time on the clock. Your brain will lose continuity and it will be virtually impossible to get back into that productive programming 'zone'.
 
 ## Resources
 
@@ -66,10 +66,10 @@ If you like the Pomodoro Method, or want to find out more, there's a plethora of
 ### Apps and Online Websites
 Below are some of the best apps or sites to go to and use when you work and want a dedicated Pomodoro timer.
 
-- [Pomodone](https://pomodoneapp.com/) - great for linking to Trello, Evernote, etc.
-- [Focus Booster](https://www.focusboosterapp.com/) - good graphics, a decent choice
-- [Tomato Timer](https://tomato-timer.com/) - online and no-hassle, perfect for minimalists
-- [Tide](https://tide.fm/en_US/) - my favorite - a beautiful iOS and Android application
+- [Pomodone](https://pomodoneapp.com/) — great for linking to Trello, Evernote, etc.
+- [Focus Booster](https://www.focusboosterapp.com/) — good graphics, a decent choice
+- [Tomato Timer](https://tomato-timer.com/) — online and no-hassle, perfect for minimalists
+- [Tide](https://tide.fm/en_US/) — my favorite — a beautiful iOS and Android application
 
 ### Articles and Further Reading
 
@@ -82,7 +82,7 @@ There are several websites dedicated to the Technique, along with informative ar
 
 ### Videos
 
-Below are a couple videos you may want to watch to get a deeper understanding of the Pomodoro technique - after all, a picture is worth a thousand words and I don't want to make this post too long!
+Below are a couple videos you may want to watch to get a deeper understanding of the Pomodoro technique — after all, a picture is worth a thousand words and I don't want to make this post too long!
 
 {% include video id="WqBuh4HWu8U" provider="youtube" %}
 

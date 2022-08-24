@@ -38,6 +38,6 @@ This inputs work through either a file input detailing updates to statistics tha
 
 So far, I've been perfecting various features and testing out the interface, as I won't start tracking until January 1st (as part of my New Year's resolution). But I'll make sure to write a new post at the end of 2022 showcasing all the stat increases!
 
-In the meantime, take a look at the 90-second YouTube video below outlining the features below! And if this seems like it may be useful to you, let me know below - I can share the codebase with you or work on making it public.
+In the meantime, take a look at the 90-second YouTube video below outlining the features below! And if this seems like it may be useful to you, let me know below — I can share the codebase with you or work on making it public.
 
 {% include video id="yOgAxEVGCCg" provider="youtube" %}

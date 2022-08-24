@@ -13,9 +13,9 @@ header:
 ---
 
 ## What is Web Scraping?
-Web scraping is defined as "extracting data from websites or internet" and it is just that - using code to automatically read websites, search something up, or view page sources in order to save some sort of information from them.
+Web scraping is defined as "extracting data from websites or internet" and it is just that — using code to automatically read websites, search something up, or view page sources in order to save some sort of information from them.
 
-This is used everwhere, from Google bots indexing websites, to gathering data on sports statistics, to saving stock prices to an Excel spreadsheet - the options are truly limitless. If there's a site, page, or search term you're interested in and want to have updates about, then this article is for you - we'll be taking a look at how to use the `requests` and `BeautifulSoup` libraries to gather data from websites with Python, and you can easily transfer the skills you'll learn into scraping whichever website interests you effortlessly.
+This is used everwhere, from Google bots indexing websites, to gathering data on sports statistics, to saving stock prices to an Excel spreadsheet — the options are truly limitless. If there's a site, page, or search term you're interested in and want to have updates about, then this article is for you — we'll be taking a look at how to use the `requests` and `BeautifulSoup` libraries to gather data from websites with Python, and you can easily transfer the skills you'll learn into scraping whichever website interests you effortlessly.
 
 ## What Tools will we Use?
 Python is the go-to language for scraping the internet for data, and the `requests` and `BeautifulSoup` libraries are the go-to Python packages for the job. With `requests`, you can easily scrape any website, and read it's data in a number of ways, from HTML to JSON. Since most websites are built with HTML and we'll be extracting all the HTML from the page, we'll then use the `BeautifulSoup` package from `bs4` in order to parse that HTML and find the data that we are looking for within it.
@@ -39,14 +39,14 @@ So, in this project, we'll be scraping the working links from that list and savi
 ![a screenshot from the website](/assets/images/posts/mandarin_cards.png){: .align-center}
 
 ### Analyzing the Site
-Before we begin with the actual programming, we need to see *where* the data is being stored on the website. This can be done by "Inspecting" the page. You can inspect a page by right-clicking anywhere within the page and then selecting "Inspect". If you select that, it will bring up the source code for the page at the bottom of your screen, a bunch of intimidating-looking HTML. Don't worry - the `BeautifulSoup` library will make this easy for us.
+Before we begin with the actual programming, we need to see *where* the data is being stored on the website. This can be done by "Inspecting" the page. You can inspect a page by right-clicking anywhere within the page and then selecting "Inspect". If you select that, it will bring up the source code for the page at the bottom of your screen, a bunch of intimidating-looking HTML. Don't worry — the `BeautifulSoup` library will make this easy for us.
 
-We're going to "Inspect" the first result on the website at [https://challenges.hackingchinese.com/resources](https://challenges.hackingchinese.com/resources), namely `HSK level - Online Chinese level test`. To do so, we need to put our mouse right above whatever it is we want to scrape - which is the title, as it is a link as well - and then click "Inspect", which will open up the source code and move us to exactly where we want to be - at the link.
+We're going to "Inspect" the first result on the website at [https://challenges.hackingchinese.com/resources](https://challenges.hackingchinese.com/resources), namely `HSK level — Online Chinese level test`. To do so, we need to put our mouse right above whatever it is we want to scrape — which is the title, as it is a link as well — and then click "Inspect", which will open up the source code and move us to exactly where we want to be — at the link.
 
 If you do so, you should see something like the below:
 ```html
 <h4 class="card-title" style="font-size: 1.1rem">
-    <a href="http://www.hsklevel.com">HSK level - Online Chinese level test</a>
+    <a href="http://www.hsklevel.com">HSK level — Online Chinese level test</a>
 </h4>
 ```
 
@@ -87,7 +87,7 @@ We'll be using `BeautifulSoup` to find all of the HTML that are headers, and wil
         except:
             pass
 ```
-On the first line, we are iterating through every h4 header in `links`. We check to see if its class is `card-title`, like we saw in [Analyzing the Site](#analyzing-the-site), in order to make sure that we avoid any h4 headers that aren't cards - just in case. If it is a card-related h4 with a link, then we are going to append it to the previously empty list `true_links` with all *correct* h4s.<br><br>
+On the first line, we are iterating through every h4 header in `links`. We check to see if its class is `card-title`, like we saw in [Analyzing the Site](#analyzing-the-site), in order to make sure that we avoid any h4 headers that aren't cards — just in case. If it is a card-related h4 with a link, then we are going to append it to the previously empty list `true_links` with all *correct* h4s.<br><br>
 Finally, we'll wrap this in a `try: except:` loop in case the h4 has no case, to prevent the program from crashing as `BeautifulSoup` can't handle the request.
 
 4. Saving the Links
@@ -109,7 +109,7 @@ If you run the program and give it a few minutes, you should find that you now h
 Before we finish off, we're going to see another way in which we can use the `requests` library by checking the status of each link.
 
 ### Bonus: Removing Dead Links
-The website that we are scraping isn't kept in great condition, and a few of the links are outdated or dead entirely. So, in this optional step, we'll see another aspect of scraping which returns the status code of each website, and discards them if it is a 404 - meaning not found.
+The website that we are scraping isn't kept in great condition, and a few of the links are outdated or dead entirely. So, in this optional step, we'll see another aspect of scraping which returns the status code of each website, and discards them if it is a 404 — meaning not found.
 
 We are going to need to slightly modify the code used in Step 4 above. Instead of simply iterating through the links and writing them to the file, we are going to first ensure that they aren't broken.
 
@@ -128,11 +128,11 @@ for i in range(len(true_links)):
 
 file.close()
 ```
-We've made a few changes - let's go over them.
+We've made a few changes — let's go over them.
 
-- We created a `response` variable which checks the status code of the link - essentially seeing if it is still there. This can be done with the useful `requests.get()` method. We are getting the same link that we are trying to append, namely the website URL, and giving it 5 seconds to respond, the chance to redirect, and allowing it to send us files (which we won't download), with `stream = True`.
+- We created a `response` variable which checks the status code of the link — essentially seeing if it is still there. This can be done with the useful `requests.get()` method. We are getting the same link that we are trying to append, namely the website URL, and giving it 5 seconds to respond, the chance to redirect, and allowing it to send us files (which we won't download), with `stream = True`.
 - We checked what the response was, by seeing if it was a 404 or not. If it wasn't, then we wrote the link, but if it was, then we did nothing and did not write the link to the file. This was done through the conditional `if response != 404`.
-- Lastly, we wrapped the whole thing in a try - except loop. That's because if the page was slow to load, couldn't be accessed, or the connection was refused, then ordinarily the program would crash in an Exception. However, since we wrapped it in this loop then nothing will happen in the case of an Exception and it will only be passed over.
+- Lastly, we wrapped the whole thing in a try — except loop. That's because if the page was slow to load, couldn't be accessed, or the connection was refused, then ordinarily the program would crash in an Exception. However, since we wrapped it in this loop then nothing will happen in the case of an Exception and it will only be passed over.
 
 And that's it! If you run the code (and leave it running too, because for `requests` to check hundreds of links it can take a good half-hour) when it finishes you'll have a beautiful set of a few hundred working resource links!
 ### Full Code

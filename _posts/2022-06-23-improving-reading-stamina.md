@@ -18,7 +18,7 @@ Encountering this mental stumbling block is unfortunate, as the more you read, t
 
 A year or so ago, I found the thought of spending over 30-40 mins on just a simple kid's book daunting. Now, I can comfortably read for hours at once and indeed do so on a regular basis.
 
-[![r/ChineseLanguage - A guide and 5 defenses against Chinese reading fatigue](https://preview.redd.it/z36n5jhyh8791.jpg?width=777&format=pjpg&auto=webp&s=d949b2a93940133adad7307c6836f27a36271a39)](https://preview.redd.it/z36n5jhyh8791.jpg?width=777&format=pjpg&auto=webp&s=d949b2a93940133adad7307c6836f27a36271a39)
+[![r/ChineseLanguage — A guide and 5 defenses against Chinese reading fatigue](https://preview.redd.it/z36n5jhyh8791.jpg?width=777&format=pjpg&auto=webp&s=d949b2a93940133adad7307c6836f27a36271a39)](https://preview.redd.it/z36n5jhyh8791.jpg?width=777&format=pjpg&auto=webp&s=d949b2a93940133adad7307c6836f27a36271a39)
 
 Time spent reading on 微信读书 recently
 {: style="text-align: center; font-size:0.7em; color:gray"}
@@ -50,7 +50,7 @@ I write 'relative' here because what may be simple for you might be challenging 
 
 Ideal, 'extensive' content theoretically begins at the 98% boundary; I've found the closer I get to 100%, the more I can read in one sitting. The latter might sound difficult to reach, but if you're reading webnovels with millions of characters you can go chapters without reaching for a dictionary surprisingly quickly. Another thing this does mean, however, is that it might not be the best idea to jump straight into 《三体》--- while a good book, it and similar more complex stories are not accessible to more intermediate learners.
 
-[![r/ChineseLanguage - A guide and 5 defenses against Chinese reading fatigue](https://preview.redd.it/w32wrqoyo8791.png?width=1280&format=png&auto=webp&s=118b202158c2f1cadd838e4fea4f93c5e85f02a6)](https://preview.redd.it/w32wrqoyo8791.png?width=1280&format=png&auto=webp&s=118b202158c2f1cadd838e4fea4f93c5e85f02a6)
+[![r/ChineseLanguage — A guide and 5 defenses against Chinese reading fatigue](https://preview.redd.it/w32wrqoyo8791.png?width=1280&format=png&auto=webp&s=118b202158c2f1cadd838e4fea4f93c5e85f02a6)](https://preview.redd.it/w32wrqoyo8791.png?width=1280&format=png&auto=webp&s=118b202158c2f1cadd838e4fea4f93c5e85f02a6)
 
 To illustrate how stark a difference difficulty can cause, I'll steal Wolfi's words from our [wonderful Discord server](https://discord.com/invite/zY2Fdwgz2f) of Chinese learners, natives, and enthusiasts:
 
@@ -70,7 +70,7 @@ Surprising as it may sound, *listening* more can help boost your reading stami
 
 To put this another way, what tires out your brain is the effort it puts into decoding Chinese. If you can minimize this effort by making characters' pronunciation and meaning more familiar through listening to e.g. podcasts and audiobooks, you can maximize the time over which your metaphorical pool of energy is spread out. Heavenly Path has a list of excellent [audiobooks/dramas](https://heavenlypath.notion.site/Audiobooks-Audiodramas-225ede461dd8474a81c8160e2f13d80a) and [podcasts](https://heavenlypath.notion.site/Podcasts-4a006f3dd6214ba3b6d5595e7e1429f7) if none come to mind.
 
-[![r/ChineseLanguage - A guide and 5 defenses against Chinese reading fatigue](https://preview.redd.it/zmh5dltbp8791.png?width=900&format=png&auto=webp&s=1c7d56239cdd85d8b79d45e9aa8b2d6c5de33d38)](https://preview.redd.it/zmh5dltbp8791.png?width=900&format=png&auto=webp&s=1c7d56239cdd85d8b79d45e9aa8b2d6c5de33d38)
+[![r/ChineseLanguage — A guide and 5 defenses against Chinese reading fatigue](https://preview.redd.it/zmh5dltbp8791.png?width=900&format=png&auto=webp&s=1c7d56239cdd85d8b79d45e9aa8b2d6c5de33d38)](https://preview.redd.it/zmh5dltbp8791.png?width=900&format=png&auto=webp&s=1c7d56239cdd85d8b79d45e9aa8b2d6c5de33d38)
 
 Should you find not reading to be too unattractive a form of improvement, consider doing both reading and listening at the same time --- I've commented in detail about this in another post [here](https://www.reddit.com/r/ChineseLanguage/comments/nyg3i4/listening_along_while_reading_novels_has_been_a/). And of course, it goes without saying that more reading (over time) will also make recognition more effortless and hence the ability to spend more time (in one sitting) on reading greater.
 
@@ -84,7 +84,7 @@ To give quite the simplification, reading faster = reading more in the same time
 
 On Heavenly Path, I wrote an entire post dedicated to improving your reading speed [here](https://heavenlypath.notion.site/Improving-your-Reading-Speed-Seven-Strategies-78257ff11d36484d933dd126e198d676). By making use of the 7 main strategies described, I've now brought my reading speed up to 500 cpm from somewhere probably below 200 this time last year. Perhaps the most important of these is once more finding extensive, understandable content --- another learner saw an improvement of 80 to 180 cpm in a couple of months by investing in some appropriately-leveled graded readers.
 
-[![r/ChineseLanguage - A guide and 5 defenses against Chinese reading fatigue](https://preview.redd.it/kwgq6foe6e791.jpg?width=1910&format=pjpg&auto=webp&s=9351587f42ecdacc13f17f9aeb082b7c4d2204d8)](https://preview.redd.it/kwgq6foe6e791.jpg?width=1910&format=pjpg&auto=webp&s=9351587f42ecdacc13f17f9aeb082b7c4d2204d8)
+[![r/ChineseLanguage — A guide and 5 defenses against Chinese reading fatigue](https://preview.redd.it/kwgq6foe6e791.jpg?width=1910&format=pjpg&auto=webp&s=9351587f42ecdacc13f17f9aeb082b7c4d2204d8)](https://preview.redd.it/kwgq6foe6e791.jpg?width=1910&format=pjpg&auto=webp&s=9351587f42ecdacc13f17f9aeb082b7c4d2204d8)
 
 ## \#4: Find and set aside a *reading time*
 
@@ -98,7 +98,7 @@ Personally, I've found a couple hours late in the evening to be most conducive t
 
 This may not be as immediately obvious, but is still quite significant. Font, text size, app UI, and device type can all contribute to how long you are able to spend reading in one go. For example, I think the [李国夫手写体](https://www.diyiziti.com/Download/257) font is the best thing since sliced bread, but processing it is difficult for my computer-font-accustomed eyes and reading just one chapter straight with it selected is a stretch. Similarly (though to a lesser extent), text size, spacing, and general user interface can be impactful --- make reading as comfortable and aesthetically pleasing as possible.
 
-[![r/ChineseLanguage - A guide and 5 defenses against Chinese reading fatigue](https://preview.redd.it/2fheytsfp8791.png?width=650&format=png&auto=webp&s=3f0609a86798cf2d158846c1c1cce45027e2ebbd)](https://preview.redd.it/2fheytsfp8791.png?width=650&format=png&auto=webp&s=3f0609a86798cf2d158846c1c1cce45027e2ebbd)
+[![r/ChineseLanguage — A guide and 5 defenses against Chinese reading fatigue](https://preview.redd.it/2fheytsfp8791.png?width=650&format=png&auto=webp&s=3f0609a86798cf2d158846c1c1cce45027e2ebbd)](https://preview.redd.it/2fheytsfp8791.png?width=650&format=png&auto=webp&s=3f0609a86798cf2d158846c1c1cce45027e2ebbd)
 
 Finally, one last factor to bear in mind is the device you use to read. Some might find e-readers or paper books to be comparatively easier on the eyes. Even for those who don't, the distraction a phone's many apps pose or its small screen size can serve as obstacles to reading for long.
 

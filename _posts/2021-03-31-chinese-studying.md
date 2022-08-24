@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "9 Months and 3 HSK Levels - my Ultimate Chinese Study Guide"
+title: "9 Months and 3 HSK Levels — my Ultimate Chinese Study Guide"
 date: 2021-03-31 13:02:08 +0100
 categories: updates chinese
 entries_layout: grid
@@ -14,7 +14,7 @@ header:
 
 Over recent months, this blog has sat silent as I've wholly invested myself into learning Chinese. On the side, I've been working on Chinese-related programming projects both [public](https://github.com/Destaq/chinese-sentence-miner) and private, but this has been my main focus.
 
-I'm back to share all I've learned - both resource- and studying-wise - after three seasons of studying and passing HSK 3.
+I'm back to share all I've learned — both resource- and studying-wise — after three seasons of studying and passing HSK 3.
 
 _This post was originally published [here](https://www.reddit.com/r/ChineseLanguage/comments/mh3dhe/what_ive_learned_after_9_months_and_3_hsk_levels/) on Reddit._
 
@@ -24,9 +24,9 @@ My hobby for language-learning has pushed me towards linguistics and the science
 
 ### Core Tips
 
-1. **Find your motivation:** this will allow you to struggle through the hard times and celebrate your achievements. I can't emphasize this enough - you need to have a good reason to want to learn Chinese. Try to find _intrinsic motivation -_ something that compels you - not extrinsic, like being admired by others or for a job.
+1. **Find your motivation:** this will allow you to struggle through the hard times and celebrate your achievements. I can't emphasize this enough — you need to have a good reason to want to learn Chinese. Try to find _intrinsic motivation -_ something that compels you — not extrinsic, like being admired by others or for a job.
 
-To build on this, it's important to also break this motivation down into goals - both short- and long-term. Reward yourself for finish these goals, and make them SMART so you can realistically attain them.
+To build on this, it's important to also break this motivation down into goals — both short- and long-term. Reward yourself for finish these goals, and make them SMART so you can realistically attain them.
 
 Some motivation/long-term goal suggestions based on what I've seen (for a long time I struggled with finding mine, so I hope this will be useful):
 
@@ -39,27 +39,27 @@ Some motivation/long-term goal suggestions based on what I've seen (for a long t
 
 > Read more, in a specific language-learning context about I vs. E Motivation, in this [study](http://www.ijlll.org/vol1/20-L016.pdf).
 
-2. **Build a routine -** _consistency is key._ If you can, study every day - 5 mins a day are better than an hour only on one day. The reasoning should be evident - constant repetition will better help with memory than random study spurts; this is the same reason you shouldn't wait until the last minute to cram before a test.
+2. **Build a routine -** _consistency is key._ If you can, study every day — 5 mins a day are better than an hour only on one day. The reasoning should be evident — constant repetition will better help with memory than random study spurts; this is the same reason you shouldn't wait until the last minute to cram before a test.
 
 3. **Vary what you do** \- the variety will encourage you, and ensure the exercises you do are less boring. Try to spread out the number of tools you use, as well as the nature of the exercises (reading, passive, active, listening, etc.). See the **Resources** section for a commented list of those I found most useful.
 
-4. **It's OK to take a break -** the most important thing is not to lose your motivation and joy of learning the language. If you're tired or just can't do it today, that's fine - just try not to break the habit; the shorter the break the better.
+4. **It's OK to take a break -** the most important thing is not to lose your motivation and joy of learning the language. If you're tired or just can't do it today, that's fine — just try not to break the habit; the shorter the break the better.
 
 5. **Find a group** \- going at something alone will dishearten anyone. If you can, find someone else interested in the language who you can talk/study with (language exchange sites are good for this). If not, even being on a Discord server or an active member of this subreddit will bring immense benefits motivation-wise by making you feel like part of a community.
 
-6. **Use flashcards -** really, they are popular for a reason. Pleco's flashcard module has a number of templates and pre-made HSK cards - I use the handwriting and spaced repetition daily. [Anki](https://apps.ankiweb.net/) is an awesome, though more general, alternative (not to be confused with AnkiApp). For Anki, I'd suggest sentence mining, I use the incredible [Spoonfed Chinese](https://gumroad.com/l/IEmpwF) deck - $3.
+6. **Use flashcards -** really, they are popular for a reason. Pleco's flashcard module has a number of templates and pre-made HSK cards — I use the handwriting and spaced repetition daily. [Anki](https://apps.ankiweb.net/) is an awesome, though more general, alternative (not to be confused with AnkiApp). For Anki, I'd suggest sentence mining, I use the incredible [Spoonfed Chinese](https://gumroad.com/l/IEmpwF) deck — $3.
 
-Onwards! The shortest section - **mindset**.
+Onwards! The shortest section — **mindset**.
 
 ### Mindset
 
-When studying, don't lose sight of the big picture and your eventual goal. Sometimes, progress can be disappointingly slow - take a look back when you were at a lower level and be encouraged! The ease with which I read some books I have on Pleco now and old Mandarin Companion books really encourages me.
+When studying, don't lose sight of the big picture and your eventual goal. Sometimes, progress can be disappointingly slow — take a look back when you were at a lower level and be encouraged! The ease with which I read some books I have on Pleco now and old Mandarin Companion books really encourages me.
 
 Keep a _growth mindset_
 
 > “In a _growth mindset_, people believe that their most basic abilities can be developed through dedication and hard work—brains and talent are just the starting point. This view creates a love of learning and a resilience that is essential for great accomplishment.” ( Dweck, 2015)
 
-Don't tell yourself you're too old, too busy, not cut out for learning - [it's not true](https://www.quora.com/At-what-age-are-you-too-old-to-learn-a-language). The biggest obstacle I've faced learning is myself.
+Don't tell yourself you're too old, too busy, not cut out for learning — [it's not true](https://www.quora.com/At-what-age-are-you-too-old-to-learn-a-language). The biggest obstacle I've faced learning is myself.
 
 ### Routine
 
@@ -71,9 +71,9 @@ First off, some more long-term comments:
 - **Immerse -** popularized in the AJATT method, this just means surrounding yourself with Chinese. **But not too early (wait until it is at least partially comprehensible).** You can do so by changing your phone's language, listening to Chinese podcasts ([ChinesePod](https://www.chinesepod.com/) is a great example), or reading as much as you can in the language.
 - **Get a tutor if you can -** self-explanatory. Tutors will help out immensely and are a prime opportunity for first-hand speaking and listening practice (especially corrected).
 
-Now as to forming a daily routine - create one as soon as possible. I'll briefly share mine and the logic behind it, but this is up to you.
+Now as to forming a daily routine — create one as soon as possible. I'll briefly share mine and the logic behind it, but this is up to you.
 
-> - Side note: if you are a numbers kind of person like me, I highly suggest* [PolyLogger](https://polylogger.com/auth/login) *or another time-tracking platform to track time spent learning, watching time spent go up and change is satisfying and motivating.\*
+> — Side note: if you are a numbers kind of person like me, I highly suggest* [PolyLogger](https://polylogger.com/auth/login) *or another time-tracking platform to track time spent learning, watching time spent go up and change is satisfying and motivating.\*
 
 #### My Daily Routine
 
@@ -83,7 +83,7 @@ _Comprehensive/Misc: 1 HSK workbook chapter, Pleco + HelloChinese + Anki flashca
 
 _Listening: 30 mins Little Fox/story videos from YT channels detailed below, 1 SinoLingu audiobook (given sheer number available)_
 
-_Reading: \~1 hour - SinoLingua 750-word story; DuChinese story or two; often HSKReading story_
+_Reading: \~1 hour — SinoLingua 750-word story; DuChinese story or two; often HSKReading story_
 
 _Writing: Journaly post, handwrite workbook dialogue/new words/Discord server challenge_
 
@@ -105,7 +105,7 @@ Pleco is simply invaluable. Flashcards, a reader, a fantastic dictionary, and mo
 
 A great beginner resource, it claims to get you up to HSK 4, I'd say it gets you to roughly HSK 3.5. However, I'd suggest **not** using this as your only resource. Grammar explanations are short and not reused often, and the brevity of the exercises makes them less useful.
 
-Also a quick note: Starting soon after completing "HSK 2", content is locked behind a \~$12/mo. paywall. I shelled out without regrets, but just remember to use other resources on the side - such as what I mention below, a textbook.
+Also a quick note: Starting soon after completing "HSK 2", content is locked behind a \~$12/mo. paywall. I shelled out without regrets, but just remember to use other resources on the side — such as what I mention below, a textbook.
 
 #### HSK Standard Course textbooks
 
@@ -145,7 +145,7 @@ _Overall thoughts:_ try out the stories; if you like them feel free to splurge o
 
 #### [SinoLingua](https://sinolingua.com.cn)
 
-Again, more graded readers. While they have more books available than Mandarin Companion, they are generally of lower quality - calling some of them graded is a bit of a stretch, as [analysis of even the 500-word ones shows they are at HSK 5/6](https://mandarincompanion.com/blog/independent-study-confirms-the-readability-of-the-mandarin-companion-series/).
+Again, more graded readers. While they have more books available than Mandarin Companion, they are generally of lower quality — calling some of them graded is a bit of a stretch, as [analysis of even the 500-word ones shows they are at HSK 5/6](https://mandarincompanion.com/blog/independent-study-confirms-the-readability-of-the-mandarin-companion-series/).
 
 I find the above analysis a bit misleading, though, given that while their books have a lot of new and high-level words, they are reused. At HSK 2-, the content was very difficult, but after finishing HSK 3, I find the 500-unique-word and 750-unique-word stories are challenging, but suitable.
 
@@ -153,7 +153,7 @@ Advantages:
 
 - Extremely cheap
 - Comes with good images
-- **Free audiobooks available - see my** [**post**](https://www.reddit.com/r/ChineseLanguage/comments/m9gtan/dozens_of_highquality_graded_audiobooks_from/)
+- **Free audiobooks available — see my** [**post**](https://www.reddit.com/r/ChineseLanguage/comments/m9gtan/dozens_of_highquality_graded_audiobooks_from/)
 - English translation
 
 Drawbacks:
@@ -166,7 +166,7 @@ _Overall thoughts: still good practice, but not suitable for novices. Definitely
 
 #### [HSK Reading](https://hskreading.com/)
 
-Free, awesome site with stories at different HSK levels. Hover to see translation (or use [Zhongwen Popup Dictionary](https://chrome.google.com/webstore/detail/zhongwen-chinese-english/kkmlkkjojmombglmlpbpapmhcaljjkde?hl=en)); most stories also have an audio recording. The only cons are a lack of new content - the site stopped being updated about a year ago - and inaccurate HSK levels (I've found the real level at lower HSK levels is generally somewhat higher due to the number of new/difficult words introduced).
+Free, awesome site with stories at different HSK levels. Hover to see translation (or use [Zhongwen Popup Dictionary](https://chrome.google.com/webstore/detail/zhongwen-chinese-english/kkmlkkjojmombglmlpbpapmhcaljjkde?hl=en)); most stories also have an audio recording. The only cons are a lack of new content — the site stopped being updated about a year ago — and inaccurate HSK levels (I've found the real level at lower HSK levels is generally somewhat higher due to the number of new/difficult words introduced).
 
 ### Listening
 
@@ -180,7 +180,7 @@ See _Comprehensive_ section.
 
 #### [Little Fox Chinese](https://chinese.littlefox.com/en/story)
 
-A truly excellent all-around resource for learners of every level. Their animated, simple stories go from HSK 1+ and can be found on YouTube as well. You can try listening to higher-level materials - I tried 西游记 - definitely _intensive_ listening but trains the ear.
+A truly excellent all-around resource for learners of every level. Their animated, simple stories go from HSK 1+ and can be found on YouTube as well. You can try listening to higher-level materials — I tried 西游记 — definitely _intensive_ listening but trains the ear.
 
 #### [SinoLingua audiobooks](https://www.reddit.com/r/ChineseLanguage/comments/m9gtan/dozens_of_highquality_graded_audiobooks_from/)
 
@@ -210,7 +210,7 @@ Pros:
 Drawbacks:
 
 - Small user base = time before feedback. Pretty much all my posts get feedback, but it is typically within 6-24 hours.
-- Somewhat minimal - just out of beta so not feature-chocked.
+- Somewhat minimal — just out of beta so not feature-chocked.
 
 _Overall thoughts:_ I use this more as a tool to write every day, like a journalling application, than for the feedback. But the comments I get back on the post and mistakes are clear and helpful as well. If you want to practice writing, which I suggest you do, given that it's not a passive activity, this is one site I can suggest.
 

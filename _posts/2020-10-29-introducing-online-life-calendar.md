@@ -14,9 +14,9 @@ header:
     caption: Online Life Calendar [homepage](https://www.onlinelifecalendar.com)
 ---
 
-I've recently finished my biggest project yet - [Online Life Calendar](https://www.onlinelifecalendar.com). It's the free time management tool that I've always wished that I had - and when I couldn't find it, I built it.
+I've recently finished my biggest project yet — [Online Life Calendar](https://www.onlinelifecalendar.com). It's the free time management tool that I've always wished that I had — and when I couldn't find it, I built it.
 
-In this post, I'll share some of the features of Online Life Calendar - available at [onlinelifecalendar.com](https://www.onlinelifecalendar.com), how to get started using it, and details about the code behind this web app. If you'd like to see the code, you can also access the open-source GitHub repository [here](https://github.com/Destaq/life-calendar).
+In this post, I'll share some of the features of Online Life Calendar — available at [onlinelifecalendar.com](https://www.onlinelifecalendar.com), how to get started using it, and details about the code behind this web app. If you'd like to see the code, you can also access the open-source GitHub repository [here](https://github.com/Destaq/life-calendar).
 
 ![](/assets/images/posts/appdemo.gif)
 
@@ -39,7 +39,7 @@ At its core, Life Calendar is a digital journey and daily planner wrapped into o
 The best way to see these for yourself is to head over to the site.
 
 ## Sign Up
-Does this sound interesting to you? [Online Life Calendar](https://www.onlinelifecalendar.com) is free - we are supported by the generous donations of our patrons - so you can try out the site with no risk. All you need is an email to sign up, and you can also demo the app without an account.
+Does this sound interesting to you? [Online Life Calendar](https://www.onlinelifecalendar.com) is free — we are supported by the generous donations of our patrons — so you can try out the site with no risk. All you need is an email to sign up, and you can also demo the app without an account.
 
 Note that demoing the app without an account will not give you all features, and your data will be lost when your computer restarts or you quit the browser.
 
@@ -54,15 +54,15 @@ A detailed tutorial is beyond the scope of this blog post. Luckily, I've written
 ## Code Details
 Initially, it was a challenge building Online Life Calendar. I had been planning out the site and features for a long time, but hadn't felt confident enough with my skills until several months ago, while going through a couple of Udemy courses.
 
-The first course I was going through was an introduction to Flask, which is the topic of [another blog post](http://simonilincev.com/tutorial/api/building-the-simplest-rest-api-possible/). I was taking the excellent course by Jose Portilla, available [here](https://www.udemy.com/course/python-and-flask-bootcamp-create-websites-using-flask/). Jose was an excellent teacher, and he gave me the confidence and tools I needed in order to build the backend of the website - the part that handled user information and forms.
+The first course I was going through was an introduction to Flask, which is the topic of [another blog post](http://simonilincev.com/tutorial/api/building-the-simplest-rest-api-possible/). I was taking the excellent course by Jose Portilla, available [here](https://www.udemy.com/course/python-and-flask-bootcamp-create-websites-using-flask/). Jose was an excellent teacher, and he gave me the confidence and tools I needed in order to build the backend of the website — the part that handled user information and forms.
 
 However, it was the frontend that I really needed to build, and I was able to do so with the help of Brad Traversy's wonderful [Modern JavaScript course](https://www.udemy.com/course/modern-javascript-from-the-beginning/). With the JavaScript for animations and logic, combined with the HTML + CSS + Flask from Jose, I was able to get started building the site.
 
-In the beginning, I had to look back at the videos quite often when building the backend logic for the app. Eventually though, I found that I was able to more easily work on the code, until I didn't need neither the JavaScript or Udemy courses to look back on - but some Stack Overflow, of course. This quite simply showed my progress as a developer and was one of the primary motivations for continuing on the project.
+In the beginning, I had to look back at the videos quite often when building the backend logic for the app. Eventually though, I found that I was able to more easily work on the code, until I didn't need neither the JavaScript or Udemy courses to look back on — but some Stack Overflow, of course. This quite simply showed my progress as a developer and was one of the primary motivations for continuing on the project.
 
 Upon completion, I found that there was still a lot of code-related stuff to do before I could ship. This included tasks such as making a video demonstration, buying and configuring the custom domain and email, and setting up the tutorial on GitHub. But after about a week or so, it was finally ready, and I released the site to the public almost exactly one month ago.
 
-Of course, as with any applications, there are still some bugs and inconsistencies that need to be ironed out. Nonetheless, the majority of these are minor, and I was overjoyed when I first made my account and found everything to be fully functional and aesthetic. The bugs are kept track of on the GitHub repository - contributions welcome - and I do my best to improve the app and solve them when I have the free time.
+Of course, as with any applications, there are still some bugs and inconsistencies that need to be ironed out. Nonetheless, the majority of these are minor, and I was overjoyed when I first made my account and found everything to be fully functional and aesthetic. The bugs are kept track of on the GitHub repository — contributions welcome — and I do my best to improve the app and solve them when I have the free time.
 
 ## Conclusion
 It was a lot of work building Online Life Calendar, but I'm glad that I did it. At the time of writing, it has accrued nearly 70 users in the span of about a month, and I use it daily to digitally keep track of my life. The current statistics, courtesy of [shields.io](https://www.shields.io), can be seen below.

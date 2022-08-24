@@ -17,7 +17,7 @@ header:
 
 ## Introduction to the Pack
 
-The [GitHub Student Developer Pack](https://education.github.com/pack) is perhaps the most useful, accessible, and beneficial education pack for students out there. It's hosted and monitored by GitHub, has offers from dozens of renowned tech companies, and best of all - it's free!
+The [GitHub Student Developer Pack](https://education.github.com/pack) is perhaps the most useful, accessible, and beneficial education pack for students out there. It's hosted and monitored by GitHub, has offers from dozens of renowned tech companies, and best of all — it's free!
 
 If you are a student, whether in high school, college, or a boot camp, then the Pack is for you. It provides over 100 resources, tools, and applications to programmers completely free of charge. These offers come from notable companies such as Amazon, Unity, Microsoft, and more, and is worth over \$200 000 in total. With it, you can accelerate your growth, position, or programs by having access to free custom domains, educational courses, pro-tier analysis or coding tools, and so much more.
 
