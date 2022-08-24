@@ -78,6 +78,6 @@ It was a lot of work building Online Life Calendar, but I'm glad that I did it. 
         <img src="https://img.shields.io/github/languages/count/Destaq/life-calendar?style=for-the-badge" /></a>
 </p>
 
-Even if it had no users though, the experience would still have been worth it. This project encouraged me to take steps into full-stack development, and learn a new language and framework. Beyond the courses, it expanded my knowledge of HTTP requests and how to set up and route domain names and custom email addresses (that last one was definitely took a lot of research).
+Even if it had no users though, the experience would still have been worth it. This project encouraged me to take steps towards the field of full-stack development, and learn a new language and framework. Beyond the courses, it expanded my knowledge of HTTP requests and how to set up and route domain names and custom email addresses (that last one was definitely took a lot of research).
 
 If you want to start keeping track of your life, setting goals for yourself, and all-around stay productive, I'd recommend that you take the plunge and [sign up](https://www.onlinelifecalendar.com/signup) for Online Life Calendar; if you find it useful, it'd be awesome if you could spread the word to others about the site.
