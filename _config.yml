@@ -6,6 +6,7 @@ email: simon@simonilincev.com
 description: Personal and portfolio website for Simon Ilincev, backend programmer (Python, Java, JavaScript) studying to be a software engineer.
 github_username: Destaq
 minimal_mistakes_skin: contrast
+title_separator: "–" # en dash
 search: true
 repository: "Destaq/destaq.github.io"
 locale: "en-US"

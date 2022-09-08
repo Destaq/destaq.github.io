@@ -4,7 +4,7 @@
 
 layout: splash
 author_profile: true # impossible with splash layout
-title: "Simon Ilincev"
+# title: "Simon Ilincev"
 
 header:
   overlay_color: "#000"

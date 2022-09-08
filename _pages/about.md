@@ -1,5 +1,5 @@
 ---
-title: About Me
+title: About
 permalink: /about/
 excerpt: Simon Ilincev is a 2x published author, dedicated programmer, and high school senior. He is interested in backend web development, and has over three hundred stars on his GitHub repositories.
 ---
