@@ -7,7 +7,7 @@ entries_layout: grid
 tags: devpost time-management learning
 toc: true
 toc_sticky: true
-excerpt: I won 'Best Solo Hack' for the first hackathon I every participated in — here's what I did, learned, and made.
+excerpt: I won 'Best Solo Hack' for the first hackathon I ever participated in — here's what I did, learned, and made.
 header:
     image: /assets/images/posts/surgelingo_home.png
     image_description: screenshot of the product made after the weekend elapsed
