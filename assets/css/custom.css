@@ -1,0 +1,7 @@
+/* allows for aligning of non-text items */
+.align-special-center {
+  width: 75%;
+  margin: auto !important;
+  display: flex;
+  gap: 0.5em;
+}
