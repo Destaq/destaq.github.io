@@ -1,0 +1,1232 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-03T21:01:02+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Simon Ilincev</title><subtitle>Personal and portfolio website for Simon Ilincev, backend programmer (Python, Java, JavaScript) studying to be a software engineer.</subtitle><author><name>Simon Ilincev</name></author><entry><title type="html">My Chinese Learning in 2022, Wrapped!</title><link href="http://localhost:4000/chinese/resources/reflections/2022-in-review/" rel="alternate" type="text/html" title="My Chinese Learning in 2022, Wrapped!" /><published>2022-12-31T09:12:56+01:00</published><updated>2022-12-31T09:12:56+01:00</updated><id>http://localhost:4000/chinese/resources/reflections/2022-in-review</id><content type="html" xml:base="http://localhost:4000/chinese/resources/reflections/2022-in-review/">&lt;p&gt;It’s been a fulfilling year of learning Chinese, so I thought to make a poster to visually sum up my progress. Find it below, with month-by-month learning details, my 2023 resolutions, and end-of-year statistics!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/2022_summary_1.png&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/images/posts/2022_summary_1.png&quot; alt=&quot;part 1&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/2022_summary_2.png&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/images/posts/2022_summary_2.png&quot; alt=&quot;part 2&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/images/posts/2022_summary_3.png&quot;&gt;&lt;img src=&quot;http://localhost:4000/assets/images/posts/2022_summary_3.png&quot; alt=&quot;part 3&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>Simon Ilincev</name></author><category term="chinese" /><category term="resources" /><category term="reflections" /><category term="productivity" /><category term="mandarin" /><category term="personal-life" /><summary type="html">A lage infographic summarizing how I spent my year learning Chinese and what I accomplished.</summary></entry><entry><title type="html">Passing the HSK 6 With Virtually No Preparation</title><link href="http://localhost:4000/chinese/resources/guides/passing-hsk-6/" rel="alternate" type="text/html" title="Passing the HSK 6 With Virtually No Preparation" /><published>2022-10-30T20:29:12+01:00</published><updated>2022-10-30T20:29:12+01:00</updated><id>http://localhost:4000/chinese/resources/guides/passing-hsk-6</id><content type="html" xml:base="http://localhost:4000/chinese/resources/guides/passing-hsk-6/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;A couple weeks ago, I traveled to Munich’s Confucius Institute to take the the most advanced test of Chinese proficiency for non-native speakers, the HSK 6 — and after only very little test-specific preparation and just a tad over two years of learning Mandarin. Today, I found out that I passed with about forty points to spare — so I’m sharing my experience, tips, and rather unorthodox approach here.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-approach&quot;&gt;The Approach&lt;/h2&gt;
+
+&lt;p&gt;First off, what’s this unorthodoxy I’m talking about? Simple: forget any proficiency tests or vocabulary lists, and forge your own learning path. I’ll openly confess that I’m not a believer in the HSK, insofar as one even can be. If you’ve been learning Chinese for any reasonable amount of time, you’ve hopefully figured out what &lt;a href=&quot;https://www.hackingchinese.com/goals-and-motivation-part-1-introduction/&quot;&gt;your motivation&lt;/a&gt; is, and that, not any external assessment, should be the driving force behind any Chinese-learning you do.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/HSK_6_joke.jpeg&quot; alt=&quot;Comprehensible, enjoyable input trumps all&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In my case, I’m most drawn to Chinese for its fantasy literature. As such, the past year or so has been spent almost single-mindedly consuming media from the &lt;a href=&quot;https://heavenlypath.notion.site/ae4e34ddf1634cb5b4b0db4e01264dc6?v=2cc49888c76a4d39abf813343aed8e99&quot;&gt;xianxia&lt;/a&gt;/&lt;a href=&quot;https://heavenlypath.notion.site/c5fdf9aa961746b48a5c8e2121858c64?v=fadee04790bf4428898ca93c6a59f3a9&quot;&gt;xuanhuan/qihuan&lt;/a&gt; genres — those interested can find my log &lt;a href=&quot;https://heavenlypath.notion.site/Mythaar-ecebac2093c74f69914740949921d4f1&quot;&gt;here&lt;/a&gt;. This has meant a consistent about three hours a day of Chinese, mostly reading webnovels, listening to audiobooks, and/or watching a bit of non-English-subtitled donghua here and there. At my current level, I can easily read and listen to the vast majority of content in the genres, be it in movie-, TV-, or novel-form. When delving outside them to e.g. economics, science fiction, and assorted Zhihu posts, comprehension is generally not a problem.&lt;/p&gt;
+
+&lt;p&gt;I’ve only used the HSK textbooks up to HSK 5 (and even then just due to my former tutor’s insistence). And while I have shoved the HSK 6 vocabulary into my SRS deck to prepare for the exam, it still constitutes the significant minority of cards. Due to a combination of self-confidence and lack of time, the only other test-specific preparation I did was writing two mock exams. I stayed within the time limit when doing these, and achieved 84/86/? and 86/84/? for the Listening, Reading, and Writing sections respectively. However, it’s worth noting that these scores were for &lt;em&gt;paper-based exams —&lt;/em&gt; more on that later.&lt;/p&gt;
+
+&lt;p&gt;Finally, I thought I’d share some of my learning statistics to provide a bit of numerical insight:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;~2400 hours spent on Chinese. Interestingly enough, this is really close to &lt;a href=&quot;https://www.state.gov/foreign-language-training/&quot;&gt;the 2200 classroom hours&lt;/a&gt; the US Foreign Service estimates are required to reach a B2/C1 level (so about HSK 6).&lt;/li&gt;
+  &lt;li&gt;~11.5 million characters read. You can easily track yours (and other stats) using &lt;a href=&quot;https://github.com/Destaq/ll-dashboard&quot;&gt;this open-source program&lt;/a&gt; I developed.&lt;/li&gt;
+  &lt;li&gt;This week’s average reading speed: ~470 CPM.&lt;/li&gt;
+  &lt;li&gt;Characters written: 50 000 (&lt;em&gt;very&lt;/em&gt; approximately).&lt;/li&gt;
+  &lt;li&gt;Flashcards (for words): ~10 000; don’t add new ones much anymore.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;/h2&gt;
+
+&lt;p&gt;Again, I see the HSK exams as having no real value unless you require them as some sort of evidence. Words on the list (at least v2.0) are often quite outdated or academic, and the exam question’s ‘high-brow’ nature is not applicable to many learners whose interests lay elsewhere. To round this off, the test-taking fee is pretty steep. I won’t harp on about this; you can find a more detailed criticism of mine &lt;a href=&quot;https://heavenlypath.notion.site/Reading-Tools-Tips-and-FAQ-b4d287ad630c439fb8978d33b06c1b00#45d0b67c6c2c48e48d1581c84b8b2f00&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Suffice to say, the sole reason I took the test is because I need a pass (180 or more / 300 points) in it to prove my Chinese competency for something.&lt;/p&gt;
+
+&lt;h2 id=&quot;results--analysis&quot;&gt;Results &amp;amp; Analysis&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/passed_HSK_6.png&quot; alt=&quot;My HSK 6 exam results&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;general&quot;&gt;General&lt;/h3&gt;
+
+&lt;p&gt;I’m only drawing from the experience of two practice exams (and there were no fellow HSK 6 test-takers that day to talk to!), so take the following with a grain of salt.&lt;/p&gt;
+
+&lt;p&gt;Overall it felt like the real test was a lot more difficult than mock ones I took. Dialogues touched upon more complex topics, and the short passage I was supposed to summarize for the writing section had a lot more concrete nouns than practice ones provided.&lt;/p&gt;
+
+&lt;p&gt;Also, you’ll notice that my 听力 score is a good 20 points below the practice ones I took. While some of that can be attested to the test’s increased difficulty, there’s another major reason — I took the &lt;em&gt;computer-based test&lt;/em&gt;. This is something I’d recommend everyone taking the HSK 6 to do, as unless you’re a masochist, memorizing how to handwrite 5000+ words should scare the living daylights out of you. However, it comes with one major drawback: listening questions are more unarguably harder.&lt;/p&gt;
+
+&lt;p&gt;With the paper-based practice tests I took, all the answer options for each numbered (though not explicitly written-out question) are given together on a sheet of paper. Hence, you can selectively listen to passages since you know what, in general, will be asked about and choose from the given options accordingly. Likewise, reading a bit ahead or making corrections if you’ve quickly made your answer is possible. On the other hand, the computer-based exam has a timer for each question, after which you automatically get redirected to a &lt;em&gt;new&lt;/em&gt; page with another question. When combined with the slight delay clicking between questions, not to mention stress and my unfamiliarity with the number of questions per audio track, things were significantly complicated.&lt;/p&gt;
+
+&lt;p&gt;What’s more, computer-based test centers ban any note-taking, so it’s really hard to circle sections to come back to. I’m pretty sure you also can’t take notes of the audio for the handwritten test, but at least you can mark questions and easily come back to them rather than clicking through a ton of pages. This just emphasizes how strange the exam is — for two of the sections, Listening and Writing, your ability to &lt;em&gt;memorize&lt;/em&gt;, not mastery of Chinese, play critical roles to overall success.&lt;/p&gt;
+
+&lt;h3 id=&quot;writing&quot;&gt;Writing&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;10 min to read a 1000-character story, then 35 min to rewrite and condense it by 60%&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;About a year ago, I spent a couple hundred days writing approx. one-paragraph-long texts on various foreign-language-learning sites like &lt;a href=&quot;https://langcorrect.com/teach/&quot;&gt;LangCorrect&lt;/a&gt; and &lt;a href=&quot;https://journaly.com/&quot;&gt;Journaly&lt;/a&gt;. But since then, the only practice I’ve had is writing a few short stories on my website and summarizing the two previously-mentioned mock exam passages. Nonetheless, I still scored quite highly here, which only reinforces the fact that comprehensible input is a great learning method, even for those facing standardized tests — despite virtually no prior writing experience, the 10m+ characters read seemed to have brushed off well on me.&lt;/p&gt;
+
+&lt;p&gt;In the way of tips, I’d only suggest you try to include as many details from the main story as possible, and don’t feel strictly constrained by the 400-character limit. By rereading the passage a few times, I managed to nail down pretty much all of the information mentioned in the passage, and did my best to do so specifically (by writing out the main character’s name, year of graduation, number of statues photographed, etc. — it was about a Terracotta Warrior museum worker). Though yet again, I struggle to see why memorization skills should even marginally influence &lt;em&gt;writing&lt;/em&gt; marks &lt;a href=&quot;https://www.youtube.com/watch?v=2lvULg-utYg&amp;amp;ab_channel=LearnChinese&quot;&gt;as shown in the markscheme&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;listening&quot;&gt;Listening&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Multiple choice x15 (short), multiple choice x15 (long), multiple choice x20 (medium)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I talked about this already in the General subsection of this article. The computer-based format was a bit of a nasty surprise, so I’d recommend those planning on taking the digital HSK 6 to practice with one of the &lt;a href=&quot;https://www.chinesetest.cn/applyNewMokao.do?means=initMokaoAdd&amp;amp;styleId=applyAdd&quot;&gt;official online mock exams&lt;/a&gt; (though do note that your Writing score will be inaccurate). There’s a disturbing lack of easily-accessible, unique practice papers, so I emphasize this especially strongly.&lt;/p&gt;
+
+&lt;p&gt;Otherwise… try to read widely? The 5000 words said to be needed to pass the HSK 6 are the tip of the iceberg — I saw words I knew to be outside of this set quite often.&lt;/p&gt;
+
+&lt;p&gt;Additionally, I really would have fared better here had I had an inkling of what would be asked about in advance (as I did with the paper-based tests). The 1–3 minute audio clips talked about everything from Tibetan butterflies to man-made oases, and then seemed to deliberately ask questions about as-trivial-as-possible details. So, even though I understood the passages as a whole, I often had trouble remembering which businessman was called 沙漠大叔, which subject exactly one of the speakers had as their original major, etc.&lt;/p&gt;
+
+&lt;h3 id=&quot;reading&quot;&gt;Reading&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Pick incorrect sentence x10, fill in the word x10 (x3-5), fill in the sentence x10, multiple choice x20&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m honestly quite surprised by my score here, what with all my reading I thought it’d be a bit higher. Again, topics touched upon were sometimes pretty far from what I usually read about (I never knew the history of dumplings was this complex, thank you Hanban). However, I had a pretty good understanding of the passages. As such, I think this score might largely be due to the first set of reading questions — identifying grammatically incorrect sentences took a disproportionality long amount of time, and these questions were &lt;em&gt;definitely&lt;/em&gt; harder than those I saw before.&lt;/p&gt;
+
+&lt;p&gt;And in terms of advice, I’d suggest leaving the more difficult/disproportionately time-consuming questions for last, and prioritizing checking your work over puzzling over them. While I finished the Reading section with time to spare, it was only five or so minutes — ones I promptly wasted on the first section instead of checking my answers.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;I feel that the general impression of what needs to be done to pass the HSK 6 needs some rectification, which hopefully this post helps provide. Although there are plenty of apps, books, sites, etc. dedicated to getting you to successfully write the HSK 6 exam, it’s important to realize that:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;this level is one that, at least partially, measures your &lt;em&gt;test-taking and memorization skills.&lt;/em&gt; This doesn’t necessarily equate to real-world fluency, especially considering the test’s academic slant.&lt;/li&gt;
+  &lt;li&gt;and more importantly… even if you do stick to learning using what interests you, you can pass regardless — and have much more fun along the way!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All in all, while I’m not particularly proud of my HSK 6 score, my approach got the job done, and a lot less painfully than traditional methods would. And no matter what my score is or may have been, I don’t need some scale to tell me how ‘good’ I am at Chinese — my conversations in Mandarin and 微信读书 library do that just fine! Plus, even should I want to get a higher score for some reason, a bit more familiarity with the exam format and test-specific practice would render any worries moot.&lt;/p&gt;
+
+&lt;p&gt;As such, I encourage ellow learners to keep in mind what &lt;em&gt;they&lt;/em&gt; rather than some Beijing-based examiner feel to be the aspects of Chinese most worth learning — and rest easy in the knowledge that by doing so, even external assessments will not come too hard.&lt;/p&gt;</content><author><name>Simon Ilincev</name></author><category term="chinese" /><category term="resources" /><category term="guides" /><category term="productivity" /><category term="hsk" /><category term="mandarin" /><category term="personal-life" /><summary type="html">Webnovels, television, and a pinch of practice got me to pass the most difficult Chinese proficiency exam.</summary></entry><entry><title type="html">How to Create a Free Custom Email Address with Porkbun</title><link href="http://localhost:4000/tutorial/resources/learning/free-porkbun-emails/" rel="alternate" type="text/html" title="How to Create a Free Custom Email Address with Porkbun" /><published>2022-09-19T05:19:28+02:00</published><updated>2022-09-19T05:19:28+02:00</updated><id>http://localhost:4000/tutorial/resources/learning/free-porkbun-emails</id><content type="html" xml:base="http://localhost:4000/tutorial/resources/learning/free-porkbun-emails/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;If you buy a domain name, it stands a reason that you should obtain full custom email addresses as well. Unfortunately, most email registrars and even providers themselves make getting one for free quite difficult — but not impossible! Many services will offer you either a custom send-from and receive-to email for a price, or one that you just receive mail from (an ‘email forwarding’ benefit) for free, but if you’d like the &lt;em&gt;former&lt;/em&gt; for free, you’ll have to do some dirty work yourself.&lt;/p&gt;
+
+&lt;p&gt;Fortunately, I’ve done just that for a couple of domains, and am here to concisely demonstrate how you can too! For this tutorial, I’ll be using Gmail and &lt;a href=&quot;https://www.porkbun.com&quot;&gt;Porkbun&lt;/a&gt;, but the steps should be similar for almost any platforms.&lt;/p&gt;
+
+&lt;h2 id=&quot;step-1-create-a-domain-and-email&quot;&gt;Step 1: Create a domain and email&lt;/h2&gt;
+
+&lt;p&gt;If you haven’t already, buy a domain with a domain name registry service. I personally recommend Porkbun for its low price, but have gone through this process successfully with GoDaddy as well, and heard great things about many others. Regardless, the fundamental custom email will be the same: &lt;span style=&quot;font-family: monospace;&quot;&gt;something@yourdomain.xyz&lt;/span&gt;. So make sure you choose wisely!&lt;/p&gt;
+
+&lt;p&gt;Similarly, if you don’t already have one, make an email address with any major provider. We’ll be sending and receiving your custom-address emails from it.&lt;/p&gt;
+
+&lt;h2 id=&quot;step-2-set-up-basic-email-forwarding&quot;&gt;Step 2: Set up basic email forwarding&lt;/h2&gt;
+&lt;p&gt;Now that you have a domain, you can set up email &lt;em&gt;forwarding&lt;/em&gt;. This will take care of one part of the puzzle — redirecting emails meant for your custom email address to one you already have. However, being free, it doesn’t allow us to actually &lt;em&gt;send&lt;/em&gt; emails back aliased as that custom address out of the box.&lt;/p&gt;
+
+&lt;p&gt;Nonetheless, it’s a required step, and one relatively simple as well. Simply navigate to the settings of your domain, and then to the email forwarding section. Here, you’ll be able to set up a custom email address and forward it to an existing one — one which you’ll be using in the future as the place to send emails, just masked as your ‘custom self’. In Porkbun, doing so looks like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/custom_email_forwarding.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step-3-secure-your-gmail-account&quot;&gt;Step 3: Secure your Gmail account&lt;/h2&gt;
+
+&lt;p&gt;That’s all that needs to be done the domain-registrar side of things. But, we’re still far from done — the next step is to set up your account to be able to actually send emails. In order to do this (for Gmail at least), you need to first enable 2-Step Verification in your &lt;a href=&quot;https://myaccount.google.com/security&quot;&gt;account’s security&lt;/a&gt;. This is a good idea anyway, and enforced in this case as having (potentially multiple) custom emails is something Google views as warranting a higher level of user security.&lt;/p&gt;
+
+&lt;p&gt;You can set up 2FA with just a few clicks, and your page should end up looking as the below when you’re done:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/google_account.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;step-4-generate-an-app-password&quot;&gt;Step 4: Generate an App Password&lt;/h2&gt;
+
+&lt;p&gt;As you’ll soon find out, the UI Gmail offers for adding a custom email address is extremely dated (they’re perhaps not-so-subtly trying to encourage the use of their paid, no-configuration-required alternative). As such, this feature relies on an older feature of Gmail — that of App Passwords. These are simply 16-character security codes unique to an app/site/tool that give it permission to access your account. For our case, this ‘tool’ will be another email address. If interested, you can read a bit more about how App Passwords work &lt;a href=&quot;https://support.google.com/accounts/answer/185833?hl=en&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;When you open up the App Passwords page (just below the 2-Step Verification tab you just used), you should see an option to generate a key, as below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/start_app_passwords.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This will be grayed-out, however, as you first need to assign an identifier to this App Password. As our use case does not fall into any of the preset categories, you can just fill out the ‘Other’ field with something that will make sense to you — I settled on ‘Porkbun Email Forwarder’. This is not important and only serves as a reference to you in the future if you ever return to this page to look over your used App Passwords or revoke any.&lt;/p&gt;
+
+&lt;p&gt;After you fill out the identifier, you should be able to generate your App Password. Clicking the ‘Generate’ will show the following pop-up:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/finish_app_passwords.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Copy down the password given — even just to your clipboard. We’ll just be needing it once, and don’t have to remember or later use it.&lt;/p&gt;
+
+&lt;h2 id=&quot;step-5-link-your-email-addresses&quot;&gt;Step 5: Link your email addresses&lt;/h2&gt;
+
+&lt;p&gt;App Password now in hand, you can navigate over to your email, and then to its settings area — a small gear icon on the top right for you if using Gmail. After clicking on ‘Additional Settings’, you should find a tab labelled ‘Accounts and Import’. Click on it, and then scroll down to the ‘Send mail as’ section and select ‘Add another email address’.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/custom_email_settings.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You’ll now be presented with the 2000s-era UI I talked about earlier. It has a total of two parts, the first of which should appear as below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/custom_email_substep_1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here, type in the name you want your custom email address to be associated with (likely just your name if a personal website, or some other variation like ‘XYZ Helpdesk’ should it be something else). Below that, fill out the &lt;em&gt;custom email&lt;/em&gt; that you set up email forwarding for in Step 1. If not ticked, also check the ‘Treat as alias’ box as you do indeed want this email to be &lt;a href=&quot;https://support.google.com/a/answer/33327?hl=en#whatEmailAlias&quot;&gt;an alias&lt;/a&gt; of yours.&lt;/p&gt;
+
+&lt;p&gt;Once done, press ‘Next Step’.&lt;/p&gt;
+
+&lt;h2 id=&quot;step-6-add-a-server-and-authenticate&quot;&gt;Step 6: Add a server and authenticate&lt;/h2&gt;
+
+&lt;p&gt;Almost at the finish line! All that’s left is to set up the server that your mail will be routed through, and confirm that you are allowing this action. Fill out the fields that now appear as below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/custom_email_substep_2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The ‘SMTP Server’ should be set to ‘smtp.gmail.com’ — you’ll be using Gmails own servers to send and receive your emails. Its port should be set to 587.&lt;/li&gt;
+  &lt;li&gt;The ‘Username’ should be your full, non-custom email address, including the ‘@gmail.com’ part. Gmail uses this and the field below it to authenticate that you are indeed granting access to it to send emails from your custom email address.&lt;/li&gt;
+  &lt;li&gt;The ‘Password’ should be the &lt;em&gt;App Password&lt;/em&gt; you generated in Step 4 (not your Gmail password).&lt;/li&gt;
+  &lt;li&gt;Finally, the connection should be secured with TLS, recommended for being more secure than its older SSL counterpart.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once done, press ‘Save Changes’ and you should be good to go! If you navigate back to the ‘Accounts and Import’ settings page, you should see both your custom and regular email addresses listed, and can even set one of them as the default one you’ll use for sending emails in the future. Likewise, when you go to compose or reply to an email, you should see your custom email address as an option in the ‘From’ field.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/posts/choosing_emails.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;I hope this post has been of use to you in saving some change on your personal, project, or business emails. If you have any questions, feel free to ask them in the comments below, or reach out to me at my own Gmail-hosted custom email address on the sidebar!&lt;/p&gt;</content><author><name>Simon Ilincev</name></author><category term="tutorial" /><category term="resources" /><category term="learning" /><category term="domains" /><category term="porkbun" /><summary type="html">A guide on how to set up a send-to and receive-from custom email address — without paying a penny for anything except your domain.</summary></entry><entry><title type="html">A Guide and 5 Defenses Against Chinese Reading Fatigue</title><link href="http://localhost:4000/guides/chinese/reflections/improving-reading-stamina/" rel="alternate" type="text/html" title="A Guide and 5 Defenses Against Chinese Reading Fatigue" /><published>2022-06-23T16:05:43+02:00</published><updated>2022-06-23T16:05:43+02:00</updated><id>http://localhost:4000/guides/chinese/reflections/improving-reading-stamina</id><content type="html" xml:base="http://localhost:4000/guides/chinese/reflections/improving-reading-stamina/">&lt;p&gt;Over the past few months, I’ve seen quite a number of posts by learners around the web about reading progress. In these posts, one thing that I’ve noticed coming up again and again is the problem of &lt;em&gt;reading stamina&lt;/em&gt; — many of the even quite advanced learners have commented about feelings of ‘weariness’ after reading in Chinese for longer than half an hour or more than a few chapters.&lt;/p&gt;
+
+&lt;p&gt;Encountering this mental stumbling block is unfortunate, as the more you read, the better your Chinese for one and greater your motivation for another. As such, I’d like to share what’s helped me achieve a decent stamina for consuming Chinese-language content and how you might go about doing so as well.&lt;/p&gt;
+
+&lt;p&gt;A year or so ago, I found the thought of spending over 30-40 mins on just a simple kid’s book daunting. Now, I can comfortably read for hours at once and indeed do so on a regular basis.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://preview.redd.it/z36n5jhyh8791.jpg?width=777&amp;amp;format=pjpg&amp;amp;auto=webp&amp;amp;s=d949b2a93940133adad7307c6836f27a36271a39&quot;&gt;&lt;img src=&quot;https://preview.redd.it/z36n5jhyh8791.jpg?width=777&amp;amp;format=pjpg&amp;amp;auto=webp&amp;amp;s=d949b2a93940133adad7307c6836f27a36271a39&quot; alt=&quot;r/ChineseLanguage — A guide and 5 defenses against Chinese reading fatigue&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center; font-size:0.7em; color:gray&quot;&gt;Time spent reading on 微信读书 recently&lt;/p&gt;
+
+&lt;p&gt;What I’ll be sharing here will also be drawn from discussions I’ve had with some other Chinese-language bookworms who’ve the stamina to read for longer periods of time as well. But before launching into the thick of it all, I’d first like to make clear a few things:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The advice I write here works well for me but may not for you; please don’t follow it blindly but rather take it more as guiding thoughts on your own learning journey.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;There’s no silver bullet that will give your stamina a manifold overnight increase. Regardless of what actions you take, it may take (quite some) time before you start seeing noticeable results. But the ultimate benefit is worthwhile!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Some people might not be able to read for long in their native language, let alone Chinese, and that’s alright — not everyone is cut out for tons of reading, be it due to personality or upbringing. While I firmly believe there’s never no room for improvement, don’t beat yourself up if that improvement takes too long — after all, there’s plenty of other Chinese-language media out there for you to explore.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now, onto the tips — here are five strategies I’ve found over the past year to be most helpful towards building my reading stamina.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-choose-the-right-material&quot;&gt;#1: Choose the right material&lt;/h2&gt;
+
+&lt;p&gt;The importance of this really can’t be understated. The type of content you choose can &lt;em&gt;greatly&lt;/em&gt; influence how much time you’re able to read it while maintaining a good focus. I, and those I’ve talked with, have identified three overarching hindrances.&lt;/p&gt;
+
+&lt;h3 id=&quot;interest&quot;&gt;Interest&lt;/h3&gt;
+
+&lt;p&gt;Perhaps intuitively obvious, your interest in the content will directly influence how much time you can spend reading it. The more compelling you find some book/story/article, the longer you’ll be able to focus on getting through it.&lt;/p&gt;
+
+&lt;p&gt;Your original goal may have been to read some of the 4 Great Classics, but if you find them boring, you clearly won’t be as willing to spend as much time — and hence learn as much — with them. Thus, unless you’re in a position where there’s simply no other content available (i.e. just starting out with graded readers), I’d strongly advise simply dropping content you find too dry.&lt;/p&gt;
+
+&lt;h3 id=&quot;relative-difficulty&quot;&gt;Relative difficulty&lt;/h3&gt;
+
+&lt;p&gt;I write ‘relative’ here because what may be simple for you might be challenging for another learner, and vice versa. As for ‘difficulty’ — mountains of research shows that you shouldn’t be reading anything below 90% comprehension (where you understand 90% of the &lt;em&gt;words&lt;/em&gt; on the page). Even at this point, content will be quite difficult and hence diminish stamina.&lt;/p&gt;
+
+&lt;p&gt;Ideal, ‘extensive’ content theoretically begins at the 98% boundary; I’ve found the closer I get to 100%, the more I can read in one sitting. The latter might sound difficult to reach, but if you’re reading webnovels with millions of characters you can go chapters without reaching for a dictionary surprisingly quickly. Another thing this does mean, however, is that it might not be the best idea to jump straight into 《三体》— while a good book, it and similar more complex stories are not accessible to more intermediate learners.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://preview.redd.it/w32wrqoyo8791.png?width=1280&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=118b202158c2f1cadd838e4fea4f93c5e85f02a6&quot;&gt;&lt;img src=&quot;https://preview.redd.it/w32wrqoyo8791.png?width=1280&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=118b202158c2f1cadd838e4fea4f93c5e85f02a6&quot; alt=&quot;r/ChineseLanguage — A guide and 5 defenses against Chinese reading fatigue&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;To illustrate how stark a difference difficulty can cause, I’ll steal Wolfi’s words from our &lt;a href=&quot;https://discord.com/invite/zY2Fdwgz2f&quot;&gt;wonderful Discord server&lt;/a&gt; of Chinese learners, natives, and enthusiasts:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I’m currently reading 2 novels, one is lower upper intermediate and the other I’d put at advanced. And reading one 3k chapter of the advanced one takes me as long as reading two 5k chapters of the upperint one. I can only read one chapter of the advanced and then I just don’t want anymore because my brain is fried even though I want to know the story. But if I had the time I would read more and more of the upperint without trouble.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Not sure what an extensive text looks like? This &lt;a href=&quot;https://www.hackingchinese.com/introduction-extensive-reading-chinese-learners/&quot;&gt;Hacking Chinese post&lt;/a&gt; answers that well.&lt;/p&gt;
+
+&lt;p&gt;As for &lt;em&gt;finding&lt;/em&gt; such texts: you can estimate the difficulty of some text with &lt;a href=&quot;https://github.com/Destaq/chinese-comprehension&quot;&gt;this tool&lt;/a&gt; I made (technical but allows personalized difficulty) or &lt;a href=&quot;https://dimusic.github.io/chinese-text-analyzer/&quot;&gt;this&lt;/a&gt; online one (accessible to non-coders but you’ll have to estimate difficulty off of the general stats for a text). A list of novels graded by difficulty  can be found on Heavenly Path &lt;a href=&quot;https://heavenlypath.notion.site/Webnovels-Books-29ee006777bd4d9fbbd0ea5eb29ec514&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;genreformat&quot;&gt;Genre/Format&lt;/h3&gt;
+
+&lt;p&gt;Regardless of texts’ difficulty, genre plays a role. This ties in somewhat with the limiting factor of interest. At least for myself, reading a fantasy novel with bite-sized chapters is much easier to do for much longer than doing the same for, say, a technology magazine — even though I have a similar level of interest in both. The way in which content is written and structured has an impact on how easy it is to consume; I’m sure you’ve seen something akin to this in your native tongue.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-consider-incorporating-listening-into-your-routine&quot;&gt;#2: Consider incorporating listening into your routine&lt;/h2&gt;
+
+&lt;p&gt;Surprising as it may sound, &lt;em&gt;listening&lt;/em&gt; more can help boost your reading stamina. Reading, listening, writing, and speaking aren’t strict, independent processes — gains in one can bring gains in another. The reason why improvements in listening are particularly useful for reading stamina is because they bring you greater familiarity with characters. To read fluently and quickly (the next suggestion), you’ll want character recognition to be lightning-fast.&lt;/p&gt;
+
+&lt;p&gt;To put this another way, what tires out your brain is the effort it puts into decoding Chinese. If you can minimize this effort by making characters’ pronunciation and meaning more familiar through listening to e.g. podcasts and audiobooks, you can maximize the time over which your metaphorical pool of energy is spread out. Heavenly Path has a list of excellent &lt;a href=&quot;https://heavenlypath.notion.site/Audiobooks-Audiodramas-225ede461dd8474a81c8160e2f13d80a&quot;&gt;audiobooks/dramas&lt;/a&gt; and &lt;a href=&quot;https://heavenlypath.notion.site/Podcasts-4a006f3dd6214ba3b6d5595e7e1429f7&quot;&gt;podcasts&lt;/a&gt; if none come to mind.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://preview.redd.it/zmh5dltbp8791.png?width=900&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=1c7d56239cdd85d8b79d45e9aa8b2d6c5de33d38&quot;&gt;&lt;img src=&quot;https://preview.redd.it/zmh5dltbp8791.png?width=900&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=1c7d56239cdd85d8b79d45e9aa8b2d6c5de33d38&quot; alt=&quot;r/ChineseLanguage — A guide and 5 defenses against Chinese reading fatigue&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Should you find not reading to be too unattractive a form of improvement, consider doing both reading and listening at the same time — I’ve commented in detail about this in another post &lt;a href=&quot;https://www.reddit.com/r/ChineseLanguage/comments/nyg3i4/listening_along_while_reading_novels_has_been_a/&quot;&gt;here&lt;/a&gt;. And of course, it goes without saying that more reading (over time) will also make recognition more effortless and hence the ability to spend more time (in one sitting) on reading greater.&lt;/p&gt;
+
+&lt;h2 id=&quot;3-improve-your-reading-speed&quot;&gt;#3: Improve your reading speed&lt;/h2&gt;
+
+&lt;p&gt;To give quite the simplification, reading faster = reading more in the same timeframe = more fun. And more fun = more motivation = more energy you find yourself willing to put into reading. By reading faster, you’ll also gain the additional benefits of a:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;greater sense of accomplishment and….&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;smaller sense of loss in terms of the opportunity cost of reading in English instead (as the difference in reading speeds will have shrunk)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;On Heavenly Path, I wrote an entire post dedicated to improving your reading speed &lt;a href=&quot;https://heavenlypath.notion.site/Improving-your-Reading-Speed-Seven-Strategies-78257ff11d36484d933dd126e198d676&quot;&gt;here&lt;/a&gt;. By making use of the 7 main strategies described, I’ve now brought my reading speed up to 500 cpm from somewhere probably below 200 this time last year. Perhaps the most important of these is once more finding extensive, understandable content — another learner saw an improvement of 80 to 180 cpm in a couple of months by investing in some appropriately-leveled graded readers.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://preview.redd.it/kwgq6foe6e791.jpg?width=1910&amp;amp;format=pjpg&amp;amp;auto=webp&amp;amp;s=9351587f42ecdacc13f17f9aeb082b7c4d2204d8&quot;&gt;&lt;img src=&quot;https://preview.redd.it/kwgq6foe6e791.jpg?width=1910&amp;amp;format=pjpg&amp;amp;auto=webp&amp;amp;s=9351587f42ecdacc13f17f9aeb082b7c4d2204d8&quot; alt=&quot;r/ChineseLanguage — A guide and 5 defenses against Chinese reading fatigue&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;4-find-and-set-aside-areading-time&quot;&gt;#4: Find and set aside a &lt;em&gt;reading time&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;If you only have a limited amount of time to spend reading each day, yet want to rapidly build up your stamina, nothing helps more than making a consistent habit of it. I’m not talking about the general habit of just reading each day — if you do so all over the place in short bursts, &lt;em&gt;stamina&lt;/em&gt; improvement will clearly be negligible.&lt;/p&gt;
+
+&lt;p&gt;However, by carving out a decent chunk of time when you feel best prepared to consume foreign content, this improvement is likely to be much more visible. What’s more, if this chunk is regularly at roughly the same time, you’ll accustom your brain into being in optimal Chinese-reading mode (that is, maximum-energy-allocated-towards-reading-Chinese mode); each session’s energy/stamina will be at a high and continually pushing up against this limit will help make it only higher.&lt;/p&gt;
+
+&lt;p&gt;Personally, I’ve found a couple hours late in the evening to be most conducive towards longer reading — my mind is free from the worries of the day and body relaxed. However, others have found morning hours make it easier to read longer — trial and error will quickly reveal what works best for you. Of course, if you want to read during other times of the day then by all means do so, but if you’re explicitly working on stamina and have limited time to dedicate towards reading, aim for times closest to your previous reading sessions.&lt;/p&gt;
+
+&lt;h2 id=&quot;5-consider-your-tech-stack&quot;&gt;#5: Consider your ‘tech stack’&lt;/h2&gt;
+
+&lt;p&gt;This may not be as immediately obvious, but is still quite significant. Font, text size, app UI, and device type can all contribute to how long you are able to spend reading in one go. For example, I think the &lt;a href=&quot;https://www.diyiziti.com/Download/257&quot;&gt;李国夫手写体&lt;/a&gt; font is the best thing since sliced bread, but processing it is difficult for my computer-font-accustomed eyes and reading just one chapter straight with it selected is a stretch. Similarly (though to a lesser extent), text size, spacing, and general user interface can be impactful — make reading as comfortable and aesthetically pleasing as possible.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://preview.redd.it/2fheytsfp8791.png?width=650&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=3f0609a86798cf2d158846c1c1cce45027e2ebbd&quot;&gt;&lt;img src=&quot;https://preview.redd.it/2fheytsfp8791.png?width=650&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=3f0609a86798cf2d158846c1c1cce45027e2ebbd&quot; alt=&quot;r/ChineseLanguage — A guide and 5 defenses against Chinese reading fatigue&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, one last factor to bear in mind is the device you use to read. Some might find e-readers or paper books to be comparatively easier on the eyes. Even for those who don’t, the distraction a phone’s many apps pose or its small screen size can serve as obstacles to reading for long.&lt;/p&gt;
+
+&lt;p&gt;Should you be reading a lot in Chinese now or in the future, a specialized device may be worth the investment. A discussion and comparison of such readers can be found &lt;a href=&quot;https://heavenlypath.notion.site/E-ink-Readers-for-Chinese-Novels-49de9c819e004202afe15f9d50d229a6&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I sincerely hope this post has given you some useful food for thought, and please do share your own experiences below!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This post was originally published on &lt;a href=&quot;https://www.reddit.com/r/ChineseLanguage/comments/vifola/a_guide_and_5_defenses_against_chinese_reading/&quot;&gt;Reddit here&lt;/a&gt; and can also be found on Heavenly Path.&lt;/em&gt;&lt;/p&gt;</content><author><name>Simon Ilincev</name></author><category term="guides" /><category term="chinese" /><category term="reflections" /><category term="mandarin" /><category term="learning" /><summary type="html">What I&apos;ve learned improving my Chinese reading stamina from thirty minutes to hours at a stretch — and how you can apply it to see the same gains.</summary></entry><entry><title type="html">I Tracked my Chinese Learning for Three Months — Takeaways</title><link href="http://localhost:4000/reflections/chinese/100-days-of-tracking/" rel="alternate" type="text/html" title="I Tracked my Chinese Learning for Three Months — Takeaways" /><published>2022-04-26T09:50:00+02:00</published><updated>2022-04-26T09:50:00+02:00</updated><id>http://localhost:4000/reflections/chinese/100-days-of-tracking</id><content type="html" xml:base="http://localhost:4000/reflections/chinese/100-days-of-tracking/">&lt;p&gt;As part of &lt;a href=&quot;https://simonilincev.com/tutorial/resources/language-learning-dashboard/&quot;&gt;my New Year’s Resolution&lt;/a&gt; for 2022, I decided to log my time learning Mandarin Chinese. A quarter of the way through (near the end of this month), I had to stop as I bought an e-reader on which it is difficult to track time spent consuming content — but have logged over 500 hours of Chinese and learned lots, some of which I’d like to share here today.&lt;/p&gt;
+
+&lt;p&gt;I’ve seen significant strides in my Mandarin, such as going from straightforward podcasts to fantasy audiobooks or switching to reading with native apps offering only CN-CN dictionaries. Detailed statistics following in the next section!&lt;/p&gt;
+
+&lt;p&gt;The dashboard that I used for tracking was one I programmed myself last year, and requires about 10 mins of entry per week to maintain. The code and instructions are available on the open-source GitHub repository &lt;a href=&quot;https://github.com/Destaq/language-learning-dashboard&quot;&gt;here&lt;/a&gt;, so you can easily get it up and running for yourself if interested!&lt;/p&gt;
+
+&lt;h2 id=&quot;statistics&quot;&gt;Statistics&lt;/h2&gt;
+
+&lt;h3 id=&quot;general&quot;&gt;General&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://preview.redd.it/gor3blsfuzq81.png?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=7f437f0e84e26db002ce75be92935f20c74d9024&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;Characters Read&lt;/em&gt;, &lt;em&gt;Chapters Read&lt;/em&gt;, &lt;em&gt;Books Read&lt;/em&gt; and &lt;em&gt;Episodes/Movies Watched&lt;/em&gt; all include data from before the beginning of 2022, but had large jumps even so (shown in charts below).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://preview.redd.it/wuyvvmsfuzq81.png?width=2440&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=f26a24159d3f89392dac14f2839f6f6c4ae2f7f0&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A bigger zoom-in on the hours spent each day — indeed averaging out to about 6, but there were pretty big leaps from between 3 and 9 as a result of school holidays, exams, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://preview.redd.it/8wllrlsfuzq81.png?width=2628&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=ce068e0d3a8a2e2aae90dc95ab2d145a4e37338a&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The four main components of language learning were rated on a 0-6 scale, based on the CEFR scale — 6 being pretty much native (C2) and 1 being a beginner (A1).&lt;/p&gt;
+
+&lt;p&gt;Thanks to lots of reading (over 160 hours), my reading saw quite a bit of a jump, up to closer to C1 than B2. Currently, I only read in Chinese, and have also seen quicker reading speeds up to near-native levels — my experience is detailed &lt;a href=&quot;https://simonilincev.com/guides/chinese/improving-reading-speed/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Regular VRChat practice also pushed up speaking to a ~B2 level, but its still the second-weakest given my location in a non-Chinese speaking country. Listening, however, went a bit up as well as I began listening to audiobooks (much more attractive than podcasts).&lt;/p&gt;
+
+&lt;p&gt;Finally, writing saw a big boost as well, as I started seriously preparing for the end-of-year Mandarin exams I’ll be taking (handwritten, unfortunately). I had lots of writing assignments and even practiced writing some Chinese fiction content of my own — find it under a secret link on my website &lt;a href=&quot;https://www.simonilincev.com/webnovels&quot;&gt;here&lt;/a&gt; (note everything is in Chinese).&lt;/p&gt;
+
+&lt;h3 id=&quot;time-breakdown&quot;&gt;Time Breakdown&lt;/h3&gt;
+&lt;figure class=&quot;half&quot;&gt;
+  &lt;a href=&quot;https://preview.redd.it/k3vz4msfuzq81.png?width=2432&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=9426537d1f4b622b91b49a7a37d3f79f63f53b70&quot;&gt;
+  &lt;img src=&quot;https://preview.redd.it/k3vz4msfuzq81.png?width=2432&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=9426537d1f4b622b91b49a7a37d3f79f63f53b70&quot; /&gt;&lt;/a&gt;
+
+  &lt;a href=&quot;https://preview.redd.it/me1oimsfuzq81.png?width=2496&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=f2ed2d760a05bb1636de70ea5733c22d45c0dbd7&quot;&gt;
+  &lt;img src=&quot;https://preview.redd.it/me1oimsfuzq81.png?width=2496&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=f2ed2d760a05bb1636de70ea5733c22d45c0dbd7&quot; /&gt;&lt;/a&gt;
+
+  &lt;figcaption&gt;The specific a) types of activities and b) activities themselves that I did these three months.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;takeaways&quot;&gt;Takeaways&lt;/h2&gt;
+
+&lt;p&gt;I learned a lot during this process, and saw a significant shift in some of the methodologies I use to learn Chinese. I’m now more confident in my Mandarin, and I’m more comfortable with the Chinese language than I’ve ever been before.&lt;/p&gt;
+
+&lt;h3 id=&quot;resources&quot;&gt;Resources&lt;/h3&gt;
+
+&lt;p&gt;Before getting started on resources that I used, I’d just like to share a link to another project than I’ve been working on a lot recently — &lt;a href=&quot;https://heavenlypath.notion.site&quot;&gt;Heavenly Path&lt;/a&gt;. I’m on of its 5 editors, and we’ve been working on this as a massive repository of human-curated Chinese learning content for those at the intermediate and above stages. And I’m not just 吹牛ing (bragging) here — we managed to get it pinned to the &lt;a href=&quot;https://reddit.com/r/ChineseLanguage&quot;&gt;r/ChineseLanguage&lt;/a&gt; sidebar — so do check it out if you’re a Chinese learner!&lt;/p&gt;
+
+&lt;p&gt;But without further ado, here are the main resources I used these three months.&lt;/p&gt;
+
+&lt;h4 id=&quot;speaking&quot;&gt;Speaking&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vrchat.com/&quot;&gt;VRChat&lt;/a&gt;: my speaking platform of choice, this is an app I used on my Oculus Quest to enter virtual-reality Chinese-speaking ‘worlds’ and converse with natives. I’ve had excellent experiences on here and made a lot of friends, so would recommend to anyone who has the ability to converse at length relatively fluently with Chinese.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hellotalk.com/&quot;&gt;HelloTalk&lt;/a&gt;: a multilingual chat app that allows you to exchange with native speakers I’ve used for a while. Not quite as much recently, since I can only spend half the time speaking Chinese, but still good for sending questions or voice recordings as it has a ‘post’ feature.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;listening&quot;&gt;Listening&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;TV Shows: a bit difficult sometimes since many are costume dramas, so use Classical Chinese sometimes. But overall a fun and rewarding practice method.&lt;/li&gt;
+  &lt;li&gt;Audiobooks: with the excellent 微信读书 app you can listen to many for free, and the production quality blows me away. Chinese webnovels and audiobooks are on a whole new level of quality, far beyond the English-speaking world.&lt;/li&gt;
+  &lt;li&gt;Podcasts: quite quickly made the switch to audiobooks, as they’re more fun to listen to with the sound effects and whatnot. But podcasts are more accessible to the beginner/intermediate, and you don’t have to be as passive listening to them (missing a few paragraphs won’t cost you as much as it will for an audiobook).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;reading&quot;&gt;Reading&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.readibu.com/&quot;&gt;Readibu&lt;/a&gt;: the Chinese-reading app of choice for learners, made by one herself. What’s great about this is the interface and tools for learners (one-tap EN-CN dictionary, proper-noun highlighting, sentence translation, etc.) — but ideally you’ll make the switch like I did in mid-February to the next step, real native platforms.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://weread.qq.com/&quot;&gt;微信读书&lt;/a&gt;: aforementioned Chinese reading app. The platform to use, with the best quality of Chinese content. Everything is free (you just need to do some daily check-ins) except for some xianxia/wuxia/xuanhuan stuff as of the latest update. Luckily, the premium subscription cost pennies. Lots better than other learner-based solutions as you can interact with natives, have a much better UI, wider range of books, and more.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;writing&quot;&gt;Writing&lt;/h4&gt;
+&lt;p&gt;Barely did any writing outside of the requirements I have for school. But a few tools I can recommend are &lt;a href=&quot;https://www.reddit.com/r/WriteStreakCN&quot;&gt;r/WriteStreakCN&lt;/a&gt; (used for my &lt;a href=&quot;https://simonilincev.com/webnovels&quot;&gt;fiction writing&lt;/a&gt; project) and &lt;a href=&quot;https://langcorrect.com/&quot;&gt;LangCorrect&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;tracking&quot;&gt;Tracking&lt;/h3&gt;
+
+&lt;p&gt;Logging your learning progress is extremely rewarding, especially when you can do it with something as aesthetically pleasing as an app you purpose-built for that. The code for this web app is on GitHub &lt;a href=&quot;https://github.com/Destaq/language-learning-dashboard&quot;&gt;here&lt;/a&gt;, as with instructions. But there are a couple things to watch out for.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Overfocusing on tracking: don’t let your hourly/weekly goals get in your way of what you enjoy. I spent too much time on Anki and Shadowing, when I could have stopped much earlier and saved myself the time and annoyance of doing so — but felt forced to in order to keep up with a streak/keep a color on the graph.&lt;/li&gt;
+  &lt;li&gt;Spending too much time tracking: I created a custom solution for this, importing data from an Excel spreadsheet, meaning I only spent about 10 minutes a week importing data — but that’s because I have almost everything automatically recorded on my phone/computer. Many people spend too much time doing the tracking themselves, precious time that could be used for learning.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Best of luck on your own language-learning journey! Do check out this tool if you are on it, as it can be adapted for many other langauges as well with little hassle.&lt;/p&gt;</content><author><name>Simon Ilincev</name></author><category term="reflections" /><category term="chinese" /><category term="mandarin" /><category term="personal-life" /><summary type="html">Three months of tracking every single minute spent learning Chinese. Here are the activities I did and what I learnt.</summary></entry><entry><title type="html">Improving your Chinese Reading Speed — 7 Strategies I used to Double Mine</title><link href="http://localhost:4000/guides/chinese/improving-reading-speed/" rel="alternate" type="text/html" title="Improving your Chinese Reading Speed — 7 Strategies I used to Double Mine" /><published>2022-03-19T08:50:00+01:00</published><updated>2022-03-19T08:50:00+01:00</updated><id>http://localhost:4000/guides/chinese/improving-reading-speed</id><content type="html" xml:base="http://localhost:4000/guides/chinese/improving-reading-speed/">&lt;p&gt;There’s an expression in Chinese, 一目十行, meaning to read ten lines at a glance. While this speed may be out of reach, the idea behind it — reading rapidly — is still very much worth pursuing.&lt;/p&gt;
+
+&lt;p&gt;After all, if you can consume a larger volume of foreign-language input in the same timeframe, without much of a hit to comprehension, your gains will be greater. You’ll be able to come across the same words more frequently, encounter grammar patterns at a faster rate, etc. — reinforcing and building upon your Chinese. While there is a slight trade-off in the fact that reading will be more likely to be extensive than intensive (as you’ll be looking up unfamiliar words/pronunciations less often), the benefits more than outweigh this.&lt;/p&gt;
+
+&lt;p&gt;With this in mind, I thought I’d write this post and share my experiences achieving a relatively decent reading speed. Native speakers typically read between 300 to 700 characters per minute (cpm); when reading for leisure myself, I hover around 430. This is still at the lower end of the spectrum, but it’s been a nearly twofold increase on last fall and still rising thanks to a few useful strategies I want to outline today.&lt;/p&gt;
+
+&lt;p&gt;Before beginning, I’d just like to clarify that this is discussing ‘normal’ reading as opposed to &lt;a href=&quot;https://en.wikipedia.org/wiki/Speed_reading&quot;&gt;speed reading&lt;/a&gt; — both have their uses but this is the one most likely useful to us as learners.&lt;/p&gt;
+
+&lt;h2 id=&quot;tips&quot;&gt;Tips&lt;/h2&gt;
+
+&lt;h3 id=&quot;read-extensively&quot;&gt;Read extensively&lt;/h3&gt;
+
+&lt;p&gt;Before even getting started with the real tips, let’s have a look at what exactly this applies to. When I’m talking about reading fast and cpm here, it’s in relation to extensive texts. This is content that you understand at least 98% of the words of — content where you can pick up the remaining unknown words through context; where you experience reading gain rather than pain.&lt;/p&gt;
+
+&lt;p&gt;Between the 90th and 98th percentiles, content is ‘intensive’, and requires lots of concentration and dictionary lookups to understand — obviously not conducive to improving speed. Anything lower than that is simply ‘painful’, and so frequent will the lookups be, you’re more likely than not to be understanding the content in English rather than Mandarin. That’s not to mention the demotivating factor of reading such difficult content.So when working on your cpm, keep in mind that it’s with texts that you can read pretty fluently.&lt;/p&gt;
+
+&lt;p&gt;To put things into perspective, it’s the equivalent of you only not understanding 1-2 words in the above paragraph.&lt;/p&gt;
+
+&lt;p&gt;Perhaps you’re burning to read 三体 or 西游记, but they’re not extensive, curb your passion! There’s a time and place for intensive reading — you can go ahead and read these on the side intensively — but stick with extensive texts most of the time. This includes simpler/learner-oriented content such as DuChinese, graded readers, or children’s novels.&lt;/p&gt;
+
+&lt;h3 id=&quot;listening-while-reading&quot;&gt;Listening while Reading&lt;/h3&gt;
+
+&lt;p&gt;This could — and will be — a whole post in and of itself. In short, Listening while Reading (LWR), is just that — playing along a native audio recording to whatever it is you are reading. I used to leverage this technique a lot, and found it directly helped improve my reading speed.&lt;/p&gt;
+
+&lt;p&gt;The audio file playback speed is generally very flexible, and so you can try setting it to just above your comfortable reading pace. By doing so, you’ll still be able to read along, but at a slightly quicker pace than you might be used to — vital practice that can help bring your long-term average up.&lt;/p&gt;
+
+&lt;p&gt;By having the audio playing and requiring effort to pause, you’ll be less likely to stumble before unfamiliar words or pronunciations (there’s little time to look up new words, which you’ll likely be able to pick up through context, and the tone police won’t bother you over what some character’s tone is as the narrator’s voice will replace them).&lt;/p&gt;
+
+&lt;p&gt;Lastly, through LWR you strengthen the connections between a character’s sound and shape in your mind — those words that are subvocalized (more on that later) are done so with less hesitation. Where it might’ve taken half a second to recall some word’s tones before, it may be a quarter that later after you’ve had its sound hammered into your brain thanks to constantly simultaneously listening and reading it.&lt;/p&gt;
+
+&lt;h3 id=&quot;tone-police-begone&quot;&gt;Tone police, begone!&lt;/h3&gt;
+
+&lt;p&gt;The ‘tone police’ I just mentioned are those little voices in your head making you second doubt yourself, tapping on a word just to check you have the pronunciation right or didn’t miss that tone change pair. While useful in solidifying proper pronunciation and word memory, I’ve personally found this often getting out of hand. &lt;a href=&quot;https://www.sinosplice.com/life/archives/2017/02/16/subvocalization-while-reading-chinese&quot;&gt;To quote John from Sinosplice&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I found that when I would read a Chinese text, I was reading it aloud very deliberately in my head (subvocalizing). The problem was that I had obsessed over correct tones for so long that I just couldn’t stop. This slowed me down even more than normal subvocalization would be expected to do. So even when I was just reading for purely informational purposes, my brain was insisting that I had to pronounce every tone of every word (in my head) exactly right. I knew this was slowing me down a lot, but I couldn’t stop! The “tone police” in my head were out of control.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Sounds familiar? You’re not alone. I’ve seen this perfectionism relatively often among learners, and it is a real obstacle to quicker reading. Apart from LWR and excessive flashcards, another solution to this is to make it more difficult to check words. This advice doesn’t only apply to tones — if you’re experiencing urges to double-check the English meanings of words, this falls under the same umbrella. One way around this is to not use one-click pop-up dictionaries or graded readers with pinyin on top — using a native app with a slow CN-CN dictionary such as 微信读书 or a Kindle is a good workaround. If that’s not feasible, just consciously reminding yourself not to check can help build a good habit of not doing so.&lt;/p&gt;
+
+&lt;p&gt;Of course, still do look up those words that you don’t understand or have completely forgotten — but don’t manically tap!&lt;/p&gt;
+
+&lt;h3 id=&quot;limit-subvocalization&quot;&gt;Limit subvocalization&lt;/h3&gt;
+
+&lt;p&gt;Similarly, subvocalization — the little voice reading the text aloud in your head — is another impediment. Eliminating this entirely might seem impossible, but you can certainly cut down on the time spent subvocalizing — and thus increase speed by not having to ‘hear out’ said voice, which slows your speed down to that of speech.&lt;/p&gt;
+
+&lt;p&gt;Chinese is logographic, rather than phonographic, making this at least partially achievable. For example, I rarely pronounce the entire name of a character in my head, rather just ‘seeing’ the shape of the first character and knowing the following one to four. Equally, familiar looking chengyu, nouns, and high-frequency words are decoded the same way: sight ~&amp;gt; meaning, rather than the slower sight ~&amp;gt; sound ~&amp;gt; meaning.&lt;/p&gt;
+
+&lt;p&gt;It might take some practice at first, but the results will be beneficial towards your reading speed — and mirror the way most natives I’m familiar consume written content.&lt;/p&gt;
+
+&lt;h3 id=&quot;set-small-goals&quot;&gt;Set small goals&lt;/h3&gt;
+
+&lt;p&gt;Improving your reading speed can be an infinite pursuit, and if you set yourself a lofty goal at first, not achieving it quickly can be frankly depressing. So, take things in baby steps. When I struggled to maintain 300 cpm last October, I set 290 as my goal. After that came easily, I bumped things up to 320, then 350, 380, and 420. By approaching this goal in chunks, I had more frequent successes and was able to empirically see my progress over time — a big motivation.&lt;/p&gt;
+
+&lt;p&gt;One thing to be careful about is how you time yourself. I’d recommend reading something like a chapter, or for 5-10 minutes, and act as if you aren’t timing yourself. Timing yourself for a shorter period of time like a minute will make you more prone to speed up and thus isn’t reflective of your true speed. Plus, the short section you’ve read itself might just be uncommonly simple.&lt;/p&gt;
+
+&lt;p&gt;For the most accurate results, aim for at least 15 focused minutes, and then divide your characters read by that number.&lt;/p&gt;
+
+&lt;p&gt;A useful site for character counting is &lt;a href=&quot;https://charcounter.com/zh/&quot;&gt;here&lt;/a&gt;, paste in the text read and count characters from the 无空格 row (not 字符 which includes whitespace and newlines).&lt;/p&gt;
+
+&lt;h3 id=&quot;auto-scrolling&quot;&gt;Auto-scrolling&lt;/h3&gt;
+
+&lt;p&gt;In a similar vein to LWR, auto-pacing is when you have whatever you are reading automatically scroll. Apps such as 微信读书 that support this are perhaps more suitable for upper-intermediate or advanced learners, but there are also online solutions such as &lt;a href=&quot;https://zacue.com/&quot;&gt;teleprompters&lt;/a&gt; — or the good old sliding finger on touchscreen.&lt;/p&gt;
+
+&lt;p&gt;The reason that this is useful is the same as LWR’s — by setting the speed to just slightly above the one you’re comfortable with, you’ll become more comfortable with said higher speed — and also be less likely to heed the tone police and pause to look up not completely familiar words. It might take a couple weeks to see results, but as long as the difference between your speed and the scrolling/running speed isn’t too big, they should come!&lt;/p&gt;
+
+&lt;p&gt;And just to reiterate — this is a speed just above your comfortable one. It shouldn’t be so fast that you have to pause the auto-scrolling to catch up — I’ve found 20-30 cpm above the speed you’ve timed yourself casually reading at does the trick.&lt;/p&gt;
+
+&lt;h3 id=&quot;practice-practice-practice&quot;&gt;Practice, practice, practice&lt;/h3&gt;
+
+&lt;p&gt;There’s no substitute for practice. The more you read, the better — and so the faster you’ll get at it. A &lt;a href=&quot;https://www.chinese-forums.com/forums/topic/60492-extensive-reading-and-reading-speed/&quot;&gt;Chinese-Forums post&lt;/a&gt; shows a graph demonstrating just this. There isn’t really much to say here — more reading means greater familiarity with words, more words known, increased grammar mastery and so a higher cpm.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;I’m writing this all drawing mainly from my own experience learning Chinese, so your mileage may vary, but I sincerely hope this post will be of some use to you. Give some of the strategies outlined a go or feel free to ask any questions!&lt;/p&gt;</content><author><name>Simon Ilincev</name></author><category term="guides" /><category term="chinese" /><category term="hsk" /><category term="mandarin" /><category term="personal-life" /><summary type="html">How I reached a native-level Chinese reading speed and you can too.</summary></entry><entry><title type="html">Winter Holiday Project: A Language Learning Dashboard</title><link href="http://localhost:4000/tutorial/resources/project/language-learning-dashboard/" rel="alternate" type="text/html" title="Winter Holiday Project: A Language Learning Dashboard" /><published>2021-12-25T12:11:24+01:00</published><updated>2021-12-25T12:11:24+01:00</updated><id>http://localhost:4000/tutorial/resources/project/language-learning-dashboard</id><content type="html" xml:base="http://localhost:4000/tutorial/resources/project/language-learning-dashboard/">&lt;p&gt;Merry Christmas!&lt;/p&gt;
+
+&lt;p&gt;I’ve spent almost forty hours this winter holiday to work on a small personal project, a dashboard that will help me visualize my Chinese-language learning progress.&lt;/p&gt;
+
+&lt;p&gt;Through the process, I’ve brushed up my Nuxt skills, experimented with the recently released Nuxt 3, and opened up several discussions and issues on GitHub as a result of newly-discovered dependency conflicts. As well as that, I was able to dive into the wonderful world of &lt;a href=&quot;https://echarts.apache.org/en/index.html&quot;&gt;Apache Echarts&lt;/a&gt;, creating beautiful, customized graphs to demonstrate my Mandarin proficiency.&lt;/p&gt;
+
+&lt;p&gt;The aim of this project is to have one dedicated place where I can note down my Chinese-learning goals and wins. So far, I’ve been using the Notes app to keep track of daily activities that I have to get done, and Google Sheets to jot down hours spent learning. While this &lt;em&gt;gets the job done&lt;/em&gt;, it’s simply not enough as:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;moving between multiple apps is a hassle&lt;/li&gt;
+  &lt;li&gt;it generally takes a lot of time to input data/set new goals/create charts&lt;/li&gt;
+  &lt;li&gt;information is not customized to a language learners’ needs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My language learning dashboard (currently closed-source and just a personal prototype, but I’m considering making it a public website should there be enough interest) solvse this need. It maximizes the useful data output while minimizing the effort needed to input data (thus creating more time for the productive language learning itself). I estimate only ~15 mins a week is needed to input data, a much lower number than before.&lt;/p&gt;
+
+&lt;p&gt;The webapp tracks:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;my Chinese-learning goals and deadlines&lt;/li&gt;
+  &lt;li&gt;daily hours spent learning, and of what category (reading, listening, speaking, etc.)&lt;/li&gt;
+  &lt;li&gt;distribution between learning activities, such as Class, Watching TV Shows, etc.&lt;/li&gt;
+  &lt;li&gt;vocabulary size (words and characters), as well as milestones&lt;/li&gt;
+  &lt;li&gt;stats such as total study hours, total characters read, total books read, etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This inputs work through either a file input detailing updates to statistics that aren’t easily quantifiable, such as books read, or by sending off a ‘custom log’ with some basic information about an activity&lt;/p&gt;
+
+&lt;p&gt;So far, I’ve been perfecting various features and testing out the interface, as I won’t start tracking until January 1st (as part of my New Year’s resolution). But I’ll make sure to write a new post at the end of 2022 showcasing all the stat increases!&lt;/p&gt;
+
+&lt;p&gt;In the meantime, take a look at the 90-second YouTube video below outlining the features below! And if this seems like it may be useful to you, let me know below — I can share the codebase with you or work on making it public.&lt;/p&gt;
+
+&lt;!-- Courtesy of embedresponsively.com --&gt;
+
+&lt;div class=&quot;responsive-video-container&quot;&gt;
+    &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/yOgAxEVGCCg&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;</content><author><name>Simon Ilincev</name></author><category term="tutorial" /><category term="resources" /><category term="project" /><category term="github" /><category term="student" /><category term="learning" /><summary type="html">As shared recently, I&apos;ve been spending a lot of time learning Mandarin Chinese lately. To track my progress, I&apos;ve built a language-learning dashboard I&apos;d like to share.</summary></entry><entry><title type="html">HSK 5 in 15 months — Chinese-learning Tools, Tips, and Techniques I’ve Learned in One Guide</title><link href="http://localhost:4000/updates/chinese/guides/hsk-5-reflection/" rel="alternate" type="text/html" title="HSK 5 in 15 months — Chinese-learning Tools, Tips, and Techniques I’ve Learned in One Guide" /><published>2021-09-30T11:42:36+02:00</published><updated>2021-09-30T11:42:36+02:00</updated><id>http://localhost:4000/updates/chinese/guides/hsk-5-reflection</id><content type="html" xml:base="http://localhost:4000/updates/chinese/guides/hsk-5-reflection/">&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;The following is a slightly modified Reddit post of mine that highlights everything I’ve learned since reaching the Intermediate stage in my Chinese language learning journey, roughly equivalent to CEFR B1 and the minimum requirement for study in most Chinese universities.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;After about 15 months of dedicated, primarily self-study, I’ve reached an Intermediate proficiency in Chinese of HSK 5. Along the way, I have done a lot of language-acquisition-related research, used dozens of resources, and been fortunate enough to talk with a number of like-minded learners.&lt;/p&gt;
+
+&lt;p&gt;Here’s a comprehensive collation of what I’ve learnt, with information about recommended resources (the main part of the post), study tips, learning FAQs, etc. It’s a post I wish I had read. It’s a lot longer than the original because HSK 5 is 4x that of HSK 3, but I’ve tried to be as concise and informative as possible nonetheless.&lt;/p&gt;
+
+&lt;p&gt;I was inspired to write this because of the overwhelmingly positive response towards my &lt;a href=&quot;https://www.reddit.com/r/ChineseLanguage/comments/mh3dhe/what_ive_learned_after_9_months_and_3_hsk_levels/&quot;&gt;HSK 3/4 ‘ultimate guide’&lt;/a&gt; published half a year ago, and out of the desire to share my knowledge in the hopes of it helping fellow learners.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Disclaimer: every learner is different, so do branch out and experiment with other techniques, tools, etc. This guide is subjective, not a hard code of laws. Firsthand research is the best teacher, as&lt;/em&gt; &lt;a href=&quot;/u/quote-nil/&quot;&gt;u/quote-nil&lt;/a&gt; &lt;em&gt;rightly pointed out in my previous post.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Note: a large number of resources are already covered in the&lt;/em&gt; &lt;a href=&quot;https://www.reddit.com/r/ChineseLanguage/comments/mh3dhe/what_ive_learned_after_9_months_and_3_hsk_levels/&quot;&gt;&lt;em&gt;HSK 3/4 reflection&lt;/em&gt;&lt;/a&gt;&lt;em&gt;, and I don’t want to needlessly repeat myself. Resources covered there will have no description here, and instead a “&lt;strong&gt;[see old guide]&lt;/strong&gt;” tag. Other resources, or those I’ve found new things about, will have a detailed description and tips.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;A mega-list of resources curated by members of a great&lt;/em&gt; &lt;a href=&quot;https://discord.gg/r5kdkRBV8m&quot;&gt;&lt;em&gt;Discord server&lt;/em&gt;&lt;/a&gt; &lt;em&gt;I’m in, spanning from dramas (listening) to webnovels (reading) and more is available&lt;/em&gt; &lt;a href=&quot;https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vTnqyjv--iUkCnD7BBCUpDjKCOgXgPPdUtP1hSk8RtzaDE8ciQfDQzmS6illkN2fNUqVsIFBI8t_LCq/pubhtml&quot;&gt;&lt;em&gt;here&lt;/em&gt;&lt;/a&gt;&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;comprehensivemultiple-fieldsmisc&quot;&gt;Comprehensive/Multiple Fields/Misc&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://pleco.com/&quot;&gt;Pleco&lt;/a&gt;, a free Android/iOS app, is a must-have. It’s a lot more than just a Chinese-English dictionary — you have flashcards, top-notch OCR, a document reader, and more. No matter where you are in your learning, make sure that you have this!&lt;/p&gt;
+
+    &lt;p&gt;Keep in mind that a large number of features are behind a one-time paywall. The dictionary is free, but flashcards, advanced dictionaries, etc. can be purchased in a bundle or separately. I’d advise going for the “Basic Bundle” — well worth its seemingly high price tag. There are also more dictionaries that can be unlocked with the “Professional Bundle”, but you can always upgrade to this at a later time for a reduced price, and I don’t think its worth it for anyone except the most advanced of learners.&lt;/p&gt;
+
+    &lt;p&gt;Pleco’s flashcard feature is invaluable. Turn on the Spaced Repetition option and plug in the words you want to learn — a few minutes a day will do the rest. If you don’t want to splurge on the bundle, get this add-on at least. It’s built with Chinese in mind, having a wide range of presets and configurations, and each card comes with native audio and example sentences.&lt;/p&gt;
+
+    &lt;p&gt;Pleco also offers quite a few e-books. We’ll be taking a closer look at those later.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://preview.redd.it/md76i0d6fiq71.png?width=388&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=edddee0415baeb0b6c090dffafe75c2e804cbc85&quot; alt=&quot;r/ChineseLanguage — HSK 5 in 15 months — all the tools, tips, and techniques I&apos;ve learned in one guide&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.hellochinese.cc/&quot;&gt;HelloChinese&lt;/a&gt; [&lt;strong&gt;see old guide&lt;/strong&gt;]. In summary, a decent app that will bring you up to HSK 3.5 if you shell out for their Premium, but don’t use it as your only resource when starting. See old guide for more detailed summary.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.amazon.com/s?k=hsk+standard+course&amp;amp;ref=nb_sb_noss_1&quot;&gt;HSK Standard Course Textbooks &amp;amp; Workbooks&lt;/a&gt; [&lt;strong&gt;see old guide&lt;/strong&gt;]. New information since then:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;The HSK 5A and B workbooks do &lt;em&gt;not&lt;/em&gt; correspond to the textbook contents that much — you may want to consider waiting to complete the workbook chapters until after finishing the course. That being said, they are an excellent way to practice if you do know the majority of the HSK 5 vocabulary or want to stretch yourself.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;The materials can be quite expensive, but they are available digitally and even freely — depending on your country you may be able to download them for free and legally without any repercussions whatsoever, but do look before you do so. Having paper materials is also slightly better as you can annotate.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;These are published by the official government department of China and were built with the vocab lists in mind, so are one of the best options if you are studying to the exam.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;At HSK 5 &amp;amp; 6 the vocabulary gets rather formal and literary, not exactly street-talk or words you’d hear commonly. A common point where learners stop following the HSK is after HSK 4 or 5. I’ll stop learning through textbooks after HSK 5 (now).&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;HSK 3.0 materials are due to land in the upcoming year or two, because these books are over a decade old. This won’t have too large an affect, but there are some words and expressions no longer used today. For example, I learned the Chinese word for fax machine, despite being of the generation that hasn’t even seen one.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://preview.redd.it/9wza1kubfiq71.png?width=430&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=2eee878d8079a5e24ef0fd05f74462e92e620ac1&quot; alt=&quot;r/ChineseLanguage — HSK 5 in 15 months — all the tools, tips, and techniques I&apos;ve learned in one guide&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.wechat.com/&quot;&gt;WeChat&lt;/a&gt;. This may be surprising, but I’ve found the platform useful for language learners too. You can use it to join Mandarin learner groups or write to/send audio messages/listen to messages from native speakers, read articles, etc. I suggest using social networks in conjunction with this to actually find the people to talk to. Other social platforms where you can find groups such as Discord or WhatsApp are also good tools for the toolbox.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://apps.ankiweb.net/&quot;&gt;Anki&lt;/a&gt;. This is Pleco’s flashcards with a ton more bells and whistles. It’s a &lt;em&gt;lot&lt;/em&gt; more customizable, and so you can put in anything from long-form sentences to images. I’ve found Pleco’s flashcards to suit my needs, but if you need SRS for &lt;a href=&quot;https://refold.la/roadmap/stage-2/a/basic-sentence-mining/#:~:text=Sentence%20mining%20is%20the%20process,learning%20them%20with%20the%20SRS.&amp;amp;text=If%20you%20haven&apos;t%20completed,you%20can%20do%20both%20simultaneously&quot;&gt;sentence mining&lt;/a&gt; (see &lt;a href=&quot;https://www.reddit.com/r/ChineseLanguage/comments/jexbi5/built_a_tool_to_mine_18_000_sentences_and_filter/&quot;&gt;my tool&lt;/a&gt;) or anything that Pleco can’t provide, this is your next best bet. I use this for a few minutes a day in conjunction with a sentence deck, &lt;a href=&quot;https://promagma.gumroad.com/l/IEmpwF&quot;&gt;Spoonfed Chinese&lt;/a&gt; ($3).&lt;/p&gt;
+
+    &lt;p&gt;I’d recommend Spoonfed Chinese if you don’t want to spend a couple hours setting up something similar — while there are extensions and scripts that accomplish the same thing, a few bucks will save you some time. To the uninitiated: this Anki ‘deck’ is a massive list of sentences with native audio, sorted in a way that you build on your learning by seeing slightly harder sentences each time. On the Gumroad page it does actually say that there are grammar notes, but beyond the first couple hundred these are pretty much non-existent.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://preview.redd.it/zeyn0aajfiq71.png?width=690&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=6430986582cb4e38980f4fe5261269b58b8a4853&quot;&gt;&lt;img src=&quot;https://preview.redd.it/zeyn0aajfiq71.png?width=690&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=6430986582cb4e38980f4fe5261269b58b8a4853&quot; alt=&quot;r/ChineseLanguage — HSK 5 in 15 months — all the tools, tips, and techniques I&apos;ve learned in one guide&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tutors. Getting an ideally native tutor to teach you is the best way to learn. While it may not be affordable for everyone, even just once a week for an hour can make a difference. Don’t be afraid to tell your tutor what you want changed in the lessons or how you’d like to learn, though — I waited the longest time to do so.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.chinese-forums.com/&quot;&gt;Chinese Forums&lt;/a&gt;. A website that has been around for nearly twenty years, reflected in its thousands of posts and comments discussing all things Chinese-learning related. This is really a gold mine. You can read pinned posts, the blogs, search for a question, and almost definitely find detailed answers to your learning-related question. By creating an account and asking some questions, you’ll be sure to get detailed, thought-out responses on a scale beyond that of a subreddit.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.hackingchinese.com/&quot;&gt;Hacking Chinese&lt;/a&gt;. Hundreds of insightful posts about all aspects of learning Chinese. A must-bookmark for every Chinese learner.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;reading&quot;&gt;Reading&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Preface: this is my main motivation for learning Chinese, and the area that has brought me the biggest growth in my learning. I’ve collaborated with a few other learners from our awesome&lt;/em&gt; &lt;a href=&quot;https://discord.gg/r5kdkRBV8m&quot;&gt;&lt;em&gt;Discord server&lt;/em&gt;&lt;/a&gt; &lt;em&gt;to create a guide to reading Chinese fiction, from beginner to beyond HSK 6. See the Reddit post&lt;/em&gt; &lt;a href=&quot;https://www.reddit.com/r/ChineseLanguage/comments/no7ekh/guide_to_reading_chinese_fiction_from_absolute/&quot;&gt;&lt;em&gt;here&lt;/em&gt;&lt;/a&gt;&lt;em&gt;, and the guide itself&lt;/em&gt; &lt;a href=&quot;https://docs.google.com/document/u/1/d/e/2PACX-1vSjVsapt4NOZx0KuDwgBUfQggTyT15hdgUjHHdqZRnV8LTnzQ5lY-fKjJhV0cb7I06q3x_syq1DyE4H/pub&quot;&gt;&lt;em&gt;here&lt;/em&gt;&lt;/a&gt;&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Reading-related FAQs and tips are covered in subsequent questions.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.readibu.com/&quot;&gt;Readibu&lt;/a&gt;. My #1 used Chinese learning app, it’s like Pleco’s document reader on steroids — and with a fancier UI. This app allows you to open up any Chinese webpage (its meant for reading webnovels), and then read it with ease. You can tap on words to translate them, double-tap for a sentence translation (Premium), get word pronunciation, save words for Pleco export, discover novels, and so much more. I know this sounds like a promotion — it’s really not, the app is just that good. I’ve read dozens of books on here since spring, and the ease and conveniency the app provides has allowed my reading ability to skyrocket.&lt;/p&gt;
+
+    &lt;p&gt;And free! There’s a premium plan ($5/mo) with a month-long free trial, but honestly speaking, the core app is so good you probably won’t need it. I’ve tried it out (features unlocked include word images, sentence translation, and page downloads.&lt;/p&gt;
+
+    &lt;p&gt;You can find books to read by discovering them based off the HSK tag (not recommended), or by viewing the Books &amp;amp; Webnovels tab in &lt;a href=&quot;https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vTnqyjv--iUkCnD7BBCUpDjKCOgXgPPdUtP1hSk8RtzaDE8ciQfDQzmS6illkN2fNUqVsIFBI8t_LCq/pubhtml&quot;&gt;this&lt;/a&gt; sheet (recommended). Please note that questions such as how to find books to read are covered in the Questions section. I read almost all the ‘Intermediate’ level books on the document, and about half a dozen of the Upper Intermediate ones, as well as another handful not mentioned, and would be happy to provide personalized recommendations as well.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://preview.redd.it/mol49odmfiq71.png?width=300&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=1c7d0ba318ebc13388fd73f866ca06b1abd12c02&quot; alt=&quot;r/ChineseLanguage — HSK 5 in 15 months — all the tools, tips, and techniques I&apos;ve learned in one guide&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Difficulty Analysis Software. By this I mean something that you can use to find books at the right level. Webnovels are available in the tens or hundreds of thousands, but it can be a drain to sift through them, especially if you’ve exhausted a resource list.&lt;/p&gt;
+
+    &lt;p&gt;A lot of learners use &lt;a href=&quot;https://www.chinesetextanalyser.com/&quot;&gt;Chinese Text Analyzer&lt;/a&gt;, a paid (~$20 USD) piece of software that will scan some text and spit out % known words, number of chars/words, most common unknown words, HSK distribution etc. I tried the 14-day free trial, and while useful, its price tag kept me off. So, I developed a &lt;em&gt;free&lt;/em&gt; tool with a server member called &lt;a href=&quot;https://github.com/Destaq/chinese-comprehension&quot;&gt;chinese-comprehension&lt;/a&gt; that does the exact same thing, albeit shown on as words not as graphics. While you will need to have Python installed, this is fairly straightforward.&lt;/p&gt;
+
+    &lt;p&gt;I suggest using this tool multiple times over different novels to gain an idea of what percentages/distributions of words are right for your level. Once you’ve found that golden number, you can plug in various files and quickly find your next book to read.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.mandarincompanion.com&quot;&gt;Mandarin Companion&lt;/a&gt; graded readers. These are books that have been adapted to Chinese, shortened, and simplified to be comprehensible to language learners. There’s a lot of repetition, and three levels suitable for up to HSK 3/4. Quality is fantastic. &lt;strong&gt;[see old guide]&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://preview.redd.it/8z274t4pfiq71.png?width=1280&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=28882f762cb97a99b9c20dba02edeec77d80238f&quot;&gt;&lt;img src=&quot;https://preview.redd.it/8z274t4pfiq71.png?width=1280&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=28882f762cb97a99b9c20dba02edeec77d80238f&quot; alt=&quot;r/ChineseLanguage — HSK 5 in 15 months — all the tools, tips, and techniques I&apos;ve learned in one guide&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.sinolingua.com.cn/index.php&quot;&gt;SinoLingua graded readers&lt;/a&gt;. A &lt;em&gt;much&lt;/em&gt; larger range of books, but lower quality (often not at all the difficulty advertised). Their saving grace is in the price, and the fact that there’s free native audio for nearly every book (see &lt;a href=&quot;https://www.reddit.com/r/ChineseLanguage/comments/m9gtan/dozens_of_highquality_graded_audiobooks_from/&quot;&gt;this post&lt;/a&gt; of mine). It might even be worth just listening to the audio alone, as it’s freely downloadable.&lt;/p&gt;
+
+    &lt;p&gt;Their readers are also available from the Pleco store at a slightly increased price, making them available through the document reader. However, if you have PDFs of their books, I suggest instead running it through a PDF to HTML converter and reading in your browser using an extension such as &lt;a href=&quot;https://chrome.google.com/webstore/detail/zhongzhong-an-improved-ch/dggcgdjndddfmcfoipccicfoajmciacf?hl=es-ar&quot;&gt;Zhongzhong&lt;/a&gt; &lt;strong&gt;[see old guide, under ‘Zhongwen’]&lt;/strong&gt;, which is a free Chrome extension cross between Readibu and Pleco — hovering to provide pronunciation and definitions.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://preview.redd.it/c4c79jcyfiq71.png?width=1089&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=2c33c84e51fbef0e7b4ad78b56ff047c43c7ec2b&quot;&gt;&lt;img src=&quot;https://preview.redd.it/c4c79jcyfiq71.png?width=1089&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=2c33c84e51fbef0e7b4ad78b56ff047c43c7ec2b&quot; alt=&quot;r/ChineseLanguage — HSK 5 in 15 months — all the tools, tips, and techniques I&apos;ve learned in one guide&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;[See old guide]&lt;/strong&gt; for a deeper dive into advantages and drawbacks of SinoLingua.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://hskreading.com/&quot;&gt;HSK Reading&lt;/a&gt; &lt;strong&gt;[see old guide].&lt;/strong&gt; A website with a wide range of HSK-graded, audio-accompanied posts.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.duchinese.net/lessons&quot;&gt;DuChinese&lt;/a&gt; &lt;strong&gt;[see old guide].&lt;/strong&gt; New info: bought Premium for a month using the student discount and read through all available HSK 4 stories. The quality and audio is amazing, but it’s really only useful at earlier levels (HSK 4 and under). After HSK 4, you’re ready to dive into the simplest native content, which is free as opposed to this. As well as this, stories, except for those few with multiple parts, are quite short, so vocabulary is not repeated that often. Unrepeated vocabulary at higher levels is usually quite uncommon words, so reading random news or fairy tale stories won’t help you solidify them in the same way that a longer-form novel will.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://preview.redd.it/3642pprrfiq71.png?width=600&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=e22c14ee3803afcb456e5ca45d92666c94efff77&quot;&gt;&lt;img src=&quot;https://preview.redd.it/3642pprrfiq71.png?width=600&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=e22c14ee3803afcb456e5ca45d92666c94efff77&quot; alt=&quot;r/ChineseLanguage — HSK 5 in 15 months — all the tools, tips, and techniques I&apos;ve learned in one guide&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.waiyu.eu/&quot;&gt;Waiyü&lt;/a&gt;. This is like Zhongwen for iOS users, which I’m currently beta testing — though should be free in the App Store in the next few days. You can view Chinese word definition, pinyin, pronunciation, stroke order, and more from inside of Safari — no more jumping over to your computer for understanding some Chinese webpage!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;listening&quot;&gt;Listening&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Youtube Channels for Learners: &lt;a href=&quot;https://www.youtube.com/channel/UCgCrOLcWvSFl5K2ld0nKS7w&quot;&gt;Chinese For Us&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/user/goeastmandarin&quot;&gt;Go East Mandarin&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/channel/UC2fAiRQHRQT9aj9P_ijYeow&quot;&gt;Mandarin Corner&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://chinese.littlefox.com/en/story&quot;&gt;Little Fox Chinese&lt;/a&gt; &lt;strong&gt;[see old guide]&lt;/strong&gt;. Animated stories for a range of HSK levels.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/ChineseLanguage/comments/m9gtan/dozens_of_highquality_graded_audiobooks_from/&quot;&gt;SinoLingua audiobooks&lt;/a&gt; &lt;strong&gt;[see old guide]&lt;/strong&gt; — free, HSK 3+ (despite HSK 1/2 tags for lower ones due to range in vocabulary), and good quality.&lt;/p&gt;
+
+    &lt;p&gt;Listening along while listening has been a massive help to my Chinese. If you can, do so with these audio files. See &lt;a href=&quot;https://www.reddit.com/r/ChineseLanguage/comments/nyg3i4/listening_along_while_reading_novels_has_been_a/&quot;&gt;this Reddit post&lt;/a&gt; of mine and its top-level comment for a fuller explanation of why you should use this method. Essentially, it doubles the practice you do in the same amount of time, and helps with vocab acquisition and understanding.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://azure.microsoft.com/en-us/services/cognitive-services/text-to-speech/#features&quot;&gt;Microsoft Azure TTS&lt;/a&gt;. A text to speech service that is near-human in its accuracy. You can test it out in the link provided. There are a wide range of voices, and you can adjust the speed, pitch, and even speaking style.&lt;/p&gt;
+
+    &lt;p&gt;If I’m unable to found the audio for a book I’m reading, I often use my developer key (free) to create a text-to-speech file using their neural network, and play it along with my reading. While not quite on the level of a human, the difference is hardly noticeable and more than suitable enough for my purposes.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/c/%E5%96%9C%E7%BE%8A%E7%BE%8A%E8%88%87%E7%81%B0%E5%A4%AA%E7%8B%BC%E5%8B%95%E7%95%AB%E5%AE%98%E6%96%B9%E4%B8%AD%E6%96%87%E9%A0%BB%E9%81%93&quot;&gt;喜羊羊&lt;/a&gt;. A well-done, animated children’s cartoon series very popular in China. I’ve watched over a hundred episodes, and the shows are engaging and comprehensible, with a clear pronunciation. It follows the adventures of a band of sheep and their struggles against a wolf that often tries to catch them. Suitable for the HSK4+ level.&lt;/p&gt;
+
+    &lt;p&gt;Keep in mind that the series range in difficulty, as they cover things from time travel to car races. But by the end of the series (60 episodes each I believe), watching will be a breeze.&lt;/p&gt;
+
+    &lt;p&gt;The only complaint is their childish nature, it can get old after a while. So… TV shows!&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://preview.redd.it/o2zf71b3giq71.png?width=1282&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=523bc7c4d6f9d383bed8a3bfdcc21c2ff97762d3&quot;&gt;&lt;img src=&quot;https://preview.redd.it/o2zf71b3giq71.png?width=1282&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=523bc7c4d6f9d383bed8a3bfdcc21c2ff97762d3&quot; alt=&quot;r/ChineseLanguage — HSK 5 in 15 months — all the tools, tips, and techniques I&apos;ve learned in one guide&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;隐秘的角落. This is a native-level TV show, thank you &lt;a href=&quot;/u/Tom_The_Human/&quot;&gt;u/Tom_The_Human&lt;/a&gt; for the recommendation. I’ve only watched a half-dozen or so episodes of TV shows from three or four shows, so the difficulty will obviously vary considerably. This one (free on iQiyi) and the others mentioned in a &lt;a href=&quot;https://www.reddit.com/r/ChineseLanguage/comments/ptf5zu/hsk_5_tv_show_recommendations/&quot;&gt;question I asked a few days ago&lt;/a&gt; are at the HSK 5+ level, though I’ve heard of simpler ones suitable for those who have just started the HSK 5 (i.e. completed HSK 4 and some) — though it may be difficult at that level.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://m.qingting.fm/&quot;&gt;蜻蜓&lt;/a&gt;, tons of audiobooks and fairy tales that can be a good listen in the car, on a walk, or in conjunction with a book you are reading. Just note that slowing down or speeding up the audio can make it sound crackly, audio quality isn’t always very high. As well as that, ‘classics’ with a number of formats (such as the Little Prince) may have audio that does not match up exactly with the copy you are reading, which is quite a jarring experience.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://learningchinesethroughstories.com/&quot;&gt;Learning Chinese Through Stories&lt;/a&gt; — an all-round excellent podcast that has recorded hundreds of episodes from HSK 1 to above HSK 6, conveniently categorized. What I really like about this podcast is that it’s pretty much &lt;em&gt;all in Mandarin.&lt;/em&gt; No ‘Chinese podcast’ that’s 75% English — instead the hosts read out a story (~2-8 mins), and then banter and discuss it, explaining it in simpler language (to an extent, depending on the category of the podcast) for 20-40 minutes. Roughly a third of the episodes are free on your favorite podcast platform. The rest, including transcripts and bonus content, can be unlocked through a $5+ Patreon donation.&lt;/p&gt;
+
+    &lt;p&gt;I’ve been consuming these podcasts at an unhealthy rate, and really appreciate all the work the hosts have put into producing it. The audio is very clear, dialogue compelling, and explanations detailed. Best of all, it’s comprehensible!&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://preview.redd.it/a8utoklbgiq71.png?width=500&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=6d63dc95e3a028110f55586b69f615b4f4b6d031&quot; alt=&quot;r/ChineseLanguage — HSK 5 in 15 months — all the tools, tips, and techniques I&apos;ve learned in one guide&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://maomichinese.com/&quot;&gt;Maomi Chinese podcast&lt;/a&gt;. HSK 3/4 level. There are transcriptions in both Chinese and English for free on the website, and the host is quite prolific, but I listened to the first dozen or so episodes after it launched and then dropped it because the content was too easy. It’s about 90% Chinese, but a significant fraction of that is explaining words. Although the explanations are &lt;em&gt;in&lt;/em&gt; Chinese, the words that are being explained are almost all ones you’d know anyway by the end of HSK 4+.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://youcanlearnchinese.mandarincompanion.com/&quot;&gt;The You Can Learn Chinese Podcast&lt;/a&gt;. By the creators of Mandarin Companion, this is a podcast that explains the learning process as opposed to actually teaching you anything Chinese. There are nearly a hundred episodes, ranging from 30 mins — 1 hour, and usually with a guest host for the latter half as well. I’ve learnt a lot about comprehensible input, time management, and so on from listening. While it’s not as productive as listening to something in Chinese, it’s still a solid option if you’re tired or in a busy environment.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://preview.redd.it/oy77yjvdgiq71.png?width=1200&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=2df18e273e808b124d40ff258069f6e429f37378&quot;&gt;&lt;img src=&quot;https://preview.redd.it/oy77yjvdgiq71.png?width=1200&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=2df18e273e808b124d40ff258069f6e429f37378&quot; alt=&quot;r/ChineseLanguage — HSK 5 in 15 months — all the tools, tips, and techniques I&apos;ve learned in one guide&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;speaking&quot;&gt;Speaking&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;My speaking is far from as good as my input skills. This largely stems from COVID-19 and my location in one of the most xenophobic, and devoid of foreigners, countries in Europe. So, I have extremely limited opportunities to practice speaking.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;People around you. If you’re friends/family members/colleagues/schoolmates speak Chinese, see if you can use your skills to practice with them. Of course, don’t just use them for practice — make sure you both enjoy the conversation. If they’d rather just use English/non-Chinese language, you can try to find a language exchange partner to speak with.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Language exchange partners. You can find some on &lt;a href=&quot;https://www.tandem.net/&quot;&gt;Tandem&lt;/a&gt; or &lt;a href=&quot;https://www.hellotalk.com/?lang=en&quot;&gt;HelloTalk&lt;/a&gt;, though be aware that the vast majority of interactions will be the same generic questions/greetings, and I’ve heard that they can tend towards being like dating apps if you’re female — the gender filter in HelloTalk can help with that. As well as this, be aware that most people may not want to use voice messages to communicate.&lt;/p&gt;
+
+    &lt;p&gt;That being said, I have used these apps in the past, as well as Reddit, to find a few language partners to exchange with online. I’ve been speaking with one for over half a year to date, and it’s been really rewarding.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://preview.redd.it/rfq6o62ggiq71.png?width=676&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=6ff0834bba5a7c1c7e7e91a4f8ce4c4c5b5b0788&quot;&gt;&lt;img src=&quot;https://preview.redd.it/rfq6o62ggiq71.png?width=676&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=6ff0834bba5a7c1c7e7e91a4f8ce4c4c5b5b0788&quot; alt=&quot;r/ChineseLanguage — HSK 5 in 15 months — all the tools, tips, and techniques I&apos;ve learned in one guide&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tutors. Again, having (ideally) 1-1 sessions with a native speaker will dramatically boost your speaking skills if you make that the focus of your lessons. My tutor has commented on an increasing in speaking skills after several weeks of changing the focus of our sessions to dialogue.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;writing&quot;&gt;Writing&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;I am not learning to handwrite, and you should deeply consider your goals before deciding on whether you will do so yourself. The time you need to put in to handwrite, let alone learn calligraphy, is immense, and in the increasingly online world, the benefits you’ll gain from it are on the decline.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;However, practicing writing compositions on a computer and your grammar shouldn’t be understated. All resources mentioned below are geared towards writing compositions.&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://journaly.com/&quot;&gt;Journaly&lt;/a&gt;. &lt;strong&gt;[see old guide],&lt;/strong&gt; an essay writing and feedback-receiving site that I used to use, similar to the now-defunct Lang-8. You can see a deeper discussion on the old guide.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.langcorrect.com&quot;&gt;LangCorrect&lt;/a&gt; — what I use now instead of Journaly. It has nearly all the same features, but a better design, more active user base, and prompts that you can draw from. I used to write nearly a post a day here, which has since fallen considerably to my regret. Still, the dozens of posts written all had excellent, detailed feedback which I was able to use to correct inherent grammar mistakes in my learning and improve my skills.&lt;/p&gt;
+
+    &lt;p&gt;This is especially useful in conjunction with the HSK 5 workbooks/HSK test prep. The workbooks and textbooks all have a composition section at the end of each chapter, which reflects the composition you’ll need to write during the exam itself.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://preview.redd.it/6cf7hq0igiq71.png?width=1572&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=d228c36957c873d45183116a6f92eff1bc6f6cfb&quot;&gt;&lt;img src=&quot;https://preview.redd.it/6cf7hq0igiq71.png?width=1572&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=d228c36957c873d45183116a6f92eff1bc6f6cfb&quot; alt=&quot;r/ChineseLanguage — HSK 5 in 15 months — all the tools, tips, and techniques I&apos;ve learned in one guide&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;tips-mindset-and-techniques&quot;&gt;Tips, Mindset, and Techniques&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;I’m drawing from and resharing some of the tips mentioned in the old guide which are still applicable, though others are new.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;tips&quot;&gt;Tips&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Find your motivation:&lt;/strong&gt; this will allow you to struggle through the hard times and celebrate your achievements. I can’t emphasize this enough — you need to have a good reason to want to learn Chinese. Try to find &lt;em&gt;intrinsic motivation -&lt;/em&gt; something that compels you — not extrinsic, like being admired by others or for a job.&lt;/p&gt;
+
+&lt;p&gt;To build on this, it’s important to also break this motivation down into goals — both short- and long-term. Reward yourself for finish these goals, and make them SMART so you can realistically attain them.&lt;/p&gt;
+
+&lt;p&gt;Some motivation/long-term goal suggestions based on what I’ve seen (for a long time I struggled with finding mine, so I hope this will be useful):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Reading Chinese books in the original language (even classics)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Speaking fluently with your Chinese friend&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Studying in China abroad&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Reaching an HSK level&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Sheer interest in the language (guilty as charged)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Communicating with family&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Read more, in a specific language-learning context about I vs. E Motivation, in this &lt;a href=&quot;http://www.ijlll.org/vol1/20-L016.pdf&quot;&gt;study&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://preview.redd.it/48k6ul4lgiq71.png?width=759&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=4e09300f791e21ea3589b0d8589365fb8cb2e70b&quot;&gt;&lt;img src=&quot;https://preview.redd.it/48k6ul4lgiq71.png?width=759&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=4e09300f791e21ea3589b0d8589365fb8cb2e70b&quot; alt=&quot;r/ChineseLanguage — HSK 5 in 15 months — all the tools, tips, and techniques I&apos;ve learned in one guide&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Don’t forgo tones:&lt;/strong&gt; while you might be understood when toneless, you’ll be forever branded a foreigner and inevitably run into communication difficulties. The later you start to learn tones, the worse — I spent a good three months relearning my vocab before getting to the point where I have the tone memorized for every word I know. When learning tones, also be sure to learn the tone as a &lt;em&gt;component of the word&lt;/em&gt; — not as something else to memorize.&lt;/p&gt;
+
+&lt;p&gt;For example: ma1 + ma5 instead of ma + 1 + ma + 5.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Study every day:&lt;/strong&gt; even if its something as small as going through your flashcard deck for five minutes, do it. With the way our brains work, skipping one day can quickly lead to skipping one week, and so on in a negative cycle.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Build a routine:&lt;/strong&gt; &lt;em&gt;consistency is key.&lt;/em&gt; Just like with a test, constant, longer-term repetition is a lot better than cramming too much beforehand. If you really want your vocab to sink in, you’ll need to practice it every day. Ideally, also create a language learning schedule, so you can hold yourself accountable. Speaking of accountability, &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.teraculus.lingojournalandroid&quot;&gt;Lingo Journal&lt;/a&gt; is great for keeping track of the time spent language learning, and I’m working on a Goodreads-esque website specifically geared towards book-loving language learners.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Find a community:&lt;/strong&gt; Humans are social creatures. It’s a great thing that you’re already with a group of like-minded people on this subreddit, but it’s got over 100 000 members — unless you’re one of the elite most active members, you won’t get that sense of community or learn from others. In this regard, a Discord server, WhatsApp hangout, WeChat group, or any small-mid scale social network is perfect.&lt;/p&gt;
+
+&lt;p&gt;In my example, I’m in a Discord server with about 1000 members as one of the Top Contributors. I’ve made a lot of friendships, commiserated tons over Chinese learning, and learned a lot myself from talking with other members there.&lt;/p&gt;
+
+&lt;p&gt;Discord server recommendation list: &lt;a href=&quot;https://discord.com/invite/r5kdkRBV8m&quot;&gt;above-mentioned&lt;/a&gt;, &lt;a href=&quot;https://discord.gg/chineselanguage&quot;&gt;official subreddit server&lt;/a&gt;, &lt;a href=&quot;https://discord.gg/c-e&quot;&gt;Chinese-English exchange&lt;/a&gt;, &lt;a href=&quot;https://discord.gg/cave-of-linguists&quot;&gt;Cave of Linguists&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Vary what you do:&lt;/strong&gt; The variety will encourage you, and ensure the exercises you do are less boring. Try to spread out the number of tools you use, as well as the nature of the exercises (reading, passive, active, listening, etc.). See the &lt;strong&gt;Resources&lt;/strong&gt; section for a commented list of those I found most useful, and please refer to the &lt;a href=&quot;https://www.reddit.com/r/ChineseLanguage/comments/mh3dhe/what_ive_learned_after_9_months_and_3_hsk_levels/&quot;&gt;old HSK 3/4 reflection guide&lt;/a&gt; for the description of those which are duplicates and marked as explained there.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Don’t underestimate output:&lt;/strong&gt; Of course, at the beginning, you’ll need input (reading, listening) to build a foundation. But I’d encourage you to start speaking and writing (especially the former) as soon as possible. These more active activities require more effort and thus help you consolidate what you’ve learnt better.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Read, read, read:&lt;/strong&gt; No matter your level, input is crucial. Especially at the latter stages, audiovisual input is key to learning new words — and in context, not just from a flashcard list. Obviously, I’m a big proponent of reading novels to learn, as these are the logical step up from graded readers and are a native, free form of content that frequently repeats word — comprehensible, repetitive input perfect for language learners. Of course, watching is another form of input and also very useful, but you get a lot more words in/unit time with reading.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://preview.redd.it/lwoyyijvgiq71.png?width=800&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=3df05f482ffd4d4221557ff028090256c5e3ae32&quot;&gt;&lt;img src=&quot;https://preview.redd.it/lwoyyijvgiq71.png?width=800&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=3df05f482ffd4d4221557ff028090256c5e3ae32&quot; alt=&quot;r/ChineseLanguage — HSK 5 in 15 months — all the tools, tips, and techniques I&apos;ve learned in one guide&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Use flashcards:&lt;/strong&gt; Really, how else are you going to remember all of those words? Do yourself a favor and find some Spaced Repetition Software (SRS) like the aforementioned Pleco/Anki to practice what you’ve learnt daily. Stray away from non-SRS like physical flashcards or Quizlet — SRS is &lt;em&gt;built&lt;/em&gt; to help you efficiently learn, while those are more like games.&lt;/p&gt;
+
+&lt;h3 id=&quot;mindset&quot;&gt;Mindset&lt;/h3&gt;
+
+&lt;p&gt;When studying, don’t lose sight of the big picture and your eventual goal. Sometimes, progress can be disappointingly slow — take a look back when you were at a lower level and be encouraged!&lt;/p&gt;
+
+&lt;p&gt;If you feel like you’ve hit a plateau, look back to a recording of yourself a few months earlier, a book you read the previous year, etc. — it’s a huge boost in motivation. If you’re a numbers person like me, keeping track of statistics like time spent learning, known flashcards, pages read, etc. can also be an encouragement. &lt;a href=&quot;https://polylogger.com/auth/login&quot;&gt;PolyLogger&lt;/a&gt; and &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.teraculus.lingojournalandroid&quot;&gt;Lingo Journal&lt;/a&gt; are both good for this sort of thing.&lt;/p&gt;
+
+&lt;p&gt;Keep a &lt;em&gt;growth mindset&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“In a &lt;em&gt;growth mindset&lt;/em&gt;, people believe that their most basic abilities can be developed through dedication and hard work—brains and talent are just the starting point. This view creates a love of learning and a resilience that is essential for great accomplishment.” ( Dweck, 2015)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Don’t tell yourself you’re too old, too busy, not cut out for learning — &lt;a href=&quot;https://www.quora.com/At-what-age-are-you-too-old-to-learn-a-language&quot;&gt;it’s not true&lt;/a&gt;. The biggest obstacle I’ve faced learning is myself.&lt;/p&gt;
+
+&lt;h3 id=&quot;techniques&quot;&gt;Techniques&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;By this I mean more general methods that you can put to use in your language learning.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Comprehensible Input:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Comprehensible input is language input that can be understood by learners despite them not understanding all the words and structures in it. (BBC)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In essence, this is input that you can &lt;em&gt;understand.&lt;/em&gt; Reading the original Journey to the West in Chinese will not be comprehensible for most learners, while a kids book may be. When finding books to read/shows to watch/podcasts to listen to, make sure that its at a level that stretches but doesn’t break you — the so called &lt;em&gt;i + 1&lt;/em&gt; concept, where i is what you know and the + 1 is the small amount of new content. The &lt;a href=&quot;https://www.learningchinesethroughstories.com&quot;&gt;Learning Chinese Through Stories&lt;/a&gt; podcast or the right difficulty of a graded reader are perfect examples of this.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Intensive and Extensive Reading/Listening:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There are three commonly accepted reading levels: extensive reading, intensive reading and reading pain. The category of the content that you choose will greatly affect your reading speed and comprehension.&lt;/p&gt;
+
+&lt;p&gt;If you want some more easy reading for fun, where you’ll passively be picking up words, aim for content where you understand 98% or more of the words. This is called “extensive reading”, and due to the relative ease with which you can read it (but still presence of unknown words) it is the perfect “sweet spot”. Here, you’ll be reading at a fast pace, while still picking up new words, but without needing to focus as much.&lt;/p&gt;
+
+&lt;p&gt;However, even content that’s above 90% comprehension is good — or intensive reading. Intensive reading is more deliberate, with a focus on taking in new words — you’ll be reading more slowly with a focus on learning.&lt;/p&gt;
+
+&lt;p&gt;You should approach any content where you understand less than 90% of the words/characters with care. While it is true that the beginning few chapters of many webnovels will be at this “reading pain” level, as long as you quickly take in the new words and move to the higher levels, it will be fine. However, if you consistently stay in the “reading pain” area, this will likely demotivate you due to poor comprehension, and your time is better spent learning with easier passages.&lt;/p&gt;
+
+&lt;p&gt;But ultimately, it’s your choice.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://preview.redd.it/mz32y200hiq71.png?width=640&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=4997d9f883b2b0b2f2ecc0554337c2c71b24b7f4&quot;&gt;&lt;img src=&quot;https://preview.redd.it/mz32y200hiq71.png?width=640&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=4997d9f883b2b0b2f2ecc0554337c2c71b24b7f4&quot; alt=&quot;r/ChineseLanguage — HSK 5 in 15 months — all the tools, tips, and techniques I&apos;ve learned in one guide&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Learn about Learning:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;While the majority of your time should be dedicated to learning Chinese, not learning about how to learn Chinese (don’t fall down that rabbit hole), it can still be very useful to have a foundational knowledge in this. You’re hopefully gaining quite a lot of that information in this post and that from the old guide, but don’t stop here.&lt;/p&gt;
+
+&lt;p&gt;Listen to the &lt;a href=&quot;https://youcanlearnchinese.mandarincompanion.com/&quot;&gt;You Can Learn Chinese&lt;/a&gt; podcast with the rich experiences and motivating stories of dozens of hosts. Go through the r/ChineseLanguage subreddit &lt;a href=&quot;https://www.reddit.com/r/ChineseLanguage/wiki/software&quot;&gt;wiki&lt;/a&gt;. Do your own searches online. These will all help you become a more efficient and productive language learner.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Broad Language Learning Methods:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;AJATT method for surrounding yourself with input: &lt;a href=&quot;http://www.alljapaneseallthetime.com/blog/about/overview-page/&quot;&gt;link&lt;/a&gt;. Very applicable to any language learner, if not on such an intensive scale — do try to surround yourself with Chinese when you can, such as by choosing a Chinese podcast over your favorite furniture one when running.&lt;/p&gt;
+
+&lt;p&gt;Refold fluency roadmap: &lt;a href=&quot;https://refold.la/&quot;&gt;link&lt;/a&gt;. Comes with friendly Discord server.&lt;/p&gt;
+
+&lt;p&gt;And then the general, more slow but widespread method used by most language learners, of course. Mix and match until you find what suits you, and don’t stop looking here.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://preview.redd.it/zogucdn2hiq71.png?width=1200&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=c8fe607d6a716639f4ce95521e4c60ed5410cda1&quot;&gt;&lt;img src=&quot;https://preview.redd.it/zogucdn2hiq71.png?width=1200&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=c8fe607d6a716639f4ce95521e4c60ed5410cda1&quot; alt=&quot;r/ChineseLanguage — HSK 5 in 15 months — all the tools, tips, and techniques I&apos;ve learned in one guide&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;questions&quot;&gt;Questions&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Please do keep in mind that these answers are subjective, based off of my own experiences, and not definitive.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Some of these responses have been adapted from the FAQ section on the aforementioned Discord server reading resource guide that I contributed to.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;When should I start speaking?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;As soon as possible, though try to speak accurately (get feedback on your speaking) so that you aren’t making the same mistakes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;\assets\images\posts\learn_chinese.jpeg&quot; alt=&quot;r/ChineseLanguage — HSK 5 in 15 months — all the tools, tips, and techniques I&apos;ve learned in one guide&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What if I’m just not good at language learning?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This isn’t true — as stated earlier, half the battle is fighting yourself. The reason why you’re lagging in your language learning is likely precisely &lt;em&gt;because&lt;/em&gt; of this mindset. If you commit to doing something and tell yourself that you &lt;em&gt;can&lt;/em&gt; do it, you’re proven to be much more likely to actually accomplish it. The same holds true for language learning — tell yourself you’re a person who &lt;em&gt;can&lt;/em&gt; learn, and you’ll see improvements.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;After thirty years, my research has shown that the &lt;em&gt;view you adopt for yourself&lt;/em&gt; profoundly affects the way you lead your life. It can determine whether you become the person you want to be and whether you accomplish the things you value.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The above is a quote, once again, by Carol Dweck, the renowned mindset psychologist, which I think illustrates my point well.&lt;/p&gt;
+
+&lt;p&gt;Additionally, take advantage of your natural strengths. You might be more of a visual learner — skew your input towards shows and movies. Or, you might have a great ear — try to listen more! Make sure to find a motivation and some goals as well so you can feel the progress you make, and thus like a productive language learner.&lt;/p&gt;
+
+&lt;p&gt;See &lt;a href=&quot;https://www.fluentu.com/blog/why-cant-i-learn-languages/&quot;&gt;this post&lt;/a&gt; for a detailed breakdown of how to address these feelings of inadequacy.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Should I pay for a tutor?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you can afford it, even just once a week, I’ll repeat that I &lt;em&gt;highly recommend&lt;/em&gt; doing so. This is the best way of learning, and you’ll get content and lessons catered specifically to you. You can find cheap tutoring online.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How long does it take to reach fluency?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This all depends on your definition of fluency, how well you learn, and how much time you can put in a week. Mandarin Chinese is a &lt;a href=&quot;https://effectivelanguagelearning.com/language-guide/language-difficulty/&quot;&gt;Category V&lt;/a&gt; language according to the United States Foreign Service Institute, requiring 2200 hours to become fluent in it. But this is under ideal circumstances.&lt;/p&gt;
+
+&lt;p&gt;Still, with these numbers, you can expect that it will take &lt;em&gt;at least&lt;/em&gt; a few years to become fluent — and far longer to reach a native-like level. Language learning is a lifelong journey, and you should be aware of this — but enjoy the road!&lt;/p&gt;
+
+&lt;p&gt;On a similar note, the time required to peruse native content with &lt;em&gt;relative&lt;/em&gt; ease like simpler books, TV shows, etc. is likely at least around HSK 6, or CEFR B2. It took me 15 months to get to HSK 5, and I’d say I’m studying relatively seriously. So I’d say this might be around few of years — but I’ve heard of HSK 6 being reached in just a year!&lt;/p&gt;
+
+&lt;p&gt;Of course, if you exclusively focus on something, like speaking, this can be reached quicker. Conversational Chinese is not as difficult as understanding newspapers. So again, it depends on your goals and your definition of fluency.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://preview.redd.it/eix5epz8hiq71.png?width=1600&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=4e3dae0090cde355c823302059f53ecf1e125be6&quot;&gt;&lt;img src=&quot;https://preview.redd.it/eix5epz8hiq71.png?width=1600&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=4e3dae0090cde355c823302059f53ecf1e125be6&quot; alt=&quot;r/ChineseLanguage — HSK 5 in 15 months — all the tools, tips, and techniques I&apos;ve learned in one guide&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I’m losing motivation, help.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Reassess the reason why you are learning Chinese. If that still motivates you, great — it might just be too long-term of a goal. Try and therefore break it down into smaller chunks. If your goal is to read 西游记, reading a graded reader might be an accomplishment, and then the next stage up, and then a kids book, etc. By setting yourself medium-term, short, and even micro-goals, you’ll get a boost in energy and motivation whenever you finish it.&lt;/p&gt;
+
+&lt;p&gt;If you can’t find your motivation yet or have lost it, that’s also fine. Try and think of what draws you to learning Chinese — or more specifically, is there &lt;em&gt;any&lt;/em&gt; part of the language learning process you enjoy and feel rewarded about? You can also try to draw in your hobbies to Chinese — if you like rock-climbing, for example, you can watch shows on rock-climbing in Chinese. Connecting that positive hobby to learning Chinese will trickle over.&lt;/p&gt;
+
+&lt;p&gt;This is just a short FAQ section, but an awesome series of four posts that help you assess and keep motivation are available &lt;a href=&quot;https://www.hackingchinese.com/goals-and-motivation-part-1-introduction/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Is it OK if I miss a day learning?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Just missing one day because of some appointment or holiday obviously won’t spell the end of your language-learning. However, as much as possible, try to avoid breaking the streak of language learning. One day can become three, than a week, and so on until you justify stopping learning Chinese altogether.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://preview.redd.it/z21axwwbhiq71.png?width=620&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=f8d09d665886b84caff2b3467badc365b98e0129&quot;&gt;&lt;img src=&quot;https://preview.redd.it/z21axwwbhiq71.png?width=620&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=f8d09d665886b84caff2b3467badc365b98e0129&quot; alt=&quot;r/ChineseLanguage — HSK 5 in 15 months — all the tools, tips, and techniques I&apos;ve learned in one guide&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What’s the ideal difficulty for reading?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This has already been addressed in the ‘techniques’ section.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What if I have no one to speak with?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Try to find a language exchange partner online, or better yet, locally. Going to a Confucius Institute or a Chinese culture meetup is the perfect way to find someone to talk to. There are literally millions of Chinese who want to practice with native English speakers, and a myriad of apps and sites that allow you to connect with them.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Do pronunciation and tones matter for reading?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Technically speaking no, because when you read in your head, you can pronounce it however you like. Completely neglecting learning the proper pronunciation and tones and ignoring other language skills such as listening is generally not advised.&lt;/p&gt;
+
+&lt;p&gt;Although your immediate goal may be to read webnovels and you have no interest in other areas, it isn’t too wise to purposely put yourself in a situation where you can only read Chinese, but are unable to do anything else with it, as no one can predict the future. The day might come when you regret that decision and you don’t really want to start from zero all over again.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://preview.redd.it/xxlifncphiq71.png?width=785&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=78e6acc75f52993831d8888243f5b4a2506994e0&quot;&gt;&lt;img src=&quot;https://preview.redd.it/xxlifncphiq71.png?width=785&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=78e6acc75f52993831d8888243f5b4a2506994e0&quot; alt=&quot;r/ChineseLanguage — HSK 5 in 15 months — all the tools, tips, and techniques I&apos;ve learned in one guide&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;I have more questions about this post or your experiences.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Reply in the comments below or message me!&lt;/p&gt;</content><author><name>Simon Ilincev</name></author><category term="updates" /><category term="chinese" /><category term="guides" /><category term="hsk" /><category term="mandarin" /><category term="personal-life" /><category term="language-learning" /><summary type="html">Resources, study tips, and more I&apos;ve found after 15 months of self-studying Mandarin Chinese, in one large blog post.</summary></entry><entry><title type="html">Winning my First Hackathon — Product &amp;amp; Lessons Learned</title><link href="http://localhost:4000/hackathon/updates/winning-my-first-hackathon/" rel="alternate" type="text/html" title="Winning my First Hackathon — Product &amp;amp; Lessons Learned" /><published>2021-09-14T15:30:56+02:00</published><updated>2021-09-14T15:30:56+02:00</updated><id>http://localhost:4000/hackathon/updates/winning-my-first-hackathon</id><content type="html" xml:base="http://localhost:4000/hackathon/updates/winning-my-first-hackathon/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This week, I participated in my first ever hackathon — a two-day, online one named &lt;a href=&quot;https://develop-to-disrupt.devpost.com/&quot;&gt;Develop to Disrupt&lt;/a&gt; which attracted about a hundred teams with 1-4 people each. After nearly twenty hours of coding, lots of learning, and a couple of sleepless nights, I built &lt;a href=&quot;https://devpost.com/software/surgelingo&quot;&gt;SurgeLingo&lt;/a&gt;, a disruptive language learning tool — which won me ‘Best Solo Hack’, tickets to a Canadian tech summit, and Beats headphones, among others. Here’s a write up of what I learned, about the product, and some tips at the end.&lt;/p&gt;
+
+&lt;h2 id=&quot;about-surgelingo&quot;&gt;About SurgeLingo&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;This was originally posted on the &lt;a href=&quot;https://devpost.com/software/surgelingo&quot;&gt;hackathon submission page&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;inspiration&quot;&gt;Inspiration&lt;/h3&gt;
+&lt;p&gt;I’m a language learner myself, and when I was at the beginner and intermediate stages, I always found it difficult to find comprehensible, accessible content. Most foreign resources were either too long, difficult, or hard to get.&lt;/p&gt;
+
+&lt;p&gt;I created SurgeLingo to solve this. It uses an open-source sentence database with millions of sentences to provide a personalized feed of sentences based on user-chosen settings, such as language, difficulty, and tags. These sentences gradually get more difficult, and can be learned and stored with just a click.&lt;/p&gt;
+
+&lt;p&gt;The online aspect solves the accessibility issue, the individualized response solves the difficulty issue, and the 200-character limit makes it a breeze to learn with SurgeLingo, whether sitting at a bus stop for a minute or intensively studying at home for an hour.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-it-does&quot;&gt;What it does&lt;/h3&gt;
+&lt;p&gt;Drawing on sentences from &lt;a href=&quot;https://tatoeba.org/en/&quot;&gt;Tatoeba&lt;/a&gt;, SurgeLingo creates a massive database of tagged sentences, or ‘surges’ — since by using the platform, users ‘surge’ ahead in their learning. These sentences are reduced to their unconjugated form through natural language processing, and can be compared against a user’s known words to show personalized results.&lt;/p&gt;
+
+&lt;p&gt;A user can upload their own wordlist, for example from a frequency list, to generate these known words. Whenever they view a sentence, they can click on a red, unknown word that they now have learned to add it to their database as well — or simply mark the whole sentence as known after having studied it.&lt;/p&gt;
+
+&lt;p&gt;For a more focused session, users can change the difficulty of returned sentences (for example, from Easy, where 90% of a sentence’s content is known, to Difficult, where that is 70%). They can also search for a specific type of surge by specifying words found inside the sentence, a tag, an author, etc — perfect for learning vocabulary &lt;em&gt;in context&lt;/em&gt;. Just learning from flashcards won’t really help you grow unless you see the new words in context (as SurgeLingo provides), as that will solidify its meaning and demonstrate its usage.&lt;/p&gt;
+
+&lt;p&gt;Below you can see an example of a surge.
+&lt;img src=&quot;https://raw.githubusercontent.com/Destaq/surgelingo-backend/main/static/surgelingo_example.png&quot; alt=&quot;Example sentence surge&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Additionally, users contribute to the community by writing and submitting their own surges.&lt;/p&gt;
+
+&lt;h3 id=&quot;stack&quot;&gt;Stack&lt;/h3&gt;
+&lt;p&gt;Despite the short timeframe, this was one of the most ambitious projects I ever undertook.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://www.github.com/Destaq/surgelingo-frontend&quot;&gt;frontend&lt;/a&gt; was built with Nuxt and Vue 2. TailwindCSS was used for styling, and the modules &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nuxt-auth&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nuxt-axios&lt;/code&gt; were used for smooth user authentication and requests to the backend.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://www.github.com/Destaq/surgelingo-backend&quot;&gt;backend&lt;/a&gt; was built with the Flask Python microframework, and used a PostgreSQL database to store user info, sentences (‘surges’), and so on.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nltk&lt;/code&gt; Python package, a natural language processing library, was leveraged so that surge sentences and user wordbanks would be &lt;a href=&quot;https://en.wikipedia.org/wiki/Stemming&quot;&gt;stemmed&lt;/a&gt;, a process that reduces the words inside to their root form. This allowed for support of languages that have conjugation. A number of other packages that extend Flask or allow for content generation were also used.&lt;/p&gt;
+
+&lt;h3 id=&quot;challenges&quot;&gt;Challenges&lt;/h3&gt;
+&lt;p&gt;Nuxt and Flask is a rare combination, and so I had to dig deep for a number of problems to coordinate the backend API and the frontend.&lt;/p&gt;
+
+&lt;p&gt;The most obvious of these was user authentication — I had to set up a cookie-based implicit refresh system, and the library that I was using for auth on the frontend, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nuxt-auth&lt;/code&gt; wasn’t built with Flask in mind. So, I had to customize the module configuration and take a lesser-known approach to JWT token passing.&lt;/p&gt;
+
+&lt;p&gt;Another challenge, of course, was that of time. Working solo and having a few activities on the weekend, juggling developing the project was a challenge. I had to leave ‘coming soon’ content for a few pages that weren’t a priority, such as the About Us or user profiles.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-i-learned&quot;&gt;What I learned&lt;/h3&gt;
+&lt;p&gt;I learned a lot about word processing, since I had to stem all words in multiple languages so that sentence analysis would work well.&lt;/p&gt;
+
+&lt;p&gt;Equally, I explored some aspects of PostgreSQL management through Flask that I wasn’t aware of before, such as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;BaseQuery&lt;/code&gt;s, advanced filtering, and more. This newfound knowledge will definitely come in handy in the future.&lt;/p&gt;
+
+&lt;h3 id=&quot;further-links&quot;&gt;Further Links&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.github.com/Destaq/surgelingo-frontend&quot;&gt;Frontend on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.github.com/Destaq/surgelingo-backend&quot;&gt;Backend on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://devpost.com/software/surgelingo&quot;&gt;Project on Devpost&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/lIIGpiJqbz0&quot;&gt;YouTube 5 min usage overview&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;tips&quot;&gt;Tips&lt;/h2&gt;
+&lt;p&gt;Being new to hackathons, a lot was foreign to me — here are some things I wish I had heard before I started.&lt;/p&gt;
+
+&lt;h3 id=&quot;focus-on-core-functionality&quot;&gt;Focus on Core Functionality&lt;/h3&gt;
+&lt;p&gt;I spent a ridiculous amount (several hours) of time building the home page for unregistered users — only for it not even to be shown in the video or photos outside of the top 20%. This detracted from the amount of time that I spent developing the really core features of the web app — and when I encountered some difficulties building parts of the core functionality, the time that I lost made me stress.&lt;/p&gt;
+
+&lt;p&gt;So, my first suggestion is to build from the ground up, without regard for the baubles that it’s unlikely judges will even look at.&lt;/p&gt;
+
+&lt;p&gt;I even left a few 404 pages and empty links up (like user settings) — it’s unlikely anyone will ever even see them.&lt;/p&gt;
+
+&lt;h3 id=&quot;form-an-action-plan&quot;&gt;Form an Action Plan&lt;/h3&gt;
+&lt;p&gt;This is apparent for any project, not just short hackathon ones — it’s important to know &lt;em&gt;what&lt;/em&gt; it is you are building and how you are going to build it before you start doing so. I created a chronological todo list about halfway through the weekend, and having tasks laid out in front of me sped up the development process and helped me identify bugs.&lt;/p&gt;
+
+&lt;h3 id=&quot;describe-the-product-vividly&quot;&gt;Describe the Product Vividly&lt;/h3&gt;
+&lt;p&gt;Most hackathons will have a theme — focus on how your submission addresses that theme/problem using as eye-catching and emotive words as possible. Of course, don’t &lt;em&gt;lie&lt;/em&gt; about the product — but a little goes a long way.&lt;/p&gt;
+
+&lt;p&gt;Additionally, I think that a well-filled submission form does wonders too. I wrote out a couple pages — and I think the half-hour spent on this was more valuable than another half-hour writing some functions.&lt;/p&gt;
+
+&lt;h3 id=&quot;dont-be-afraid-to-ask-for-help&quot;&gt;Don’t be Afraid to Ask for Help&lt;/h3&gt;
+&lt;p&gt;The hackathon leaders were incredibly enthusiastic and helpful — even for some of my obviously beginner questions. And while there is a competitive atmosphere, fellow hackers are also usually happy to help out and answer a quick hackathon-related question or two.&lt;/p&gt;
+
+&lt;h3 id=&quot;keep-the-time-in-mind&quot;&gt;Keep the Time in Mind&lt;/h3&gt;
+&lt;p&gt;The timeframe’s requirements include filling out submission details, &lt;strong&gt;creating a video&lt;/strong&gt; (I really underestimated how long this would take, building the presentation, recording it well, and uploading took nearly 90 minutes), and watching the opening ceremony — as well as sleep, of course.&lt;/p&gt;
+
+&lt;p&gt;My finish was extremely tight, and this introduced both bugs and stress. I’d suggest aiming to finish with all coding at least two hours before the final deadline — taking the rest of the time to search for bugs that might pop up during a video, set up your recording software, take photos, make a write-up, etc.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Overall, it was a lot of fun building this, though the timeframe caused a bit of stress — perhaps reflected in the video entry. I learned a lot developing SurgeLingo, and think that it has real future potential — I’m deeply considering continuing to work on it.&lt;/p&gt;
+
+&lt;p&gt;Participating in the hackathon was amazing, and it was made all the more special by finding out the next morning I’d won a category — along with some awesome prizes!&lt;/p&gt;
+
+&lt;p&gt;I hope reading about this and looking through the tips has helped you.&lt;/p&gt;</content><author><name>Simon Ilincev</name></author><category term="hackathon" /><category term="updates" /><category term="devpost" /><category term="time-management" /><category term="learning" /><summary type="html">I won &apos;Best Solo Hack&apos; for the first hackathon I ever participated in — here&apos;s what I did, learned, and made.</summary></entry><entry><title type="html">9 Months and 3 HSK Levels — my Ultimate Chinese Study Guide</title><link href="http://localhost:4000/updates/chinese/chinese-studying/" rel="alternate" type="text/html" title="9 Months and 3 HSK Levels — my Ultimate Chinese Study Guide" /><published>2021-03-31T14:02:08+02:00</published><updated>2021-03-31T14:02:08+02:00</updated><id>http://localhost:4000/updates/chinese/chinese-studying</id><content type="html" xml:base="http://localhost:4000/updates/chinese/chinese-studying/">&lt;p&gt;Over recent months, this blog has sat silent as I’ve wholly invested myself into learning Chinese. On the side, I’ve been working on Chinese-related programming projects both &lt;a href=&quot;https://github.com/Destaq/chinese-sentence-miner&quot;&gt;public&lt;/a&gt; and private, but this has been my main focus.&lt;/p&gt;
+
+&lt;p&gt;I’m back to share all I’ve learned — both resource- and studying-wise — after three seasons of studying and passing HSK 3.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;This post was originally published &lt;a href=&quot;https://www.reddit.com/r/ChineseLanguage/comments/mh3dhe/what_ive_learned_after_9_months_and_3_hsk_levels/&quot;&gt;here&lt;/a&gt; on Reddit.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;routine-mindset--studying--tips--study-guide&quot;&gt;Routine, Mindset, &amp;amp; Studying | (Tips / Study Guide)&lt;/h2&gt;
+
+&lt;p&gt;My hobby for language-learning has pushed me towards linguistics and the science of language learning. Because of that, I’ve come to realize a lot of study tips and thoughts in general about how to be most productive. I’m summing them up here.&lt;/p&gt;
+
+&lt;h3 id=&quot;core-tips&quot;&gt;Core Tips&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Find your motivation:&lt;/strong&gt; this will allow you to struggle through the hard times and celebrate your achievements. I can’t emphasize this enough — you need to have a good reason to want to learn Chinese. Try to find &lt;em&gt;intrinsic motivation -&lt;/em&gt; something that compels you — not extrinsic, like being admired by others or for a job.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;To build on this, it’s important to also break this motivation down into goals — both short- and long-term. Reward yourself for finish these goals, and make them SMART so you can realistically attain them.&lt;/p&gt;
+
+&lt;p&gt;Some motivation/long-term goal suggestions based on what I’ve seen (for a long time I struggled with finding mine, so I hope this will be useful):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Reading Chinese books in the original language (even classics)&lt;/li&gt;
+  &lt;li&gt;Speaking fluently with your Chinese friend&lt;/li&gt;
+  &lt;li&gt;Studying in China abroad&lt;/li&gt;
+  &lt;li&gt;Reaching an HSK level&lt;/li&gt;
+  &lt;li&gt;Sheer interest in the language (guilty as charged)&lt;/li&gt;
+  &lt;li&gt;Communicating with family&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Read more, in a specific language-learning context about I vs. E Motivation, in this &lt;a href=&quot;http://www.ijlll.org/vol1/20-L016.pdf&quot;&gt;study&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Build a routine -&lt;/strong&gt; &lt;em&gt;consistency is key.&lt;/em&gt; If you can, study every day — 5 mins a day are better than an hour only on one day. The reasoning should be evident — constant repetition will better help with memory than random study spurts; this is the same reason you shouldn’t wait until the last minute to cram before a test.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Vary what you do&lt;/strong&gt; - the variety will encourage you, and ensure the exercises you do are less boring. Try to spread out the number of tools you use, as well as the nature of the exercises (reading, passive, active, listening, etc.). See the &lt;strong&gt;Resources&lt;/strong&gt; section for a commented list of those I found most useful.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;It’s OK to take a break -&lt;/strong&gt; the most important thing is not to lose your motivation and joy of learning the language. If you’re tired or just can’t do it today, that’s fine — just try not to break the habit; the shorter the break the better.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Find a group&lt;/strong&gt; - going at something alone will dishearten anyone. If you can, find someone else interested in the language who you can talk/study with (language exchange sites are good for this). If not, even being on a Discord server or an active member of this subreddit will bring immense benefits motivation-wise by making you feel like part of a community.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Use flashcards -&lt;/strong&gt; really, they are popular for a reason. Pleco’s flashcard module has a number of templates and pre-made HSK cards — I use the handwriting and spaced repetition daily. &lt;a href=&quot;https://apps.ankiweb.net/&quot;&gt;Anki&lt;/a&gt; is an awesome, though more general, alternative (not to be confused with AnkiApp). For Anki, I’d suggest sentence mining, I use the incredible &lt;a href=&quot;https://gumroad.com/l/IEmpwF&quot;&gt;Spoonfed Chinese&lt;/a&gt; deck — $3.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Onwards! The shortest section — &lt;strong&gt;mindset&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;mindset&quot;&gt;Mindset&lt;/h3&gt;
+
+&lt;p&gt;When studying, don’t lose sight of the big picture and your eventual goal. Sometimes, progress can be disappointingly slow — take a look back when you were at a lower level and be encouraged! The ease with which I read some books I have on Pleco now and old Mandarin Companion books really encourages me.&lt;/p&gt;
+
+&lt;p&gt;Keep a &lt;em&gt;growth mindset&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“In a &lt;em&gt;growth mindset&lt;/em&gt;, people believe that their most basic abilities can be developed through dedication and hard work—brains and talent are just the starting point. This view creates a love of learning and a resilience that is essential for great accomplishment.” ( Dweck, 2015)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Don’t tell yourself you’re too old, too busy, not cut out for learning — &lt;a href=&quot;https://www.quora.com/At-what-age-are-you-too-old-to-learn-a-language&quot;&gt;it’s not true&lt;/a&gt;. The biggest obstacle I’ve faced learning is myself.&lt;/p&gt;
+
+&lt;h3 id=&quot;routine&quot;&gt;Routine&lt;/h3&gt;
+
+&lt;p&gt;First off, some more long-term comments:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Learn tones. The earlier you start the easier it will be; ask any Chinese language learner and they’ll ask you the same thing.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Consider handwriting.&lt;/strong&gt; This is almost a separate pursuit in and of itself, and writing on a keyboard is vastly different from doing so by hand. Handwriting is a lot more time-consuming and difficult, but it will bring you greater control of the language and easier recognition of characters. Decide whether you’ll learn to handwrite &lt;em&gt;early on&lt;/em&gt; - I dropped the ball and am now playing catch-up with hundreds of characters. Helpful in deciding is this &lt;a href=&quot;https://youcanlearnchinese.mandarincompanion.com/episodes/writing-characters-is-it-worth-your-time&quot;&gt;podcast episode&lt;/a&gt;, though I feel the hosts are a bit biased against it it’s worth mentioning.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Stick to your routine.&lt;/strong&gt; As far as possible, don’t break out of the habit. A new habit takes an average of &lt;a href=&quot;https://medium.com/swlh/21-day-habit-timeline-how-to-form-a-habit-in-21-days-day-by-day-92298446bf6b&quot;&gt;66 days&lt;/a&gt; to form, forgot a couple and you’ll be back to square one. And of course, &lt;strong&gt;form a good routine&lt;/strong&gt; - ensure it is balanced or focused on what you want, not too exhausting, and beneficial. This is more of a personal thing, though you can read about my personal routine in the next few paragraphs.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Immerse -&lt;/strong&gt; popularized in the AJATT method, this just means surrounding yourself with Chinese. &lt;strong&gt;But not too early (wait until it is at least partially comprehensible).&lt;/strong&gt; You can do so by changing your phone’s language, listening to Chinese podcasts (&lt;a href=&quot;https://www.chinesepod.com/&quot;&gt;ChinesePod&lt;/a&gt; is a great example), or reading as much as you can in the language.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Get a tutor if you can -&lt;/strong&gt; self-explanatory. Tutors will help out immensely and are a prime opportunity for first-hand speaking and listening practice (especially corrected).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now as to forming a daily routine — create one as soon as possible. I’ll briefly share mine and the logic behind it, but this is up to you.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;— Side note: if you are a numbers kind of person like me, I highly suggest* &lt;a href=&quot;https://polylogger.com/auth/login&quot;&gt;PolyLogger&lt;/a&gt; *or another time-tracking platform to track time spent learning, watching time spent go up and change is satisfying and motivating.*&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;my-daily-routine&quot;&gt;My Daily Routine&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Just an example, make one that suits you. Given my goal is to read in the native language and pass HSK levels, notice how it is well-rounded but with a focus on Reading.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Comprehensive/Misc: 1 HSK workbook chapter, Pleco + HelloChinese + Anki flashcards&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Listening: 30 mins Little Fox/story videos from YT channels detailed below, 1 SinoLingu audiobook (given sheer number available)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Reading: ~1 hour — SinoLingua 750-word story; DuChinese story or two; often HSKReading story&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Writing: Journaly post, handwrite workbook dialogue/new words/Discord server challenge&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Speaking: Tutor, Discord/Wechat&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Total: ~3-4 hours/day&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+
+&lt;p&gt;There are a number of excellent resource lists out there (find hundreds on &lt;a href=&quot;https://challenges.hackingchinese.com/resources&quot;&gt;Hacking Chinese&lt;/a&gt;), so I’ll keep &lt;em&gt;this&lt;/em&gt; list concise with the tools I use regularly and find very useful.&lt;/p&gt;
+
+&lt;h3 id=&quot;comprehensivemiscellaneous&quot;&gt;Comprehensive/Miscellaneous&lt;/h3&gt;
+
+&lt;h4 id=&quot;pleco&quot;&gt;&lt;a href=&quot;https://pleco.com&quot;&gt;Pleco&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Pleco is simply invaluable. Flashcards, a reader, a fantastic dictionary, and more all rolled into one. My only regret is not buying the &lt;em&gt;Basic Bundle&lt;/em&gt; earlier. I’d advise downloading from Day 1.&lt;/p&gt;
+
+&lt;h4 id=&quot;hellochinese&quot;&gt;&lt;a href=&quot;http://www.hellochinese.cc/&quot;&gt;HelloChinese&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;A great beginner resource, it claims to get you up to HSK 4, I’d say it gets you to roughly HSK 3.5. However, I’d suggest &lt;strong&gt;not&lt;/strong&gt; using this as your only resource. Grammar explanations are short and not reused often, and the brevity of the exercises makes them less useful.&lt;/p&gt;
+
+&lt;p&gt;Also a quick note: Starting soon after completing “HSK 2”, content is locked behind a ~$12/mo. paywall. I shelled out without regrets, but just remember to use other resources on the side — such as what I mention below, a textbook.&lt;/p&gt;
+
+&lt;h4 id=&quot;hsk-standard-course-textbooks&quot;&gt;HSK Standard Course textbooks&lt;/h4&gt;
+
+&lt;p&gt;These will get you farther than HelloChinese and go further in-depth. They are produced by HanBan, so contain all that you need to know. I’d definitely recommend buying the cheap exercise workbooks, which have writing, listening, reading, and comprehension exercises I found take ~30-45 min/chapter (at HSK 3, which has 20 chapters).&lt;/p&gt;
+
+&lt;p&gt;The textbooks themselves are made up of:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;New words introduced&lt;/li&gt;
+  &lt;li&gt;Dialogues/texts&lt;/li&gt;
+  &lt;li&gt;Grammar points&lt;/li&gt;
+  &lt;li&gt;Speaking/writing exercises&lt;/li&gt;
+  &lt;li&gt;Plus the occasional idiom, chengyu, or culture point&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you could only choose 1 resource, I’d go for the textbooks.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Paired with a tutor, textbooks are invaluable.&lt;/p&gt;
+
+&lt;h3 id=&quot;reading&quot;&gt;Reading&lt;/h3&gt;
+
+&lt;h4 id=&quot;mandarin-companion&quot;&gt;&lt;a href=&quot;https://mandarincompanion.com/&quot;&gt;Mandarin Companion&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;The best graded readers out there. Spanning from 150 to 450 unique characters, I would recommend starting at HSK 2 or near the end of HSK 1 if you are feeling brave. The books are relatively expensive and only medium in length, but the content is worth it. The authors reuse the same words to solidify them in your memory, and books are written only in hanzi (pinyin provided for new words). They are only available as paperbacks, but may soon be &lt;a href=&quot;https://www.reddit.com/r/ChineseLanguage/comments/mbbcwq/mandarin_companion_books_will_be_coming_to_pleco/&quot;&gt;coming to Pleco&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;At my current level (about halfway through HSK 4) the books are starting to become a bit easy, but it is still good extensive reading practice. But at higher levels (I’ll update this post), other tools may be more applicable.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Overall thoughts:&lt;/em&gt; excellent novels that I’d recommend to anyone in the above HSK range, but don’t start &lt;em&gt;too&lt;/em&gt; early. Suitable for re-reading and extremely encouraging going back to see progress and actually being able to read a foreign text.&lt;/p&gt;
+
+&lt;h4 id=&quot;duchinese&quot;&gt;&lt;a href=&quot;https://www.duchinese.net/lessons&quot;&gt;DuChinese&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;The&lt;/em&gt; app for reading, this resource provides hundreds of short stories from newbie to advanced.&lt;/p&gt;
+
+&lt;p&gt;Main benefits: slick UI, easy to translate and view HSK level of words, very customizable, and some stories are free.&lt;/p&gt;
+
+&lt;p&gt;Drawbacks: most stories locked behind expensive paywall and stories are somewhat short.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Overall thoughts:&lt;/em&gt; try out the stories; if you like them feel free to splurge on Premium. I mainly use this on the side for occasional content, however, so haven’t gone premium. DuChinese can motivate you at the very earliest levels by providing actually comprehensible content but at the more intermediate level, I find longer-form texts like Mandarin Companion books provide more bang for the buck.&lt;/p&gt;
+
+&lt;h4 id=&quot;sinolingua&quot;&gt;&lt;a href=&quot;https://sinolingua.com.cn&quot;&gt;SinoLingua&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Again, more graded readers. While they have more books available than Mandarin Companion, they are generally of lower quality — calling some of them graded is a bit of a stretch, as &lt;a href=&quot;https://mandarincompanion.com/blog/independent-study-confirms-the-readability-of-the-mandarin-companion-series/&quot;&gt;analysis of even the 500-word ones shows they are at HSK 5/6&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I find the above analysis a bit misleading, though, given that while their books have a lot of new and high-level words, they are reused. At HSK 2-, the content was very difficult, but after finishing HSK 3, I find the 500-unique-word and 750-unique-word stories are challenging, but suitable.&lt;/p&gt;
+
+&lt;p&gt;Advantages:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Extremely cheap&lt;/li&gt;
+  &lt;li&gt;Comes with good images&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Free audiobooks available — see my&lt;/strong&gt; &lt;a href=&quot;https://www.reddit.com/r/ChineseLanguage/comments/m9gtan/dozens_of_highquality_graded_audiobooks_from/&quot;&gt;&lt;strong&gt;post&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;English translation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Drawbacks:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Many high-level vocabulary words&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;When a new word is introduced, it only has 1 footnote. When it is shown again in the text, its meaning is not linked to, you have to flip back to find it.&lt;/strong&gt; &lt;em&gt;^(But it is true they have a keyword “sheet” available.)&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Short&lt;/strong&gt; (at least at lower levels, maybe ~40-50% shorter than MC)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Overall thoughts: still good practice, but not suitable for novices. Definitely need to consult the list of the keywords before starting. Paired with the downloadable audiobook, can serve as good listening practice.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;hsk-reading&quot;&gt;&lt;a href=&quot;https://hskreading.com/&quot;&gt;HSK Reading&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Free, awesome site with stories at different HSK levels. Hover to see translation (or use &lt;a href=&quot;https://chrome.google.com/webstore/detail/zhongwen-chinese-english/kkmlkkjojmombglmlpbpapmhcaljjkde?hl=en&quot;&gt;Zhongwen Popup Dictionary&lt;/a&gt;); most stories also have an audio recording. The only cons are a lack of new content — the site stopped being updated about a year ago — and inaccurate HSK levels (I’ve found the real level at lower HSK levels is generally somewhat higher due to the number of new/difficult words introduced).&lt;/p&gt;
+
+&lt;h3 id=&quot;listening&quot;&gt;Listening&lt;/h3&gt;
+
+&lt;h4 id=&quot;chinese-for-us-and-go-east-mandarin-youtube-channels&quot;&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCgCrOLcWvSFl5K2ld0nKS7w&quot;&gt;Chinese For Us&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/user/goeastmandarin&quot;&gt;Go East Mandarin&lt;/a&gt; YouTube channels&lt;/h4&gt;
+
+&lt;p&gt;Excellent grammar explanations, videos with HSK-appropriate dialogues and stories. Go East in particular has some short videos appropriate even at the lowest levels. The only thing to look out for is running out of videos, in which case look at &lt;a href=&quot;https://www.youtube.com/channel/UC2fAiRQHRQT9aj9P_ijYeow&quot;&gt;Mandarin Corner&lt;/a&gt; or Little Fox.&lt;/p&gt;
+
+&lt;h4 id=&quot;hsk-workbook&quot;&gt;HSK workbook&lt;/h4&gt;
+
+&lt;p&gt;See &lt;em&gt;Comprehensive&lt;/em&gt; section.&lt;/p&gt;
+
+&lt;h4 id=&quot;little-fox-chinese&quot;&gt;&lt;a href=&quot;https://chinese.littlefox.com/en/story&quot;&gt;Little Fox Chinese&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;A truly excellent all-around resource for learners of every level. Their animated, simple stories go from HSK 1+ and can be found on YouTube as well. You can try listening to higher-level materials — I tried 西游记 — definitely &lt;em&gt;intensive&lt;/em&gt; listening but trains the ear.&lt;/p&gt;
+
+&lt;h4 id=&quot;sinolingua-audiobooks&quot;&gt;&lt;a href=&quot;https://www.reddit.com/r/ChineseLanguage/comments/m9gtan/dozens_of_highquality_graded_audiobooks_from/&quot;&gt;SinoLingua audiobooks&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;Free, longer-form, enunciated, and interesting,&lt;/em&gt; &lt;strong&gt;but&lt;/strong&gt; &lt;em&gt;difficult language (wouldn’t recommend below HSK 3)&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;Take a look at “Routine” to see how I suggest using them.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;writing&quot;&gt;Writing&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;I suggest reading my reflection on writing before choosing to write and look at these resources.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I haven’t found a large number of useful resources for writing, given the personal and unique nature of this pursuit. I recommend keeping a journal or writing out textbook dialogues/new words; this has worked for me. I’ve also heard a lot about the &lt;a href=&quot;https://en.wikipedia.org/wiki/Remembering_the_Kanji_and_Remembering_the_Hanzi&quot;&gt;Heisig Method&lt;/a&gt;, but haven’t used it myself.&lt;/p&gt;
+
+&lt;p&gt;Consistency and routine here are key. My one suggested resource:&lt;/p&gt;
+
+&lt;h4 id=&quot;journaly&quot;&gt;&lt;a href=&quot;https://journaly.com&quot;&gt;Journaly&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;A solid alternative to the now-defunct lang-8. In a nutshell: write texts in your TL to be corrected, and correct posts by others in your native language.&lt;/p&gt;
+
+&lt;p&gt;Pros:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Completely free&lt;/li&gt;
+  &lt;li&gt;Open-source (GitHub)&lt;/li&gt;
+  &lt;li&gt;Very open to user feedback, they even implemented a few changes I suggested&lt;/li&gt;
+  &lt;li&gt;Excellent UI&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Drawbacks:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Small user base = time before feedback. Pretty much all my posts get feedback, but it is typically within 6-24 hours.&lt;/li&gt;
+  &lt;li&gt;Somewhat minimal — just out of beta so not feature-chocked.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Overall thoughts:&lt;/em&gt; I use this more as a tool to write every day, like a journalling application, than for the feedback. But the comments I get back on the post and mistakes are clear and helpful as well. If you want to practice writing, which I suggest you do, given that it’s not a passive activity, this is one site I can suggest.&lt;/p&gt;
+
+&lt;h3 id=&quot;speaking&quot;&gt;Speaking&lt;/h3&gt;
+
+&lt;p&gt;This I have the least tools to provide. WeChat is a good platform if you can download it, and you can check out &lt;a href=&quot;https://tandem.net&quot;&gt;Tandem&lt;/a&gt; to find partners. I’ve used Tandem but am not adding it to this list because it has some very large drawbacks, such as the tiresome process of repeating introductions and timezone differences. However, I’ve found using WeChat to send voice messages is perfect.&lt;/p&gt;
+
+&lt;p&gt;See the &lt;strong&gt;Guide&lt;/strong&gt; section at the top for suggestions to practice speaking.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Other resources used to a lesser extent and not detailed in-depth are: &lt;em&gt;Discord servers (also good for speaking),&lt;/em&gt; &lt;a href=&quot;https://chinesereadingpractice.com&quot;&gt;&lt;em&gt;Chinese Reading Practice&lt;/em&gt;&lt;/a&gt;&lt;em&gt;, and&lt;/em&gt; &lt;a href=&quot;https://www.reddit.com/r/ChineseLanguage&quot;&gt;&lt;em&gt;this subreddit&lt;/em&gt;&lt;/a&gt; &lt;em&gt;(as well as&lt;/em&gt; &lt;a href=&quot;https://www.reddit.com/r/languagelearning&quot;&gt;the language learning one&lt;/a&gt;). Podcasts I’d recommend are* &lt;a href=&quot;https://youcanlearnchinese.mandarincompanion.com/&quot;&gt;&lt;em&gt;the You Can Learn Chinese podcast (by Mandarin Companion)&lt;/em&gt;&lt;/a&gt; &lt;em&gt;and previously stated ChinesePod.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;wrap-up&quot;&gt;Wrap-up&lt;/h2&gt;
+
+&lt;p&gt;This concludes the guide I wish I had. Let me know if you found it useful or have anything to add! As said before, I’ll update it when I pass HSK 4, 5, 6, etc.&lt;/p&gt;</content><author><name>Simon Ilincev</name></author><category term="updates" /><category term="chinese" /><category term="hsk" /><category term="mandarin" /><category term="personal-life" /><summary type="html">My study tips and resources after 9 months of studying Chinese, collected into one blog post.</summary></entry></feed>

@@ -1,8 +1,11 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
+.DS_Store
+public
+resources
+.idea
+content/.obsidian
+assets/indices/linkIndex.json
+assets/indices/contentIndex.json
+linkmap
 *.DS_Store
 *.icloud
 BLOG_IDEAS.md

@@ -1,0 +1,869 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Web Scraping in Python with BeautifulSoup – Simon Ilincev</title>
+<meta name="description" content="An introduction to web scraping in Python with the requests and BeautifulSoup libraries, with a simple example project.">
+
+
+  <meta name="author" content="Simon Ilincev">
+  
+  <meta property="article:author" content="Simon Ilincev">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Simon Ilincev">
+<meta property="og:title" content="Web Scraping in Python with BeautifulSoup">
+<meta property="og:url" content="http://localhost:4000/tutorial/web-scraping/web-scraping-in-python-with-beautifulsoup/">
+
+
+  <meta property="og:description" content="An introduction to web scraping in Python with the requests and BeautifulSoup libraries, with a simple example project.">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/posts/google_macbook.jpg">
+
+
+
+
+
+  <meta property="article:published_time" content="2020-08-04T15:19:28+02:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/tutorial/web-scraping/web-scraping-in-python-with-beautifulsoup/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Simon Ilincev Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+<link rel="manifest" href="/assets/images/site.webmanifest">
+<link rel="mask-icon" href="/assets/images/safari-pinned-tab.svg" color="#000000">
+<link rel="stylesheet" href="/assets/css/custom.css">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0M42PJ7MRK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0M42PJ7MRK');
+</script>
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Simon Ilincev
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/portfolio/">Portfolio</a>
+            </li><li class="masthead__menu-item">
+              <a href="/blog/">Blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/contact/">Contact</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero"
+  style=" background-image: url('');"
+>
+  
+    <img src="/assets/images/posts/google_macbook.jpg" alt="Web Scraping in Python with BeautifulSoup" class="page__hero-image">
+  
+  
+</div>
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/bio_photo.jpg" alt="Simon Ilincev" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Simon Ilincev</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Backend Python and JavaScript developer passionate about NLP and building APIs.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Prague, Czechia</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="https://github.com/Destaq" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="mailto:simon@simonilincev.com" rel="nofollow noopener noreferrer me"><i class="fa fa-fw fa-envelope" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+            <li><a href="https://stackoverflow.com/users/12876940/destaq" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i><span class="label">Stack Overflow</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Web Scraping in Python with BeautifulSoup">
+    <meta itemprop="description" content="An introduction to web scraping in Python with the requests and BeautifulSoup libraries, with a simple example project.">
+    <meta itemprop="datePublished" content="2020-08-04T15:19:28+02:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/tutorial/web-scraping/web-scraping-in-python-with-beautifulsoup/" class="u-url" itemprop="url">Web Scraping in Python with BeautifulSoup
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          10 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#what-is-web-scraping">What is Web Scraping?</a></li><li><a href="#what-tools-will-we-use">What Tools will we Use?</a><ul><li><a href="#requirements">Requirements</a></li></ul></li><li><a href="#programming">Programming</a><ul><li><a href="#analyzing-the-site">Analyzing the Site</a></li><li><a href="#scraping-the-resource-links">Scraping the Resource Links</a></li><li><a href="#bonus-removing-dead-links">Bonus: Removing Dead Links</a></li><li><a href="#full-code">Full Code</a></li></ul></li><li><a href="#conclusion">Conclusion</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <h2 id="what-is-web-scraping">What is Web Scraping?</h2>
+<p>Web scraping is defined as “extracting data from websites or internet” and it is just that — using code to automatically read websites, search something up, or view page sources in order to save some sort of information from them.</p>
+
+<p>This is used everwhere, from Google bots indexing websites, to gathering data on sports statistics, to saving stock prices to an Excel spreadsheet — the options are truly limitless. If there’s a site, page, or search term you’re interested in and want to have updates about, then this article is for you — we’ll be taking a look at how to use the <code class="language-plaintext highlighter-rouge">requests</code> and <code class="language-plaintext highlighter-rouge">BeautifulSoup</code> libraries to gather data from websites with Python, and you can easily transfer the skills you’ll learn into scraping whichever website interests you effortlessly.</p>
+
+<h2 id="what-tools-will-we-use">What Tools will we Use?</h2>
+<p>Python is the go-to language for scraping the internet for data, and the <code class="language-plaintext highlighter-rouge">requests</code> and <code class="language-plaintext highlighter-rouge">BeautifulSoup</code> libraries are the go-to Python packages for the job. With <code class="language-plaintext highlighter-rouge">requests</code>, you can easily scrape any website, and read it’s data in a number of ways, from HTML to JSON. Since most websites are built with HTML and we’ll be extracting all the HTML from the page, we’ll then use the <code class="language-plaintext highlighter-rouge">BeautifulSoup</code> package from <code class="language-plaintext highlighter-rouge">bs4</code> in order to parse that HTML and find the data that we are looking for within it.</p>
+
+<h3 id="requirements">Requirements</h3>
+<p>In order to be able to follow along, you’re going to need to have Python, <code class="language-plaintext highlighter-rouge">requests</code>, and <code class="language-plaintext highlighter-rouge">BeautifulSoup</code> installed.</p>
+
+<ul>
+  <li>
+    <p>Python: you can download the latest version of Python from <a href="https://www.python.org/downloads/">the official website</a>, although it’s very likely that you already have it installed.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">requests</code>: if you have a Python version &gt;= 3.4, you have <code class="language-plaintext highlighter-rouge">pip</code> installed. You can then use <code class="language-plaintext highlighter-rouge">pip</code> in the command line by typing <code class="language-plaintext highlighter-rouge">python3 -m pip install requests</code> in any directory.</p>
+  </li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">BeautifulSoup</code>: this comes packaged under <code class="language-plaintext highlighter-rouge">bs4</code>, but you can easily just install it with <code class="language-plaintext highlighter-rouge">python3 -m pip install beautifulsoup4</code>.</p>
+  </li>
+</ul>
+
+<h2 id="programming">Programming</h2>
+<p>I believe that the best way to learn programming is by doing and by building a project, so I strongly encourage you to follow along with me in your favourite text editor (I recommend Visual Studio Code) as we learn how to use these two libraries through example.</p>
+
+<p>Since I’m learning Mandarin, I thought that it would be apt to build a scraper that generates a list of links to Mandarin resources. Luckily, I did some research beforehand and found out that there <em>is</em> a website online that stores cards-esque lists of Mandarin resources. However, these are spread across nearly a dozen pages, in a card form, and many of the links are broken. The website that we will be scraping these links from is a well-known Mandarin learning website, and you can view the resource list here: <a href="https://challenges.hackingchinese.com/resources">https://challenges.hackingchinese.com/resources</a>.</p>
+
+<p>So, in this project, we’ll be scraping the working links from that list and saving them to a file on our computer, so that we will be able to go through them later at our leisure without having to click through every card on the site. The entire program will only be ~40 lines of code, and we’ll be working on the project in three individual steps.</p>
+
+<p><img src="/assets/images/posts/mandarin_cards.png" alt="a screenshot from the website" class="align-center" /></p>
+
+<h3 id="analyzing-the-site">Analyzing the Site</h3>
+<p>Before we begin with the actual programming, we need to see <em>where</em> the data is being stored on the website. This can be done by “Inspecting” the page. You can inspect a page by right-clicking anywhere within the page and then selecting “Inspect”. If you select that, it will bring up the source code for the page at the bottom of your screen, a bunch of intimidating-looking HTML. Don’t worry — the <code class="language-plaintext highlighter-rouge">BeautifulSoup</code> library will make this easy for us.</p>
+
+<p>We’re going to “Inspect” the first result on the website at <a href="https://challenges.hackingchinese.com/resources">https://challenges.hackingchinese.com/resources</a>, namely <code class="language-plaintext highlighter-rouge">HSK level — Online Chinese level test</code>. To do so, we need to put our mouse right above whatever it is we want to scrape — which is the title, as it is a link as well — and then click “Inspect”, which will open up the source code and move us to exactly where we want to be — at the link.</p>
+
+<p>If you do so, you should see something like the below:</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;h4</span> <span class="na">class=</span><span class="s">"card-title"</span> <span class="na">style=</span><span class="s">"font-size: 1.1rem"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"http://www.hsklevel.com"</span><span class="nt">&gt;</span>HSK level — Online Chinese level test<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/h4&gt;</span>
+</code></pre></div></div>
+
+<p>Great news! It looks like each link is inside of a h4 header. Whenever we scrape a website for data, we need to look at the unique “identifier” for that data. In this case, it is the h4 header, as there aren’t any others on the site that aren’t related to the links. Another option could be searching based on <code class="language-plaintext highlighter-rouge">font-size</code> or the <code class="language-plaintext highlighter-rouge">class</code> of <code class="language-plaintext highlighter-rouge">card-title</code>, but we’ll go for the h4 header as that is the simplest.</p>
+<h3 id="scraping-the-resource-links">Scraping the Resource Links</h3>
+<p>Now that we’ve figured out how the website source looks, we need to get to actually scraping the content. We’ll be saving each links to a file on our device named <code class="language-plaintext highlighter-rouge">links.txt</code>, and need just a few dozen lines to get the job done.</p>
+
+<p>Let’s get started.</p>
+
+<ol>
+  <li>Importing Libraries<br /><br />
+We need the aforementioned libraries to get the program running. Create a new file named <code class="language-plaintext highlighter-rouge">scrape_links.py</code> and write the following:<br />
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">requests</span><span class="p">,</span> <span class="n">time</span>
+<span class="kn">from</span> <span class="nn">bs4</span> <span class="kn">import</span> <span class="n">BeautifulSoup</span>
+</code></pre></div>    </div>
+  </li>
+  <li>Scraping the Site<br /><br />
+Since <a href="https://challenges.hackingchinese.com/resources">the website</a> has its resources divided across several pages, it makes sense to scrape it within a function so that we can repeat it. Let’s name this function <code class="language-plaintext highlighter-rouge">extract_resources</code>, and it will have a parameter defining its page number.<br />
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">extract_resources</span><span class="p">(</span><span class="n">page</span><span class="p">:</span> <span class="nb">int</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">):</span>
+ <span class="c1"># use an f-string to access the correct page
+</span> <span class="n">page</span> <span class="o">=</span> <span class="n">requests</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="sa">f</span><span class="s">'https://challenges.hackingchinese.com/resources/stories?page=</span><span class="si">{</span><span class="n">page</span><span class="si">}</span><span class="s">)
+
+ soup = BeautifulSoup(page.content, '</span><span class="n">html</span><span class="p">.</span><span class="n">parser</span><span class="s">')
+</span></code></pre></div>    </div>
+    <p>We are using the <code class="language-plaintext highlighter-rouge">soup</code> variable to hold a <code class="language-plaintext highlighter-rouge">BeautifulSoup</code> object of the website. We’re converting it to HTML with <code class="language-plaintext highlighter-rouge">html.parser</code> and the data that we are converting is the content of the <code class="language-plaintext highlighter-rouge">page</code> variable.<br /></p>
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">links</span> <span class="o">=</span> <span class="n">soup</span><span class="p">.</span><span class="n">find_all</span><span class="p">(</span><span class="s">'h4'</span><span class="p">)</span>
+</code></pre></div>    </div>
+    <p>We’ll be using <code class="language-plaintext highlighter-rouge">BeautifulSoup</code> to find all of the HTML that are headers, and will save them in a list named <code class="language-plaintext highlighter-rouge">links</code> with their children html (in this case, the link).</p>
+  </li>
+  <li>Gathering our Data
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">links</span><span class="p">)):</span>
+     <span class="k">try</span><span class="p">:</span>
+         <span class="k">if</span> <span class="n">links</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s">'class'</span><span class="p">]</span> <span class="o">==</span> <span class="p">[</span><span class="s">'card-title'</span><span class="p">]:</span>
+             <span class="n">true_links</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">links</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+     <span class="k">except</span><span class="p">:</span>
+         <span class="k">pass</span>
+</code></pre></div>    </div>
+    <p>On the first line, we are iterating through every h4 header in <code class="language-plaintext highlighter-rouge">links</code>. We check to see if its class is <code class="language-plaintext highlighter-rouge">card-title</code>, like we saw in <a href="#analyzing-the-site">Analyzing the Site</a>, in order to make sure that we avoid any h4 headers that aren’t cards — just in case. If it is a card-related h4 with a link, then we are going to append it to the previously empty list <code class="language-plaintext highlighter-rouge">true_links</code> with all <em>correct</em> h4s.<br /><br />
+Finally, we’ll wrap this in a <code class="language-plaintext highlighter-rouge">try: except:</code> loop in case the h4 has no case, to prevent the program from crashing as <code class="language-plaintext highlighter-rouge">BeautifulSoup</code> can’t handle the request.</p>
+  </li>
+  <li>Saving the Links
+    <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="c1"># open file with w+ (generate it if it does not exist)
+</span> <span class="nb">file</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">"links.txt"</span><span class="p">,</span> <span class="s">"w+"</span><span class="p">)</span>
+
+ <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">true_links</span><span class="p">)):</span>
+     <span class="nb">file</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">true_links</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">children</span><span class="p">)[</span><span class="mi">0</span><span class="p">][</span><span class="s">'href'</span><span class="p">])</span> <span class="o">+</span> <span class="s">'</span><span class="se">\n</span><span class="s">'</span><span class="p">)</span>
+
+ <span class="nb">file</span><span class="p">.</span><span class="n">close</span><span class="p">()</span>
+</code></pre></div>    </div>
+    <p>Instead of printing out the list, let’s save it so that we don’t need to run the Python file multiple times and have it in an easier-to-view format.<br /><br />
+First, we open the file, and we are opening it with <code class="language-plaintext highlighter-rouge">w+</code> so that if it does not exist, we can generate a blank file with its name.<br /><br />
+Second, we iterate through the list of <code class="language-plaintext highlighter-rouge">true_links</code>. For each element, we write to the file with its link using <code class="language-plaintext highlighter-rouge">file.write()</code>. When we were first analyzing the site, we saw that the link is a child element of the h4 HTML header. So, we use <code class="language-plaintext highlighter-rouge">BeautifulSoup</code> to access the first child of <code class="language-plaintext highlighter-rouge">true_links[i]</code>, which we need to wrap in a list as it is otherwise a Python object.<br /><br />
+At this point, we have <code class="language-plaintext highlighter-rouge">list(true_links[i].children)[0]</code>. However, what we are looking for is the actual link of the child. Instead of <code class="language-plaintext highlighter-rouge">&lt;a href="abc.com"&gt;Text&lt;/a&gt;</code> we want just the link, which we can access with <code class="language-plaintext highlighter-rouge">['href']</code>. Once we have this, we need to wrap the whole thing in a string so that it is outputted as a string and then add ‘\n’ in order to ensure that each link is on a new line when we <code class="language-plaintext highlighter-rouge">file.write()</code> it.<br /><br />
+Lastly, we perform <code class="language-plaintext highlighter-rouge">file.close()</code> in order to close the file we opened.<br /><br />
+If you run the program and give it a few minutes, you should find that you now have a file named <code class="language-plaintext highlighter-rouge">links.txt</code> with <em>hundreds</em> of links that we scraped with Python! Congratulation! Without Python, it would have taken much longer to manually grab each URL.<br /><br />
+Before we finish off, we’re going to see another way in which we can use the <code class="language-plaintext highlighter-rouge">requests</code> library by checking the status of each link.</p>
+  </li>
+</ol>
+
+<h3 id="bonus-removing-dead-links">Bonus: Removing Dead Links</h3>
+<p>The website that we are scraping isn’t kept in great condition, and a few of the links are outdated or dead entirely. So, in this optional step, we’ll see another aspect of scraping which returns the status code of each website, and discards them if it is a 404 — meaning not found.</p>
+
+<p>We are going to need to slightly modify the code used in Step 4 above. Instead of simply iterating through the links and writing them to the file, we are going to first ensure that they aren’t broken.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">file</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">"links.txt"</span><span class="p">,</span> <span class="s">"w+"</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">true_links</span><span class="p">)):</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="c1"># ensure it is a working link
+</span>        <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">true_links</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">children</span><span class="p">)[</span><span class="mi">0</span><span class="p">][</span><span class="s">'href'</span><span class="p">]),</span> <span class="n">timeout</span> <span class="o">=</span> <span class="mi">5</span><span class="p">,</span> <span class="n">allow_redirects</span> <span class="o">=</span> <span class="bp">True</span><span class="p">,</span> <span class="n">stream</span> <span class="o">=</span> <span class="bp">True</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">response</span> <span class="o">!=</span> <span class="mi">404</span><span class="p">:</span>
+            <span class="nb">file</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">true_links</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">children</span><span class="p">)[</span><span class="mi">0</span><span class="p">][</span><span class="s">'href'</span><span class="p">])</span> <span class="o">+</span> <span class="s">'</span><span class="se">\n</span><span class="s">'</span><span class="p">)</span>
+
+    <span class="k">except</span><span class="p">:</span> <span class="c1"># Connection Refused
+</span>        <span class="k">pass</span>
+
+<span class="nb">file</span><span class="p">.</span><span class="n">close</span><span class="p">()</span>
+</code></pre></div></div>
+<p>We’ve made a few changes — let’s go over them.</p>
+
+<ul>
+  <li>We created a <code class="language-plaintext highlighter-rouge">response</code> variable which checks the status code of the link — essentially seeing if it is still there. This can be done with the useful <code class="language-plaintext highlighter-rouge">requests.get()</code> method. We are getting the same link that we are trying to append, namely the website URL, and giving it 5 seconds to respond, the chance to redirect, and allowing it to send us files (which we won’t download), with <code class="language-plaintext highlighter-rouge">stream = True</code>.</li>
+  <li>We checked what the response was, by seeing if it was a 404 or not. If it wasn’t, then we wrote the link, but if it was, then we did nothing and did not write the link to the file. This was done through the conditional <code class="language-plaintext highlighter-rouge">if response != 404</code>.</li>
+  <li>Lastly, we wrapped the whole thing in a try — except loop. That’s because if the page was slow to load, couldn’t be accessed, or the connection was refused, then ordinarily the program would crash in an Exception. However, since we wrapped it in this loop then nothing will happen in the case of an Exception and it will only be passed over.</li>
+</ul>
+
+<p>And that’s it! If you run the code (and leave it running too, because for <code class="language-plaintext highlighter-rouge">requests</code> to check hundreds of links it can take a good half-hour) when it finishes you’ll have a beautiful set of a few hundred working resource links!</p>
+<h3 id="full-code">Full Code</h3>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># grab the list of all the resources at https://challenges.hackingchinese.com/resources
+</span><span class="kn">import</span> <span class="nn">requests</span><span class="p">,</span> <span class="n">time</span>
+<span class="kn">from</span> <span class="nn">bs4</span> <span class="kn">import</span> <span class="n">BeautifulSoup</span>
+
+<span class="c1"># links that hold the correct content, not headers and other HTML
+</span><span class="n">true_links</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="k">def</span> <span class="nf">extract_resources</span><span class="p">(</span><span class="n">page</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+    <span class="n">page</span> <span class="o">=</span> <span class="n">requests</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="sa">f</span><span class="s">'https://challenges.hackingchinese.com/resources/stories?page=</span><span class="si">{</span><span class="n">page</span><span class="si">}</span><span class="s">'</span><span class="p">)</span>
+
+    <span class="n">soup</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">page</span><span class="p">.</span><span class="n">content</span><span class="p">,</span> <span class="s">'html.parser'</span><span class="p">)</span>
+
+    <span class="c1"># links are stored within a unique &lt;h4&gt; header on each card
+</span>    <span class="n">links</span> <span class="o">=</span> <span class="n">soup</span><span class="p">.</span><span class="n">find_all</span><span class="p">(</span><span class="s">'h4'</span><span class="p">)</span>
+
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">links</span><span class="p">)):</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">links</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="s">'class'</span><span class="p">]</span> <span class="o">==</span> <span class="p">[</span><span class="s">'card-title'</span><span class="p">]:</span>
+                <span class="n">true_links</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">links</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+        <span class="k">except</span><span class="p">:</span>
+            <span class="k">pass</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">):</span>
+    <span class="n">extract_resources</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="c1"># 9 different pages with info
+</span>
+<span class="nb">file</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s">"links.txt"</span><span class="p">,</span> <span class="s">"w+"</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">true_links</span><span class="p">)):</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="c1"># ensure it is a working link
+</span>        <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">true_links</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">children</span><span class="p">)[</span><span class="mi">0</span><span class="p">][</span><span class="s">'href'</span><span class="p">]),</span> <span class="n">timeout</span> <span class="o">=</span> <span class="mi">5</span><span class="p">,</span> <span class="n">allow_redirects</span> <span class="o">=</span> <span class="bp">True</span><span class="p">,</span> <span class="n">stream</span> <span class="o">=</span> <span class="bp">True</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">response</span> <span class="o">!=</span> <span class="mi">404</span><span class="p">:</span>
+            <span class="nb">file</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">true_links</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">children</span><span class="p">)[</span><span class="mi">0</span><span class="p">][</span><span class="s">'href'</span><span class="p">])</span> <span class="o">+</span> <span class="s">'</span><span class="se">\n</span><span class="s">'</span><span class="p">)</span>
+
+    <span class="k">except</span><span class="p">:</span> <span class="c1"># Connection Refused
+</span>        <span class="k">pass</span>
+
+<span class="nb">file</span><span class="p">.</span><span class="n">close</span><span class="p">()</span>
+</code></pre></div></div>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>In this post, we’ve learned how to:</p>
+<ul>
+  <li>View a page source</li>
+  <li>Scrape a website for specific data</li>
+  <li>Write to files with Python</li>
+  <li>Check for dead links</li>
+</ul>
+
+<p>Although we only touched the surface of the sort of web scraping that can be done in Python with the proper libraries, I hope that even this quick intro has taught you how to leverage the power of programming to automatically scrape websites. I highly encourage you to check out the official documentation for both <a href="https://requests.readthedocs.io/en/master/">requests</a> and <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup</a> if you want to take a deeper dive into the world of data scraping, and see if there is any data that <em>you</em> can gather from the web and use in your own projects.</p>
+
+<p>Let me know in the comments what you’re scraping or if you need any more help!</p>
+
+<p>Happy Coding!</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#beautifulsoup" class="page__taxonomy-item p-category" rel="tag">beautifulsoup</a><span class="sep">, </span>
+    
+      <a href="/tags/#mandarin" class="page__taxonomy-item p-category" rel="tag">mandarin</a><span class="sep">, </span>
+    
+      <a href="/tags/#python" class="page__taxonomy-item p-category" rel="tag">python</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#tutorial" class="page__taxonomy-item p-category" rel="tag">tutorial</a><span class="sep">, </span>
+    
+      <a href="/categories/#web-scraping" class="page__taxonomy-item p-category" rel="tag">web-scraping</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2020-08-04T15:19:28+02:00">August 4, 2020</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Web+Scraping+in+Python+with+BeautifulSoup%20http%3A%2F%2Flocalhost%3A4000%2Ftutorial%2Fweb-scraping%2Fweb-scraping-in-python-with-beautifulsoup%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Ftutorial%2Fweb-scraping%2Fweb-scraping-in-python-with-beautifulsoup%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Ftutorial%2Fweb-scraping%2Fweb-scraping-in-python-with-beautifulsoup%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/resources/productivity/the-pomodoro-technique-for-programmers/" class="pagination--pager" title="The Pomodoro Technique: Double your Productivity
+">Previous</a>
+    
+    
+      <a href="/tutorial/api/building-the-simplest-rest-api-possible/" class="pagination--pager" title="Building the Simplest REST API Possible
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">You may also enjoy</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/chinese/resources/reflections/2022-in-review/" rel="permalink">My Chinese Learning in 2022, Wrapped!
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">A lage infographic summarizing how I spent my year learning Chinese and what I accomplished.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/chinese/resources/guides/passing-hsk-6/" rel="permalink">Passing the HSK 6 With Virtually No Preparation
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          8 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Webnovels, television, and a pinch of practice got me to pass the most difficult Chinese proficiency exam.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/tutorial/resources/learning/free-porkbun-emails/" rel="permalink">How to Create a Free Custom Email Address with Porkbun
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          5 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">A guide on how to set up a send-to and receive-from custom email address — without paying a penny for anything except your domain.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/guides/chinese/reflections/improving-reading-stamina/" rel="permalink">A Guide and 5 Defenses Against Chinese Reading Fatigue
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          9 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">What I’ve learned improving my Chinese reading stamina from thirty minutes to hours at a stretch — and how you can apply it to see the same gains.
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/Destaq" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="mailto:simon@simonilincev.com" rel="nofollow noopener noreferrer"><i class="fa fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+        
+      
+        
+          <li><a href="https://stackoverflow.com/users/12876940/destaq" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i> Stack Overflow</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Simon Ilincev. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/tutorial/web-scraping/web-scraping-in-python-with-beautifulsoup/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/tutorial/web-scraping/web-scraping-in-python-with-beautifulsoup"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://simonilincev.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+  </body>
+</html>

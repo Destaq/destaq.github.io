@@ -1,0 +1,778 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Winning my First Hackathon — Product &amp; Lessons Learned – Simon Ilincev</title>
+<meta name="description" content="I won ‘Best Solo Hack’ for the first hackathon I ever participated in — here’s what I did, learned, and made.">
+
+
+  <meta name="author" content="Simon Ilincev">
+  
+  <meta property="article:author" content="Simon Ilincev">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Simon Ilincev">
+<meta property="og:title" content="Winning my First Hackathon — Product &amp; Lessons Learned">
+<meta property="og:url" content="http://localhost:4000/hackathon/updates/winning-my-first-hackathon/">
+
+
+  <meta property="og:description" content="I won ‘Best Solo Hack’ for the first hackathon I ever participated in — here’s what I did, learned, and made.">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/posts/surgelingo_home.png">
+
+
+
+
+
+  <meta property="article:published_time" content="2021-09-14T15:30:56+02:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/hackathon/updates/winning-my-first-hackathon/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Simon Ilincev Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+<link rel="manifest" href="/assets/images/site.webmanifest">
+<link rel="mask-icon" href="/assets/images/safari-pinned-tab.svg" color="#000000">
+<link rel="stylesheet" href="/assets/css/custom.css">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0M42PJ7MRK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0M42PJ7MRK');
+</script>
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Simon Ilincev
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/portfolio/">Portfolio</a>
+            </li><li class="masthead__menu-item">
+              <a href="/blog/">Blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/contact/">Contact</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero"
+  style=" background-image: url('');"
+>
+  
+    <img src="/assets/images/posts/surgelingo_home.png" alt="screenshot of the product made after the weekend elapsed" class="page__hero-image">
+  
+  
+    <span class="page__hero-caption">SurgeLingo after 48 hours.
+</span>
+  
+</div>
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/bio_photo.jpg" alt="Simon Ilincev" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Simon Ilincev</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Backend Python and JavaScript developer passionate about NLP and building APIs.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Prague, Czechia</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="https://github.com/Destaq" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="mailto:simon@simonilincev.com" rel="nofollow noopener noreferrer me"><i class="fa fa-fw fa-envelope" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+            <li><a href="https://stackoverflow.com/users/12876940/destaq" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i><span class="label">Stack Overflow</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Winning my First Hackathon — Product &amp; Lessons Learned">
+    <meta itemprop="description" content="I won ‘Best Solo Hack’ for the first hackathon I ever participated in — here’s what I did, learned, and made.">
+    <meta itemprop="datePublished" content="2021-09-14T15:30:56+02:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/hackathon/updates/winning-my-first-hackathon/" class="u-url" itemprop="url">Winning my First Hackathon — Product &amp; Lessons Learned
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          6 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#introduction">Introduction</a></li><li><a href="#about-surgelingo">About SurgeLingo</a><ul><li><a href="#inspiration">Inspiration</a></li><li><a href="#what-it-does">What it does</a></li><li><a href="#stack">Stack</a></li><li><a href="#challenges">Challenges</a></li><li><a href="#what-i-learned">What I learned</a></li><li><a href="#further-links">Further Links</a></li></ul></li><li><a href="#tips">Tips</a><ul><li><a href="#focus-on-core-functionality">Focus on Core Functionality</a></li><li><a href="#form-an-action-plan">Form an Action Plan</a></li><li><a href="#describe-the-product-vividly">Describe the Product Vividly</a></li><li><a href="#dont-be-afraid-to-ask-for-help">Don’t be Afraid to Ask for Help</a></li><li><a href="#keep-the-time-in-mind">Keep the Time in Mind</a></li></ul></li><li><a href="#conclusion">Conclusion</a></li></ul>
+
+            </nav>
+          </aside>
+        
+        <h2 id="introduction">Introduction</h2>
+<p>This week, I participated in my first ever hackathon — a two-day, online one named <a href="https://develop-to-disrupt.devpost.com/">Develop to Disrupt</a> which attracted about a hundred teams with 1-4 people each. After nearly twenty hours of coding, lots of learning, and a couple of sleepless nights, I built <a href="https://devpost.com/software/surgelingo">SurgeLingo</a>, a disruptive language learning tool — which won me ‘Best Solo Hack’, tickets to a Canadian tech summit, and Beats headphones, among others. Here’s a write up of what I learned, about the product, and some tips at the end.</p>
+
+<h2 id="about-surgelingo">About SurgeLingo</h2>
+<blockquote>
+  <p>This was originally posted on the <a href="https://devpost.com/software/surgelingo">hackathon submission page</a>.</p>
+</blockquote>
+
+<h3 id="inspiration">Inspiration</h3>
+<p>I’m a language learner myself, and when I was at the beginner and intermediate stages, I always found it difficult to find comprehensible, accessible content. Most foreign resources were either too long, difficult, or hard to get.</p>
+
+<p>I created SurgeLingo to solve this. It uses an open-source sentence database with millions of sentences to provide a personalized feed of sentences based on user-chosen settings, such as language, difficulty, and tags. These sentences gradually get more difficult, and can be learned and stored with just a click.</p>
+
+<p>The online aspect solves the accessibility issue, the individualized response solves the difficulty issue, and the 200-character limit makes it a breeze to learn with SurgeLingo, whether sitting at a bus stop for a minute or intensively studying at home for an hour.</p>
+
+<h3 id="what-it-does">What it does</h3>
+<p>Drawing on sentences from <a href="https://tatoeba.org/en/">Tatoeba</a>, SurgeLingo creates a massive database of tagged sentences, or ‘surges’ — since by using the platform, users ‘surge’ ahead in their learning. These sentences are reduced to their unconjugated form through natural language processing, and can be compared against a user’s known words to show personalized results.</p>
+
+<p>A user can upload their own wordlist, for example from a frequency list, to generate these known words. Whenever they view a sentence, they can click on a red, unknown word that they now have learned to add it to their database as well — or simply mark the whole sentence as known after having studied it.</p>
+
+<p>For a more focused session, users can change the difficulty of returned sentences (for example, from Easy, where 90% of a sentence’s content is known, to Difficult, where that is 70%). They can also search for a specific type of surge by specifying words found inside the sentence, a tag, an author, etc — perfect for learning vocabulary <em>in context</em>. Just learning from flashcards won’t really help you grow unless you see the new words in context (as SurgeLingo provides), as that will solidify its meaning and demonstrate its usage.</p>
+
+<p>Below you can see an example of a surge.
+<img src="https://raw.githubusercontent.com/Destaq/surgelingo-backend/main/static/surgelingo_example.png" alt="Example sentence surge" class="align-center" /></p>
+
+<p>Additionally, users contribute to the community by writing and submitting their own surges.</p>
+
+<h3 id="stack">Stack</h3>
+<p>Despite the short timeframe, this was one of the most ambitious projects I ever undertook.</p>
+
+<p>The <a href="https://www.github.com/Destaq/surgelingo-frontend">frontend</a> was built with Nuxt and Vue 2. TailwindCSS was used for styling, and the modules <code class="language-plaintext highlighter-rouge">nuxt-auth</code> and <code class="language-plaintext highlighter-rouge">nuxt-axios</code> were used for smooth user authentication and requests to the backend.</p>
+
+<p>The <a href="https://www.github.com/Destaq/surgelingo-backend">backend</a> was built with the Flask Python microframework, and used a PostgreSQL database to store user info, sentences (‘surges’), and so on.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">nltk</code> Python package, a natural language processing library, was leveraged so that surge sentences and user wordbanks would be <a href="https://en.wikipedia.org/wiki/Stemming">stemmed</a>, a process that reduces the words inside to their root form. This allowed for support of languages that have conjugation. A number of other packages that extend Flask or allow for content generation were also used.</p>
+
+<h3 id="challenges">Challenges</h3>
+<p>Nuxt and Flask is a rare combination, and so I had to dig deep for a number of problems to coordinate the backend API and the frontend.</p>
+
+<p>The most obvious of these was user authentication — I had to set up a cookie-based implicit refresh system, and the library that I was using for auth on the frontend, <code class="language-plaintext highlighter-rouge">nuxt-auth</code> wasn’t built with Flask in mind. So, I had to customize the module configuration and take a lesser-known approach to JWT token passing.</p>
+
+<p>Another challenge, of course, was that of time. Working solo and having a few activities on the weekend, juggling developing the project was a challenge. I had to leave ‘coming soon’ content for a few pages that weren’t a priority, such as the About Us or user profiles.</p>
+
+<h3 id="what-i-learned">What I learned</h3>
+<p>I learned a lot about word processing, since I had to stem all words in multiple languages so that sentence analysis would work well.</p>
+
+<p>Equally, I explored some aspects of PostgreSQL management through Flask that I wasn’t aware of before, such as <code class="language-plaintext highlighter-rouge">BaseQuery</code>s, advanced filtering, and more. This newfound knowledge will definitely come in handy in the future.</p>
+
+<h3 id="further-links">Further Links</h3>
+<ul>
+  <li><a href="https://www.github.com/Destaq/surgelingo-frontend">Frontend on GitHub</a></li>
+  <li><a href="https://www.github.com/Destaq/surgelingo-backend">Backend on GitHub</a></li>
+  <li><a href="https://devpost.com/software/surgelingo">Project on Devpost</a></li>
+  <li><a href="https://youtu.be/lIIGpiJqbz0">YouTube 5 min usage overview</a></li>
+</ul>
+
+<h2 id="tips">Tips</h2>
+<p>Being new to hackathons, a lot was foreign to me — here are some things I wish I had heard before I started.</p>
+
+<h3 id="focus-on-core-functionality">Focus on Core Functionality</h3>
+<p>I spent a ridiculous amount (several hours) of time building the home page for unregistered users — only for it not even to be shown in the video or photos outside of the top 20%. This detracted from the amount of time that I spent developing the really core features of the web app — and when I encountered some difficulties building parts of the core functionality, the time that I lost made me stress.</p>
+
+<p>So, my first suggestion is to build from the ground up, without regard for the baubles that it’s unlikely judges will even look at.</p>
+
+<p>I even left a few 404 pages and empty links up (like user settings) — it’s unlikely anyone will ever even see them.</p>
+
+<h3 id="form-an-action-plan">Form an Action Plan</h3>
+<p>This is apparent for any project, not just short hackathon ones — it’s important to know <em>what</em> it is you are building and how you are going to build it before you start doing so. I created a chronological todo list about halfway through the weekend, and having tasks laid out in front of me sped up the development process and helped me identify bugs.</p>
+
+<h3 id="describe-the-product-vividly">Describe the Product Vividly</h3>
+<p>Most hackathons will have a theme — focus on how your submission addresses that theme/problem using as eye-catching and emotive words as possible. Of course, don’t <em>lie</em> about the product — but a little goes a long way.</p>
+
+<p>Additionally, I think that a well-filled submission form does wonders too. I wrote out a couple pages — and I think the half-hour spent on this was more valuable than another half-hour writing some functions.</p>
+
+<h3 id="dont-be-afraid-to-ask-for-help">Don’t be Afraid to Ask for Help</h3>
+<p>The hackathon leaders were incredibly enthusiastic and helpful — even for some of my obviously beginner questions. And while there is a competitive atmosphere, fellow hackers are also usually happy to help out and answer a quick hackathon-related question or two.</p>
+
+<h3 id="keep-the-time-in-mind">Keep the Time in Mind</h3>
+<p>The timeframe’s requirements include filling out submission details, <strong>creating a video</strong> (I really underestimated how long this would take, building the presentation, recording it well, and uploading took nearly 90 minutes), and watching the opening ceremony — as well as sleep, of course.</p>
+
+<p>My finish was extremely tight, and this introduced both bugs and stress. I’d suggest aiming to finish with all coding at least two hours before the final deadline — taking the rest of the time to search for bugs that might pop up during a video, set up your recording software, take photos, make a write-up, etc.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>Overall, it was a lot of fun building this, though the timeframe caused a bit of stress — perhaps reflected in the video entry. I learned a lot developing SurgeLingo, and think that it has real future potential — I’m deeply considering continuing to work on it.</p>
+
+<p>Participating in the hackathon was amazing, and it was made all the more special by finding out the next morning I’d won a category — along with some awesome prizes!</p>
+
+<p>I hope reading about this and looking through the tips has helped you.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#devpost" class="page__taxonomy-item p-category" rel="tag">devpost</a><span class="sep">, </span>
+    
+      <a href="/tags/#learning" class="page__taxonomy-item p-category" rel="tag">learning</a><span class="sep">, </span>
+    
+      <a href="/tags/#time-management" class="page__taxonomy-item p-category" rel="tag">time-management</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#hackathon" class="page__taxonomy-item p-category" rel="tag">hackathon</a><span class="sep">, </span>
+    
+      <a href="/categories/#updates" class="page__taxonomy-item p-category" rel="tag">updates</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2021-09-14T15:30:56+02:00">September 14, 2021</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Winning+my+First+Hackathon+%E2%80%94+Product+%26+Lessons+Learned%20http%3A%2F%2Flocalhost%3A4000%2Fhackathon%2Fupdates%2Fwinning-my-first-hackathon%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fhackathon%2Fupdates%2Fwinning-my-first-hackathon%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fhackathon%2Fupdates%2Fwinning-my-first-hackathon%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/updates/chinese/chinese-studying/" class="pagination--pager" title="9 Months and 3 HSK Levels — my Ultimate Chinese Study Guide
+">Previous</a>
+    
+    
+      <a href="/updates/chinese/guides/hsk-5-reflection/" class="pagination--pager" title="HSK 5 in 15 months — Chinese-learning Tools, Tips, and Techniques I’ve Learned in One Guide
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">You may also enjoy</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/chinese/resources/reflections/2022-in-review/" rel="permalink">My Chinese Learning in 2022, Wrapped!
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">A lage infographic summarizing how I spent my year learning Chinese and what I accomplished.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/chinese/resources/guides/passing-hsk-6/" rel="permalink">Passing the HSK 6 With Virtually No Preparation
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          8 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Webnovels, television, and a pinch of practice got me to pass the most difficult Chinese proficiency exam.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/tutorial/resources/learning/free-porkbun-emails/" rel="permalink">How to Create a Free Custom Email Address with Porkbun
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          5 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">A guide on how to set up a send-to and receive-from custom email address — without paying a penny for anything except your domain.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/guides/chinese/reflections/improving-reading-stamina/" rel="permalink">A Guide and 5 Defenses Against Chinese Reading Fatigue
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          9 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">What I’ve learned improving my Chinese reading stamina from thirty minutes to hours at a stretch — and how you can apply it to see the same gains.
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/Destaq" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="mailto:simon@simonilincev.com" rel="nofollow noopener noreferrer"><i class="fa fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+        
+      
+        
+          <li><a href="https://stackoverflow.com/users/12876940/destaq" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i> Stack Overflow</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Simon Ilincev. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/hackathon/updates/winning-my-first-hackathon/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/hackathon/updates/winning-my-first-hackathon"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://simonilincev.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,901 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Building the Simplest REST API Possible – Simon Ilincev</title>
+<meta name="description" content="A quick tutorial demonstrating how to build the simplest REST API possible — clientside and serverside — with Python Flask and vanilla JavaScript.">
+
+
+  <meta name="author" content="Simon Ilincev">
+  
+  <meta property="article:author" content="Simon Ilincev">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Simon Ilincev">
+<meta property="og:title" content="Building the Simplest REST API Possible">
+<meta property="og:url" content="http://localhost:4000/tutorial/api/building-the-simplest-rest-api-possible/">
+
+
+  <meta property="og:description" content="A quick tutorial demonstrating how to build the simplest REST API possible — clientside and serverside — with Python Flask and vanilla JavaScript.">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/posts/flask_logo.svg">
+
+
+
+
+
+  <meta property="article:published_time" content="2020-08-23T09:45:24+02:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/tutorial/api/building-the-simplest-rest-api-possible/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Simon Ilincev Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+<link rel="manifest" href="/assets/images/site.webmanifest">
+<link rel="mask-icon" href="/assets/images/safari-pinned-tab.svg" color="#000000">
+<link rel="stylesheet" href="/assets/css/custom.css">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0M42PJ7MRK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0M42PJ7MRK');
+</script>
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Simon Ilincev
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/portfolio/">Portfolio</a>
+            </li><li class="masthead__menu-item">
+              <a href="/blog/">Blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/contact/">Contact</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero"
+  style=" background-image: url('');"
+>
+  
+    <img src="/assets/images/posts/flask_logo.svg" alt="python flask logo" class="page__hero-image">
+  
+  
+</div>
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/bio_photo.jpg" alt="Simon Ilincev" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Simon Ilincev</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Backend Python and JavaScript developer passionate about NLP and building APIs.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Prague, Czechia</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="https://github.com/Destaq" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="mailto:simon@simonilincev.com" rel="nofollow noopener noreferrer me"><i class="fa fa-fw fa-envelope" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+            <li><a href="https://stackoverflow.com/users/12876940/destaq" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i><span class="label">Stack Overflow</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Building the Simplest REST API Possible">
+    <meta itemprop="description" content="A quick tutorial demonstrating how to build the simplest REST API possible — clientside and serverside — with Python Flask and vanilla JavaScript.">
+    <meta itemprop="datePublished" content="2020-08-23T09:45:24+02:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="http://localhost:4000/tutorial/api/building-the-simplest-rest-api-possible/" class="u-url" itemprop="url">Building the Simplest REST API Possible
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          10 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#introduction">Introduction</a><ul><li><a href="#defining-a-rest-api">Defining a REST API</a></li><li><a href="#overview-of-tools-used">Overview of Tools used</a></li><li><a href="#requirements--installation">Requirements + Installation</a></li></ul></li><li><a href="#building-the-backend">Building the Backend</a></li><li><a href="#setting-up-the-frontend">Setting up the Frontend</a></li><li><a href="#full-code">Full Code</a></li><li><a href="#viewing-the-result">Viewing the Result</a><ul><li><a href="#conclusion">Conclusion</a></li></ul></li></ul>
+
+            </nav>
+          </aside>
+        
+        <h2 id="introduction">Introduction</h2>
+<p>REST APIs are everywhere — without them, websites would be a lot more boring. They are what integrate the <em>frontend</em> and the <em>backend</em> of a website, and we’ll be building one ourselves today — in under five minutes.</p>
+
+<h3 id="defining-a-rest-api">Defining a REST API</h3>
+<p>A REST API — short for <strong>representational state transfer application program interface</strong> — is what allows different programming languages and parts of an application to communicate with each other. Natively, these languages would be unable to speak to each other, as they can’t understand each other’s code. This would be a big loss, since some programming languages perform better in different fields or are geared towards specific jobs — for example, you’d never use JavaScript for machine learning. However, Python is the go-to language for this — and that’s where REST APIs show their value.</p>
+
+<p>In essence, these APIs send information up and down a server, information that can be decoded and sent to the client. The strong suite of this type of API is that it works extremely well for databases — there are four fundamental <strong>HTTP methods</strong> which can be used.</p>
+
+<ul>
+  <li>GET — gets data from the server</li>
+  <li>POST — creates a record in the server</li>
+  <li>PUT/PATCH — updates a record in the server</li>
+  <li>DELETE — deletes an existing record in the server</li>
+</ul>
+
+<p>These can be remembered by the acronym CRUD (create, read, update, and delete).</p>
+
+<h3 id="overview-of-tools-used">Overview of Tools used</h3>
+<p>In order to create our REST API, we are going to need to install a few prerequisites (we’ll go into that in the <a href="#requirements--nstallation">next section</a>). Before we start, though, let’s take a quick look at the tools that we are actually going to use.</p>
+
+<p>First off, for the <em>backend</em> part of our API — the part that handles the database, incoming requests, and modifies data — we’ll be using Python, and an awesome library called <a href="https://flask.palletsprojects.com/en/1.1.x/">Flask</a>. Don’t worry if you aren’t too familiar with Python — the code will be short, and well-explained. Other than this library, we won’t actually need anything else on the backend side!</p>
+
+<p>A popular alternative to Flask, for those interested, is <a href="https://www.djangoproject.com">Django</a>. However, this is a step up from Flask and is often much more complicated, so we’ll stick to Flask for this post.</p>
+
+<p>For the frontend part of our RESTful API, we’ll be using JavaScript to modify an HTML page that the user sees — giving visual proof of our API working. Likewise, don’t worry if you don’t know JavaScript — the code is going to be even simpler than the backend!</p>
+
+<h3 id="requirements--installation">Requirements + Installation</h3>
+<p><strong>Requirements</strong></p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Python &gt;= 3.4</code></li>
+  <li><code class="language-plaintext highlighter-rouge">Flask == 1.1.2</code></li>
+  <li>A web browser</li>
+</ul>
+
+<p>Let’s get started with the setup. If you don’t already have Python, download it <a href="https://www.python.org/downloads/">here</a>.</p>
+
+<p>Onto our first actual installation — Flask. If you have a Python version greater than or equal to 3.4 (you can check with <code class="language-plaintext highlighter-rouge">python3 -V</code> in your terminal), then you are good to go with the next step. If not, you are going to need to install <code class="language-plaintext highlighter-rouge">pip</code> or upgrade your Python to a more modern version — instructions are on their website <a href="https://pip.pypa.io/en/stable/installing/">here</a>.</p>
+
+<p>Once you have Flask installed, you can type <code class="language-plaintext highlighter-rouge">python3 -m pip install Flask</code> anywhere in your terminal, and after a minute or two you will have the Flask library installed. Onwards!</p>
+
+<h2 id="building-the-backend">Building the Backend</h2>
+<p>We’re going to start off by building the <em>backend</em> — this is what the client doesn’t see, and the part of the application that does the heavy lifting and handles HTTP requests. We’ll be building this with Python and Flask.</p>
+
+<p>First of all, we are going to need to import our library. Create a new file, naming it whatever you want — just make sure to have it end with a <code class="language-plaintext highlighter-rouge">.py</code> extension so that it is recognized as a Python file. I’ll be naming mine <code class="language-plaintext highlighter-rouge">app.py</code>.</p>
+
+<p>We can then get started by importing Flask below.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">Flask</span>
+</code></pre></div></div>
+
+<p>We then need to initialize our Flask, web application.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">app</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="n">__name__</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Next up, let’s create a Flask <em>route</em>, which will is essentially the URL that the user has to go to in order to be able to access the content. We’ll create a route at <code class="language-plaintext highlighter-rouge">/hello</code>, so that the user can go to that URL in order to access the  data there. We can create this route using a <em>decorator</em> — essentially a function that wraps around another function.</p>
+
+<p>Decorators could be a whole post unto themselves, but in essence they do something, execute the function they “decorate”, and then continue to do something — essentially wrapping some instructions around another function.</p>
+
+<p>With Python, we can specify a decorator using the “@” symbol. Let’s go down a few lines and set up our Flask route decorator.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">@</span><span class="n">app</span><span class="p">.</span><span class="n">route</span><span class="p">(</span><span class="s">"/hello"</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s">"GET"</span><span class="p">])</span>
+</code></pre></div></div>
+
+<p>The above code sets up an application route on the home page, and supports <code class="language-plaintext highlighter-rouge">GET</code> requests (so JavaScript can access the data). Let’s move onto creating the actual function that will execute when the user goes there. On the line directly below the decorator, type in the following code (or you can skip to <a href="#full-code">the full code</a> and copy all the code at once).</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">hello</span><span class="p">():</span> <span class="c1"># you can name this anything you want
+</span>    <span class="k">return</span> <span class="p">{</span><span class="s">"response"</span><span class="p">:</span> <span class="s">"Hello from Python!"</span><span class="p">}</span>
+</code></pre></div></div>
+
+<p>The function that we set up above is returning data, in the form of JSON — an acronym for JavaScript Object Notation, and a language that can be read by most other major programming languages. It sends data in the form of an <em>object</em>, one with a name of “response” and a value of “Hello from Python” — somewhat similar to a Python dictionary.</p>
+
+<p>Lastly, we need to make the application ready to run. We can do this by adding — at the bottom of the file — an <code class="language-plaintext highlighter-rouge">app.run()</code> function.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">"__main__"</span><span class="p">:</span>
+    <span class="n">app</span><span class="p">.</span><span class="n">run</span><span class="p">(</span><span class="n">debug</span> <span class="o">=</span> <span class="bp">True</span><span class="p">)</span>
+</code></pre></div></div>
+<p><code class="language-plaintext highlighter-rouge">app.run()</code> means that the application will run when we run the code from the command line, and we are setting <code class="language-plaintext highlighter-rouge">debug</code> to <code class="language-plaintext highlighter-rouge">True</code> so that we can see everything happening and catch any potential errors.</p>
+
+<p>And that’s it for the backend and Python! We’re ready to go with the simple frontend now — after just 7 lines of code! We’ll need to modify this file a bit so that we can serve the JavaScript and HTML files, but that’ll just be a few extra lines of code. You <em>can</em> try running this already, by opening up your terminal, navigating to the directory holding your current Python file, and typing <code class="language-plaintext highlighter-rouge">python3 my-file-name.py</code>.</p>
+
+<p>If you do so, you’ll have some info printed out to your console, saying that the server is running on localhost:5000. If you go to <a href="http://localhost:5000/hello">http://localhost:5000/hello</a>, you’ll already be able to see the JSON there! It’s going to look just the way that we sent it (although it will be in JSON format). You should see something like the below:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="nl">"response"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Hello from Python!"</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>However, we are going to still add some JavaScript and HTML to have the data be fetched manually, as often these REST APIs are meant to be used by the application, not viewed directly by the user.</p>
+
+<h2 id="setting-up-the-frontend">Setting up the Frontend</h2>
+<p>We’ll be using JavaScript to access the API and some super-simple HTML to create an index page that the user can view. Let’s get started.</p>
+
+<p>First off, we are going to create a folder named <code class="language-plaintext highlighter-rouge">templates</code> in the same directory as our Python file, and within it, a file named <code class="language-plaintext highlighter-rouge">index.html</code>. This is the file that is going to be <em>rendered</em> by Python when a user goes to our localhost website. I won’t go through the dry details of the <code class="language-plaintext highlighter-rouge">index.html</code> file content — it’s just a simple file with a heading and space for JavaScript to inject code.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!-- templates/index.html ---&gt;</span>
+<span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"UTF-8"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1.0"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;title&gt;</span>REST API Sandbox<span class="nt">&lt;/title&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;h1&gt;</span>Data from Python below!<span class="nt">&lt;/h1&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">id=</span><span class="s">"fromJS"</span><span class="nt">&gt;&lt;/p&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"/static/pythonFetch.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+
+<p>The name of our JavaScript file is going to be <code class="language-plaintext highlighter-rouge">pythonFetch.js</code>. Let’s navigate back up to our root directory, and create a new folder named <code class="language-plaintext highlighter-rouge">static</code>. Inside, let’s create a file named <code class="language-plaintext highlighter-rouge">pythonFetch.js</code>, and get started working on it.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// static/pythonFetch.js</span>
+<span class="kd">const</span> <span class="nx">paragraph</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">"</span><span class="s2">#fromJS</span><span class="dl">"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>First of all, we are accessing our html <code class="language-plaintext highlighter-rouge">p</code> element — the paragraph. We can do this because we gave it a unique id.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">fetch</span><span class="p">(</span><span class="dl">"</span><span class="s2">/hello</span><span class="dl">"</span><span class="p">)</span>
+    <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">response</span> <span class="o">=&gt;</span> <span class="nx">response</span><span class="p">.</span><span class="nx">json</span><span class="p">())</span>
+    <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">data</span> <span class="o">=&gt;</span> <span class="nx">paragraph</span><span class="p">.</span><span class="nx">textContent</span> <span class="o">=</span> <span class="nx">data</span><span class="p">.</span><span class="nx">response</span><span class="p">)</span>
+    <span class="p">.</span><span class="k">catch</span><span class="p">(</span><span class="nx">e</span> <span class="o">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">warn</span><span class="p">(</span><span class="nx">e</span><span class="p">))</span>
+</code></pre></div></div>
+
+<p>Next, we are performing a <code class="language-plaintext highlighter-rouge">fetch</code> request. A JavaScript <code class="language-plaintext highlighter-rouge">fetch</code> request essentially performs an HTTP request to a URL — in our case, “/hello” — we don’t have to specify the same URL as it is performing it from the same localhost domain. Since Python sends the data in JSON format, we are first decoding it. Then, we are assigning that decoded value to the text content of the paragraph element that we defined earlier — essentially modifying the HTML.</p>
+
+<p>Note that we aren’t assigning <code class="language-plaintext highlighter-rouge">data</code> to textContent — we are assigning <code class="language-plaintext highlighter-rouge">data.response</code> to textContent. That’s because if we didn’t, we’d see <code class="language-plaintext highlighter-rouge">[object Object]</code> instead of our string, because JavaScript would view the JSON as an object — instead, we are just assigning its value.</p>
+
+<p>Lastly, in case anything goes wrong, we are outputting the error to the developer console (which you can open up with <code class="language-plaintext highlighter-rouge">cmd-alt-j</code> on a Mac or <code class="language-plaintext highlighter-rouge">ctrl-shift-j</code> on anything else).</p>
+
+<p>Lastly, all we need to do is render the HTML with Python. Let’s go to below the <code class="language-plaintext highlighter-rouge">app = Flask(__name__)</code> line in our Python file and add in the following code.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">@</span><span class="n">app</span><span class="p">.</span><span class="n">route</span><span class="p">(</span><span class="s">"/"</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">index</span><span class="p">():</span>
+    <span class="k">return</span> <span class="n">render_template</span><span class="p">(</span><span class="s">"index.html"</span><span class="p">)</span>
+
+    <span class="c1"># Flask automatically looks in the templates folder
+</span>    <span class="c1"># it then renders the HTML at the specified route
+</span></code></pre></div></div>
+
+<p>We also need to import <code class="language-plaintext highlighter-rouge">render_template</code> from <code class="language-plaintext highlighter-rouge">flask</code>.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">Flask</span><span class="p">,</span> <span class="n">render_template</span>
+</code></pre></div></div>
+
+<p>We’re all done! Let’s take a look at the code below in its entirety, before taking a look at the result and drawing some conclusions!</p>
+
+<h2 id="full-code">Full Code</h2>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># app.py
+</span><span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">Flask</span><span class="p">,</span> <span class="n">render_template</span>
+
+<span class="n">app</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="n">__name__</span><span class="p">)</span>
+
+<span class="o">@</span><span class="n">app</span><span class="p">.</span><span class="n">route</span><span class="p">(</span><span class="s">"/"</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">index</span><span class="p">():</span>
+    <span class="k">return</span> <span class="n">render_template</span><span class="p">(</span><span class="s">"index.html"</span><span class="p">)</span>
+
+<span class="o">@</span><span class="n">app</span><span class="p">.</span><span class="n">route</span><span class="p">(</span><span class="s">"/hello"</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s">"GET"</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
+    <span class="k">return</span> <span class="p">{</span><span class="s">"response"</span><span class="p">:</span> <span class="s">"Hello from Python!"</span><span class="p">}</span>
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">"__main__"</span><span class="p">:</span>
+    <span class="n">app</span><span class="p">.</span><span class="n">run</span><span class="p">(</span><span class="n">debug</span> <span class="o">=</span> <span class="bp">True</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!-- templates/index.html --&gt;</span>
+<span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"UTF-8"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1.0"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;title&gt;</span>REST API Sandbox<span class="nt">&lt;/title&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;h1&gt;</span>Data from Python below!<span class="nt">&lt;/h1&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">id=</span><span class="s">"fromJS"</span><span class="nt">&gt;&lt;/p&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"/static/pythonFetch.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// static/pythonFetch.js</span>
+<span class="kd">const</span> <span class="nx">paragraph</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">"</span><span class="s2">#fromJS</span><span class="dl">"</span><span class="p">)</span>
+
+<span class="nx">fetch</span><span class="p">(</span><span class="dl">"</span><span class="s2">/hello</span><span class="dl">"</span><span class="p">)</span>
+    <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">response</span> <span class="o">=&gt;</span> <span class="nx">response</span><span class="p">.</span><span class="nx">json</span><span class="p">())</span>
+    <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">data</span> <span class="o">=&gt;</span> <span class="nx">paragraph</span><span class="p">.</span><span class="nx">textContent</span> <span class="o">=</span> <span class="nx">data</span><span class="p">.</span><span class="nx">response</span><span class="p">)</span>
+    <span class="p">.</span><span class="k">catch</span><span class="p">(</span><span class="nx">e</span> <span class="o">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">warn</span><span class="p">(</span><span class="nx">e</span><span class="p">))</span>
+</code></pre></div></div>
+<h2 id="viewing-the-result">Viewing the Result</h2>
+<p>Now that we’ve written the code, all that’s left to do is run it!</p>
+
+<p>To do this, we need to navigate back to the root directory, holding the Python file. From there, we can use our command line to run the Flask application by typing in the name of the Python file. In my case, I named the file <code class="language-plaintext highlighter-rouge">app.py</code>, so I am going to write <code class="language-plaintext highlighter-rouge">python3 app.py</code>.</p>
+
+<p>After a few seconds, the terminal should show that the Flask app is running. If you get text similar to the below, that means that your app is successfully running! Keep in mind that the exact localhost URL that it will be running on may differ.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+</code></pre></div></div>
+
+<p>If we head over to our browser and go to <code class="language-plaintext highlighter-rouge">localhost:5000</code>, we should be able to see the HTML page — with the data from Python below it as a paragraph element! JavaScript has fetched this data for us from the REST API, and rendered it to the page!</p>
+
+<p><img src="/assets/images/posts/flask_api.png" alt="index.html page of Flask app" class="align-center" /></p>
+
+<p>If you’d like to see what the JSON looks like, you can head over to <code class="language-plaintext highlighter-rouge">localhost:5000/hello</code> and you’ll be able to view the JSON object the exact same way that it was put in by Python (<code class="language-plaintext highlighter-rouge">response: "Hello from Python!"</code>).</p>
+
+<h3 id="conclusion">Conclusion</h3>
+<p>In this post, we learned what a REST API is, where it is used, and then set up one of our own with Python and the Flask library, as well as some simple HTML and JavaScript. We looked at how to create different routes and fetch data from Python and the API with JavaScript — all in only about 30 lines of code!</p>
+
+<p>With REST APIs, the options and avenues for exploration are truly limitless — we’ve just scratched the surface. Hopefully, you now have a basic understanding of APIs and how they work, as well as the ability to make your own. If you want to explore some more, I’d suggest checking out <a href="https://flask.palletsprojects.com/en/1.1.x/quickstart/">Flask’s documentation</a> and look more into fetching (with POST, DELETE, etc. requests) in JavaScript <a href="https://javascript.info/fetch">here</a>.</p>
+
+<p>I’m off to continue working on my own REST API — you’ll be able to hear about it in the next post.</p>
+
+<p>Until then, happy coding!</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#javascript" class="page__taxonomy-item p-category" rel="tag">javascript</a><span class="sep">, </span>
+    
+      <a href="/tags/#learning" class="page__taxonomy-item p-category" rel="tag">learning</a><span class="sep">, </span>
+    
+      <a href="/tags/#python" class="page__taxonomy-item p-category" rel="tag">python</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#api" class="page__taxonomy-item p-category" rel="tag">api</a><span class="sep">, </span>
+    
+      <a href="/categories/#tutorial" class="page__taxonomy-item p-category" rel="tag">tutorial</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2020-08-23T09:45:24+02:00">August 23, 2020</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Building+the+Simplest+REST+API+Possible%20http%3A%2F%2Flocalhost%3A4000%2Ftutorial%2Fapi%2Fbuilding-the-simplest-rest-api-possible%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Ftutorial%2Fapi%2Fbuilding-the-simplest-rest-api-possible%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Ftutorial%2Fapi%2Fbuilding-the-simplest-rest-api-possible%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/tutorial/web-scraping/web-scraping-in-python-with-beautifulsoup/" class="pagination--pager" title="Web Scraping in Python with BeautifulSoup
+">Previous</a>
+    
+    
+      <a href="/project/resources/introducing-online-life-calendar/" class="pagination--pager" title="Introducing Online Life Calendar
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h2 class="page__related-title">You may also enjoy</h2>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/chinese/resources/reflections/2022-in-review/" rel="permalink">My Chinese Learning in 2022, Wrapped!
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">A lage infographic summarizing how I spent my year learning Chinese and what I accomplished.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/chinese/resources/guides/passing-hsk-6/" rel="permalink">Passing the HSK 6 With Virtually No Preparation
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          8 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Webnovels, television, and a pinch of practice got me to pass the most difficult Chinese proficiency exam.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/tutorial/resources/learning/free-porkbun-emails/" rel="permalink">How to Create a Free Custom Email Address with Porkbun
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          5 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">A guide on how to set up a send-to and receive-from custom email address — without paying a penny for anything except your domain.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/guides/chinese/reflections/improving-reading-stamina/" rel="permalink">A Guide and 5 Defenses Against Chinese Reading Fatigue
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          9 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">What I’ve learned improving my Chinese reading stamina from thirty minutes to hours at a stretch — and how you can apply it to see the same gains.
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+          <li><a href="https://github.com/Destaq" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="mailto:simon@simonilincev.com" rel="nofollow noopener noreferrer"><i class="fa fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+        
+      
+        
+          <li><a href="https://stackoverflow.com/users/12876940/destaq" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i> Stack Overflow</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Simon Ilincev. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/tutorial/api/building-the-simplest-rest-api-possible/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/tutorial/api/building-the-simplest-rest-api-possible"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://simonilincev.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+  </body>
+</html>
