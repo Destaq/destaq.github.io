@@ -51,7 +51,7 @@ feature_row3:
     excerpt: "As the great American scientist Benjamin Franklin once said: 
     *Without continual growth and progress, such words as improvement, achievement, and success have no meaning*. I take this to heart as I spend my free time working on projects, mastering courses, and reading educational books."
     url: "https://simonilincev.com/timeline/"
-    btn_label: "View my journey..."
+    btn_label: "Follow my journey..."
     btn_class: "btn--primary"
 
 feature_row4:
