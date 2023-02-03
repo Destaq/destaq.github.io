@@ -79,10 +79,10 @@ page_title:
 
 # links to show in the footer
 links:
-  - link_name: Twitter
-    link: https://twitter.com/_jzhao
-  - link_name: Github
-    link: https://github.com/jackyzha0
+  - link_name: GitHub
+    link: https://github.com/Destaq
+  - link_name: Email
+    link: mailto:simon@simonilincev.com
 ```
 
 ### Code Block Titles
