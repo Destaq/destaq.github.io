@@ -5,52 +5,50 @@ toc: true
 toc_sticky: true
 excerpt: Simon Ilincev's portfolio, demonstrating programs written primarily in Python and available on GitHub.
 gallery:
-  - url: https://github.com/Destaq/linguakite
+  - url:  /assets/images/portfolio/linguakite_landing.png
     image_path: /assets/images/portfolio/linguakite_landing.png
     alt: "landing page"
     title: "linguakite landing page"
-  - url: https://github.com/Destaq/linguakite
+  - url: /assets/images/portfolio/linguakite_reading.png
     image_path: /assets/images/portfolio/linguakite_reading.png
     alt: "linguakite wordbank with unknown words highlighted red"
     title: "personalized reading experience"
-  - url: https://github.com/Destaq/linguakite
+  - url: /assets/images/portfolio/linguakite_test.png
     image_path: /assets/images/portfolio/linguakite_test.png
     alt: "example article test"
     title: "testing of vocabulary and more"
 
 gallery2:
-  - url: https://github.com/Destaq/chess_graph
+  - url: /assets/images/portfolio/downloads.png
     image_path: /assets/images/portfolio/downloads.png
     alt: "graph of downloads over time"
     title: "consistent, many downloads"
-  - url: https://github.com/Destaq/chess_graph
+  - url: /assets/images/portfolio/color.png
     image_path: /assets/images/portfolio/color.png
     alt: "colorful pie chart of chess statistics"
     title: "colorful pie chart of statistics"
-  - url: https://github.com/Destaq/chess_graph
+  - url: /assets/images/portfolio/main_image.png
     image_path: /assets/images/portfolio/main_image.png
     alt: "color bar, chess statistics, game count"
     title: "many useful features"
 
 gallery3:
-  - url: https://github.com/Destaq/reddit-wallpapers
+  - url: /assets/images/portfolio/settings.png
     image_path: /assets/images/portfolio/settings.png
     alt: "macOS System Preferences for screensaver"
     title: "system preferences setup"
-  - url: https://github.com/Destaq/reddit-wallpapers
+  - url: /assets/images/portfolio/example_background.png
     image_path: /assets/images/portfolio/example_background.png
     alt: "man with iron mask example background"
     title: "beautiful, well-designed backgrounds"
-  - url: https://github.com/Destaq/reddit-wallpapers
+  - url: /assets/images/portfolio/reddit.png
     image_path: /assets/images/portfolio/reddit.png
     alt: "subreddit r/wallpaper"
     title: "taken from a million+ strong Reddit community"
 
 ---
 
-## Introduction
-
-Working on projects is my favorite part of programming, with my goal having always been to make useful, open-source tools helpful to others. Most of these tools are written in Python and JavaScript, usually with the NuxtJS and Flask frameworks, and many are hosted on GitHub. You can find their source code and more detailed descriptions there, all easily accessible from [my profile](https://github.com/Destaq).
+Working on projects is my favorite part of programming, and my goal has always been to make useful, open-source tools helpful to others. Most of these tools are written in Python and JavaScript, usually with the NuxtJS and Flask frameworks, and many are hosted on GitHub. You can find their source code and more detailed descriptions there, all easily accessible from [my profile](https://github.com/Destaq).
 
 Alternatively, you can view and/or download [my resume][1] directly from this site or read below.
 
@@ -60,12 +58,12 @@ I won 'Best Solo Hack' for a 48-hour online hackathon with nearly a hundred subm
 
 You can view the hackathon submission on the Devpost page [here](https://devpost.com/software/surgelingo), along with a video and more detailed description. Equally, you can run it locally by forking the [backend](https://github.com/Destaq/surgelingo-backend) and [frontend](https://github.com/Destaq/surgelingo-backend) off Github.
 
-![Example of a SurgeLingo sentence](https://res.cloudinary.com/devpost/image/fetch/s--XyRz8T_9--/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://raw.githubusercontent.com/Destaq/surgelingo-backend/main/static/surgelingo_example.png){: .align-center}
+[![Example of a SurgeLingo sentence](https://res.cloudinary.com/devpost/image/fetch/s--XyRz8T_9--/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://raw.githubusercontent.com/Destaq/surgelingo-backend/main/static/surgelingo_example.png)](https://res.cloudinary.com/devpost/image/fetch/s--XyRz8T_9--/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://raw.githubusercontent.com/Destaq/surgelingo-backend/main/static/surgelingo_example.png){: .align-center}
 ## Projects
 ### life-calendar
 [Online Life Calendar](https://www.onlinelifecalendar.com) is a life planner, todo list, and accountability app all wrapped into one. Built with JavaScript and Python + Flask, the site is hosted [here](http://onlinelifecalendar.herokuapp.com/).
 
-![Preview of Life Calendar](/assets/images/portfolio/videopreview.png){: .align-center}
+[![Preview of Life Calendar]({{ site.url }}{{ site.baseurl }}/assets/images/portfolio/videopreview.png)](/assets/images/portfolio/videopreview.png){: .align-center}
 
 **Features**
 - View your life anywhere from days to decades
@@ -84,7 +82,7 @@ LinguaKite is a bespoke English-language-learning app that I built over the summ
 Putting everything together was a challenge, given some of the rather uncommon framework combinations I used to build the app, but [the end result](https://www.github.com/Destaq/linguakite) was of great help to the friend I'd built it for and taught me a lot along the way.
 
 ### language-statistics
-[![](https://raw.githubusercontent.com/Destaq/language-statistics/master/screenshots/output.svg)](https://github.com/Destaq/language-statistics){: .align-center}
+[![](https://raw.githubusercontent.com/Destaq/language-statistics/master/screenshots/output.svg)](/assets/images/portfolio/clickablesvg.png){: .align-center}
 
 This is perhaps my favorite project, as I love visualizations and statistics. It displays a GitHub repo-esque colorbar for your directory straight from the command-line, which can be viewed as a png or svg image.
 
@@ -97,10 +95,10 @@ These are some additional features which give it an edge over GitHub's `linguist
 - pick the limit at which files blend into `Other`
 - decide the colors used and maximum number of filetypes
 
-It even supports named files, such as `Dockerfile`/`Cakefile`. You can find out more by reading the `README.md` at [the repo](https://github.com/Destaq/language-statistics), or downloading it yourself.
+It even supports named files, such as `Dockerfile` or `Cakefile`. You can find out more by reading the `README.md` at [the repo](https://github.com/Destaq/language-statistics), or downloading it yourself.
 
 ### ll-dashboard
-[![](https://github.com/Destaq/ll-dashboard/raw/main/images/whole.png)](https://github.com/Destaq/ll-dashboard){: .align-center}
+[![](https://github.com/Destaq/ll-dashboard/raw/main/images/whole.png)](https://github.com/Destaq/ll-dashboard/raw/main/images/whole.png){: .align-center}
 
 Another language-learning tool, this one was built for me. A serious Chinese language-learner, I'm not quite satisifed with the sites/apps on the market for tracking one's foreign language progress — and so went ahead and built one from scratch for myself.
 
