@@ -108,7 +108,7 @@ Not all lack of motivation comes from the reasons looked at above, so here are s
 
 - Reward yourself. After achieving your goals, don't just blindly set new ones — also reward yourself for your hard work.
 
-- Find a clean, smooth interface that you want to come back to. I went for [750words](750words.com), which I could write a whole new post about! It's my personal favorite, but anything similar will do.
+- Find a clean, smooth interface that you want to come back to. I went for [750words](https://www.750words.com), which I could write a whole new post about! It's my personal favorite, but anything similar will do.
  
 
 Wherever you are in your struggle and journey, I sincerely hope that this article will have motivated you to write more, and get what is in your head onto paper and then out there!

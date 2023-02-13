@@ -111,7 +111,7 @@ Although I used to play chess when I was younger, I strayed from the royal game 
 
 During this time, I noticed there to be a surprising lack of software that visually represented chess players' skills. I realized that I had to fill that hole, and so went on to spend a few weeks coding up `chess-graph` with `plotly`.
 
-I put a lot of effort into this project, and [the latest release]((https://github.com/Destaq/chess_graph)) now allows players to choose their color, games file, shading, hover tips, etc.
+I put a lot of effort into this project, and [the latest release](https://github.com/Destaq/chess_graph) now allows players to choose their color, games file, shading, hover tips, etc.
 
 ### reddit-wallpapers
 {% include gallery id="gallery3" caption="Download and cycle through **hundreds of new wallpapers** each day." %}

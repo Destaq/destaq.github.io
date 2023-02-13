@@ -21,7 +21,7 @@ Here's a comprehensive collation of what I've learnt, with information about rec
 
 I was inspired to write this because of the overwhelmingly positive response towards my [HSK 3/4 'ultimate guide'](https://www.reddit.com/r/ChineseLanguage/comments/mh3dhe/what_ive_learned_after_9_months_and_3_hsk_levels/) published half a year ago, and out of the desire to share my knowledge in the hopes of it helping fellow learners.
 
-_Disclaimer: every learner is different, so do branch out and experiment with other techniques, tools, etc. This guide is subjective, not a hard code of laws. Firsthand research is the best teacher, as_ [u/quote-nil](/u/quote-nil/) _rightly pointed out in my previous post._
+_Disclaimer: every learner is different, so do branch out and experiment with other techniques, tools, etc. This guide is subjective, not a hard code of laws. Firsthand research is the best teacher, as_ [u/quote-nil](https://reddit.com/u/quote-nil/) _rightly pointed out in my previous post._
 
 ## Resources
 
@@ -134,7 +134,7 @@ _Reading-related FAQs and tips are covered in subsequent questions._
 
 [![r/ChineseLanguage — HSK 5 in 15 months — all the tools, tips, and techniques I've learned in one guide](https://preview.redd.it/o2zf71b3giq71.png?width=1282&format=png&auto=webp&s=523bc7c4d6f9d383bed8a3bfdcc21c2ff97762d3)](https://preview.redd.it/o2zf71b3giq71.png?width=1282&format=png&auto=webp&s=523bc7c4d6f9d383bed8a3bfdcc21c2ff97762d3)
 
-- 隐秘的角落. This is a native-level TV show, thank you [u/Tom\_The\_Human](/u/Tom_The_Human/) for the recommendation. I've only watched a half-dozen or so episodes of TV shows from three or four shows, so the difficulty will obviously vary considerably. This one (free on iQiyi) and the others mentioned in a [question I asked a few days ago](https://www.reddit.com/r/ChineseLanguage/comments/ptf5zu/hsk_5_tv_show_recommendations/) are at the HSK 5+ level, though I've heard of simpler ones suitable for those who have just started the HSK 5 (i.e. completed HSK 4 and some) — though it may be difficult at that level.
+- 隐秘的角落. This is a native-level TV show, thank you [u/Tom\_The\_Human](https://www.reddit.com/u/Tom_The_Human/) for the recommendation. I've only watched a half-dozen or so episodes of TV shows from three or four shows, so the difficulty will obviously vary considerably. This one (free on iQiyi) and the others mentioned in a [question I asked a few days ago](https://www.reddit.com/r/ChineseLanguage/comments/ptf5zu/hsk_5_tv_show_recommendations/) are at the HSK 5+ level, though I've heard of simpler ones suitable for those who have just started the HSK 5 (i.e. completed HSK 4 and some) — though it may be difficult at that level.
 
 - [蜻蜓](https://m.qingting.fm/), tons of audiobooks and fairy tales that can be a good listen in the car, on a walk, or in conjunction with a book you are reading. Just note that slowing down or speeding up the audio can make it sound crackly, audio quality isn't always very high. As well as that, 'classics' with a number of formats (such as the Little Prince) may have audio that does not match up exactly with the copy you are reading, which is quite a jarring experience.
 
