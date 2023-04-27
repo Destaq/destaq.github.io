@@ -5,3 +5,7 @@
   display: flex;
   gap: 0.5em;
 }
+
+.u-photo {
+  border-radius: 0% !important;
+}
