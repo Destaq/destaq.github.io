@@ -125,4 +125,4 @@ When I shared this project online, I was pleased to find that many Mac and even 
 ## Conclusion
 Above is a representative sample of my work, but if you want to see more, do head over to my [GitHub profile](https://www.github.com/Destaq) or shoot me an email!
 
-[1]:{{ site.url }}/downloads/resume.pdf
+[1]:{{ site.url }}/downloads/Resume_Simon_Ilincev.pdf
