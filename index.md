@@ -13,10 +13,12 @@ header:
   actions:
     - label: "About me..."
       url: "https://simonilincev.com/about/"
+    - label: "Portfolio..."
+      url: "https://simonilincev.com/portfolio/"
 
 excerpt: "Backend Python & JavaScript developer interested in server-side web development and automation."
 intro: 
-  - excerpt: "Hi, I'm Simon, an American high schooler currently living in Europe. I enjoy programming and language learning, and primarily develop with Nuxt.js and Flask."
+  - excerpt: "Hi, I'm Simon, an American high schooler currently living in Prague. I enjoy programming and language learning, and primarily develop with Nuxt.js and Flask."
 
 feature_row:
   - image_path: assets/images/readable.png
@@ -39,19 +41,18 @@ feature_row2:
   - image_path: /assets/images/blogpost.png
     alt: "sample blog post"
     title: "Sharing my knowledge"
-    excerpt: 'The road to programming mastery is *long and difficult*, and I believe that the easier we can make it for people, the better. I document my journey, tips, and tricks in my coding blog.'
+    excerpt: 'The road to programming mastery is long and difficult, but an open-mind towards sharing and connected community go a good way towards resolving this. And so, I document my journey, tips, and tricks in my personal blog.'
     url: "https://simonilincev.com/blog/"
-    btn_label: "See the blog..."
+    btn_label: "Explore the blog..."
     btn_class: "btn--primary"
 
 feature_row3:
   - image_path: /assets/images/books.jpg
     alt: "java book and python book"
     title: "Constantly Learning"
-    excerpt: "As the great American scientist Benjamin Franklin once said: 
-    *Without continual growth and progress, such words as improvement, achievement, and success have no meaning*. I take this to heart as I spend my free time working on projects, mastering courses, and reading educational books."
-    url: "https://simonilincev.com/timeline/"
-    btn_label: "Follow my journey..."
+    excerpt: "My graduation quote and daily mantra is Mahatma Gandhi's: *\"Live as if you were to die tomorrow. Learn as if you were to live forever.\"* I take this to heart as I spend most all my free time working on projects, mastering courses, and reading educational books."
+    url: "https://simonilincev.com/downloads/Resume_Simon_Ilincev.pdf"
+    btn_label: "See my skills..."
     btn_class: "btn--primary"
 
 feature_row4:
@@ -60,7 +61,7 @@ feature_row4:
     title: "Contact Me"
     excerpt: "If you have any questions, offers, or comments, please don't hesitate to let me know! You can reach me at `simon [at] simonilincev [dot] com` or [on GitHub](https://github.com/Destaq)."
     url: "mailto:simon@simonilincev.com"
-    btn_label: "Send me an email..."
+    btn_label: "Send an email..."
     btn_class: "btn--primary"
 
 ---

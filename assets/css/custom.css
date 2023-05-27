@@ -9,3 +9,9 @@
 .u-photo {
   border-radius: 0% !important;
 }
+
+/* Let's just make all the icons black and white on the profile sidebar. */
+.fa-linkedin {
+  color: #000 !important;
+  --fa-primary-color: #000 !important;
+}
