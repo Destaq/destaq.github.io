@@ -55,8 +55,8 @@ plugins:
 author:
   name: "Simon Ilincev"
   avatar: "/assets/images/bio_photo.jpg"
-  bio: "Backend Python and JavaScript developer passionate about NLP and building APIs."
-  location: Prague, Czechia
+  bio: "Backend Python and TypeScript developer passionate about NLP and APIs."
+  location: Ithaca, New York
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
