@@ -13,7 +13,7 @@ I am a university freshman studying in the heart of New York, [2x author](https:
 Coding has always been a hobby of mine, and since early 2019 I have been putting time and effort into [making that hobby a career](/downloads/Resume_Simon_Ilincev.pdf). Regardless of where the future takes me, I know that I'll be approaching it with confidence.
 {: .notice--success}
 
-Outside of programming, I enjoy digging up odd tidbits of history, learning Mandarin (I've [passed its most difficult proficiency exam](https://simonilincev.com/chinese/resources/guides/passing-hsk-6/)), and going on adventures outside with my dog.
+Outside of programming, I enjoy digging up odd tidbits of history, learning Mandarin (I've [passed its most difficult proficiency exam](https://simonilincev.com/chinese/resources/guides/passing-hsk-6/)), and exploring the countryside with the family dog.
 {: .notice--success}
 
 <figure style="width: 300px" class="align-center">

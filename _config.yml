@@ -55,7 +55,7 @@ plugins:
 author:
   name: "Simon Ilincev"
   avatar: "/assets/images/bio_photo.jpg"
-  bio: "Backend Python and TypeScript developer passionate about NLP and APIs."
+  bio: ""Backend Golang & TypeScript developer interested in server-side web development and automation."
   location: Ithaca, New York
   links:
     - label: "GitHub"

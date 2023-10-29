@@ -16,7 +16,7 @@ header:
     - label: "Portfolio..."
       url: "https://simonilincev.com/portfolio/"
 
-excerpt: "Backend Python & JavaScript developer interested in server-side web development and automation."
+excerpt: "Backend Golang & TypeScript developer interested in server-side web development and automation."
 intro: 
   - excerpt: "Hi, I'm Simon, an American freshman currently studying Computer Science at Cornell. I enjoy programming and language learning, and primarily develop with Go and Svelte."
 
