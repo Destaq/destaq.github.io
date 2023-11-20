@@ -31,7 +31,10 @@ gallery2:
       image_path: /assets/images/portfolio/main_image.png
       alt: "color bar, chess statistics, game count"
       title: "many useful features"
----Working on personal projects is my favorite part of programming, and my goal has always been to make useful, open-source tools helpful to others. Most of these tools are written in Python and JavaScript, usually with the NuxtJS and Flask frameworks, and many are hosted on GitHub. You can find their source code and more detailed descriptions there, all easily accessible from [my profile](https://github.com/Destaq).
+
+---
+
+Working on personal projects is my favorite part of programming, and my goal has always been to make useful, open-source tools helpful to others. Most of these tools are written in Python and JavaScript, usually with the NuxtJS and Flask frameworks, and many are hosted on GitHub. You can find their source code and more detailed descriptions there, all easily accessible from [my profile](https://github.com/Destaq).
 
 Alternatively, you can view and/or download [my resume][1] directly from this site or read below.
 
