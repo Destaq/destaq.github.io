@@ -51,7 +51,7 @@ feature_row3:
     alt: "java book and python book"
     title: "Constantly Learning"
     excerpt: "My graduation quote and daily mantra is Mahatma Gandhi's: *\"Live as if you were to die tomorrow. Learn as if you were to live forever.\"* I take this to heart as I spend most all my free time working on projects, mastering courses, and reading educational books."
-    url: "https://simonilincev.com/downloads/Resume_Simon_Ilincev.pdf"
+    url: "https://simonilincev.com/downloads/Simon_Ilincev.pdf"
     btn_label: "See my skills..."
     btn_class: "btn--primary"
 
