@@ -30,7 +30,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 #     anonymize_ip: true
 
 include:
-  - _pages
+    - _pages
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -45,75 +45,75 @@ include:
 
 # Plugins (previously gems:)
 plugins:
-  # - jekyll-paginate  # has trouble with Markdown files
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
+    # - jekyll-paginate  # has trouble with Markdown files
+    - jekyll-sitemap
+    - jekyll-gist
+    - jekyll-feed
+    - jemoji
+    - jekyll-include-cache
 
 author:
-  name: "Simon Ilincev"
-  avatar: "/assets/images/bio_photo.jpg"
-  bio: "Full-stack Golang & TypeScript developer interested in server-side web development and automation."
-  location: Ithaca, New York
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Destaq"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/simon-ilincev/"
-    - label: "Resume"
-      icon: "fa fa-fw fa-file"
-      url: "https://simonilincev.com/downloads/Simon_Ilincev.pdf"
-    - label: "Email"
-      icon: "fa fa-fw fa-envelope"
-      url: "mailto:simon@simonilincev.com"
+    name: "Simon Ilincev"
+    avatar: "/assets/images/bio_photo.jpg"
+    bio: "Full-stack Golang & TypeScript developer interested in server-side web development and automation."
+    location: Ithaca, New York
+    links:
+        - label: "GitHub"
+          icon: "fab fa-fw fa-github"
+          url: "https://github.com/Destaq"
+        - label: "LinkedIn"
+          icon: "fab fa-fw fa-linkedin"
+          url: "https://www.linkedin.com/in/simon-ilincev/"
+        - label: "Resume"
+          icon: "fa fa-fw fa-file"
+          url: "https://simonilincev.com/downloads/Simon_Ilincev_Resume.pdf"
+        - label: "Email"
+          icon: "fa fa-fw fa-envelope"
+          url: "mailto:simon@simonilincev.com"
 
 comments:
-  provider: "disqus"
-  disqus:
-    shortname: "simonilincev"
+    provider: "disqus"
+    disqus:
+        shortname: "simonilincev"
 
 footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Destaq"
-    - label: "Email"
-      icon: "fa fa-fw fa-envelope"
-      url: "mailto:simon@simonilincev.com"
-    - label: "Stack Overflow"
-      icon: "fab fa-fw fa-stack-overflow"
-      url: "https://stackoverflow.com/users/12876940/destaq"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/"
+    links:
+        - label: "GitHub"
+          icon: "fab fa-fw fa-github"
+          url: "https://github.com/Destaq"
+        - label: "Email"
+          icon: "fa fa-fw fa-envelope"
+          url: "mailto:simon@simonilincev.com"
+        - label: "Stack Overflow"
+          icon: "fab fa-fw fa-stack-overflow"
+          url: "https://stackoverflow.com/users/12876940/destaq"
+        # - label: "Instagram"
+        #   icon: "fab fa-fw fa-instagram"
+        #   url: "https://instagram.com/"
 
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+    # _posts
+    - scope:
+          path: ""
+          type: posts
+      values:
+          layout: single
+          author_profile: true
+          read_time: true
+          comments: true
+          share: true
+          related: true
+    # _pages
+    - scope:
+          path: "_pages"
+          type: pages
+      values:
+          layout: single
+          author_profile: true
 
 category_archive:
-  type: liquid
-  path: /categories/
+    type: liquid
+    path: /categories/
 tag_archive:
-  type: liquid
-  path: /tags/
+    type: liquid
+    path: /tags/

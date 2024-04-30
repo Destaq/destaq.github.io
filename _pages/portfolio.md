@@ -132,4 +132,4 @@ Unfortunately, as I would soon find out, running a program like this in the back
 
 Above is a representative sample of my work, but if you want to see more, do head over to my [GitHub profile](https://www.github.com/Destaq) or shoot me an email!
 
-[1]:{{ site.url }}/downloads/Simon_Ilincev.pdf
+[1]:{{ site.url }}/downloads/Simon_Ilincev_Resume.pdf
