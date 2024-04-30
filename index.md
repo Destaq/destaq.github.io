@@ -63,7 +63,9 @@ feature_row4:
       url: "mailto:simon@simonilincev.com"
       btn_label: "Send an email..."
       btn_class: "btn--primary"
----{% include feature_row id="intro" type="center" %}
+---
+
+{% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
 

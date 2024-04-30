@@ -1,54 +1,70 @@
 ---
-
 title: Portfolio
 permalink: /portfolio/
 toc: true
 toc_sticky: true
 excerpt: Simon Ilincev's portfolio, demonstrating programs written primarily in Python and available on GitHub.
-gallery: - url: /assets/images/portfolio/linguakite_landing.png
-image_path: /assets/images/portfolio/linguakite_landing.png
-alt: "landing page"
-title: "linguakite landing page" - url: /assets/images/portfolio/linguakite_reading.png
-image_path: /assets/images/portfolio/linguakite_reading.png
-alt: "linguakite wordbank with unknown words highlighted red"
-title: "personalized reading experience" - url: /assets/images/portfolio/linguakite_test.png
-image_path: /assets/images/portfolio/linguakite_test.png
-alt: "example article test"
-title: "testing of vocabulary and more"
 
-gallery2: - url: /assets/images/portfolio/downloads.png
-image_path: /assets/images/portfolio/downloads.png
-alt: "graph of downloads over time"
-title: "consistent, many downloads" - url: /assets/images/portfolio/color.png
-image_path: /assets/images/portfolio/color.png
-alt: "colorful pie chart of chess statistics"
-title: "colorful pie chart of statistics" - url: /assets/images/portfolio/main_image.png
-image_path: /assets/images/portfolio/main_image.png
-alt: "color bar, chess statistics, game count"
-title: "many useful features"
----Working on personal projects is my favorite part of programming, and my goal has always been to make useful, open-source tools helpful to others. Most of these tools are written in Python and JavaScript, usually with the NuxtJS and Flask frameworks, and many are hosted on GitHub. You can find their source code and more detailed descriptions there, all easily accessible from [my profile](https://github.com/Destaq).
+gallery:
+    - url: /assets/images/portfolio/linguakite_landing.png
+      image_path: /assets/images/portfolio/linguakite_landing.png
+      alt: "landing page"
+      title: "linguakite landing page"
+    - url: /assets/images/portfolio/linguakite_reading.png
+      image_path: /assets/images/portfolio/linguakite_reading.png
+      alt: "linguakite wordbank with unknown words highlighted red"
+      title: "personalized reading experience"
+    - url: /assets/images/portfolio/linguakite_test.png
+      image_path: /assets/images/portfolio/linguakite_test.png
+      alt: "example article test"
+      title: "testing of vocabulary and more"
+
+gallery2:
+    - url: /assets/images/portfolio/downloads.png
+      image_path: /assets/images/portfolio/downloads.png
+      alt: "graph of downloads over time"
+      title: "consistent, many downloads"
+    - url: /assets/images/portfolio/color.png
+      image_path: /assets/images/portfolio/color.png
+      alt: "colorful pie chart of chess statistics"
+      title: "colorful pie chart of statistics"
+    - url: /assets/images/portfolio/main_image.png
+      image_path: /assets/images/portfolio/main_image.png
+      alt: "color bar, chess statistics, game count"
+      title: "many useful features"
+
+gallery3:
+    - url: /assets/images/portfolio/ColdCraftI.png
+      image_path: /assets/images/portfolio/ColdCraftI.png
+      alt: "promotional infographic #1"
+      title: "focus on interview prep"
+    - url: /assets/images/portfolio/ColdCraftII.png
+      image_path: /assets/images/portfolio/ColdCraftII.png
+      alt: "promotional infographic #2"
+      title: "tune settings and hyperparameters"
+    - url: /assets/images/portfolio/ColdCraftIII.png
+      image_path: /assets/images/portfolio/ColdCraftIII.png
+      alt: "promotional infographic #3"
+      title: "linkedin and gmail integration"
+    - url: /assets/images/portfolio/ColdCraftIV.png
+      image_path: /assets/images/portfolio/ColdCraftIV.png
+      alt: "promotional infographic #4"
+      title: "resume and gcal integration"
+---
+
+Working on personal projects is my favorite part of programming, and my goal has always been to make useful, open-source tools helpful to others. Most of these tools are written in Python and JavaScript, usually with the NuxtJS and Flask frameworks, and many are hosted on GitHub. You can find their source code and more detailed descriptions there, all easily accessible from [my profile](https://github.com/Destaq).
 
 Alternatively, you can view and/or download [my resume][1] directly from this site or read below.
 
-## Hackathon Wins
+## Selected Projects
 
-### Develop to Disrupt
-
-I won 'Best Solo Hack' for a 48-hour online hackathon with nearly a hundred participants. The theme was disrupting an industry, and my submission, a language-learning tool named SurgeLingo that leveraged NLP and PostgreSQL to provide learners with personalized sentences did so effectively with the foreign language-learning industry.
-
-You can view the hackathon submission on the Devpost page [here](https://devpost.com/software/surgelingo), along with [a corresponding video](https://www.youtube.com/watch?v=lIIGpiJqbz0&ab_channel=SimonIlincev) and more detailed description. Equally, you can run it locally by forking the [backend](https://github.com/Destaq/surgelingo-backend) and [frontend](https://github.com/Destaq/surgelingo-backend) off Github.
-
-[![Example of a SurgeLingo sentence](https://res.cloudinary.com/devpost/image/fetch/s--XyRz8T_9--/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://raw.githubusercontent.com/Destaq/surgelingo-backend/main/static/surgelingo_example.png)](https://res.cloudinary.com/devpost/image/fetch/s--XyRz8T_9--/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://raw.githubusercontent.com/Destaq/surgelingo-backend/main/static/surgelingo_example.png){: .align-center}
-
-## Projects
-
-### coldcraft
+### ColdCraft
 
 A Chrome extension built over several weeks during my freshman spring semester at Cornell, [ColdCraft.ai](https://coldcraft.ai) is a SaaS cold emailing tool that integrates with your resume, Google Calendar, Gmail, and LinkedIn to help you write hyperpersonalized cold emails in seconds. The project won awards from [LinkedIn and Cisco](https://cis.cornell.edu/about/outreach-events/boom-bits-our-minds/awards/boom-2024-award-recipients) during Cornell's annual engineering showcase, and has received several investment offers.
 
-[![Promotional Poster](/assets/images/portfolio/coldcraft_poster.png)](/assets/images/portfolio/coldcraft_poster.png){: .align-center}
+{% include gallery id="gallery3" layout="half" %}
 
-### lingotrack
+### Lingotrack
 
 <iframe style="border: none; margin-bottom: 1.25rem; margin-top: 0.5rem;" class="align-center" src="https://cards.producthunt.com/cards/posts/425950?v=1" width="500" height="405" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
@@ -58,7 +74,7 @@ Building Lingotrack has taught me an immense amount, as I tried to do as much as
 
 You can find out more about Lingotrack on [the official about page](https://www.lingotrack.com/about) or by checking out [its (well-received!) launch on Product Hunt](https://www.producthunt.com/posts/lingotrack).
 
-### ll-dashboard
+### Language Learning Dashboard
 
 [![](https://github.com/Destaq/ll-dashboard/raw/main/images/whole.png)](https://github.com/Destaq/ll-dashboard/raw/main/images/whole.png){: .align-center}
 
@@ -68,7 +84,7 @@ _This is a much simpler, local-only version of [Lingotrack](https://www.lingotra
 
 A minimal yet powerful dashboard was the result, one that offers a lightning-fast, intuitive interface for progress tracking and time logging, down to the very minute. Be it file uploads, PostgreSQL-powered timeline visualizations, or even a sleek dark mode, the tool has it all. But in the interest of brevity, I won't go into all the (many!) details here as I've put together detailed documentation [elsewhere online](https://github.com/Destaq/ll-dashboard) and written up my experiences using it for three months [on my blog](https://simonilincev.com/reflections/chinese/100-days-of-tracking/).
 
-### life-calendar
+### Online Life Calendar
 
 Online Life Calendar is a life planner, todo list, and accountability app all wrapped into one. Built with JavaScript, Python, Flask, & ❤️.
 
@@ -84,7 +100,7 @@ Online Life Calendar is a life planner, todo list, and accountability app all wr
 
 ...and a lot more! Online Life Calendar is completely free, has several hundred users at the time of writing, and has personally proven to be a great resource for self-motivation and planning. Its source code can be found [here](https://www.github.com/Destaq/life-calendar).
 
-### language-statistics
+### Language Statistics
 
 [![](https://raw.githubusercontent.com/Destaq/language-statistics/master/screenshots/output.svg)](/assets/images/portfolio/clickablesvg.png){: .align-center}
 
@@ -102,7 +118,7 @@ These are some additional features which give it an edge over GitHub's `linguist
 
 It even supports named files, such as `Dockerfile` or `Cakefile`. You can find out more by reading the `README.md` at [the repo](https://github.com/Destaq/language-statistics), or downloading it yourself.
 
-### linguakite
+### Linguakite
 
 {% include gallery %}
 
@@ -110,7 +126,7 @@ LinguaKite is a bespoke English-language-learning app that I built over the summ
 
 Putting everything together was a challenge, given some of the rather uncommon framework combinations I used to build the app, but [the end result](https://www.github.com/Destaq/linguakite) was of great help to the friend I'd built it for and taught me a lot along the way.
 
-### chess-graph
+### Chess Graph
 
 {% include gallery id="gallery2" caption="Get **advanced insights** into your game with a chess visualization." %}
 
@@ -120,7 +136,15 @@ During this time, I noticed there to be a surprising lack of software that visua
 
 I put a lot of effort into this project, and [the latest release](https://github.com/Destaq/chess_graph) now allows players to choose their color, games file, shading, hover tips, etc.
 
-### low-face-mode
+### Surgelingo
+
+I won 'Best Solo Hack' for a 48-hour online hackathon with nearly a hundred participants. The theme was disrupting an industry, and my submission, a language-learning tool named SurgeLingo that leveraged NLP and PostgreSQL to provide learners with personalized sentences did so effectively with the foreign language-learning industry.
+
+You can view the hackathon submission on the Devpost page [here](https://devpost.com/software/surgelingo), along with [a corresponding video](https://www.youtube.com/watch?v=lIIGpiJqbz0&ab_channel=SimonIlincev) and more detailed description. Equally, you can run it locally by forking the [backend](https://github.com/Destaq/surgelingo-backend) and [frontend](https://github.com/Destaq/surgelingo-backend) off Github.
+
+[![Example of a SurgeLingo sentence](https://res.cloudinary.com/devpost/image/fetch/s--XyRz8T_9--/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://raw.githubusercontent.com/Destaq/surgelingo-backend/main/static/surgelingo_example.png)](https://res.cloudinary.com/devpost/image/fetch/s--XyRz8T_9--/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://raw.githubusercontent.com/Destaq/surgelingo-backend/main/static/surgelingo_example.png){: .align-center}
+
+### Low Face Mode
 
 A while back, I stumbled upon the `OpenCV` Python library — a tool for computer vision. As I played around with it and unearthed more and greater capabilities, it struck me that I could use it to help address a point of considerable personal frustration: a battery life that had no business being on a MacBook Air.
 
