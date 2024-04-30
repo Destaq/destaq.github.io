@@ -1,40 +1,32 @@
 ---
+
 title: Portfolio
 permalink: /portfolio/
 toc: true
 toc_sticky: true
 excerpt: Simon Ilincev's portfolio, demonstrating programs written primarily in Python and available on GitHub.
-gallery:
-    - url: /assets/images/portfolio/linguakite_landing.png
-      image_path: /assets/images/portfolio/linguakite_landing.png
-      alt: "landing page"
-      title: "linguakite landing page"
-    - url: /assets/images/portfolio/linguakite_reading.png
-      image_path: /assets/images/portfolio/linguakite_reading.png
-      alt: "linguakite wordbank with unknown words highlighted red"
-      title: "personalized reading experience"
-    - url: /assets/images/portfolio/linguakite_test.png
-      image_path: /assets/images/portfolio/linguakite_test.png
-      alt: "example article test"
-      title: "testing of vocabulary and more"
+gallery: - url: /assets/images/portfolio/linguakite_landing.png
+image_path: /assets/images/portfolio/linguakite_landing.png
+alt: "landing page"
+title: "linguakite landing page" - url: /assets/images/portfolio/linguakite_reading.png
+image_path: /assets/images/portfolio/linguakite_reading.png
+alt: "linguakite wordbank with unknown words highlighted red"
+title: "personalized reading experience" - url: /assets/images/portfolio/linguakite_test.png
+image_path: /assets/images/portfolio/linguakite_test.png
+alt: "example article test"
+title: "testing of vocabulary and more"
 
-gallery2:
-    - url: /assets/images/portfolio/downloads.png
-      image_path: /assets/images/portfolio/downloads.png
-      alt: "graph of downloads over time"
-      title: "consistent, many downloads"
-    - url: /assets/images/portfolio/color.png
-      image_path: /assets/images/portfolio/color.png
-      alt: "colorful pie chart of chess statistics"
-      title: "colorful pie chart of statistics"
-    - url: /assets/images/portfolio/main_image.png
-      image_path: /assets/images/portfolio/main_image.png
-      alt: "color bar, chess statistics, game count"
-      title: "many useful features"
-
----
-
-Working on personal projects is my favorite part of programming, and my goal has always been to make useful, open-source tools helpful to others. Most of these tools are written in Python and JavaScript, usually with the NuxtJS and Flask frameworks, and many are hosted on GitHub. You can find their source code and more detailed descriptions there, all easily accessible from [my profile](https://github.com/Destaq).
+gallery2: - url: /assets/images/portfolio/downloads.png
+image_path: /assets/images/portfolio/downloads.png
+alt: "graph of downloads over time"
+title: "consistent, many downloads" - url: /assets/images/portfolio/color.png
+image_path: /assets/images/portfolio/color.png
+alt: "colorful pie chart of chess statistics"
+title: "colorful pie chart of statistics" - url: /assets/images/portfolio/main_image.png
+image_path: /assets/images/portfolio/main_image.png
+alt: "color bar, chess statistics, game count"
+title: "many useful features"
+---Working on personal projects is my favorite part of programming, and my goal has always been to make useful, open-source tools helpful to others. Most of these tools are written in Python and JavaScript, usually with the NuxtJS and Flask frameworks, and many are hosted on GitHub. You can find their source code and more detailed descriptions there, all easily accessible from [my profile](https://github.com/Destaq).
 
 Alternatively, you can view and/or download [my resume][1] directly from this site or read below.
 
@@ -49,6 +41,12 @@ You can view the hackathon submission on the Devpost page [here](https://devpost
 [![Example of a SurgeLingo sentence](https://res.cloudinary.com/devpost/image/fetch/s--XyRz8T_9--/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://raw.githubusercontent.com/Destaq/surgelingo-backend/main/static/surgelingo_example.png)](https://res.cloudinary.com/devpost/image/fetch/s--XyRz8T_9--/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://raw.githubusercontent.com/Destaq/surgelingo-backend/main/static/surgelingo_example.png){: .align-center}
 
 ## Projects
+
+### coldcraft
+
+A Chrome extension built over several weeks during my freshman spring semester at Cornell, [ColdCraft.ai](https://coldcraft.ai) is a SaaS cold emailing tool that integrates with your resume, Google Calendar, Gmail, and LinkedIn to help you write hyperpersonalized cold emails in seconds. The project won awards from [LinkedIn and Cisco](https://cis.cornell.edu/about/outreach-events/boom-bits-our-minds/awards/boom-2024-award-recipients) during Cornell's annual engineering showcase, and has received several investment offers.
+
+[![Promotional Poster](/assets/images/portfolio/coldcraft_poster.png)](/assets/images/portfolio/coldcraft_poster.png){: .align-center}
 
 ### lingotrack
 

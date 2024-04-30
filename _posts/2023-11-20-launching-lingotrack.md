@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Lingotrack Launch Announcement!"
+title: "Lingotrack Launch Announcement"
 date: 2023-11-20 12:40:24 -0500
 categories: resources project
 entries_layout: grid

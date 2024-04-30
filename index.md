@@ -16,7 +16,7 @@ header:
     - label: "Portfolio..."
       url: "https://simonilincev.com/portfolio/"
 
-excerpt: "Backend Golang & TypeScript developer interested in server-side web development and automation."
+excerpt: "Full-stack Golang & TypeScript developer interested in server-side web development and automation."
 intro: 
   - excerpt: "Hi, I'm Simon, an American freshman currently studying Computer Science at Cornell. I enjoy programming and language learning, and primarily develop with Go and Svelte."
 
@@ -28,12 +28,12 @@ feature_row:
   - image_path: /assets/images/repos.png
     alt: "github repos overview"
     title: "Transparency"
-    excerpt: "Most of my projects are open-source on GitHub with permissive licenses."
+    excerpt: "Many of my projects are open-source on GitHub with permissive licenses."
     url: "https://simonilincev.com/portfolio/"
     btn_label: "View my work..."
     btn_class: "btn--primary"
-  - image_path: /assets/images/pypidownloads.png
-    alt: "downloads count"
+  - image_path: /assets/images/analytics.png
+    alt: "pageview chart"
     title: "Effectiveness"
     excerpt: "My work has been viewed and used by thousands globally."
 
