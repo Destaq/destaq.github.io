@@ -1,7 +1,7 @@
 ---
 title: About
 permalink: /about/
-excerpt: Simon Ilincev is a 2x published author, dedicated programmer, and high school senior. He is interested in backend web development, and has over three hundred stars on his GitHub repositories.
+excerpt: Simon Ilincev is a 2x published author, dedicated programmer, and CS major at Cornell. He is interested in backend web development, and has over four hundred stars on his GitHub repositories.
 ---
 
 <!--
