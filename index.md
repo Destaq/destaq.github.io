@@ -18,7 +18,7 @@ header:
 
 excerpt: "Full-stack Golang & TypeScript developer interested in server-side web development and automation."
 intro:
-    - excerpt: "Hi, I'm Simon, an American freshman currently studying Computer Science at Cornell. I enjoy programming and language learning, and primarily develop with Go and Svelte."
+    - excerpt: "Hi, I'm Simon, an American sophomore currently studying Computer Science at Cornell. I enjoy programming and language learning, and primarily develop with Go and Svelte."
 
 feature_row:
     - image_path: assets/images/readable.png
