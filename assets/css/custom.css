@@ -1,17 +1,34 @@
 /* allows for aligning of non-text items */
 .align-special-center {
-  width: 75%;
-  margin: auto !important;
-  display: flex;
-  gap: 0.5em;
+    width: 75%;
+    margin: auto !important;
+    display: flex;
+    gap: 0.5em;
 }
 
 .u-photo {
-  border-radius: 0% !important;
+    border-radius: 0% !important;
 }
 
 /* Let's just make all the icons black and white on the profile sidebar. */
 .fa-linkedin {
-  color: #000 !important;
-  --fa-primary-color: #000 !important;
+    color: #000 !important;
+    --fa-primary-color: #000 !important;
+}
+
+#langSelector {
+    width: 10rem !important;
+}
+
+.twx-text-sm {
+    font-size: medium !important;
+}
+
+#selectedName {
+    font-size: medium !important;
+}
+
+#selectedFlag,
+.flag-icon {
+    font-size: 0.875rem !important;
 }
