@@ -78,7 +78,7 @@ Most such tools are in the full-stack webdev, NLP, or CLI domains, and are prima
 
 ## Crème de la Crème
 
-### Lingotrack
+### Lingotrack.com
 
 <iframe style="border: none; margin-bottom: 1.25rem; margin-top: 1.25rem;" class="align-center" src="https://cards.producthunt.com/cards/posts/425950?v=1" width="500" height="405" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
@@ -90,7 +90,7 @@ But the end result has been more than worth it — there are nearly a thousand m
 
 You can find out more about Lingotrack on [the official about page](https://www.lingotrack.com/about) or by checking out [its well-received launch on Product Hunt](https://www.producthunt.com/posts/lingotrack).
 
-### Locadapt
+### Locadapt.com
 
 [![](/assets/images/portfolio/english_dashboard.png)](/assets/images/portfolio/english_dashboard.png){: .align-center}
 
@@ -104,7 +104,7 @@ Currently competing against a couple YC companies, and a well-funded startup in 
 
 ## Hackathon Wins
 
-### ColdCraft
+### ColdCraft.ai
 
 {% include gallery id="gallery3" layout="half" %}
 
