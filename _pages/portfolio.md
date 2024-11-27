@@ -151,7 +151,7 @@ The tool won the Best Domain award ([findcircles.co](https://findcircles.co)) fr
 
 _A simpler, local-only version of [Lingotrack](https://www.lingotrack.com) that served as inspiration for said later iteration._
 
-`language-learning-dashboard` is an aesthetic, full-stack language-learning webapp that I built over a couple months in winter COVID-19 lockdown. As serious Chinese language-learner, I'm recently found myself not quite satisifed with the sites on the market for tracking one's foreign language progress — and so did the logical thing of building one from scratch for myself!
+`language-learning-dashboard` is an aesthetic, full-stack language-learning webapp that I built over a couple months in winter COVID-19 lockdown. As a serious Chinese language-learner, I'm recently found myself not quite satisifed with the sites on the market for tracking one's foreign language progress — and so did the logical thing of building one from scratch for myself!
 
 A minimal yet powerful dashboard was the result, one that offers a lightning-fast, intuitive interface for progress tracking and time logging, down to the very minute. Be it file uploads, PostgreSQL-powered timeline visualizations, or even a sleek dark mode, the tool has it all. But in the interest of brevity, I won't go into all the (many!) details here as I've put together detailed documentation [elsewhere online](https://github.com/Destaq/ll-dashboard) and written up my experiences using it for three months [on my blog](https://simonilincev.com/reflections/chinese/100-days-of-tracking/).
 
@@ -171,7 +171,7 @@ Online Life Calendar is a life planner, todo list, and accountability app all wr
 
 ...and a lot more! Online Life Calendar is completely free, has several hundred users at the time of writing, and has personally proven to be a great resource for self-motivation and planning. Its source code can be found [here](https://www.github.com/Destaq/life-calendar).
 
-*Update: the site has been taken down due for financial reasons, but the source code is still available on GitHub.*
+*Update: the site has been taken down due to financial reasons, but the source code is still available on GitHub.*
 
 ### Language Statistics
 
