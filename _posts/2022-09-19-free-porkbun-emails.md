@@ -38,8 +38,8 @@ First, we need to set up email forwarding from your custom domain to your person
 SendGrid will handle the sending of emails from your custom address.
 
 1. Create a [SendGrid account](https://sendgrid.com) if you haven't already.
-2. Follow the [SendGrid onboarding guide](https://app.sendgrid.com/guide) to link your custom domain to SendGrid.
-3. Add the required DNS records (usually CNAME records) to your domain registrar (Porkbun in this case).
+2. Follow the [SendGrid onboarding guide](https://app.sendgrid.com/guide) to link your custom domain to SendGrid through the "Authentication" tab.
+3. Add the required DNS records (mostly CNAME records) to your domain registrar (Porkbun or GoDaddy, for example).
 
 ## Step 3: Configure Gmail
 
@@ -53,18 +53,13 @@ Now we'll set up Gmail to send emails using your custom address.
    - Check "Treat as an alias"
 4. Click "Next Step". Keep this tab open for now.
 
-## Step 4: Authenticate your domain with SendGrid
-
-1. In SendGrid, navigate to the authentication section for your custom domain.
-2. Copy the provided CNAME records and add them to your domain registrar (Porkbun).
-
-## Step 5: Generate SendGrid API key
+## Step 4: Generate SendGrid API key
 
 1. In SendGrid, go to Settings > API Keys.
 2. Create a new API key with "Mail Send" full access permission.
 3. Copy the generated API key (you won't be able to see it again).
 
-## Step 6: Configure SMTP settings in Gmail
+## Step 5: Configure SMTP settings in Gmail
 
 In the Gmail "Add another email address" window, enter the following SMTP settings:
 
@@ -78,11 +73,11 @@ In the Gmail "Add another email address" window, enter the following SMTP settin
 
 Click "Add Account" to save the changes.
 
-## Step 7: Verify your email address
+## Step 6: Verify your email address
 
 If you're creating a new email alias, Gmail will send a verification email to your custom address. Click the verification link in that email to complete the setup.
 
-## Step 8: Final SendGrid configuration
+## Step 7: Final SendGrid configuration
 
 1. In SendGrid, verify your Single Sender identity.
 2. Set up link branding for your domain on SendGrid so that emails are sent from your domain rather than the default `sendgrid.net`.
