@@ -32,3 +32,13 @@
 .flag-icon {
     font-size: 0.875rem !important;
 }
+
+@media (min-width: 64em) {
+    .sidebar {
+        opacity: 0.9 !important;
+    }
+
+    .sidebar:hover {
+        opacity: 1 !important;
+    }
+}

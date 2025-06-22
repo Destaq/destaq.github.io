@@ -18,7 +18,7 @@ header:
 
 excerpt: "Full-stack Golang & TypeScript developer interested in server-side web development and automation."
 intro:
-    - excerpt: "Hi, I'm Simon, an American sophomore currently studying Computer Science at Cornell. I enjoy programming and language learning, and primarily develop with Go and Svelte."
+    - excerpt: "Hi, I'm Simon, a Czech-American junior currently studying Computer Science at Cornell. I enjoy programming and language learning, and primarily develop with Go and Svelte."
 
 feature_row:
     - image_path: assets/images/readable.png
@@ -56,7 +56,7 @@ feature_row3:
       btn_class: "btn--primary"
 
 feature_row4:
-    - image_path: /assets/images/email.png
+    - image_path: /assets/images/emailv2.png
       alt: "java email class"
       title: "Contact Me"
       excerpt: "If you have any questions, offers, or comments, please don't hesitate to let me know! You can reach me at `simon [at] simonilincev [dot] com` or [on GitHub](https://github.com/Destaq)."
