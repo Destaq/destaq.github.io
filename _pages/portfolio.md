@@ -5,6 +5,34 @@ toc: true
 toc_sticky: true
 excerpt: Simon Ilincev's portfolio, demonstrating programs written primarily in Python, TypeScript, and Golang that are often available on GitHub.
 
+gallery_lingofable_top:
+    - url: /assets/images/portfolio/lingofable/Screenshot 1.png
+      image_path: /assets/images/portfolio/lingofable/Screenshot 1.png
+      alt: "story reading with tap-to-define"
+      title: "language learning through stories"
+    - url: /assets/images/portfolio/lingofable/Screenshot 2.png
+      image_path: /assets/images/portfolio/lingofable/Screenshot 2.png
+      alt: "explore page with personalized recommendations"
+      title: "personalized reads matched to your level"
+    - url: /assets/images/portfolio/lingofable/Screenshot 3.png
+      image_path: /assets/images/portfolio/lingofable/Screenshot 3.png
+      alt: "bite-sized stories from Reddit and more"
+      title: "1000+ stories from fairy tales to Reddit threads"
+
+gallery_lingofable_bottom:
+    - url: /assets/images/portfolio/lingofable/Screenshot 4.png
+      image_path: /assets/images/portfolio/lingofable/Screenshot 4.png
+      alt: "reading with instant definitions and audio"
+      title: "instant definitions as you read and listen"
+    - url: /assets/images/portfolio/lingofable/Screenshot 5.png
+      image_path: /assets/images/portfolio/lingofable/Screenshot 5.png
+      alt: "progress tracking and weekly goals"
+      title: "reach weekly goals and level up your skills"
+    - url: /assets/images/portfolio/lingofable/Screenshot 6.png
+      image_path: /assets/images/portfolio/lingofable/Screenshot 6.png
+      alt: "vocabulary tracking with Anki export"
+      title: "track vocab and export to Anki"
+
 gallery:
     - url: /assets/images/portfolio/linguakite_landing.png
       image_path: /assets/images/portfolio/linguakite_landing.png
@@ -91,6 +119,22 @@ Most such tools are in the full-stack webdev, NLP, or CLI domains, and are prima
 *For descriptions of work and educational experiences, see my [resume][1].*
 
 ## Crème de la Crème
+
+### Lingofable.com
+
+{% include gallery id="gallery_lingofable_top" layout="third" %}
+
+My biggest project to date, and closest one to my heart. [Lingofable](https://lingofable.com){:target="_blank"} *(100k+ SLOC, TypeScript + Expo/React Native + Supabase + Express + Python)* is a mobile app that teaches you a language through reading stories you love, perfectly matched to your level. I built it with [Megan Yap](https://meganyap.me){:target="_blank"}, who handled product and design.
+
+The idea is grounded in Stephen Krashen's *i+1* theory on comprehensible input: the best way to acquire a language is by absorbing engaging material that's *just* above your current level. Practically, this means that while most apps just teach you words in isolation, we help you truly understand.
+
+Users can explore stories ranging from fairy tales to Reddit threads, listen to corresponding audio, tap any word for an instant definition, track their CEFR level and vocabulary growth, and export words to Anki for SRS review. Stories adapt to the reader, so they're never too hard and never too easy.
+
+{% include gallery id="gallery_lingofable_bottom" layout="third" %}
+
+We've launched on the [App Store](https://apps.apple.com/us/app/lingofable/id6759223711){:target="_blank"} (Android coming soon), have paying users, pitched to the ex-CPO of Pinterest, and were featured on Cornell's *Speaking of Language* podcast which has listeners in 120+ countries.
+
+Feedback from a real language professor at Cornell: *"This is awesome. I would love for all of my students to use this."*
 
 ### Lingotrack.com
 
