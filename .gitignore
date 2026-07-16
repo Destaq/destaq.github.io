@@ -6,3 +6,7 @@ vendor
 *.DS_Store
 *.icloud
 BLOG_IDEAS.md
+dist/
+node_modules/
+.astro/
+test-results/
