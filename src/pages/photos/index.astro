@@ -1,0 +1,30 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+import PhotoPlate from "@components/PhotoPlate.astro";
+import SectionHeader from "@components/SectionHeader.astro";
+import { curatedMedia } from "@data/media";
+
+const photos = curatedMedia.filter((item) => item.category !== "project");
+---
+
+<PageLayout title="Photos" description="Selected photographs and visual work from Simon Ilincev.">
+  <section class="field-shell page-intro">
+    <SectionHeader
+      kicker="Photos"
+      title="Photographs and image work"
+      deck="A provisional gallery built from existing public images. Costa Rica and Niagara photographs can drop into this structure when they arrive."
+    />
+  </section>
+
+  <section class="field-shell photo-grid" aria-label="Selected photos">
+    {photos.map((item) => (
+      <PhotoPlate
+        src={item.src}
+        alt={item.alt}
+        width={item.width}
+        height={item.height}
+        caption={`${item.title}. ${item.privacy}`}
+      />
+    ))}
+  </section>
+</PageLayout>

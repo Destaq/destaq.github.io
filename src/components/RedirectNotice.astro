@@ -1,0 +1,24 @@
+---
+interface Props {
+  kicker?: string;
+  title?: string;
+  body?: string;
+  url?: string;
+  action?: string;
+}
+
+const {
+  kicker = "redirect",
+  title = "This note has moved.",
+  body,
+  url,
+  action = "Continue"
+} = Astro.props;
+---
+
+<aside class="redirect-notice" aria-labelledby="redirect-notice-title">
+  <p class="metadata">{kicker}</p>
+  <h2 class="redirect-notice__title" id="redirect-notice-title">{title}</h2>
+  {body && <p class="redirect-notice__body">{body}</p>}
+  {url && <a class="redirect-notice__action" href={url}>{action}</a>}
+</aside>

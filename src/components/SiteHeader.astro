@@ -1,0 +1,146 @@
+---
+import { site } from "../lib/site";
+
+interface NavItem {
+  href: string;
+  label: string;
+}
+
+interface Props {
+  name?: string;
+  mark?: string;
+  homeUrl?: string;
+  nav?: NavItem[];
+  navLabel?: string;
+}
+
+const {
+  name = site.name,
+  mark = "",
+  homeUrl = "/",
+  nav = site.nav,
+  navLabel = "Primary"
+} = Astro.props;
+
+const currentPath = Astro.url.pathname.replace(/\/$/, "") || "/";
+const normalize = (href: string) => href.replace(/\/$/, "") || "/";
+---
+
+<header class="site-header" role="banner">
+  <div class="site-header__inner field-shell">
+    <a class="site-header__brand" href={homeUrl}>
+      <span>{name}</span>
+      {mark && <span class="site-header__mark">{mark}</span>}
+    </a>
+
+    <div class="site-header__controls">
+      {nav.length > 0 && (
+        <details class="site-header__menu" data-site-menu open>
+          <summary>
+            <span>Menu</span>
+          </summary>
+          <nav class="site-header__nav" aria-label={navLabel}>
+            {nav.map((item) => (
+              <a
+                class="site-header__link"
+                href={item.href}
+                aria-current={normalize(item.href) === currentPath ? "page" : undefined}
+              >
+                {item.label}
+              </a>
+            ))}
+          </nav>
+        </details>
+      )}
+
+      <button
+        class="theme-toggle"
+        type="button"
+        data-theme-toggle
+        aria-label="Switch to dark theme"
+        aria-pressed="false"
+      >
+        <span class="theme-toggle__glyph" aria-hidden="true"></span>
+        <span class="theme-toggle__label" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div>
+  <script>
+    type Theme = "paper" | "dusk";
+
+    const themeButton = document.querySelector("[data-theme-toggle]");
+    const navMenu = document.querySelector("[data-site-menu]");
+    const navMenuQuery = window.matchMedia("(max-width: 43.99rem)");
+    const themeStorageKey = "simonilincev-theme";
+    const themeColors: Record<Theme, string> = {
+      paper: "#fbfaf7",
+      dusk: "#181818"
+    };
+
+    const isTheme = (value: string | null | undefined): value is Theme =>
+      value === "paper" || value === "dusk";
+
+    const getStoredTheme = () => {
+      try {
+        return window.localStorage.getItem(themeStorageKey);
+      } catch {
+        return null;
+      }
+    };
+
+    const storeTheme = (theme: Theme) => {
+      try {
+        window.localStorage.setItem(themeStorageKey, theme);
+      } catch {
+        // The visible theme still updates when storage is unavailable.
+      }
+    };
+
+    const getInitialTheme = () => {
+      const stored = getStoredTheme();
+      if (isTheme(stored)) return stored;
+      return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dusk" : "paper";
+    };
+
+    const syncThemeColor = (theme: Theme) => {
+      const meta = document.querySelector('meta[name="theme-color"][data-theme-color]');
+      if (meta instanceof HTMLMetaElement) {
+        meta.content = themeColors[theme];
+      }
+    };
+
+    const syncThemeButton = (theme: Theme) => {
+      if (!(themeButton instanceof HTMLButtonElement)) return;
+      const isDusk = theme === "dusk";
+      themeButton.setAttribute("aria-pressed", String(isDusk));
+      themeButton.setAttribute("aria-label", isDusk ? "Switch to light theme" : "Switch to dark theme");
+    };
+
+    const setTheme = (theme: string | null | undefined, persist = true) => {
+      const nextTheme: Theme = isTheme(theme) ? theme : "paper";
+      document.documentElement.dataset.theme = nextTheme;
+      syncThemeButton(nextTheme);
+      syncThemeColor(nextTheme);
+      if (persist) storeTheme(nextTheme);
+    };
+
+    setTheme(document.documentElement.dataset.theme || getInitialTheme(), false);
+
+    const syncNavMenu = () => {
+      if (!(navMenu instanceof HTMLDetailsElement)) return;
+      if (navMenuQuery.matches) {
+        navMenu.removeAttribute("open");
+      } else {
+        navMenu.setAttribute("open", "");
+      }
+    };
+
+    syncNavMenu();
+    navMenuQuery.addEventListener("change", syncNavMenu);
+
+    themeButton?.addEventListener("click", () => {
+      const current = document.documentElement.dataset.theme === "dusk" ? "dusk" : "paper";
+      setTheme(current === "dusk" ? "paper" : "dusk");
+    });
+  </script>
+</header>

@@ -1,0 +1,54 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import SiteFooter from "@components/SiteFooter.astro";
+import SiteHeader from "@components/SiteHeader.astro";
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  imageAlt?: string;
+  imageWidth?: number;
+  imageHeight?: number;
+  ogType?: "website" | "article";
+  publishedTime?: string;
+  modifiedTime?: string;
+  tags?: string[];
+  structuredData?: unknown;
+  bodyClass?: string;
+}
+
+const {
+  title,
+  description,
+  image,
+  imageAlt,
+  imageWidth,
+  imageHeight,
+  ogType,
+  publishedTime,
+  modifiedTime,
+  tags,
+  structuredData,
+  bodyClass
+} = Astro.props;
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  image={image}
+  imageAlt={imageAlt}
+  imageWidth={imageWidth}
+  imageHeight={imageHeight}
+  ogType={ogType}
+  publishedTime={publishedTime}
+  modifiedTime={modifiedTime}
+  tags={tags}
+  structuredData={structuredData}
+  bodyClass={bodyClass}
+>
+  <SiteHeader slot="header" />
+  <slot />
+  <SiteFooter slot="footer" />
+</BaseLayout>

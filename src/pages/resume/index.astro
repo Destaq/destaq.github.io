@@ -1,0 +1,19 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+import SectionHeader from "@components/SectionHeader.astro";
+import { profile } from "@data/profile";
+---
+
+<PageLayout title="Resume PDF" description="Direct PDF resume for Simon Ilincev.">
+  <section class="field-shell page-intro">
+    <SectionHeader
+      kicker="Resume"
+      title="Resume PDF"
+      deck="The canonical resume is maintained as a PDF."
+    />
+    <div class="action-row">
+      <a href={profile.resumeUrl}>Open resume PDF</a>
+      <a href="https://www.linkedin.com/in/simon-ilincev/">LinkedIn</a>
+    </div>
+  </section>
+</PageLayout>

@@ -1,0 +1,31 @@
+{
+  "name": "simonilincev-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro check && astro build",
+    "check": "astro check",
+    "preview": "astro preview",
+    "test:content": "node scripts/content-audit.mjs",
+    "test:design": "node scripts/design-audit.mjs",
+    "test:routes": "node scripts/check-routes.mjs",
+    "test:seo": "node scripts/seo-audit.mjs",
+    "test:visual": "playwright test"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^4.3.0",
+    "@astrojs/rss": "^4.0.12",
+    "@astrojs/sitemap": "^3.4.2",
+    "@fontsource/ibm-plex-mono": "^5.2.6",
+    "@fontsource/ibm-plex-sans": "^5.2.8",
+    "@fontsource/spectral": "^5.2.8",
+    "astro": "^5.14.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "@playwright/test": "^1.56.1",
+    "typescript": "^5.9.3"
+  }
+}

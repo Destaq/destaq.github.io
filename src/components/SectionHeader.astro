@@ -1,0 +1,17 @@
+---
+interface Props {
+  kicker?: string;
+  title: string;
+  deck?: string;
+  level?: 1 | 2 | 3;
+}
+
+const { kicker, title, deck, level = 1 } = Astro.props;
+const Heading = `h${level}` as const;
+---
+
+<header class="section-header">
+  {kicker && <p class="section-header__kicker">{kicker}</p>}
+  <Heading class="section-header__title">{title}</Heading>
+  {deck && <p class="section-header__deck">{deck}</p>}
+</header>

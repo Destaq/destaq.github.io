@@ -1,0 +1,62 @@
+---
+import { legacyRedirects } from "@data/redirects";
+import { site } from "@lib/site";
+
+export function getStaticPaths() {
+  return legacyRedirects
+    .filter((redirect) => redirect.from !== redirect.to && redirect.from !== "/projects/life-calendar-tutorial.html")
+    .map((redirect) => {
+      const legacy = redirect.from.replace(/^\//, "").replace(/\/$/, "");
+      return {
+        params: { legacy },
+        props: { redirect }
+      };
+    });
+}
+
+const { redirect } = Astro.props;
+const targetUrl = new URL(redirect.to, site.url).toString();
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Moved | Simon Ilincev</title>
+    <meta http-equiv="refresh" content={`0; url=${redirect.to}`} />
+    <link rel="canonical" href={targetUrl} />
+    <meta name="robots" content="noindex, follow" />
+    <style>
+      body {
+        min-height: 100vh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        padding: 2rem;
+        color: #211913;
+        background: #f6efd8;
+        font-family: Georgia, serif;
+      }
+      main {
+        max-width: 36rem;
+        border-top: 1px solid rgba(33, 25, 19, 0.34);
+        border-bottom: 1px solid rgba(33, 25, 19, 0.34);
+        padding-block: 2rem;
+      }
+      a {
+        color: #7b1f24;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p>This page has moved.</p>
+      <p><a href={redirect.to}>Continue to the new page</a>.</p>
+    </main>
+    <script is:inline>
+      const target = document.querySelector("a").getAttribute("href");
+      window.location.replace(`${target}${window.location.hash}`);
+    </script>
+  </body>
+</html>

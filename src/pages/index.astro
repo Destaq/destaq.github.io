@@ -1,0 +1,70 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+import { getCollection } from "astro:content";
+import { workListItems } from "@lib/routes";
+
+const writing = (await getCollection("writing", ({ data }) => !data.draft))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 3);
+const featuredWork = workListItems.slice(0, 4);
+---
+
+<PageLayout
+  title="Simon Ilincev"
+  description="Software, language, writing, and ambition."
+  bodyClass="home-page"
+>
+  <section class="home-hero field-shell" aria-labelledby="home-title">
+    <div class="home-intro">
+      <p class="metadata">Cornell CS · prev Google</p>
+      <h1 id="home-title">Simon Ilincev</h1>
+      <p>
+        I build language tools, write essays, take photographs, and make small systems for
+        thought. Currently working on Lingofable and other experiments around learning,
+        maps, writing, and useful ambition.
+      </p>
+      <div class="home-links" aria-label="Primary links">
+        <a href="/work/">Work</a>
+        <a href="/writing/">Writing</a>
+        <a href="/photos/">Photos</a>
+        <a href="/about/">About</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-sections field-shell" aria-label="Selected work and writing">
+    <section class="home-section" aria-labelledby="home-now">
+      <h2 id="home-now">Now</h2>
+      <p>
+        Building <a href="/work/lingofable/">Lingofable</a>, studying computer science at Cornell,
+        and collecting ideas at the intersection of language, software, and attention.
+      </p>
+    </section>
+
+    <section class="home-section" aria-labelledby="home-work">
+      <h2 id="home-work">Selected Work</h2>
+      <div class="home-list">
+        {featuredWork.map((item) => (
+          <a href={item.href}>
+            <span>{item.title}</span>
+            {item.summary && <small>{item.summary}</small>}
+          </a>
+        ))}
+      </div>
+      <p class="section-link"><a href="/work/">All work</a></p>
+    </section>
+
+    <section class="home-section" aria-labelledby="home-writing">
+      <h2 id="home-writing">Writing</h2>
+      <div class="home-list">
+        {writing.map((post) => (
+          <a href={`/writing/${post.id.replace(/\.(md|mdx)$/i, "")}/`}>
+            <span>{post.data.title}</span>
+            <small>{post.data.excerpt}</small>
+          </a>
+        ))}
+      </div>
+      <p class="section-link"><a href="/writing/">All writing</a></p>
+    </section>
+  </section>
+</PageLayout>

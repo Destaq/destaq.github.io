@@ -1,0 +1,37 @@
+---
+interface Props {
+  src: string;
+  alt: string;
+  caption?: string;
+  treatment?: "warm" | "cyanotype";
+  width?: number;
+  height?: number;
+  loading?: "eager" | "lazy";
+}
+
+const {
+  src,
+  alt,
+  caption,
+  treatment = "warm",
+  width,
+  height,
+  loading = "lazy"
+} = Astro.props;
+---
+
+<figure class:list={["photo-plate", `photo-plate--${treatment}`]}>
+  <div class="photo-plate__frame">
+    <img
+      class="photo-plate__image"
+      src={src}
+      alt={alt}
+      width={width}
+      height={height}
+      loading={loading}
+      decoding="async"
+    />
+  </div>
+
+  {caption && <figcaption class="photo-plate__caption">{caption}</figcaption>}
+</figure>

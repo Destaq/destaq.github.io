@@ -1,0 +1,19 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+import SectionHeader from "@components/SectionHeader.astro";
+---
+
+<PageLayout title="Not Found" description="The requested page could not be found.">
+  <section class="field-shell page-intro">
+    <SectionHeader
+      kicker="404"
+      title="This path has gone quiet"
+      deck="The page was not found. The archive is still here; the best route is usually home, work, or writing."
+    />
+    <div class="action-row">
+      <a href="/">Home</a>
+      <a href="/work/">Work</a>
+      <a href="/writing/">Writing</a>
+    </div>
+  </section>
+</PageLayout>

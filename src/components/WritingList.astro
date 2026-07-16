@@ -1,0 +1,61 @@
+---
+import { formatDate } from "../lib/site";
+
+interface WritingData {
+  title: string;
+  date?: Date;
+  excerpt?: string;
+  categories?: string[];
+}
+
+interface WritingItem {
+  id?: string;
+  slug?: string;
+  href?: string;
+  data?: WritingData;
+  title?: string;
+  date?: Date;
+  excerpt?: string;
+  categories?: string[];
+}
+
+interface Props {
+  items: WritingItem[];
+}
+
+const { items } = Astro.props;
+const getData = (item: WritingItem) => item.data ?? item;
+const cleanSlug = (slug: string) => slug.replace(/\.(md|mdx)$/i, "");
+const getHref = (item: WritingItem) => {
+  if (item.href) return item.href;
+  const slug = item.slug ?? item.id;
+  return slug ? `/writing/${cleanSlug(slug)}/` : "#";
+};
+---
+
+<div class="writing-list" role="list">
+  {items.map((item) => {
+    const data = getData(item);
+    const categories = data.categories ?? [];
+
+    return (
+      <article class="writing-item" role="listitem">
+        <a class="writing-item__link" href={getHref(item)}>
+          <h3 class="writing-item__title">{data.title}</h3>
+          {data.excerpt && <p class="writing-item__summary">{data.excerpt}</p>}
+        </a>
+
+        <div class="writing-item__meta metadata" aria-label="Post metadata">
+          {data.date && (
+            <time class="writing-item__tag" datetime={data.date.toISOString()}>
+              {formatDate(data.date)}
+            </time>
+          )}
+          {categories.slice(0, 2).map((category) => (
+            <span class="writing-item__tag">{category}</span>
+          ))}
+        </div>
+      </article>
+    );
+  })}
+</div>

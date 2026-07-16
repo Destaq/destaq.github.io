@@ -1,0 +1,98 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+import { formatDate, site } from "@lib/site";
+import { getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("writing", ({ data }) => !data.draft);
+  return posts.map((post) => ({
+    params: { slug: post.id.replace(/\.(md|mdx)$/i, "") },
+    props: { post }
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const slug = post.id.replace(/\.(md|mdx)$/i, "");
+const shareImage = post.data.image?.src ?? post.data.heroImage ?? "/media/profile/simon-profile-square.jpg";
+const shareImageAlt = post.data.image?.alt ?? `${post.data.title} hero image`;
+const canonical = new URL(`/writing/${slug}/`, site.url).toString();
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  headline: post.data.title,
+  description: post.data.excerpt,
+  image: new URL(shareImage, site.url).toString(),
+  datePublished: post.data.date.toISOString(),
+  dateModified: post.data.date.toISOString(),
+  author: {
+    "@type": "Person",
+    name: site.name,
+    url: site.url
+  },
+  publisher: {
+    "@type": "Person",
+    name: site.name,
+    url: site.url
+  },
+  mainEntityOfPage: canonical,
+  keywords: post.data.tags.join(", ")
+};
+---
+
+<PageLayout
+  title={post.data.title}
+  description={post.data.excerpt}
+  image={shareImage}
+  imageAlt={shareImageAlt}
+  ogType="article"
+  publishedTime={post.data.date.toISOString()}
+  modifiedTime={post.data.date.toISOString()}
+  tags={post.data.tags}
+  structuredData={articleJsonLd}
+>
+  <article class="article-layout field-shell">
+    <aside class="article-toc" aria-label="Article metadata">
+      <details class="article-toc__drawer" data-article-meta open>
+        <summary>
+          <span>Details</span>
+          <span aria-hidden="true">Open</span>
+        </summary>
+        <div class="article-toc__body">
+          <a class="metadata" href="/writing/">Writing</a>
+          <p>{formatDate(post.data.date)}</p>
+          <p>{post.data.categories.join(" / ")}</p>
+        </div>
+      </details>
+    </aside>
+
+    <div class="article-main">
+      <header class="article-header">
+        <p class="metadata">Essay</p>
+        <h1>{post.data.title}</h1>
+        <p>{post.data.excerpt}</p>
+      </header>
+      {shareImage && (
+        <img class="article-hero-image" src={shareImage} alt={shareImageAlt} loading="eager" decoding="async" />
+      )}
+      <div class="prose">
+        <Content />
+      </div>
+    </div>
+  </article>
+  <script>
+    const articleMeta = document.querySelector("[data-article-meta]");
+    const articleMetaQuery = window.matchMedia("(max-width: 63.99rem)");
+    const syncArticleMeta = () => {
+      if (!(articleMeta instanceof HTMLDetailsElement)) return;
+      if (articleMetaQuery.matches) {
+        articleMeta.removeAttribute("open");
+      } else {
+        articleMeta.setAttribute("open", "");
+      }
+    };
+
+    syncArticleMeta();
+    articleMetaQuery.addEventListener("change", syncArticleMeta);
+  </script>
+</PageLayout>

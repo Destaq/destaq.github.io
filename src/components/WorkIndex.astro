@@ -1,0 +1,22 @@
+---
+import WorkListItem from "./WorkListItem.astro";
+
+interface WorkItem {
+  href: string;
+  title: string;
+  summary?: string;
+  year?: string | number;
+  role?: string;
+  tags?: readonly string[];
+}
+
+interface Props {
+  items: WorkItem[];
+}
+
+const { items } = Astro.props;
+---
+
+<div class="work-index" role="list">
+  {items.map((item) => <WorkListItem item={item} />)}
+</div>

@@ -1,0 +1,71 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+import PhotoPlate from "@components/PhotoPlate.astro";
+import SectionHeader from "@components/SectionHeader.astro";
+import { workEntries } from "@data/work";
+
+export function getStaticPaths() {
+  return workEntries.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry }
+  }));
+}
+
+const entry = Astro.props.entry as (typeof workEntries)[number] & {
+  images?: string[];
+  image?: string;
+  links?: { label: string; url: string }[];
+  url?: string;
+  period?: string;
+  role?: string;
+};
+const images: string[] = entry.images ?? (entry.image ? [entry.image] : []);
+const highlights: string[] = [...(entry.highlights ?? [])];
+const links: { label: string; url: string }[] = [...(entry.links ?? [])];
+const period = "period" in entry ? entry.period : undefined;
+const role = "role" in entry ? entry.role : undefined;
+const stack = entry.stack ?? [];
+const shareImage = images[0] ?? "/media/profile/simon-profile-square.jpg";
+const shareImageAlt = `${entry.name} visual`;
+---
+
+<PageLayout title={entry.name} description={entry.summary} image={shareImage} imageAlt={shareImageAlt}>
+  <article class="field-shell detail-page">
+    <SectionHeader
+      kicker={entry.category.replace("-", " ")}
+      title={entry.name}
+      deck={entry.summary}
+    />
+
+    <dl class="detail-meta">
+      {period && <div><dt>Period</dt><dd>{period}</dd></div>}
+      {entry.status && <div><dt>Status</dt><dd>{entry.status}</dd></div>}
+      {role && <div><dt>Role</dt><dd>{role}</dd></div>}
+      {stack.length > 0 && <div><dt>Stack</dt><dd>{stack.join(", ")}</dd></div>}
+    </dl>
+
+    {images.length > 0 && (
+      <div class="detail-gallery" aria-label={`${entry.name} images`}>
+        {images.slice(0, 6).map((src: string) => (
+          <PhotoPlate src={src} alt={`${entry.name} visual`} />
+        ))}
+      </div>
+    )}
+
+    {highlights.length > 0 && (
+      <section class="prose detail-section">
+        <h2>Highlights</h2>
+        <ul>
+          {highlights.map((item) => <li>{item}</li>)}
+        </ul>
+      </section>
+    )}
+
+    {(links.length > 0 || entry.url) && (
+      <section class="detail-links" aria-label="Project links">
+        {entry.url && <a href={entry.url}>Visit project</a>}
+        {links.map((link: { label: string; url: string }) => <a href={link.url}>{link.label}</a>)}
+      </section>
+    )}
+  </article>
+</PageLayout>

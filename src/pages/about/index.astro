@@ -1,0 +1,53 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+import PhotoPlate from "@components/PhotoPlate.astro";
+import SectionHeader from "@components/SectionHeader.astro";
+import { mediaByCategory } from "@data/media";
+import { profile } from "@data/profile";
+---
+
+<PageLayout title="About" description="About Simon Ilincev: Cornell CS, language learner, writer, and software builder.">
+  <section class="field-shell about-layout">
+    <div>
+      <SectionHeader
+        kicker="About"
+        title="Builder, writer, language person"
+        deck={profile.summary}
+      />
+      <div class="prose">
+        <p>
+          Recently, that has meant building Lingofable, Locadapt, GCal Wrapped, Bump, and other tools,
+          interning on Google Chat, teaching web development through Cornell Digital Tech & Innovation,
+          and doing contract engineering for Monarcha (YC S25).
+        </p>
+        <p>
+          I like ambitious practical things: products with users, essays with a point of view,
+          maps, writing systems, language acquisition, and software that makes difficult work feel
+          a little more tractable.
+        </p>
+        <p>
+          Outside the strictly technical lane, I am a 2x published author, HSK 6 passer, native Czech
+          speaker, and committed collector of books, photographs, and odd historical details.
+        </p>
+      </div>
+    </div>
+    <PhotoPlate
+      src={mediaByCategory.profile.find((item) => item.id === "profile-professional")?.src ?? "/media/profile/simon-professional.jpg"}
+      alt="Simon Ilincev professional portrait"
+      caption="Cornell CS · prev Google · language tools and useful ambition"
+      loading="eager"
+    />
+  </section>
+
+  <section class="field-shell archive-stack">
+    <section class="archive-section">
+      <SectionHeader kicker="Selected facts" title="A few coordinates" level={2} />
+      <dl class="fact-grid">
+        <div><dt>Education</dt><dd>Cornell University, BSc Computer Science, expected Dec 2026.</dd></div>
+        <div><dt>Industry</dt><dd>Google Chat, Monarcha (YC S25), Evallos, Student Agencies, Rockwell Automation.</dd></div>
+        <div><dt>Language</dt><dd>Mandarin Chinese, Czech, English, and a stubborn interest in writing systems.</dd></div>
+        <div><dt>Creative</dt><dd>Eloquence, Watershed Script, photography, essays, and book-shaped projects.</dd></div>
+      </dl>
+    </section>
+  </section>
+</PageLayout>

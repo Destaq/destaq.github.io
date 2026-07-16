@@ -1,0 +1,30 @@
+---
+interface WorkItem {
+  href: string;
+  title: string;
+  summary?: string;
+  year?: string | number;
+  role?: string;
+  tags?: readonly string[];
+}
+
+interface Props {
+  item: WorkItem;
+}
+
+const { item } = Astro.props;
+const meta = [item.year, item.role, ...(item.tags ?? []).slice(0, 3)].filter(Boolean);
+---
+
+<article class="work-item" role="listitem">
+  <a class="work-item__link" href={item.href}>
+    <h3 class="work-item__title">{item.title}</h3>
+    {item.summary && <p class="work-item__summary">{item.summary}</p>}
+  </a>
+
+  {meta.length > 0 && (
+    <div class="work-item__meta metadata" aria-label="Project metadata">
+      {meta.map((entry) => <span class="work-item__tag">{entry}</span>)}
+    </div>
+  )}
+</article>

@@ -1,4 +1,9 @@
 _site
+dist
+node_modules
+test-results
+playwright-report
+.astro
 .sass-cache
 .jekyll-cache
 .jekyll-metadata

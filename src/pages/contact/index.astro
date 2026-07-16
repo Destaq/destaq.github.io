@@ -1,0 +1,19 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+import SectionHeader from "@components/SectionHeader.astro";
+import { site } from "@lib/site";
+---
+
+<PageLayout title="Contact" description="Contact Simon Ilincev.">
+  <section class="field-shell page-intro contact-page">
+    <SectionHeader
+      kicker="Contact"
+      title="Send a note"
+      deck="For work, collaboration, writing, language-learning, or generally interesting ideas, email is the cleanest path."
+    />
+    <div class="contact-card">
+      <a class="contact-card__email" href={`mailto:${site.email}`}>{site.email}</a>
+      <p>Also around on <a href="https://github.com/Destaq">GitHub</a> and <a href="https://www.linkedin.com/in/simon-ilincev/">LinkedIn</a>.</p>
+    </div>
+  </section>
+</PageLayout>

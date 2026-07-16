@@ -1,0 +1,39 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+import SectionHeader from "@components/SectionHeader.astro";
+import WorkIndex from "@components/WorkIndex.astro";
+import { workEntries } from "@data/work";
+import { workListItems } from "@lib/routes";
+
+const categories = [
+  ["flagship", "Flagship products"],
+  ["hackathon", "Hackathon wins"],
+  ["side-project", "Selected side projects"],
+  ["creative", "Creative systems"]
+] as const;
+---
+
+<PageLayout title="Work" description="Selected products, tools, experiments, and creative systems by Simon Ilincev.">
+  <section class="field-shell page-intro">
+    <SectionHeader
+      kicker="Work"
+      title="Products, tools, and experiments"
+      deck="A selected index of language-learning products, startup work, hackathon builds, data tools, and creative systems."
+    />
+  </section>
+
+  <section class="field-shell archive-stack">
+    {categories.map(([category, label]) => {
+      const items = workListItems.filter((item) => {
+        const entry = workEntries.find((candidate) => candidate.slug === item.href.split("/").filter(Boolean).at(-1));
+        return entry?.category === category;
+      });
+      return items.length > 0 && (
+        <section class="archive-section" aria-labelledby={`work-${category}`}>
+          <SectionHeader kicker={label} title={label} level={2} />
+          <WorkIndex items={items} />
+        </section>
+      );
+    })}
+  </section>
+</PageLayout>

@@ -1,0 +1,34 @@
+---
+import { site } from "../lib/site";
+
+interface FooterLink {
+  href: string;
+  label: string;
+}
+
+interface Props {
+  note?: string;
+  links?: FooterLink[];
+  navLabel?: string;
+}
+
+const {
+  note = site.description,
+  links = site.socials,
+  navLabel = "Footer"
+} = Astro.props;
+---
+
+<footer class="site-footer" role="contentinfo">
+  <div class="site-footer__inner field-shell">
+    <p class="site-footer__note">{note}</p>
+
+    {links.length > 0 && (
+      <nav class="site-footer__links" aria-label={navLabel}>
+        {links.map((item) => (
+          <a class="site-footer__link" href={item.href}>{item.label}</a>
+        ))}
+      </nav>
+    )}
+  </div>
+</footer>
