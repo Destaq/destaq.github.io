@@ -138,7 +138,7 @@ Feedback from a real language professor at Cornell: *"This is awesome. I would l
 
 ### Lingotrack.com
 
-<iframe style="border: none; margin-bottom: 1.25rem; margin-top: 1.25rem;" class="align-center" src="https://cards.producthunt.com/cards/posts/425950?v=1" width="500" height="405" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe style="border: none; margin-bottom: 1.25rem; margin-top: 1.25rem; max-width: 100%;" class="align-center" src="https://cards.producthunt.com/cards/posts/425950?v=1" width="500" height="405" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
 My passion project from Oct '22 to Nov '23, [Lingotrack](https://www.lingotrack.com){:target="_blank"} *(50k+ SLOC, Golang + TypeScript + Svelte)* is a social platform for language learners to track progress and find engaging, level-appropriate media. By visualizing learners' achievements, allowing them to uncover captivating foreign content, and connecting them with fellow enthusiasts, the site hopes to make the journey to fluency a little less daunting.
 
@@ -154,11 +154,11 @@ You can find out more about Lingotrack on [the official about page](https://www.
 
 In past lives, I've worked as a translator, contracted i18n dev work for a $40m+-funded startup, and lived in Europe for a decade. Over these experiences, one thing has become abundantly clear: the process of internationalizing (making multilingual) a website is a very beneficial one, but also unreasonably difficult.
 
-Enter [Locadapt](https://locadapt.com){:target="_blank"} *(25k+ SLOC, TypeScript + React + Svelte + Supabase)*, a Claude-powered platform that takes any site multilingual with two lines of code. By simply adding a minified JS snippet + corresponding CSS to the `head` of any site, the platform can automatically, accurately, and affordably translate any site into multiple languages. **Try it out on this page — there's a button on the bottom right!**
+Enter [Locadapt](https://locadapt.com){:target="_blank"} *(25k+ SLOC, TypeScript + React + Svelte + Supabase)*, a Claude-powered platform that takes any site multilingual with two lines of code. By simply adding a minified JS snippet + corresponding CSS to the `head` of any site, the platform can automatically, accurately, and affordably translate any site into multiple languages.
 
 Accomplishments include a translation management dashboard, reverse-proxy service for optimized SEO on subdomains, parallelization with Web Workers, bespoke affiliate program, serverless edge functions, client-side caching, browserless pseudo-DOM rewrites, [detailed documentation](https://docs.locadapt.com){:target="_blank"}, and more.
 
-Currently competing against a couple YC companies, and a well-funded startup in SF tried to poach me, but bullish on the product and sticking it out for now!
+Locadapt went toe-to-toe with a couple YC companies (and a well-funded SF startup even tried to poach me along the way) before the story wrapped up with an exit — the product has since been acquired.
 
 ## Hackathon Wins
 
@@ -205,9 +205,12 @@ The tool won the Best Domain award ([findcircles.co](https://findcircles.co){:ta
 
 ### GCal Wrapped
 
-<div style="display: flex; flex-direction: row; align-items: flex-start; gap: 2.5rem; flex-wrap: wrap; margin: 2rem 0;">
+<div class="gcalwrapped-flex" style="display: flex; flex-direction: row; align-items: flex-start; gap: 2.5rem; flex-wrap: wrap; margin: 2rem 0;">
   <div style="flex: 0 0 340px; max-width: 100%; min-width: 240px; display: flex; justify-content: center; margin-left: auto; margin-right: auto;">
-    <video src="https://gcalwrapped.com/_app/immutable/assets/promo.C0_Z8o2y.webm" autoplay loop muted playsinline style="width: 100%; height: auto; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.12); transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 8px 30px rgba(0,0,0,0.18)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 20px rgba(0,0,0,0.12)';"></video>
+    <video autoplay loop muted playsinline style="width: 100%; height: auto; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.12); transition: transform 0.3s ease, box-shadow 0.3s ease;" onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 8px 30px rgba(0,0,0,0.18)';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 20px rgba(0,0,0,0.12)';">
+      <source src="/assets/videos/gcalwrapped-promo.webm" type="video/webm">
+      <source src="/assets/videos/gcalwrapped-promo.mp4" type="video/mp4">
+    </video>
   </div>
   <div style="flex: 1 1 300px; min-width: 220px;">
     <p>
@@ -227,16 +230,6 @@ The tool won the Best Domain award ([findcircles.co](https://findcircles.co){:ta
   }
 }
 </style>
-<script>
-  // Add class for mobile responsiveness
-  document.addEventListener("DOMContentLoaded", function() {
-    var container = document.currentScript.previousElementSibling;
-    if (container && container.tagName === "DIV") {
-      container.classList.add("gcalwrapped-flex");
-    }
-  });
-</script>
-
 ### Bump
 
 {% include gallery id="gallery_bump" %}
