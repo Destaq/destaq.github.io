@@ -5,12 +5,11 @@
 const HERE = { label: 'Ithaca, N.Y.', tz: 'America/New_York' };
 
 /* EASTER EGGS
- * 1. Look up. Press "/" and type: the lexicon filters live and headwords highlight. Enter jumps to the first hit.
- * 2. 盘龙. A hidden entry under P. Look up "dragon", "panlong", "coiling", "tomato" or "龙", or follow "cf. 盘龙" in Writing.
- * 3. Pinyin. Hover, focus or tap any Chinese word and its pinyin appears above it.
- * 4. Thumb index keys. With the lexicon on screen, press Shift + a letter to jump to it.
- * 5. The date. Click it in the edition bar and it turns to Czech, then Chinese, then Spanish, then back.
- * 6. The console. Open it and there is an entry waiting.
+ * 1. 盘龙. A hidden entry under P. Follow "cf. 盘龙" in Writing.
+ * 2. Pinyin. Hover, focus or tap any Chinese word and its pinyin appears above it.
+ * 3. Thumb index keys. With the lexicon on screen, press Shift + a letter to jump to it.
+ * 4. The date. Click it in the edition bar and it turns to Czech, then Chinese, then Spanish, then back.
+ * 5. The console. Open it and there is an entry waiting.
  */
 (() => {
   'use strict';
@@ -20,7 +19,6 @@ const HERE = { label: 'Ithaca, N.Y.', tz: 'America/New_York' };
   const mq = (q) => (window.matchMedia ? window.matchMedia(q) : { matches: false });
   const reduce = mq('(prefers-reduced-motion: reduce)');
   const narrow = mq('(max-width: 760px)');
-  const norm = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
   const typing = (e) => { const t = e.target; return t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable); };
   const navH = () => { const n = $('#sn'); return n ? n.offsetHeight : 50; };
   const dec = (s) => { try { return decodeURIComponent(s); } catch (e) { return ''; } }; // a mangled hash must not stop the page
@@ -86,23 +84,21 @@ const HERE = { label: 'Ithaca, N.Y.', tz: 'America/New_York' };
     }).catch(() => {});
   });
 
-  /* ------------------------------------------------------------ lexicon: filters, order, look-up */
-  const lex = $('#lex'), wl = $('#wl'), wlList = $('#wl-l'), wlT = $('#wl-t'), empty = $('#empty'), q = $('#q'), sn = $('#sn');
-  const SECRET = /dragon|panlong|coiling|tomato|盘|龙/;
-  const KIND = { project: 'proj.', work: 'work', writing: 'writ.', community: 'comm.' };
+  /* ------------------------------------------------------------ lexicon: filters, order */
+  const lex = $('#lex'), wl = $('#wl'), wlList = $('#wl-l'), wlT = $('#wl-t'), empty = $('#empty');
+  const KIND = { project: 'project', work: 'work', writing: 'writing', community: 'community' };
   const letters = lex ? $$('.letter', lex) : [];
   const recs = (lex ? $$('.entry', lex) : []).map((a, i) => {
     const hw = $('.hw', a), lab = $('.gram .lab', a), kinds = (a.getAttribute('data-kind') || '').split(/\s+/).filter(Boolean);
     return {
-      el: a, i, home: a.parentNode, id: a.id, hw: a.getAttribute('data-hw') || (hw ? hw.textContent : a.id), hwEl: hw, hwHTML: hw ? hw.innerHTML : '',
+      el: a, i, home: a.parentNode, id: a.id, hw: a.getAttribute('data-hw') || (hw ? hw.textContent : a.id), hwEl: hw,
       kinds, lab: lab ? lab.textContent : (KIND[kinds[0]] || ''), when: a.getAttribute('data-when') || '', now: a.hasAttribute('data-now'),
-      years: a.getAttribute('data-years') || '', secret: a.hasAttribute('data-secret'), major: a.classList.contains('entry--major'), core: a.hasAttribute('data-core'),
-      text: norm(a.textContent), vis: true
+      years: a.getAttribute('data-years') || '', secret: a.hasAttribute('data-secret'), major: a.classList.contains('entry--major'), core: a.hasAttribute('data-core'),      vis: true
     };
   });
   const byId = {};
   recs.forEach((r) => { byId[r.id] = r; });
-  const st = { f: 'all', o: 'az', q: '', raw: '', userOrd: false, secret: false };
+  const st = { f: 'all', o: 'az', userOrd: false, secret: false };
   let laid = '', shown = [], thumb = null;
 
   // counts: section nav and pills, all from the DOM
@@ -126,28 +122,16 @@ const HERE = { label: 'Ithaca, N.Y.', tz: 'America/New_York' };
     recs.forEach((r) => r.home.appendChild(r.el));
   }
 
-  function mark(r) {
-    const h = r.hwEl;
-    if (!h) return;
-    if (h.innerHTML !== r.hwHTML) h.innerHTML = r.hwHTML;
-    if (!st.q || h.children.length) return;
-    const t = h.textContent, n = norm(t), at = n.indexOf(st.q);
-    if (at < 0 || n.length !== t.length) return;
-    h.textContent = '';
-    h.append(t.slice(0, at), el('mark', 'hl', t.slice(at, at + st.q.length)), t.slice(at + st.q.length));
-  }
-
   function apply() {
     if (!lex) return;
     layout();
-    const az = st.o === 'az', secretOn = st.secret || (st.raw && SECRET.test(st.raw.toLowerCase()));
+    const az = st.o === 'az';
     recs.forEach((r) => {
-      if (r.secret) r.vis = !!secretOn && st.f === 'all' && (!st.q || SECRET.test(st.raw.toLowerCase()) || r.text.indexOf(st.q) >= 0);
-      else r.vis = (st.f === 'all' || r.kinds.indexOf(st.f) >= 0) && (!st.q || r.text.indexOf(st.q) >= 0);
+      if (r.secret) r.vis = st.secret && st.f === 'all';
+      else r.vis = st.f === 'all' || r.kinds.indexOf(st.f) >= 0;
       r.el.hidden = !r.vis;
       r.el.classList.remove('entry--solo');
       if (r.hwEl) { if (az) r.hwEl.removeAttribute('aria-level'); else r.hwEl.setAttribute('aria-level', '3'); }
-      mark(r);
     });
     letters.forEach((l) => {
       const first = az ? $('.entry:not([hidden])', l) : null, h = $('.lh', l);
@@ -169,11 +153,12 @@ const HERE = { label: 'Ithaca, N.Y.', tz: 'America/New_York' };
     shown.forEach((r) => { if (r.major) close(); else run.push(r); });
     close();
 
-    // index wordlist follows the filters
+    // the index keeps every entry and greys the ones filtered away, so nothing under it moves when a filter is tapped
     if (wlList) {
       wlList.textContent = '';
-      shown.forEach((r) => {
-        const li = el('li'), a = el('a');
+      $$('.entry', lex).map((a) => byId[a.id]).filter((r) => r.vis || !r.secret).forEach((r) => {
+        const li = el('li', r.vis ? '' : 'off'), a = el('a');
+        if (!r.vis) a.setAttribute('aria-description', 'Not in this filter');
         a.href = '#' + r.id;
         const h = el('span', 'wl-h');
         if (r.core) { // the star rides with the last word, so it never wraps alone or drifts from the name
@@ -189,10 +174,9 @@ const HERE = { label: 'Ithaca, N.Y.', tz: 'America/New_York' };
       });
     }
     if (wlT) { wlT.textContent = 'Index'; wlT.appendChild(el('span', 'n', String(shown.length))); }
-    if (wl) wl.hidden = !shown.length;
     if (empty) {
       empty.hidden = !!shown.length;
-      empty.textContent = shown.length ? '' : (st.raw ? 'No entry for “' + st.raw + '”' : 'No entry');
+      empty.textContent = shown.length ? '' : 'No entry';
       const nf = $('#nf');
       if (nf) nf.hidden = !!shown.length;
     }
@@ -210,43 +194,6 @@ const HERE = { label: 'Ithaca, N.Y.', tz: 'America/New_York' };
   }));
   $$('.ord [data-o]').forEach((b) => b.addEventListener('click', () => { st.o = b.getAttribute('data-o'); st.userOrd = true; apply(); }));
 
-  // look-up
-  function setQuery(v, quiet) {
-    st.raw = v.trim(); st.q = norm(st.raw);
-    apply();
-    if (quiet || !st.q) return;
-    const s = $('#lexicon'), b = s.getBoundingClientRect();
-    if (b.top > window.innerHeight * .55 || b.bottom < navH() + 80) window.scrollTo(0, window.scrollY + b.top - navH() + 1);
-    else if (lex.getBoundingClientRect().bottom < navH() + 80) window.scrollTo(0, window.scrollY + b.top - navH() + 1);
-  }
-  function openQ() {
-    if (!q) return;
-    if (narrow.matches && sn) { sn.classList.add('q-on'); $('#q-open').setAttribute('aria-expanded', 'true'); }
-    q.focus(); q.select();
-  }
-  function closeQ(clear) {
-    if (!q) return;
-    if (clear && q.value) { q.value = ''; setQuery('', true); }
-    if (sn && sn.classList.contains('q-on')) { sn.classList.remove('q-on'); $('#q-open').setAttribute('aria-expanded', 'false'); if (document.activeElement === q || document.activeElement === $('#q-close')) $('#q-open').focus(); }
-  }
-  if (q) {
-    q.addEventListener('input', () => setQuery(q.value));
-    q.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter') {
-        e.preventDefault();
-        if (!shown.length) return;
-        const a = (shown.find((r) => norm(r.hw).startsWith(st.q)) || shown.find((r) => norm(r.hw).includes(st.q)) || shown[0]).el;
-        // on phones the look-up bar stays open, so the active query and its clear button remain in view
-        a.tabIndex = -1;
-        a.focus({ preventScroll: true });
-        head(a).scrollIntoView({ block: 'start', behavior: reduce.matches ? 'auto' : 'smooth' });
-        a.classList.remove('is-hit'); void a.offsetWidth; a.classList.add('is-hit');
-      } else if (e.key === 'Escape') { e.preventDefault(); closeQ(true); }
-    });
-    $('#q-open').addEventListener('click', openQ);
-    $('#q-close').addEventListener('click', () => closeQ(true));
-  }
-
   // any in-page link to an entry that is filtered away brings it back first
   function reveal(id) {
     const r = byId[id];
@@ -254,7 +201,6 @@ const HERE = { label: 'Ithaca, N.Y.', tz: 'America/New_York' };
     if (r.secret) st.secret = true;
     if (r.el.hidden || r.secret) {
       if (r.secret || (st.f !== 'all' && r.kinds.indexOf(st.f) < 0)) { st.f = 'all'; if (!st.userOrd) st.o = 'az'; }
-      if (st.q && r.text.indexOf(st.q) < 0) { st.q = st.raw = ''; if (q) q.value = ''; closeQ(false); }
       apply();
     }
     return true;
@@ -262,9 +208,10 @@ const HERE = { label: 'Ithaca, N.Y.', tz: 'America/New_York' };
   document.addEventListener('click', (e) => {
     const a = e.target.closest ? e.target.closest('a[href^="#"]') : null;
     if (!a || e.defaultPrevented) return;
-    const id = dec(a.getAttribute('href').slice(1));
+    const id = dec(a.getAttribute('href').slice(1)), inWl = !!wl && wl.contains(a); // reveal() redraws the index, which drops this link from the page
     if (!reveal(id)) return;
-    if (wl && wl.contains(a) && narrow.matches) { wl.classList.remove('open'); wlT.setAttribute('aria-expanded', 'false'); }
+    if (inWl) { byId[id].el.tabIndex = -1; byId[id].el.focus({ preventScroll: true }); }
+    if (inWl && narrow.matches) { wl.classList.remove('open'); wlT.setAttribute('aria-expanded', 'false'); }
     if (location.hash === '#' + a.getAttribute('href').slice(1)) fromHash(); // same hash again: no hashchange will fire
   });
   // an entry can run over a column break, so jumps aim at its head line
@@ -299,11 +246,11 @@ const HERE = { label: 'Ithaca, N.Y.', tz: 'America/New_York' };
     if (h) h.scrollIntoView({ block: 'start', behavior: reduce.matches ? 'auto' : 'smooth' });
   }
 
-  /* ------------------------------------------------------------ scroll state: current section, guide words, thumb */
+  /* ------------------------------------------------------------ scroll state: current section, thumb */
   const secs = ['top', 'lexicon', 'writing', 'about', 'contact'].map((id) => document.getElementById(id)).filter(Boolean);
   const links = {};
   $$('#sn-l a').forEach((a) => { links[a.getAttribute('href').slice(1)] = a; });
-  const gA = $('#g-a'), gB = $('#g-b'), snL = $('#sn-l');
+  const snL = $('#sn-l');
   let raf = 0, cur = '';
   function queue() { if (!raf) raf = requestAnimationFrame(onScroll); }
   function onScroll() {
@@ -321,22 +268,11 @@ const HERE = { label: 'Ithaca, N.Y.', tz: 'America/New_York' };
         if (l < snL.scrollLeft || l + a.offsetWidth > snL.scrollLeft + snL.clientWidth) snL.scrollLeft = Math.max(0, l - 24);
       } else if (!a && snL) snL.scrollLeft = 0;
     }
-    let a = '', b = '', inLex = false;
+    let inLex = false;
     if (cur === 'lexicon' && lex) {
       const lb = lex.getBoundingClientRect();
       inLex = lb.top < vh * .7 && lb.bottom > vh * .3;
-      for (let i = 0; i < shown.length; i++) {
-        const r = shown[i].el.getBoundingClientRect();
-        if (r.bottom > top + 30 && r.top < vh - 40) { if (!a) a = shown[i].hw; b = shown[i].hw; }
-      }
-      if (!a) a = 'Lexicon';
-      if (b === a) b = '';
-    } else if (now && cur !== 'top') {
-      const h = $('.sec-h', now);
-      a = now.getAttribute('data-hw') || (h ? h.textContent : '');
     }
-    if (gA && gA.textContent !== a) gA.textContent = a;
-    if (gB && gB.textContent !== b) gB.textContent = b;
     document.body.classList.toggle('in-lex', inLex);
     if (thumb && inLex && st.o === 'az') {
       let on = null;
@@ -355,7 +291,6 @@ const HERE = { label: 'Ithaca, N.Y.', tz: 'America/New_York' };
     if (e.metaKey || e.ctrlKey || e.altKey) return;
     if (e.key === 'Escape') { if (lb) closeLb(); else hideCard(); return; }
     if (typing(e)) return;
-    if (e.key === '/') { e.preventDefault(); openQ(); return; }
     if (e.shiftKey && /^[A-Z]$/.test(e.key) && document.body.classList.contains('in-lex') && st.o === 'az') {
       const l = letters.filter((x) => !x.hidden && x.id === 'l-' + e.key.toLowerCase())[0];
       if (l) jump(l.id);
@@ -470,12 +405,10 @@ const HERE = { label: 'Ithaca, N.Y.', tz: 'America/New_York' };
     }).catch(() => {});
   })();
 
-  /* ------------------------------------------------------------ colophon guide words, and a note for the curious */
-  (function colophon() {
-    const v = $('#col-vol'), pub = recs.filter((r) => !r.secret);
-    if (v && pub.length > 1) v.textContent = pub.length + ' entries, ' + pub[0].hw + ' to ' + pub[pub.length - 1].hw;
+  /* ------------------------------------------------------------ a note for the curious */
+  (function note() {
     try {
-      console.log('%ccurious%c  adj.\n  1. Given to opening the console.\n  2. Likely to enjoy pressing / on the page and looking up "dragon".\n  See also: github.com/Destaq',
+      console.log('%ccurious%c  adj.\n  1. Given to opening the console.\n  See also: github.com/Destaq',
         'font: 700 22px Georgia, serif', 'font: italic 13px Georgia, serif');
     } catch (e) { /* no console */ }
   })();
