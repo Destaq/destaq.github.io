@@ -3,12 +3,29 @@
   The frame of every page except the home page (/index.html is a static file with its own copy of this head and masthead).
 {%- endcomment -%}
 {%- assign desc = page.excerpt | default: site.description | strip_html | strip_newlines | strip | truncate: 300 | escape_once -%}
+{%- comment -%}
+  The share picture: the site's own (a capture of the top of the home page) unless the post has a header picture.
+  _tools/post-headers.py cuts a JPEG card from each header picture and lists it in _data/hdr.yml.
+{%- endcomment -%}
 {%- assign og = "/assets/lexicon/og.png" | absolute_url -%}
+{%- assign og_w = 1200 -%}
+{%- assign og_h = 630 -%}
+{%- assign og_alt = "The top of simonilincev.com: his name as a dictionary headword, a globe with the places he has lived, and his portrait" -%}
 {%- if page.header.image -%}
   {%- assign ext = page.header.image | split: "." | last | downcase -%}
-  {%- unless ext == "svg" -%}
+  {%- assign base = page.header.image | split: "/" | last | split: "." | first -%}
+  {%- assign card = site.data.hdr[base].card -%}
+  {%- if card and page.header.image contains "://" -%}{%- assign card = nil -%}{%- endif -%}
+  {%- if card -%}
+    {%- assign og = "/assets/lexicon/hdr/" | append: base | append: "-card.jpg" | absolute_url -%}
+    {%- assign og_w = card.w -%}
+    {%- assign og_h = card.h -%}
+    {%- assign og_alt = page.header.image_description -%}
+  {%- elsif ext != "svg" -%}
     {%- if page.header.image contains "://" -%}{%- assign og = page.header.image -%}{%- else -%}{%- assign og = page.header.image | absolute_url -%}{%- endif -%}
-  {%- endunless -%}
+    {%- assign og_w = nil -%}
+    {%- assign og_alt = page.header.image_description -%}
+  {%- endif -%}
 {%- endif %}
 <html lang="en" data-theme="light">
 <head>
@@ -30,6 +47,14 @@
 <meta property="og:url" content="{{ page.url | replace: 'index.html', '' | absolute_url }}">
 {%- endunless %}
 <meta property="og:image" content="{{ og }}">
+{%- if og_w %}
+<meta property="og:image:width" content="{{ og_w }}">
+<meta property="og:image:height" content="{{ og_h }}">
+{%- endif %}
+{%- if og_alt and og_alt != "" %}
+<meta property="og:image:alt" content="{{ og_alt | strip_html | escape_once }}">
+{%- endif %}
+<meta property="og:locale" content="en_US">
 {%- if page.date %}
 <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
 {%- endif %}

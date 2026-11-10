@@ -5,10 +5,17 @@ layout: default
   A post, or a long page such as the life calendar tutorial.
   Front matter read here: title, date, excerpt, header.image (+ image_description, caption), toc, toc_label, tags, comments.
   _data/hdr.yml lists the smaller copies of the header pictures that _tools/post-headers.py makes; a picture not in it is used as is.
+  An SVG is treated as a logo and set on a light plate, unless hdr.yml marks it `full` (a poster with its own background).
 {%- endcomment -%}
 {%- assign words = content | strip_html | number_of_words -%}
 {%- assign mins = words | plus: 199 | divided_by: 200 -%}
-<article class="post">
+{%- comment -%} The contents list needs three headings (pages.js builds it from h2 and h3). Without it the post is one centred column. {%- endcomment -%}
+{%- assign h2s = content | split: '<h2 id=' | size | minus: 1 -%}
+{%- assign h3s = content | split: '<h3 id=' | size | minus: 1 -%}
+{%- assign heads = h2s | plus: h3s -%}
+{%- assign rail = false -%}
+{%- if page.toc and heads >= 3 %}{% assign rail = true %}{% endif -%}
+<article class="post{% unless rail %} post--solo{% endunless %}">
   <header class="post-hd">
     <h1 class="post-h" id="post-h">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" | strip }}</h1>
     {%- if page.date %}
@@ -23,8 +30,10 @@ layout: default
     {%- assign base = img | split: "/" | last | split: "." | first -%}
     {%- assign small = site.data.hdr[base] -%}
     {%- assign ext = img | split: "." | last | downcase %}
-  <figure class="post-fig{% if ext == 'svg' %} post-fig--mark{% endif %}">
-    {%- if small %}
+  <figure class="post-fig{% if ext == 'svg' %}{% unless small.full %} post-fig--mark{% endunless %}{% endif %}">
+    {%- if small.full %}
+    <img src="{{ img }}" width="{{ small.w }}" height="{{ small.h }}" alt="{{ page.header.image_description | default: '' | escape_once }}" fetchpriority="high" decoding="async">
+    {%- elsif small %}
     <img src="/assets/lexicon/hdr/{{ base }}.webp" width="{{ small.w }}" height="{{ small.h }}" alt="{{ page.header.image_description | default: '' | escape_once }}" fetchpriority="high" decoding="async">
     {%- else %}
     <img src="{{ img }}" alt="{{ page.header.image_description | default: '' | escape_once }}" fetchpriority="high" decoding="async">
@@ -36,7 +45,7 @@ layout: default
   {%- endif %}
 
   <div class="post-b">
-    {%- if page.toc %}
+    {%- if rail %}
     <details class="toc" id="toc" hidden>
       <summary>{{ page.toc_label | default: "Contents" }}</summary>
       <ol id="toc-l"></ol>

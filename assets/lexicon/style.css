@@ -295,8 +295,6 @@ mark.hl { background: none; color: var(--red); }
 .e-cols--run > .fig { margin: 10px 0 8px; }
 .strip-r { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
 .wm { display: grid; gap: 10px; }
-.wm-r { display: flex; gap: 10px; }
-.wm-r .fig { flex: var(--ar, 1) 1 0; min-width: 0; }
 .entry--text .senses--roles { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 0 var(--gap); margin-top: 10px; }
 .entry--text .senses--roles > li { margin-bottom: 0; }
 /* a lone minor entry between two major ones runs over both columns */

@@ -20,6 +20,10 @@
 .post-lede { margin-top: 12px; max-width: 34em; font-size: 21px; line-height: 1.42; color: var(--ink-2); text-wrap: pretty; }
 .post-fig { margin-top: 28px; }
 .post-fig img { display: block; width: 100%; height: auto; max-height: min(58vh, 480px); object-fit: cover; border: 1px solid var(--rule-soft); border-radius: 2px; background: var(--paper-hi); }
+/* no contents rail: one centred column, so the picture is no wider than the text under it */
+.post--solo { max-width: 680px; margin-inline: auto; }
+.post--solo .post-b { display: block; }
+.post--solo .post-h { font-size: clamp(38px, 5.4vw, 56px); }
 .post-fig--mark img { object-fit: contain; padding: 22px; max-height: 300px; background: #fbf8ee; } /* a logo, not a photograph: it keeps its light plate in both themes */
 .post-fig figcaption, .prose figcaption { margin-top: 6px; font-size: 13.5px; line-height: 1.35; color: var(--ink-3); }
 .post-b { display: grid; grid-template-columns: minmax(0, 680px) 232px; justify-content: space-between; gap: 0 56px; align-items: start; margin-top: 30px; padding-top: 26px; border-top: 3px double var(--rule); }
@@ -168,6 +172,7 @@
 .lost-go { margin-top: 22px; font-size: 18px; }
 
 @media (max-width: 1060px) {
+  .post { max-width: 680px; margin-inline: auto; }
   .post-b { display: block; }
   .prose, .post-lede { max-width: 680px; }
   .toc { position: static; max-height: none; margin: 0 0 24px; max-width: 680px; border: 1px solid var(--rule); border-radius: 3px; background: var(--paper-hi); }
