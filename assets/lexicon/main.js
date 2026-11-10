@@ -314,7 +314,19 @@ const HERE = { label: 'Ithaca, N.Y.', tz: 'America/New_York' };
     b.addEventListener('click', () => { if (v.paused) { const p = v.play(); if (p && p.catch) p.catch(() => {}); } else v.pause(); });
     v.addEventListener('click', () => b.click());
     v.addEventListener('play', sync); v.addEventListener('pause', sync);
-    if ('IntersectionObserver' in window) new IntersectionObserver((en) => { if (!en[en.length - 1].isIntersecting && !v.paused) v.pause(); }).observe(g);
+    // it starts by itself, silent, the first time most of it is on screen; after that the reader is in charge.
+    // It always stops when it leaves the screen, and never starts unasked for readers who prefer reduced motion.
+    v.muted = true; v.loop = true;
+    let auto = !reduce.matches;
+    b.addEventListener('click', () => { auto = false; }, true);
+    if ('IntersectionObserver' in window) new IntersectionObserver((en) => {
+      const e = en[en.length - 1];
+      if (!e.isIntersecting) { if (!v.paused) v.pause(); return; }
+      if (auto && e.intersectionRatio >= .6) {
+        const p = v.play(); if (p && p.catch) p.catch(() => {});
+        setTimeout(() => { if (!v.paused) auto = false; }, 1500); // a fast scroll past it does not use up the one automatic start
+      }
+    }, { threshold: [0, .6] }).observe(g);
   })();
 
   /* ------------------------------------------------------------ cross-reference preview card */
