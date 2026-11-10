@@ -1,0 +1,610 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simon Ilincev</title>
+<meta name="description" content="Hi, I’m Simon, a Czech-American senior currently studying Computer Science at Cornell. I enjoy programming and language learning, and primarily develop with Go and Svelte.">
+<meta name="theme-color" content="#f7f2e2">
+<link rel="canonical" href="https://simonilincev.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Simon Ilincev">
+<meta property="og:title" content="Simon Ilincev">
+<meta property="og:description" content="Hi, I’m Simon, a Czech-American senior currently studying Computer Science at Cornell. I enjoy programming and language learning, and primarily develop with Go and Svelte.">
+<meta property="og:url" content="https://simonilincev.com/">
+<meta property="og:image" content="https://simonilincev.com/assets/lexicon/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" type="application/atom+xml" title="Simon Ilincev" href="/feed.xml">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Simon Ilincev","url":"https://simonilincev.com/","image":"https://simonilincev.com/assets/lexicon/img/portrait-540.webp","sameAs":["https://github.com/Destaq","https://www.linkedin.com/in/simon-ilincev/"]}</script>
+<script>(function(){var d=document.documentElement,t=null,q=/[?&]theme=(dark|light)\b/.exec(location.search);try{t=localStorage.getItem("lex-theme")}catch(e){}if(q)t=q[1];if(t!=="dark"&&t!=="light")t=window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";d.setAttribute("data-theme",t);var m=document.querySelector('meta[name="theme-color"]');if(m&&t==="dark")m.content="#1a1612"})()</script>
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap&text=%E3%80%8A%E3%80%8B%E4%B8%80%E4%B8%89%E4%B8%AD%E4%BA%8C%E4%BA%94%E5%85%AD%E5%8D%81%E5%90%83%E5%91%A8%E5%9B%9B%E5%B9%B4%E6%88%91%E6%96%87%E6%97%A5%E6%98%9F%E6%9C%88%E6%9C%9F%E6%9F%BF%E7%9B%98%E7%9B%AE%E7%BA%A2%E8%A1%8C%E8%A5%BF%E9%BE%99">
+<link rel="stylesheet" href="/assets/lexicon/style.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0M42PJ7MRK"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","G-0M42PJ7MRK")</script>
+</head>
+<body>
+<svg class="sprite" aria-hidden="true" width="0" height="0" focusable="false">
+  <symbol id="i-gh" viewBox="0 0 16 16"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></symbol>
+  <symbol id="i-in" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M13.6 0H2.4A2.4 2.4 0 0 0 0 2.4v11.2A2.4 2.4 0 0 0 2.4 16h11.2a2.4 2.4 0 0 0 2.4-2.4V2.4A2.4 2.4 0 0 0 13.6 0ZM4.9 13.4H2.6V6.2h2.3v7.2ZM3.75 5.2a1.33 1.33 0 1 1 0-2.66 1.33 1.33 0 0 1 0 2.66Zm9.65 8.2h-2.3V9.9c0-.84-.02-1.9-1.17-1.9-1.17 0-1.35.9-1.35 1.85v3.55H6.3V6.2h2.2v.98h.03c.3-.58 1.06-1.2 2.17-1.2 2.33 0 2.7 1.53 2.7 3.52v3.9Z"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 16 16"><g fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"><circle cx="8" cy="8" r="3"/><path d="M8 1.2v1.6M8 13.2v1.6M1.2 8h1.6M13.2 8h1.6M3.2 3.2l1.1 1.1M11.7 11.7l1.1 1.1M3.2 12.8l1.1-1.1M11.7 4.3l1.1-1.1"/></g></symbol>
+  <symbol id="i-moon" viewBox="0 0 16 16"><path fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round" d="M13.6 9.7A6 6 0 0 1 6.3 2.4a6 6 0 1 0 7.3 7.3Z"/></symbol>
+  <symbol id="i-search" viewBox="0 0 16 16"><g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><circle cx="6.8" cy="6.8" r="4.6"/><path d="m10.3 10.3 4 4"/></g></symbol>
+  <symbol id="i-x" viewBox="0 0 16 16"><path fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" d="m3.5 3.5 9 9m0-9-9 9"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 16 16"><g fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"><rect x="1.5" y="3" width="13" height="10" rx="1"/><path d="m2 4 6 5 6-5"/></g></symbol>
+  <symbol id="i-doc" viewBox="0 0 16 16"><g fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"><path d="M3.5 1.5h6l3 3v10h-9z"/><path d="M9.5 1.5v3h3M5.8 8h4.4M5.8 10.6h4.4"/></g></symbol>
+</svg>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="ed">
+  <div class="ed-in">
+    <a class="ed-name" href="#top">Simon Ilincev</a>
+    <div class="ed-live">
+      <button type="button" class="ed-date" id="ed-date" aria-description="Changes the language of the date"></button>
+      <div class="ed-clk"><span class="ed-l" id="ed-here-l">Ithaca, N.Y.</span> <time id="ed-here"></time></div>
+    </div>
+    <div class="ed-links">
+      <a class="ed-a" href="https://github.com/Destaq" rel="noopener" target="_blank" aria-label="GitHub: Destaq"><svg width="16" height="16" aria-hidden="true"><use href="#i-gh"/></svg><span>GitHub</span></a>
+      <a class="ed-a" href="https://www.linkedin.com/in/simon-ilincev/" rel="noopener" target="_blank" aria-label="LinkedIn: simon-ilincev"><svg width="16" height="16" aria-hidden="true"><use href="#i-in"/></svg><span>LinkedIn</span></a>
+      <button type="button" class="ed-t" id="theme" aria-label="Switch to dark theme"><svg class="t-moon" width="18" height="18" aria-hidden="true"><use href="#i-moon"/></svg><svg class="t-sun" width="18" height="18" aria-hidden="true"><use href="#i-sun"/></svg></button>
+    </div>
+  </div>
+</header>
+
+<nav class="sn" id="sn" aria-label="Sections">
+  <div class="sn-in">
+    <ol class="sn-l" id="sn-l">
+      <li><a href="#lexicon" data-count=".entry:not([data-secret])">Lexicon</a></li>
+      <li><a href="#writing" data-count="#writing .cite">Writing</a></li>
+      <li><a href="#about" data-count="#about .edu > li">About</a></li>
+      <li><a href="#contact" data-count="#contact dt">Contact</a></li>
+    </ol>
+    <div class="sn-g" id="guide" aria-hidden="true"><div id="g-a"></div><div id="g-b"></div></div>
+    <div class="sn-s" role="search">
+      <label class="vh" for="q">Look up</label>
+      <svg width="15" height="15" aria-hidden="true"><use href="#i-search"/></svg>
+      <input id="q" type="search" placeholder="Look up…" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search">
+      <kbd aria-hidden="true">/</kbd>
+      <button type="button" class="sn-b sn-sx" id="q-close" aria-label="Close look-up"><svg width="16" height="16" aria-hidden="true"><use href="#i-x"/></svg></button>
+    </div>
+    <button type="button" class="sn-b sn-so" id="q-open" aria-label="Look up" aria-expanded="false"><svg width="18" height="18" aria-hidden="true"><use href="#i-search"/></svg></button>
+  </div>
+</nav>
+
+<main id="main">
+
+<section class="hero" id="top" aria-labelledby="hw" data-hw="Ilincev, Simon">
+  <div class="h-head">
+    <h1 class="h-hw" id="hw">Ilincev, Simon</h1>
+    <div class="h-gram"><i class="pos">prop. n.</i> also <a href="https://github.com/Destaq" rel="noopener" target="_blank">Destaq</a></div>
+  </div>
+  <figure class="h-por">
+    <img src="/assets/lexicon/img/portrait-360.webp" srcset="/assets/lexicon/img/portrait-360.webp 360w, /assets/lexicon/img/portrait-540.webp 540w" sizes="(min-width: 761px) 236px, 44vw" width="540" height="666" alt="Simon Ilincev" fetchpriority="high" decoding="async">
+  </figure>
+  <div class="h-body">
+    <canvas id="locator" data-globe="locator" data-route="losangeles prague ithaca hongkong sunnyvale seattle ithaca" aria-hidden="true"></canvas>
+    <div class="h-def">
+      <ol class="route" aria-label="Places"><li data-place="losangeles" tabindex="0"><span class="r-n">Los Angeles</span> <span class="r-g vh">born</span></li><li data-place="prague" tabindex="0"><span class="r-n">Prague</span> <span class="r-g vh">grew up</span></li><li data-place="ithaca" tabindex="0"><span class="r-n">Ithaca</span> <span class="r-g vh">school</span></li><li data-place="hongkong" tabindex="0"><span class="r-n">Hong&nbsp;Kong</span> <span class="r-g vh">studied abroad</span></li><li data-place="sunnyvale" tabindex="0"><span class="r-n">Sunnyvale</span> <span class="r-g vh">interned</span></li><li data-place="seattle" tabindex="0"><span class="r-n">Seattle</span> <span class="r-g vh">interned</span></li><li data-place="ithaca" tabindex="0"><span class="r-n">Ithaca</span> <span class="r-g vh">now</span></li><li class="r-br" aria-hidden="true"></li><li class="r-x" data-place="costarica" tabindex="0"><span class="r-n">Costa&nbsp;Rica</span> <span class="r-g">last trip</span></li><li class="r-x" data-place="mexicocity" tabindex="0"><span class="r-n">Mexico&nbsp;City</span> <span class="r-g">favorite place</span></li></ol>
+      <p class="def">Hi, I’m Simon, a Czech-American senior currently studying Computer Science at Cornell. Incoming SWE @ Google&nbsp;Maps. I enjoy programming and language learning, and primarily develop with Go and Svelte.</p>
+    </div>
+  </div>
+  <ol class="h-senses">
+    <li><div class="fld">Educ.</div><div class="s-a">Cornell University</div><div class="s-b">B.S.&nbsp;in Computer Science</div><div class="s-b">Minor in Linguistics</div><div class="s-m">Aug&nbsp;2023&nbsp;– Dec&nbsp;2026</div><div class="s-m">4.0+&nbsp;GPA</div><div class="s-m loc">Ithaca,&nbsp;NY</div></li>
+    <li><div class="fld">Work</div><div class="s-a"><a class="xref" href="#google">Google</a></div><div class="s-b">Software Engineer Intern on Google&nbsp;Maps</div><div class="s-m">May&nbsp;2026&nbsp;– Aug&nbsp;2026</div><div class="s-m loc">Seattle,&nbsp;WA</div></li>
+    <li><div class="fld">Lit.</div><div class="s-a"><a class="xref" href="#trilogic"><cite>The Trilogic Worlds</cite></a></div><div class="s-b"><a class="bk" href="https://www.goodreads.com/book/show/53067827-the-trilogic-worlds" rel="noopener" target="_blank" data-t="The Fictional War" data-k="The Trilogic Worlds, book 1" data-p="First published June 16, 2019 · 463 pages"><cite>The Fictional&nbsp;War</cite></a></div><div class="s-b"><a class="bk" href="https://www.goodreads.com/book/show/49289137-the-trilogic-worlds" rel="noopener" target="_blank" data-t="The Impossible War" data-k="The Trilogic Worlds, book 2" data-p="First published November 24, 2019 · 339 pages"><cite>The Impossible&nbsp;War</cite></a></div><div class="s-a s-a2"><a class="xref" href="#eloquence"><cite>Eloquence</cite></a></div></li>
+    <li><div class="fld">Lang.</div><div class="s-l" lang="en">English</div><div class="s-l" lang="cs">Čeština</div><div class="s-l"><span class="py" lang="zh-Hans" data-py="zhōngwén" tabindex="0">中文</span></div><div class="s-l" lang="es">Español</div></li>
+  </ol>
+  <div class="h-foot">
+    <div class="h-see"><div class="see-l">See also</div><ul class="see"><li><a class="xref" href="#waymark">Waymark</a></li><li><a class="xref" href="#lingofable">Lingofable</a></li><li><a class="xref" href="#lingotrack">Lingotrack</a></li><li><a class="xref" href="#armada">Armada</a></li><li><a class="xref" href="#heavenly-path">Heavenly Path</a></li></ul></div>
+    <ul class="h-links">
+      <li><a class="ic" href="https://github.com/Destaq" rel="noopener" target="_blank"><svg width="16" height="16" aria-hidden="true"><use href="#i-gh"/></svg>GitHub</a></li>
+      <li><a class="ic" href="https://www.linkedin.com/in/simon-ilincev/" rel="noopener" target="_blank"><svg width="16" height="16" aria-hidden="true"><use href="#i-in"/></svg>LinkedIn</a></li>
+      <li><a class="ic" href="/downloads/Simon_Ilincev_Resume.pdf"><svg width="16" height="16" aria-hidden="true"><use href="#i-doc"/></svg>Résumé</a></li>
+      <li><a class="ic" href="mailto:simon@simonilincev.com"><svg width="16" height="16" aria-hidden="true"><use href="#i-mail"/></svg>Email</a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="lexicon" aria-labelledby="lexicon-h">
+  <div class="sec-hd">
+    <h2 class="sec-h" id="lexicon-h">Lexicon</h2>
+    <div class="ctl" id="ctl">
+      <div class="pills" role="group" aria-label="Show">
+        <button type="button" class="pill" data-f="all" aria-pressed="true">All</button>
+        <button type="button" class="pill" data-f="project" aria-pressed="false">Projects</button>
+        <button type="button" class="pill" data-f="work" aria-pressed="false">Work</button>
+        <button type="button" class="pill" data-f="writing" aria-pressed="false">Writing</button>
+        <button type="button" class="pill" data-f="community" aria-pressed="false">Community</button>
+      </div>
+      <div class="ord" role="group" aria-label="Order">
+        <button type="button" data-o="az" aria-pressed="true">A–Z</button><button type="button" data-o="new" aria-pressed="false">Newest</button>
+      </div>
+    </div>
+  </div>
+
+  <nav class="wl" id="wl" aria-label="Index of entries">
+    <button type="button" class="wl-t" id="wl-t" aria-expanded="false" aria-controls="wl-l">Index</button>
+    <ol id="wl-l"></ol>
+  </nav>
+  <div class="empty" id="empty" role="status" hidden></div>
+  <p class="nf" id="nf" hidden><b>You seem to be trying to go somewhere that doesn’t exist!</b> <span>The requested page could not be found.</span></p>
+
+  <div class="lex" id="lex">
+
+    <section class="letter" id="l-a"><h3 class="lh">A</h3>
+      <article class="entry" id="armada" data-core data-hw="Armada" data-kind="community" data-when="2024-02" data-now data-years="2024–">
+        <header class="eh"><h4 class="hw"><span class="nb">Armada<span class="core py" data-py="core vocabulary" tabindex="0" role="img" aria-label="Core vocabulary"></span></span></h4><ul class="gram"><li class="pos">club</li><li class="lab">comm.</li><li class="dt">Feb 2024 – Present</li></ul></header>
+        <ul class="role"><li>Co-Founder</li></ul>
+        <figure class="fig fig--logo fig--ship"><img src="/assets/lexicon/img/armada-ship.webp" width="360" height="242" alt="Armada" loading="lazy" decoding="async"></figure>
+        <ol class="senses">
+          <li><p>Co-running a tight-knit group of <b>80+ builders</b> who meet weekly to work on projects, learn from each other, and find community.</p></li>
+          <li><p>Got our org supported by <b>YC and Anthropic</b>, organized private audiences with figures like <b>Paul Graham</b>, built internal member-only website, and made many inspiring friends.</p></li>
+        </ol>
+        <blockquote class="q"><p>If it ships from Cornell, it probably started here.</p><footer><a href="https://armada.build" rel="noopener" target="_blank">armada.build</a></footer></blockquote>
+      </article>
+    </section>
+
+    <section class="letter" id="l-b"><h3 class="lh">B</h3>
+      <article class="entry" id="bump" data-hw="Bump" data-kind="project" data-when="2025-01" data-years="2025">
+        <header class="eh"><h4 class="hw">Bump</h4><ul class="gram"><li class="pos">app</li><li class="lab">proj.</li><li class="dt">Jan 2025 – May 2025</li></ul></header>
+        <ul class="etym" data-sep=","><li>Swift</li><li>Express</li><li>TypeScript</li><li>PostgreSQL</li><li>AWS</li></ul>
+        <figure class="fig fig--tall"><a class="zm" href="/assets/lexicon/img/bump-1.webp"><img src="/assets/lexicon/img/bump-1.webp" width="640" height="1385" alt="bump screenshot 1" loading="lazy" decoding="async"></a></figure>
+        <ol class="senses">
+          <li><p>Bump is a location-based, real-time, and friend-focused social media app that I built with a good friend from Cornell.</p></li>
+          <li><p>We incorporated as Bump Platforms LLC in Delaware, and received a <b>$1000&nbsp;non-dilutive venture capital grant</b> from <a href="https://www.1517fund.com/" rel="noopener" target="_blank">1517&nbsp;Fund</a> to help pay for the significant compute costs required to properly run the app.</p></li>
+          <li><p>Went from <b>0 to 40k+&nbsp;LOC MVP in 3&nbsp;months</b> as a team of two full-time students.</p></li>
+          <li><p>Shut down after realizing this was a tarpit idea following unsuccessful marketing and feedback from Jared Friedman, but learned a bunch. And received an (unfounded) cease-and-desist! Nearly patented the core background location tracking algorithm on the suggestion of a Microsoft VP.</p></li>
+        </ol>
+        <blockquote class="pq"><p>And received an (unfounded) cease-and-desist!</p></blockquote>
+        <ul class="meta"><li><a href="https://downloadbump.com" rel="noopener" target="_blank">downloadbump.com</a></li></ul>
+      </article>
+    </section>
+
+    <section class="letter" id="l-c"><h3 class="lh">C</h3>
+      <article class="entry" id="chess-graph" data-hw="Chess Graph" data-kind="project" data-when="2020-01" data-years="2020">
+        <header class="eh"><h4 class="hw">Chess Graph</h4><ul class="gram"><li class="pos">library</li><li class="lab">proj.</li><li class="dt">2020</li></ul></header>
+        <ul class="etym" data-sep=","><li>Python</li><li>Plotly</li><li>pandas</li><li>NumPy</li><li>PyPI package</li></ul>
+        <figure class="fig"><a class="zm" href="/assets/lexicon/img/chess-graph-pie.webp"><img src="/assets/lexicon/img/chess-graph-pie.webp" width="799" height="514" alt="colorful pie chart of chess statistics" loading="lazy" decoding="async"></a><figcaption>colorful pie chart of statistics</figcaption></figure>
+        <ol class="senses">
+          <li><p>Get advanced insights into your game with a chess visualization.</p></li>
+          <li><p>I&nbsp;put a lot of effort into this project, and the latest release now allows players to choose their color, games file, shading, hover tips, etc.</p></li>
+        </ol>
+        <ul class="meta"><li data-stars="chess-graph">66&nbsp;stars</li><li><a href="https://github.com/Destaq/chess-graph" rel="noopener" target="_blank">GitHub</a></li></ul>
+      </article>
+
+      <article class="entry" id="coldcraft" data-hw="ColdCraft.ai" data-kind="project" data-when="2024-03" data-years="2024">
+        <header class="eh"><h4 class="hw">ColdCraft.ai</h4><ul class="gram"><li class="pos">extension</li><li class="lab">proj.</li><li class="dt">Mar 2024 – Dec 2024</li></ul></header>
+        <ul class="etym" data-sep="+"><li>~10k&nbsp;SLOC</li><li>Flask</li><li>TypeScript</li><li>Svelte</li><li>Chrome extension</li><li>Firebase</li><li>Stripe</li></ul>
+        <figure class="fig"><a class="zm" href="/assets/lexicon/img/coldcraft-1.webp"><img src="/assets/lexicon/img/coldcraft-1.webp" width="1280" height="800" alt="promotional infographic #1" loading="lazy" decoding="async"></a><figcaption>focus on interview prep</figcaption></figure>
+        <ol class="senses">
+          <li><p>ColdCraft.ai won <b>2/5&nbsp;corporate sponsor awards</b> at Cornell’s school-wide annual project fair.</p></li>
+          <li><p>I&nbsp;built it with a buddy over several weeks freshman spring (SP&nbsp;’24).</p></li>
+          <li><p>A multiple-award-winning Chrome extension that integrates with LinkedIn, Gmail, GCal, your CV, and AI to generate hyperpersonalized cold emails. Exited.</p></li>
+        </ol>
+        <blockquote class="q"><p>ColdCraft.ai — an award-winning, AI-powered cold email tool that integrates with your LinkedIn, resume, calendar, and more — is out of private beta.</p><footer><div class="q-y">2024</div><cite><a href="/resources/project/launching-coldcraft/">ColdCraft Launch Announcement</a></cite></footer></blockquote>
+        <ul class="meta"><li>LinkedIn &amp; Cisco Sponsor Awards</li><li>coldcraft.ai</li></ul>
+      </article>
+
+      <article class="entry" id="cdti" data-core data-hw="Cornell DTI" data-kind="community" data-when="2023-10" data-years="2023–25">
+        <header class="eh"><h4 class="hw">Cornell Digital Tech &amp; <span class="nb">Innovation<span class="core py" data-py="core vocabulary" tabindex="0" role="img" aria-label="Core vocabulary"></span></span></h4><ul class="gram"><li class="pos">project team</li><li class="lab">comm.</li><li class="dt">Oct 2023 – Dec 2025</li></ul></header>
+        <ul class="role"><li class="loc">Ithaca</li></ul>
+        <ol class="senses senses--roles">
+          <li><div class="rl">Developer Lead</div><div class="rm">Dec 2024 – Dec 2025</div><p>Took care of the <b>40+ developers</b> on Cornell's largest for-credit student project team, and <b>taught INFO 1998</b>: Trends in Web Development for my third semester.</p></li>
+          <li><div class="rl">Software Developer</div><div class="rm">Oct 2023 – Dec 2024</div><p>Worked in an Agile team to add new features and optimizations to <a href="https://courseplan.io" rel="noopener" target="_blank">courseplan.io</a>. In FA24, became the first ever non-Developer Lead instructor of our for-credit "Trends in Web Development" class.</p></li>
+        </ol>
+      </article>
+    </section>
+
+    <section class="letter" id="l-e"><h3 class="lh">E</h3>
+      <article class="entry" id="eloquence" data-core data-hw="Eloquence" data-kind="writing" data-when="2026-07" data-now data-years="2026–">
+        <header class="eh"><h4 class="hw"><span class="nb">Eloquence<span class="core py" data-py="core vocabulary" tabindex="0" role="img" aria-label="Core vocabulary"></span></span></h4><ul class="gram"><li class="pos">novel</li><li class="lab">writ.</li><li class="dt">2026</li></ul></header>
+        <figure class="fig fig--tall fig--cover"><a class="zm" href="/assets/lexicon/img/eloquence-1.webp"><img src="/assets/lexicon/img/eloquence-1-384.webp" srcset="/assets/lexicon/img/eloquence-1-384.webp 384w, /assets/lexicon/img/eloquence-1.webp 993w" sizes="130px" width="993" height="1400" alt="Cover of Eloquence" loading="lazy" decoding="async"></a></figure>
+        <div class="ttl"><cite>Eloquence, by Simon Ilincev</cite></div>
+        <div class="ttl-s">A serialized private edition</div>
+        <ol class="senses">
+          <li><p>My third novel. A linguist travels from Los Angeles to São Paulo through a world that has lost language.</p></li>
+          <li><p>Second draft finished in October 2026, at about 115,000 words. For now it is shared with beta readers as a serialized private edition.</p></li>
+        </ol>
+        <ul class="meta"><li><a href="https://eloquence.simonilincev.com" rel="noopener" target="_blank">eloquence.simonilincev.com</a></li></ul>
+      </article>
+
+      <article class="entry" id="evallos" data-hw="Evallos" data-kind="work" data-when="2024-05" data-years="2024">
+        <header class="eh"><h4 class="hw">Evallos</h4><ul class="gram"><li class="var">also AlgoLink</li><li class="pos">startup</li><li class="lab">work</li><li class="dt">May 2024 – Oct 2024</li></ul></header>
+        <ul class="role"><li>Software Engineer Intern</li><li>Remote</li></ul>
+        <ol class="senses">
+          <li><p>Developed much of a recruiting startup's React + Django core web portals — shipped auth, realtime chat, admin panel, most Figma redesigns, CI/CD, email infra, &amp; more.</p></li>
+          <li><p>Led DevOps &amp; full-stack React + Django work for an HR startup’s web platforms while studying in Hong&nbsp;Kong.</p><p>Delivered realtime chat, secure JWT middleware, AWS CI/CD pipelines, email verification, and admin management system; also implemented all Figma designs.</p></li>
+        </ol>
+      </article>
+    </section>
+
+    <section class="letter" id="l-f"><h3 class="lh">F</h3>
+      <article class="entry" id="findcircles" data-hw="FindCircles" data-kind="project" data-when="2024-08" data-years="2024">
+        <header class="eh"><h4 class="hw">FindCircles</h4><ul class="gram"><li class="pos">web app</li><li class="lab">proj.</li><li class="dt">2024</li></ul></header>
+        <ul class="etym" data-sep="+"><li>~7k&nbsp;SLOC</li><li>Next.js</li><li>TypeScript</li><li>Supabase</li><li>Google&nbsp;Cloud</li><li>Tailwind&nbsp;CSS</li><li>Twilio</li></ul>
+        <figure class="fig"><a class="zm" href="/assets/lexicon/img/circles-3.webp"><img src="/assets/lexicon/img/circles-3.webp" width="806" height="504" alt="finding mutual free times" loading="lazy" decoding="async"></a><figcaption>finding mutual free times</figcaption></figure>
+        <ol class="senses">
+          <li><p>Users can invite friends to form circles, and with GCal integration, Circles automatically finds shared free times and suggests activities.</p></li>
+          <li><p>Circles also emails proposed meetup times and events every Monday or on request.</p></li>
+        </ol>
+        <ul class="meta"><li>Best Domain award</li><li>Big&nbsp;Red&nbsp;Hacks</li><li><a href="https://devpost.com/software/circles-8cfnod" rel="noopener" target="_blank">findcircles.co</a></li></ul>
+      </article>
+    </section>
+
+    <section class="letter" id="l-g"><h3 class="lh">G</h3>
+      <article class="entry" id="gcal-wrapped" data-hw="GCal Wrapped" data-kind="project" data-when="2025-04" data-years="2025">
+        <header class="eh"><h4 class="hw">GCal Wrapped</h4><ul class="gram"><li class="pos">web app</li><li class="lab">proj.</li><li class="dt">Apr 2025 – May 2025</li></ul></header>
+        <ul class="etym" data-sep=","><li>TypeScript</li><li>Svelte</li><li>Supabase</li><li>Gemini&nbsp;2.5&nbsp;Flash</li><li>Google&nbsp;Cloud</li><li>Cloudflare&nbsp;Pages</li><li>Tailwind&nbsp;CSS</li></ul>
+        <figure class="fig fig--video" id="gcw">
+          <video width="640" height="640" poster="/assets/lexicon/img/gcalwrapped-poster.webp" preload="none" muted loop playsinline aria-label="GCal Wrapped">
+            <source src="/assets/videos/gcalwrapped-promo.mp4" type="video/mp4">
+            <source src="/assets/videos/gcalwrapped-promo.webm" type="video/webm">
+          </video>
+          <button type="button" class="play" aria-pressed="false"><span class="play-i" aria-hidden="true"></span><span class="vh">Play</span></button>
+        </figure>
+        <ol class="senses">
+          <li><p>GCal Wrapped is like Spotify&nbsp;Wrapped, but for your Google&nbsp;Calendar, and targeted specifically at students.</p></li>
+          <li><p>I&nbsp;built it out over a couple of weeks in the Spring&nbsp;2025 semester at Cornell, and grew it to <b>1000&nbsp;users in &lt;24 hours</b> and twice that in the first week.</p></li>
+          <li><p>It’s chock-full of animations, funny AI insights, and shareable screens — try it out for free now at <a href="https://gcalwrapped.com" rel="noopener" target="_blank">gcalwrapped.com</a>!</p></li>
+          <li><p>Spotify Wrapped, but for your Google Calendar. Reached <b>10K users across 200+ universities</b> in our first year. Did the engineering!</p></li>
+        </ol>
+        <ul class="meta"><li><a href="https://gcalwrapped.com" rel="noopener" target="_blank">gcalwrapped.com</a></li></ul>
+      </article>
+
+      <article class="entry entry--major entry--text" id="google" data-core data-hw="Google" data-kind="work" data-when="2025-06" data-now data-years="2025–">
+        <header class="eh"><h4 class="hw"><span class="nb">Google<span class="core py" data-py="core vocabulary" tabindex="0" role="img" aria-label="Core vocabulary"></span></span></h4><ul class="gram"><li class="pos">company</li><li class="lab">work</li><li class="dt">2025, 2026, 2027</li></ul></header>
+        <ul class="role"><li>Incoming Software Engineer on Google&nbsp;Maps</li><li>Starting Mar&nbsp;2027</li><li class="loc">Mountain View,&nbsp;CA</li></ul>
+        <ol class="senses senses--roles">
+          <li><div class="rl">Software Engineer Intern on Google&nbsp;Maps</div><div class="rm loc">Seattle,&nbsp;WA</div><div class="rm">May 2026 – Aug 2026</div><p>Played once more with maps, AI, and other goodies! This time in a big tech setting.</p><p>Owned product engineering for an internal debug &amp; prototyping tool with <b>1.5k+&nbsp;active users</b>, shipping 70+&nbsp;PRs.</p></li>
+          <li><div class="rl">Software Engineer Intern on Google&nbsp;Chat</div><div class="rm loc">Sunnyvale,&nbsp;CA</div><div class="rm">Jun 2025 – Aug 2025</div><p>Brought Google Chat stickers from MVP to General Adoption on web, developed external-discoverable spaces, and added read receipts and UX fixes to Chat-in-Meet. Received a <b>spot bonus</b> for exceptional effort and contributions.</p><p>Brought the stickers feature to <b>10M+&nbsp;users</b> by building its education promo + fixing dozens of critical UX bugs.</p></li>
+        </ol>
+      </article>
+    </section>
+
+    <section class="letter" id="l-h"><h3 class="lh">H</h3>
+      <article class="entry" id="hack-club" data-hw="Hack Club" data-kind="community" data-when="2021-09" data-years="2021–22">
+        <header class="eh"><h4 class="hw">Hack Club</h4><ul class="gram"><li class="pos">club</li><li class="lab">comm.</li><li class="dt">Sep 2021 – Dec 2022</li></ul></header>
+        <ul class="role"><li>Club Leader</li><li class="loc">Prague</li></ul>
+        <ol class="senses">
+          <li><p>Established <b>1st Czech branch</b> after successful pitch to Hack Club HQ and school administrators. Hosted weekly after-school mentoring sessions for a dozen 6th–11th grade students, developing programming projects and presentations for each meeting. Provided individualized advice to attendees on their in- and out-of-class projects.</p></li>
+        </ol>
+      </article>
+
+      <article class="entry" id="heavenly-path" data-hw="Heavenly Path" data-kind="community writing" data-when="2022-01" data-now data-years="2022–">
+        <header class="eh"><h4 class="hw">Heavenly Path</h4><ul class="gram"><li class="pos">resource</li><li class="lab">comm., writ.</li><li class="dt">Jan 2022 – Present</li></ul></header>
+        <ul class="role"><li>Co-founder and Technical Manager</li></ul>
+        <ol class="senses">
+          <li><p>Collaborated with an international team of five to build an online resource reviewing hundreds of Chinese-language media items (novels, podcasts, movies, etc.). Heavenly Path also offers a dozen in-depth guides on improving Chinese fluency, and aims to bridge the accessibility divide between learners and native content. Our site receives about <b>80,000 hits a year</b>.</p></li>
+          <li><p>I serve as the chief voice behind guides and online presence. Also responsible for budgeting technical infrastructure and writing scripts to analyze the difficulty of text-based media.</p></li>
+        </ol>
+        <blockquote class="q"><p>There’s an expression in Chinese, <span class="py" lang="zh-Hans" data-py="yī mù shí háng" tabindex="0">一目十行</span>, meaning to read ten lines at a glance.</p><footer><cite>Improving your Reading Speed — Seven Strategies</cite></footer></blockquote>
+        <div class="rel"><div class="rel-l"><a href="https://github.com/Destaq/chinese-comprehension" rel="noopener" target="_blank"><code>chinese-comprehension</code></a></div><div class="rel-d">Analyze a Chinese text using your known words to gauge comprehension</div></div>
+        <ul class="meta"><li><a href="https://heavenlypath.notion.site/" rel="noopener" target="_blank">heavenlypath.notion.site</a></li></ul>
+      </article>
+    </section>
+
+    <section class="letter" id="l-l"><h3 class="lh">L</h3>
+      <article class="entry" id="ll-dashboard" data-hw="Language Learning Dashboard" data-kind="project" data-when="2021-12" data-years="2021">
+        <header class="eh"><h4 class="hw">Language Learning Dashboard</h4><ul class="gram"><li class="pos">web app</li><li class="lab">proj.</li><li class="dt">Dec 2021</li></ul></header>
+        <ul class="etym" data-sep=","><li>Vue</li><li>Nuxt</li><li>Flask</li><li>PostgreSQL</li><li>SQLAlchemy</li><li>ECharts</li><li>Tailwind&nbsp;CSS</li></ul>
+        <figure class="fig"><a class="zm" href="/assets/lexicon/img/ll-dashboard.webp"><img src="/assets/lexicon/img/ll-dashboard.webp" width="1400" height="771" alt="language-learning-dashboard" loading="lazy" decoding="async"></a></figure>
+        <ol class="senses">
+          <li><p><code>language-learning-dashboard</code> is an aesthetic, full-stack language-learning webapp that I built over a couple months in winter <span class="nw">COVID-19</span> lockdown.</p></li>
+          <li><p>A minimal yet powerful dashboard was the result, one that offers a lightning-fast, intuitive interface for progress tracking and time logging, down to the very minute.</p></li>
+        </ol>
+        <p class="note">A simpler, local-only version of <a class="xref" href="#lingotrack">Lingotrack</a> that served as inspiration for said later iteration.</p>
+        <ul class="meta"><li data-stars="language-learning-dashboard">45&nbsp;stars</li><li><a href="https://github.com/Destaq/language-learning-dashboard" rel="noopener" target="_blank">GitHub</a></li></ul>
+      </article>
+
+      <article class="entry" id="language-statistics" data-hw="Language Statistics" data-kind="project" data-when="2020-06" data-years="2020">
+        <header class="eh"><h4 class="hw">Language Statistics</h4><ul class="gram"><li class="pos">package</li><li class="lab">proj.</li><li class="dt">2020</li></ul></header>
+        <ul class="etym" data-sep=","><li>Python package</li><li>pycairo</li><li>Pillow</li><li>PyPI</li></ul>
+        <ol class="senses">
+          <li><p>I&nbsp;have an unhealthy obsession with visualizations and statistics, and <code>language-statistics</code> well-demonstrates that.</p></li>
+          <li><p>It displays a GitHub repo-esque colorbar for your directory straight from the command-line, which can be viewed as a PNG or SVG image.</p></li>
+        </ol>
+        <figure class="fig fig--bar"><img src="/assets/lexicon/img/langstats-bar.webp" width="499" height="12" alt="language-statistics colorbar" loading="lazy" decoding="async"><figcaption>colorbar</figcaption></figure>
+        <ul class="meta"><li data-stars="langstats">65&nbsp;stars</li><li><a href="https://github.com/Destaq/langstats" rel="noopener" target="_blank">GitHub</a></li></ul>
+      </article>
+
+      <article class="entry entry--major" id="lingofable" data-core data-hw="Lingofable" data-kind="project" data-when="2025-12" data-now data-years="2025–">
+        <header class="eh"><h4 class="hw"><span class="nb">Lingofable<span class="core py" data-py="core vocabulary" tabindex="0" role="img" aria-label="Core vocabulary"></span></span></h4><ul class="gram"><li class="pos">app</li><li class="lab">proj.</li><li class="dt">Dec 2025 – Present</li></ul></header>
+        <ul class="etym" data-sep="+"><li>100k+&nbsp;SLOC</li><li>TypeScript</li><li>Expo/React Native</li><li>Next.js</li><li>Supabase</li><li>Express</li><li>Python</li><li>Google&nbsp;Cloud&nbsp;Run</li><li>Cloudflare&nbsp;Workers</li></ul>
+        <div class="e-cols e-cols--run">
+          <ol class="senses">
+            <li><p>My biggest project to date, and closest one to my heart.</p></li>
+            <li><p>I&nbsp;built it with <a href="https://meganyap.me" rel="noopener" target="_blank">Megan Yap</a>, who handled product and design.</p></li>
+            <li><p>The idea is grounded in Stephen Krashen’s <i>i+1</i> theory on comprehensible input: the best way to acquire a language is by absorbing engaging material that’s <i>just</i> above your current level.</p></li>
+            <li><p>Users can explore stories ranging from fairy tales to Reddit threads, listen to corresponding audio, tap any word for an instant definition, track their CEFR level and vocabulary growth, and export words to Anki for SRS review.</p></li>
+            <li><p><b>Revenue-generating, 100k+ SLOC</b>, guest interviewed on Cornell's <a href="https://speakingoflanguage.podbean.com/e/s17e9-megan-yap-simon-ilincev-lingofable/" rel="noopener" target="_blank">Speaking of Language</a> podcast.</p></li>
+          </ol>
+          <figure class="fig e-fig strip">
+            <div class="strip-r">
+              <a class="zm" href="/assets/lexicon/img/lingofable-1.webp"><img src="/assets/lexicon/img/lingofable-1.webp" width="640" height="1385" alt="story reading with tap-to-define" loading="lazy" decoding="async"></a>
+              <a class="zm" href="/assets/lexicon/img/lingofable-2.webp"><img src="/assets/lexicon/img/lingofable-2.webp" width="640" height="1385" alt="explore page with personalized recommendations" loading="lazy" decoding="async"></a>
+              <a class="zm" href="/assets/lexicon/img/lingofable-4.webp"><img src="/assets/lexicon/img/lingofable-4.webp" width="640" height="1385" alt="reading with instant definitions and audio" loading="lazy" decoding="async"></a>
+              <a class="zm" href="/assets/lexicon/img/lingofable-6.webp"><img src="/assets/lexicon/img/lingofable-6.webp" width="640" height="1385" alt="vocabulary tracking with Anki export" loading="lazy" decoding="async"></a>
+            </div>
+            <figcaption>language learning through stories</figcaption>
+          </figure>
+          <ul class="meta"><li><a href="https://lingofable.com" rel="noopener" target="_blank">lingofable.com</a></li><li><a href="https://apps.apple.com/us/app/lingofable/id6759223711" rel="noopener" target="_blank">App&nbsp;Store</a></li></ul>
+        </div>
+        <figure class="pqf"><figcaption>Feedback from a real language professor at Cornell<span class="vh">:</span></figcaption><blockquote class="pq"><p>“This is awesome. I would love for all of my students to use this.”</p></blockquote></figure>
+      </article>
+
+      <article class="entry entry--major" id="lingotrack" data-core data-hw="Lingotrack" data-kind="project" data-when="2022-10" data-now data-years="2022–">
+        <header class="eh"><h4 class="hw"><span class="nb">Lingotrack<span class="core py" data-py="core vocabulary" tabindex="0" role="img" aria-label="Core vocabulary"></span></span></h4><ul class="gram"><li class="pos">platform</li><li class="lab">proj.</li><li class="dt">Oct 2022 – Present</li></ul></header>
+        <ul class="etym" data-sep="+"><li>50k+&nbsp;SLOC</li><li>Golang</li><li>TypeScript</li><li>Svelte</li><li>PostgreSQL</li><li>Tailwind&nbsp;CSS</li><li>Stripe</li></ul>
+        <div class="e-cols e-cols--run">
+          <ol class="senses">
+            <li><p>Full-stack social platform (~&nbsp;20k&nbsp;views/mo, <b>$2k&nbsp;ARR</b>) ft. websockets and a CDN that empowers language learners to track their progress and connects them with accessible media.</p></li>
+            <li><p>By visualizing learners’ achievements, allowing them to uncover captivating foreign content, and connecting them with fellow enthusiasts, <a href="https://www.lingotrack.com" rel="noopener" target="_blank">the site</a> hopes to make the journey to fluency a little less daunting.</p></li>
+            <li><p>The end result has been more than worth it — there are <b>nearly seven thousand users</b>, over 4100 media articles in our crowdsourced database, 18.8&nbsp;<i>years</i> worth of learning tracked, and I get fan mail several times a week!</p></li>
+          </ol>
+          <figure class="fig e-fig"><a class="zm" href="/assets/lexicon/img/lingotrack-1.webp"><img src="/assets/lexicon/img/lingotrack-1.webp" width="1400" height="772" alt="Lingotrack" loading="lazy" decoding="async"></a></figure>
+          <div class="xr"><div class="see-l">See also</div><ul class="see"><li><a class="xref" href="#ll-dashboard">Language Learning Dashboard</a></li></ul></div>
+          <ul class="meta"><li><a href="https://www.lingotrack.com" rel="noopener" target="_blank">lingotrack.com</a></li><li><a href="https://www.producthunt.com/posts/lingotrack" rel="noopener" target="_blank">Product&nbsp;Hunt</a></li></ul>
+        </div>
+      </article>
+
+      <article class="entry" id="linguakite" data-hw="Linguakite" data-kind="project" data-when="2022-06" data-years="2022">
+        <header class="eh"><h4 class="hw">Linguakite</h4><ul class="gram"><li class="pos">app</li><li class="lab">proj.</li><li class="dt">2022</li></ul></header>
+        <ul class="etym" data-sep=","><li>~5k&nbsp;SLOC worth of Python &amp; Vue</li><li>Flask</li><li>Nuxt</li><li>PostgreSQL</li><li>spaCy</li><li>NLTK</li><li>DeepL</li></ul>
+        <figure class="fig"><a class="zm" href="/assets/lexicon/img/linguakite-1.webp"><img src="/assets/lexicon/img/linguakite-1.webp" width="1400" height="823" alt="landing page" loading="lazy" decoding="async"></a><figcaption>linguakite landing page</figcaption></figure>
+        <ol class="senses">
+          <li><p>LinguaKite is a bespoke English-language-learning app that I built over the summer of my junior high school year.</p></li>
+          <li><p>Putting everything together was a challenge, given some of the rather uncommon framework combinations I used to build the app, but the end result was of great help to the friend I’d built it for and taught me a lot along the way.</p></li>
+        </ol>
+        <ul class="meta"><li><a href="https://www.github.com/Destaq/linguakite" rel="noopener" target="_blank">GitHub</a></li></ul>
+      </article>
+
+      <article class="entry" id="locadapt" data-core data-hw="Locadapt" data-kind="project" data-when="2024-06" data-years="2024–26">
+        <header class="eh"><h4 class="hw"><span class="nb">Locadapt<span class="core py" data-py="core vocabulary" tabindex="0" role="img" aria-label="Core vocabulary"></span></span></h4><ul class="gram"><li class="pos">platform</li><li class="lab">proj.</li><li class="dt">Jun 2024 – Jan 2026</li></ul></header>
+        <ul class="etym" data-sep="+"><li>25k+&nbsp;SLOC</li><li>TypeScript</li><li>React</li><li>Svelte</li><li>Supabase</li><li>Cloudflare&nbsp;Workers</li><li>Claude</li><li>Stripe</li></ul>
+        <figure class="fig"><a class="zm" href="/assets/lexicon/img/locadapt-dashboard.webp"><img src="/assets/lexicon/img/locadapt-dashboard.webp" width="1400" height="875" alt="Locadapt dashboard" loading="lazy" decoding="async"></a></figure>
+        <ol class="senses">
+          <li><p>B2SMB service that takes any site multilingual in 2&nbsp;lines of code.</p></li>
+          <li><p>By simply adding a minified JS snippet + corresponding CSS to the <code>head</code> of any site, the platform can automatically, accurately, and affordably translate any site into multiple languages.</p></li>
+          <li><p>Locadapt went toe-to-toe with a couple YC companies (and a well-funded SF startup even tried to poach me along the way) before the story wrapped up with an exit — the product has since been <b>acquired</b>.</p></li>
+          <li><p>Accurately, affordably takes any site multilingual in 2 lines of code. Includes reverse DNS proxy, rich plugin ecosystem, dynamic content support, admin + affiliate + configuration panels, and much more. IP commercially licensed to a language technology company.</p></li>
+        </ol>
+        <div class="origin"><div class="o-lab">Origin</div><p>In past lives, I’ve worked as a translator, contracted i18n dev work for a $40m+-funded startup, and lived in Europe for a decade. Over these experiences, one thing has become abundantly clear: the process of internationalizing (making multilingual) a website is a very beneficial one, but also unreasonably difficult.</p></div>
+        <ul class="meta"><li><a href="https://locadapt.com" rel="noopener" target="_blank">locadapt.com</a></li><li>acquired</li></ul>
+      </article>
+
+      <article class="entry" id="low-face-mode" data-hw="Low Face Mode" data-kind="project" data-when="2020-03" data-years="2020">
+        <header class="eh"><h4 class="hw">Low Face Mode</h4><ul class="gram"><li class="pos">program</li><li class="lab">proj.</li><li class="dt">2020</li></ul></header>
+        <ul class="etym" data-sep=","><li>Python</li><li>OpenCV</li><li>face_recognition</li><li>AppleScript</li></ul>
+        <ol class="senses">
+          <li><p>A while back, I stumbled upon the <code>OpenCV</code> Python library — a tool for computer vision.</p></li>
+          <li><p>And so, some fair bit of hacking later, I had a working prototype of <code>low-face-mode</code>, a program that would dim my screen when I wasn’t looking at it and brighten it when I was.</p></li>
+          <li><p>Unfortunately, as I would soon find out, running a program like this in the background drained a good deal more battery than it saved.</p></li>
+        </ol>
+        <ul class="meta"><li data-stars="low-face-mode">94&nbsp;stars</li><li><a href="https://github.com/Destaq/low-face-mode" rel="noopener" target="_blank">GitHub</a></li></ul>
+      </article>
+    </section>
+
+    <section class="letter" id="l-m"><h3 class="lh">M</h3>
+      <article class="entry" id="monarcha" data-hw="Monarcha (YC S25)" data-kind="work" data-when="2025-12" data-years="2025–26">
+        <header class="eh"><h4 class="hw">Monarcha <span class="hw-q">(YC&nbsp;S25)</span></h4><ul class="gram"><li class="pos">startup</li><li class="lab">work</li><li class="dt">Dec 2025 – May 2026</li></ul></header>
+        <ul class="role"><li>Software Engineer</li><li>Contract</li><li>Remote</li></ul>
+        <ol class="senses">
+          <li><p>Played with maps, AI, and other goodies. Delivered <b>140k+ SLOC over ~50 PRs</b>, including critical infrastructure, platform, and R&amp;D work. Learned a ton.</p></li>
+          <li><p>Built critical product &amp; platform systems for a document digitization company in a 25&nbsp;hr/wk engineering role.</p></li>
+        </ol>
+      </article>
+    </section>
+
+    <section class="letter" id="l-n"><h3 class="lh">N</h3>
+      <article class="entry" id="notehacks" data-hw="NoteHacks" data-kind="project" data-when="2024-09" data-years="2024">
+        <header class="eh"><h4 class="hw">NoteHacks</h4><ul class="gram"><li class="pos">tool</li><li class="lab">proj.</li><li class="dt">Sep 2024</li></ul></header>
+        <ul class="etym" data-sep=","><li>Next.js</li><li>Flask</li><li>OpenAI</li></ul>
+        <ol class="senses">
+          <li><p>Our Next.js-, Flask-, and OpenAI-powered tool sits in on lectures, listening and taking summarized Markdown notes that you can later interact with and save.</p></li>
+          <li><p>Our efforts and all-nighters earned us <b>#1/43</b>&nbsp;for the <i>Best Use of Groq</i> track (a prominent LLM company).</p></li>
+        </ol>
+        <div class="origin"><div class="o-lab">Origin</div><p>Friends at Cornell would sometimes poke fun at me for not taking notes in class. However, I found (and still find) that I learn best by concentrating fully on the lecture at hand rather than diluting attention with frantic note-taking.</p></div>
+        <ul class="meta"><li>Hack&nbsp;the&nbsp;North</li><li><a href="https://devpost.com/software/notehacks-bsjdoi" rel="noopener" target="_blank">Devpost</a></li></ul>
+      </article>
+    </section>
+
+    <section class="letter" id="l-o"><h3 class="lh">O</h3>
+      <article class="entry" id="life-calendar" data-hw="Online Life Calendar" data-kind="project" data-when="2020-09" data-years="2020">
+        <header class="eh"><h4 class="hw"><span class="sym--d" role="img" aria-label="taken down">†</span>Online Life Calendar</h4><ul class="gram"><li class="pos">app</li><li class="lab">proj.</li><li class="dt">2020</li></ul></header>
+        <ul class="etym" data-sep=","><li>Python</li><li>Flask</li><li>Jinja</li><li>PostgreSQL</li><li>SQLAlchemy</li><li>Heroku</li><li>and a dash of JavaScript</li></ul>
+        <figure class="fig"><a class="zm" href="/assets/lexicon/img/life-calendar.webp"><img src="/assets/lexicon/img/life-calendar.webp" width="1400" height="875" alt="Preview of Life Calendar" loading="lazy" decoding="async"></a></figure>
+        <ol class="senses">
+          <li><p>Online Life Calendar is a life planner, todo list, and accountability app all wrapped into one.</p></li>
+          <li><p>Online Life Calendar is completely free, has several hundred users at the time of writing, and has personally proven to be a great resource for self-motivation and planning.</p></li>
+        </ol>
+        <p class="note">Update: the site has been taken down due to financial reasons, but the source code is still available on GitHub.</p>
+        <ul class="meta"><li data-stars="life-calendar">59&nbsp;stars</li><li><a href="https://www.github.com/Destaq/life-calendar" rel="noopener" target="_blank">GitHub</a></li><li class="key">† taken down</li></ul>
+      </article>
+    </section>
+
+    <section class="letter" id="l-p" hidden><h3 class="lh">P</h3>
+      <article class="entry" id="panlong" data-hw="盘龙" data-kind="" data-when="2022-12" data-years="2022" data-secret>
+        <header class="eh"><h4 class="hw" lang="zh-Hans"><span class="py" data-py="pánlóng" tabindex="0">盘龙</span></h4><ul class="gram"><li class="pron">Pánlóng</li><li class="pos">webnovel</li><li class="dt">2022</li></ul></header>
+        <ol class="senses">
+          <li><p>Fun fact: I only read novels in Chinese.</p></li>
+        </ol>
+        <blockquote class="q"><p>my favorite webnovel of the year, <span lang="zh-Hans">《盘龙》</span>(Coiling Dragon) by <span lang="zh-Hans">我吃西红柿</span> (I Eat Tomatoes)</p><footer><div class="q-y">2022</div><cite><a href="/chinese/resources/reflections/2022-in-review/">My Chinese Learning in 2022, Wrapped!</a></cite></footer></blockquote>
+        <div class="xr"><div class="see-l">See also</div><ul class="see"><li><a href="/chinese/resources/guides/passing-hsk-6/">HSK&nbsp;6</a></li></ul></div>
+      </article>
+    </section>
+
+    <section class="letter" id="l-r"><h3 class="lh">R</h3>
+      <article class="entry" id="rockwell" data-hw="Rockwell Automation" data-kind="work" data-when="2023-01" data-years="2023">
+        <header class="eh"><h4 class="hw">Rockwell Automation</h4><ul class="gram"><li class="pos">company</li><li class="lab">work</li><li class="dt">Jan 2023 – Jun 2023</li></ul></header>
+        <ul class="role"><li>Embedded Software Engineer Intern</li><li class="loc">Prague</li></ul>
+        <ol class="senses">
+          <li><p>Inaugural Prague branch intern @ <b>Fortune 500</b> company — pioneered future simultaneous four-intern program. Developed an asynchronous hardware reservation system to be used by ~100 company engineers. Built internal Python package and Django API for interaction with bespoke MySQL database.</p></li>
+        </ol>
+      </article>
+    </section>
+
+    <section class="letter" id="l-s"><h3 class="lh">S</h3>
+      <article class="entry" id="student-agencies" data-hw="Student Agencies" data-kind="work" data-when="2024-03" data-years="2024">
+        <header class="eh"><h4 class="hw">Student Agencies</h4><ul class="gram"><li class="pos">firm</li><li class="lab">work</li><li class="dt">Mar 2024 – Jul 2024</li></ul></header>
+        <ul class="role"><li>Director of Enterprise Technology</li><li>Part-time</li><li class="loc">Ithaca,&nbsp;NY</li></ul>
+        <ol class="senses">
+          <li><p>Built a tool that integrates information from Salesforce, Homebase, Stripe, and Sharepoint into one central web app for Big Red Shipping &amp; Storage. Developed bespoke optimization algorithm to route truck deliveries, visualization tools for shipping statistics, and an automated calendar + FedEx labeling system.</p></li>
+          <li><p>Synthesized Salesforce, SharePoint, and HR logistics data into a Firebase dashboard for <b>$2.5M+</b>&nbsp;shipping firm.</p></li>
+        </ol>
+      </article>
+
+      <article class="entry" id="surgelingo" data-hw="Surgelingo" data-kind="project" data-when="2021-09" data-years="2021">
+        <header class="eh"><h4 class="hw">Surgelingo</h4><ul class="gram"><li class="pos">tool</li><li class="lab">proj.</li><li class="dt">Sep 2021</li></ul></header>
+        <ul class="etym" data-sep="+"><li>NLP</li><li>Flask</li><li>Vue</li><li>Nuxt</li><li>PostgreSQL</li><li>NLTK</li><li>Tailwind&nbsp;CSS</li></ul>
+        <figure class="fig"><a class="zm" href="/assets/lexicon/img/surgelingo.webp"><img src="/assets/lexicon/img/surgelingo.webp" width="1400" height="713" alt="Example of a SurgeLingo sentence" loading="lazy" decoding="async"></a></figure>
+        <ol class="senses">
+          <li><p>I&nbsp;won <b>‘Best Solo Hack’</b> for a 48-hour&nbsp;online hackathon with nearly a hundred participants.</p></li>
+          <li><p>The theme was disrupting an industry, and my submission, a language-learning tool named SurgeLingo that leveraged NLP and PostgreSQL to provide learners with Twitter-style personalized sentences, did so effectively with the foreign language-learning industry.</p></li>
+        </ol>
+        <div class="xr"><div class="see-l">See also</div><ul class="see"><li><a href="#w-hackathon"><cite>Winning my First Hackathon — Product &amp; Lessons Learned</cite></a></li></ul></div>
+        <ul class="meta"><li><a href="https://devpost.com/software/surgelingo" rel="noopener" target="_blank">Devpost</a></li></ul>
+      </article>
+    </section>
+
+    <section class="letter" id="l-t"><h3 class="lh">T</h3>
+      <article class="entry" id="trilogic" data-hw="The Trilogic Worlds" data-kind="writing" data-when="2017-01" data-years="2017–19">
+        <header class="eh"><h4 class="hw">The Trilogic Worlds</h4><ul class="gram"><li class="pos">series</li><li class="lab">writ.</li><li class="dt">2017 – 2019</li></ul></header>
+        <ul class="ttls"><li><a class="bk" href="https://www.goodreads.com/book/show/53067827-the-trilogic-worlds" rel="noopener" target="_blank" data-t="The Fictional War" data-k="The Trilogic Worlds, book 1" data-p="First published June 16, 2019 · 463 pages"><cite>The Fictional&nbsp;War</cite></a></li><li><a class="bk" href="https://www.goodreads.com/book/show/49289137-the-trilogic-worlds" rel="noopener" target="_blank" data-t="The Impossible War" data-k="The Trilogic Worlds, book 2" data-p="First published November 24, 2019 · 339 pages"><cite>The Impossible&nbsp;War</cite></a></li></ul>
+        <ol class="senses">
+          <li><p>Wrote and published a <b>&gt;200,000-word</b> YA fantasy series between the ages of 12 and 14. <b>Sold over 1,000 copies</b>, got fan messages, answered Goodreads questions, and did a lot of typing. Search up 'Simon Ilincev' on Google ;)</p></li>
+        </ol>
+        <ul class="meta"><li><a href="https://www.goodreads.com/author/show/19271921.Simon_Ilincev" rel="noopener" target="_blank">Goodreads</a></li></ul>
+      </article>
+    </section>
+
+    <section class="letter" id="l-w"><h3 class="lh">W</h3>
+      <article class="entry entry--major" id="waymark" data-core data-hw="Waymark" data-kind="project" data-when="2026-08" data-now data-years="2026–">
+        <header class="eh"><img class="app-i" src="/assets/lexicon/img/waymark-icon-150.webp" width="150" height="150" alt="" loading="lazy" decoding="async"><h4 class="hw"><span class="nb">Waymark<span class="core py" data-py="core vocabulary" tabindex="0" role="img" aria-label="Core vocabulary"></span></span></h4><ul class="gram"><li class="pos">app</li><li class="lab">proj.</li><li class="dt">Aug 2026 – Present</li></ul></header>
+        <ul class="etym" data-sep=","><li>Expo</li><li>React Native</li><li>TypeScript</li><li>MapLibre Native</li><li>Swift</li><li>SQLite</li><li>CloudKit</li><li>StoreKit&nbsp;2</li><li>WidgetKit</li></ul>
+        <div class="e-cols">
+          <div class="e-txt">
+            <ol class="senses">
+              <li><p>A fog-of-war map iPhone app that shows everywhere you've been. Clear the fog by moving around, import photos and other data, explore cities with social leaderboards, replay journeys, and lots more!</p></li>
+              <li><p>It all stays on your iPhone. There's no account and no ads, and your location is never sold or stored by Waymark servers.</p></li>
+              <li><p>Start a friends group over iCloud and see who has explored more of your city, this week or all time, and where each friend was last. Friends see your name, your last city and your percentages. They never see your map or your routes.</p></li>
+            </ol>
+            <blockquote class="q"><p>Location data is a business. We're not in it.</p><footer><a href="https://waymark.simonilincev.com" rel="noopener" target="_blank">waymark.simonilincev.com</a></footer></blockquote>
+            <ul class="meta"><li><a href="https://apps.apple.com/app/waymark-fog-of-war-travel-map/id6818561081" rel="noopener" target="_blank">App&nbsp;Store</a></li><li><a href="https://waymark.simonilincev.com" rel="noopener" target="_blank">waymark.simonilincev.com</a></li></ul>
+          </div>
+          <div class="e-fig wm">
+            <figure class="fig"><a class="zm" href="/assets/lexicon/img/waymark-2.webp"><img src="/assets/lexicon/img/waymark-2.webp" width="1400" height="933" alt="Waymark on three iPhones" loading="lazy" decoding="async"></a></figure>
+            <div class="wm-r">
+              <figure class="fig" style="--ar:.46"><a class="zm" href="/assets/lexicon/img/waymark-3.webp"><img src="/assets/lexicon/img/waymark-3.webp" width="644" height="1400" alt="Waymark map tab" loading="lazy" decoding="async"></a></figure>
+              <figure class="fig" style="--ar:.46"><a class="zm" href="/assets/lexicon/img/waymark-4.webp"><img src="/assets/lexicon/img/waymark-4.webp" width="644" height="1400" alt="Waymark journey replay" loading="lazy" decoding="async"></a></figure>
+              <figure class="fig fig--mat" style="--ar:.773"><a class="zm" href="/assets/lexicon/img/waymark-6.webp"><img src="/assets/lexicon/img/waymark-6-520.webp" srcset="/assets/lexicon/img/waymark-6-520.webp 520w, /assets/lexicon/img/waymark-6.webp 1082w" sizes="(min-width: 861px) 231px, 46vw" width="1082" height="1400" alt="Waymark print flyer" loading="lazy" decoding="async"></a></figure>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+  </div>
+</section>
+
+<section class="sec" id="writing" aria-labelledby="writing-h">
+  <div class="sec-hd"><h2 class="sec-h" id="writing-h">Writing</h2></div>
+  <p class="sec-lede">Various words of mine that I’ve made public on the interweb.</p>
+  <ol class="cites">
+    <li class="cite">
+      <div class="c-y">2024</div>
+      <div class="c-t"><a href="/resources/project/launching-coldcraft/">ColdCraft Launch Announcement</a></div>
+      <p>ColdCraft.ai — an award-winning, AI-powered cold email tool that integrates with your LinkedIn, resume, calendar, and more — is out of private beta.</p>
+    </li>
+    <li class="cite">
+      <div class="c-y">2023</div>
+      <div class="c-t"><a href="/resources/project/launching-lingotrack/">Lingotrack Launch Announcement</a></div>
+      <p>My passion project, a social platform for language learners to track progress and find accessible media, is now live on the web and Product&nbsp;Hunt!</p>
+    </li>
+    <li class="cite">
+      <div class="c-y">2022</div>
+      <div class="c-t"><a href="/chinese/resources/reflections/2022-in-review/">My Chinese Learning in 2022, Wrapped!</a></div>
+      <div class="c-cf"><i>cf.</i> <a class="cf-secret" href="#panlong" lang="zh-Hans">盘龙</a></div>
+    </li>
+    <li class="cite">
+      <div class="c-y">2022</div>
+      <div class="c-t"><a href="/chinese/resources/guides/passing-hsk-6/">Passing the HSK&nbsp;6 With Virtually No Preparation</a></div>
+      <p>Webnovels, television, and a pinch of practice got me to pass the most difficult Chinese proficiency exam.</p>
+    </li>
+    <li class="cite">
+      <div class="c-y">2022</div>
+      <div class="c-t"><a href="/reflections/chinese/100-days-of-tracking/">I Tracked my Chinese Learning for Three Months — Takeaways</a></div>
+      <p>Three months of tracking every single minute spent learning Chinese. Here are the activities I did and what I learnt.</p>
+    </li>
+    <li class="cite">
+      <div class="c-y">2022</div>
+      <div class="c-t"><a href="/guides/chinese/improving-reading-speed/">Improving your Chinese Reading Speed — 7 Strategies I&nbsp;used to Double Mine</a></div>
+      <p>How I reached a native-level Chinese reading speed and you can too.</p>
+    </li>
+    <li class="cite" id="w-hackathon">
+      <div class="c-y">2021</div>
+      <div class="c-t"><a href="/hackathon/updates/winning-my-first-hackathon/">Winning my First Hackathon — Product &amp; Lessons Learned</a></div>
+      <p>I won ‘Best Solo Hack’ for the first hackathon I ever participated in — here’s what I did, learned, and made.</p>
+    </li>
+  </ol>
+  <div class="sec-more"><a href="/blog/">Blog</a> <span class="sec-more-x">see also</span> <ul class="see"><li><a class="xref" href="#trilogic"><cite>The Trilogic Worlds</cite></a></li><li><a class="xref" href="#eloquence"><cite>Eloquence</cite></a></li></ul></div>
+</section>
+
+<section class="sec" id="about" aria-labelledby="about-h">
+  <div class="sec-hd"><h2 class="sec-h" id="about-h">About</h2></div>
+  <div class="about">
+    <div class="about-text">
+      <blockquote class="epi">
+        <p>Live as if you were to die tomorrow. Learn as if you were to live forever.</p> <span class="epi-a">Mahatma&nbsp;Gandhi</span>
+      </blockquote>
+      <p>I am a university senior studying in the heart of New York, <a href="https://www.goodreads.com/author/show/19271921.Simon_Ilincev" rel="noopener" target="_blank">2x author</a>, and dedicated programmer. I’ve been teaching myself full-stack software engineering for the past four-odd years, and am now fairly proficient at it with over four hundred stars to <a href="https://github.com/Destaq" rel="noopener" target="_blank">my GitHub name</a>. Programs I write most often center around <a href="https://www.producthunt.com/posts/lingotrack" rel="noopener" target="_blank">language-learning</a> or <a href="https://github.com/Destaq/life-calendar" rel="noopener" target="_blank">productivity</a>, and often use Golang, Svelte, and/or Python.</p>
+      <p>Coding has always been a hobby of mine, and since early 2021 I have been putting time and effort into making that hobby a career — <a href="/downloads/Simon_Ilincev_Resume.pdf">view my resume</a>. Regardless of where the future takes me, I know that I’ll be approaching it with confidence.</p>
+      <p>Outside of computer science, I enjoy digging up odd tidbits of history, learning Mandarin (I’ve <a href="/chinese/resources/guides/passing-hsk-6/">passed its most difficult proficiency exam</a>), and exploring the countryside with the family dog.</p>
+    </div>
+    <figure class="fig about-fig">
+      <a class="zm" href="/assets/lexicon/img/rome.webp"><img src="/assets/lexicon/img/rome-760.webp" srcset="/assets/lexicon/img/rome-760.webp 760w, /assets/lexicon/img/rome.webp 1400w" sizes="(min-width: 861px) 400px, 92vw" width="1400" height="788" alt="Simon at the Colosseum in Rome" loading="lazy" decoding="async"></a>
+      <figcaption>Greetings from Rome!</figcaption>
+    </figure>
+  </div>
+  <h3 class="sub-h" id="education-h">Education</h3>
+  <ol class="edu" aria-labelledby="education-h">
+    <li><div class="edu-n">Cornell University</div><div class="edu-d">BS Computer Science, minor in Linguistics</div><div class="edu-y">Aug&nbsp;2023&nbsp;– Dec&nbsp;2026 · <b>4.0+&nbsp;GPA</b></div><p>Activities: Language Expansion Program, Startup Hours, Digital Tech &amp; Innovation, Armada.</p></li>
+    <li><div class="edu-n">HKUST</div><div class="edu-d">Summer Exchange Student, Computer Science &amp; Physics</div><div class="edu-y">Jun&nbsp;2024&nbsp;– Aug&nbsp;2024</div><p>Took COMP 3311: Database Management Systems and PHYS 1114: General Physics II whilst abroad that summer. Simultaneously worked on two summer jobs and two SaaS startups.</p></li>
+    <li><div class="edu-n">Park Lane International School</div><div class="edu-y">Sep&nbsp;2019&nbsp;– May&nbsp;2023</div><p>Sustained <b>45/45</b> for the International Baccalaureate.</p></li>
+  </ol>
+</section>
+
+<section class="sec" id="contact" aria-labelledby="contact-h">
+  <div class="sec-hd"><h2 class="sec-h" id="contact-h">Contact</h2></div>
+  <div class="contact">
+    <p class="contact-l">If you have any questions, offers, or comments, please don’t hesitate to let me know!</p>
+    <dl class="abbr">
+      <div><dt>Email</dt><dd><a href="mailto:simon@simonilincev.com">simon@simonilincev.com</a></dd></div>
+      <div><dt>GitHub</dt><dd><a href="https://github.com/Destaq" rel="noopener" target="_blank">Destaq</a></dd></div>
+      <div><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/simon-ilincev/" rel="noopener" target="_blank">simon-ilincev</a></dd></div>
+      <div><dt>Résumé</dt><dd><a href="/downloads/Simon_Ilincev_Resume.pdf">Open PDF</a></dd></div>
+    </dl>
+  </div>
+</section>
+
+</main>
+
+<footer class="colophon">
+  <div class="col-in">
+    <span>© 2026 Simon Ilincev</span>
+    <span class="col-vol" id="col-vol">Armada&nbsp;– Waymark</span>
+    <a href="#top">Back to top</a>
+  </div>
+</footer>
+
+<script defer src="/assets/lexicon/globe.js"></script>
+<script defer src="/assets/lexicon/main.js"></script>
+</body>
+</html>

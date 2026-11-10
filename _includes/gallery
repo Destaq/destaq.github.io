@@ -1,0 +1,23 @@
+{%- comment -%}
+  {% include gallery %}                      reads page.gallery
+  {% include gallery id="gallery2" layout="half" caption="..." %}
+  Each item: image_path, optional url (what a click opens; the picture itself otherwise), alt, title.
+{%- endcomment -%}
+{%- assign gallery_id = include.id | default: "gallery" -%}
+{%- assign gallery_items = page[gallery_id] -%}
+{%- assign gallery_layout = include.layout -%}
+{%- unless gallery_layout -%}
+  {%- if gallery_items.size == 2 -%}{%- assign gallery_layout = "half" -%}
+  {%- elsif gallery_items.size >= 3 -%}{%- assign gallery_layout = "third" -%}
+  {%- endif -%}
+{%- endunless -%}
+<figure class="gallery{% if gallery_layout %} gallery--{{ gallery_layout }}{% endif %}">
+  <div class="gallery-g">
+  {%- for item in gallery_items %}
+    <a href="{{ item.url | default: item.image_path }}"{% if item.title %} title="{{ item.title | escape_once }}"{% endif %}><img src="{{ item.image_path }}" alt="{{ item.alt | default: '' | escape_once }}" loading="lazy"></a>
+  {%- endfor %}
+  </div>
+  {%- if include.caption %}
+  <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" | strip }}</figcaption>
+  {%- endif %}
+</figure>

@@ -1,0 +1,33 @@
+---
+title: "Blog Posts by Year"
+permalink: /blog/
+layout: default
+excerpt: These are the Simon Ilincev's blog posts, sorted by year. They cover topics such as his programming journey, tutorials, resources, or tips and tricks.
+---
+{%- assign years = site.posts | group_by_exp: "p", "p.date | date: '%Y'" -%}
+<section class="bl">
+  <div class="bl-hd">
+    <h1 class="bl-h">{{ page.title }}</h1>
+    <label class="bl-s"><svg width="15" height="15" aria-hidden="true"><use href="#i-search"/></svg><input id="bq" type="search" placeholder="Look up a post…" aria-label="Look up a post" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search"><kbd aria-hidden="true">/</kbd></label>
+  </div>
+  <p class="bl-lede">I document my programming journey, tips, and what I've learned in the posts below. You can find out more about my experience with coding, personal wins, or how to solve a specific problem by searching for a post here or simply scrolling down.</p>
+  <p class="bl-n" id="bl-n" role="status">{{ site.posts.size }} posts</p>
+  {%- for year in years %}
+  <section class="bl-y" aria-labelledby="y{{ year.name }}">
+    <h2 class="lh" id="y{{ year.name }}">{{ year.name }}</h2>
+    <ol class="cites">
+      {%- for post in year.items %}
+      {%- capture hay %}{{ post.title | strip_html }} {{ post.excerpt | strip_html | strip_newlines }} {{ post.tags | join: " " }} {{ post.categories | join: " " }} {{ post.date | date: "%B %Y" }}{% endcapture %}
+      <li class="cite" data-s="{{ hay | downcase | escape_once }}">
+        <time class="c-y" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%b %-d" }}</time>
+        <div class="c-t"><a href="{{ post.url }}">{{ post.title | markdownify | remove: "<p>" | remove: "</p>" | strip }}</a></div>
+        {%- if post.excerpt %}
+        <p>{{ post.excerpt | strip_html | strip }}</p>
+        {%- endif %}
+      </li>
+      {%- endfor %}
+    </ol>
+  </section>
+  {%- endfor %}
+  <p class="bl-none" id="bl-none" role="status" hidden>No post matches that.</p>
+</section>

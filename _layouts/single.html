@@ -1,0 +1,73 @@
+---
+layout: default
+---
+{%- comment -%}
+  A post, or a long page such as the life calendar tutorial.
+  Front matter read here: title, date, excerpt, header.image (+ image_description, caption), toc, toc_label, tags, comments.
+  _data/hdr.yml lists the smaller copies of the header pictures that _tools/post-headers.py makes; a picture not in it is used as is.
+{%- endcomment -%}
+{%- assign words = content | strip_html | number_of_words -%}
+{%- assign mins = words | plus: 199 | divided_by: 200 -%}
+<article class="post">
+  <header class="post-hd">
+    <h1 class="post-h" id="post-h">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" | strip }}</h1>
+    {%- if page.date %}
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time> <span>{{ mins }} min read</span></p>
+    {%- endif %}
+    {%- if page.excerpt %}
+    <p class="post-lede">{{ page.excerpt | strip_html | strip }}</p>
+    {%- endif %}
+  </header>
+  {%- if page.header.image %}
+    {%- assign img = page.header.image -%}
+    {%- assign base = img | split: "/" | last | split: "." | first -%}
+    {%- assign small = site.data.hdr[base] -%}
+    {%- assign ext = img | split: "." | last | downcase %}
+  <figure class="post-fig{% if ext == 'svg' %} post-fig--mark{% endif %}">
+    {%- if small %}
+    <img src="/assets/lexicon/hdr/{{ base }}.webp" width="{{ small.w }}" height="{{ small.h }}" alt="{{ page.header.image_description | default: '' | escape_once }}" fetchpriority="high" decoding="async">
+    {%- else %}
+    <img src="{{ img }}" alt="{{ page.header.image_description | default: '' | escape_once }}" fetchpriority="high" decoding="async">
+    {%- endif %}
+    {%- if page.header.caption %}
+    <figcaption>{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" | strip }}</figcaption>
+    {%- endif %}
+  </figure>
+  {%- endif %}
+
+  <div class="post-b">
+    {%- if page.toc %}
+    <details class="toc" id="toc" hidden>
+      <summary>{{ page.toc_label | default: "Contents" }}</summary>
+      <ol id="toc-l"></ol>
+    </details>
+    {%- endif %}
+    <div class="prose" id="prose">
+{{ content }}
+    </div>
+  </div>
+
+  <footer class="post-ft">
+    {%- if page.tags.size > 0 %}
+    <p class="post-tags"><span class="see-l">Tags</span>
+      {%- for tag in page.tags %} <a href="/blog/?q={{ tag | url_encode }}">{{ tag }}</a>{% unless forloop.last %},{% endunless %}{% endfor %}</p>
+    {%- endif %}
+    {%- if page.previous or page.next %}
+    <nav class="post-nav" aria-label="More posts">
+      {%- if page.previous %}
+      <a class="pn" rel="prev" href="{{ page.previous.url }}"><span class="pn-l">Previous</span><span class="pn-t">{{ page.previous.title | strip_html }}</span></a>
+      {%- else %}<span></span>{% endif %}
+      {%- if page.next %}
+      <a class="pn pn--next" rel="next" href="{{ page.next.url }}"><span class="pn-l">Next</span><span class="pn-t">{{ page.next.title | strip_html }}</span></a>
+      {%- endif %}
+    </nav>
+    {%- endif %}
+    {%- if page.comments and site.disqus_shortname %}
+    <section class="post-cm" id="comments" aria-label="Comments">
+      <button type="button" class="pill" id="cm-b" data-short="{{ site.disqus_shortname }}" data-url="{{ page.url | absolute_url }}" data-id="{{ page.id }}">Show comments</button>
+      <div id="disqus_thread"></div>
+      <noscript>Comments need JavaScript.</noscript>
+    </section>
+    {%- endif %}
+  </footer>
+</article>

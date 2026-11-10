@@ -1,0 +1,31 @@
+{%- comment -%}
+  An address the old site had. Front matter:
+    to       where it goes now
+    anchors  optional map of old #fragment -> new #fragment on the target page
+    query    optional; true turns an old #fragment into ?q=fragment (the tag pages)
+{%- endcomment -%}
+{%- assign plain = page.to | split: "#" | first -%}
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{ page.title | default: site.title }}</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="{{ plain | absolute_url }}">
+<script>
+(function () {
+  var to = {{ page.to | jsonify }}, map = {{ page.anchors | jsonify }}, h = "";
+  try { h = decodeURIComponent(location.hash.slice(1)); } catch (e) {}
+  if (h && map && map[h]) to = to.split("#")[0] + "#" + map[h];
+  {%- if page.query %}
+  else if (h) to = to.split("#")[0] + "?q=" + encodeURIComponent(h);
+  {%- endif %}
+  location.replace(to);
+})();
+</script>
+<noscript><meta http-equiv="refresh" content="0; url={{ page.to }}"></noscript>
+</head>
+<body>
+<p><a href="{{ page.to }}">{{ page.title | default: "This page has moved" }}</a></p>
+</body>
+</html>

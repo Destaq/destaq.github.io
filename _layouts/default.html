@@ -1,0 +1,106 @@
+<!doctype html>
+{%- comment -%}
+  The frame of every page except the home page (/index.html is a static file with its own copy of this head and masthead).
+{%- endcomment -%}
+{%- assign desc = page.excerpt | default: site.description | strip_html | strip_newlines | strip | truncate: 300 | escape_once -%}
+{%- assign og = "/assets/lexicon/og.png" | absolute_url -%}
+{%- if page.header.image -%}
+  {%- assign ext = page.header.image | split: "." | last | downcase -%}
+  {%- unless ext == "svg" -%}
+    {%- if page.header.image contains "://" -%}{%- assign og = page.header.image -%}{%- else -%}{%- assign og = page.header.image | absolute_url -%}{%- endif -%}
+  {%- endunless -%}
+{%- endif %}
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title | strip_html | escape_once }} – {% endif %}{{ site.title }}</title>
+<meta name="description" content="{{ desc }}">
+<meta name="theme-color" content="#f7f2e2">
+{%- if page.url == "/404.html" %}
+<meta name="robots" content="noindex">
+{%- else %}
+<link rel="canonical" href="{{ page.url | replace: 'index.html', '' | absolute_url }}">
+{%- endif %}
+<meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:title" content="{{ page.title | default: site.title | strip_html | escape_once }}">
+<meta property="og:description" content="{{ desc }}">
+{%- unless page.url == "/404.html" %}
+<meta property="og:url" content="{{ page.url | replace: 'index.html', '' | absolute_url }}">
+{%- endunless %}
+<meta property="og:image" content="{{ og }}">
+{%- if page.date %}
+<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+{%- endif %}
+<meta name="twitter:card" content="summary_large_image">
+<link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">
+<script>(function(){var d=document.documentElement,t=null,q=/[?&]theme=(dark|light)\b/.exec(location.search);try{t=localStorage.getItem("lex-theme")}catch(e){}if(q)t=q[1];if(t!=="dark"&&t!=="light")t=window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";d.setAttribute("data-theme",t);if(location.hash.length>1)d.style.scrollBehavior="auto";var m=document.querySelector('meta[name="theme-color"]');if(m&&t==="dark")m.content="#1a1612"})()</script>
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap">
+<link rel="stylesheet" href="/assets/lexicon/style.css">
+<link rel="stylesheet" href="/assets/lexicon/pages.css">
+{%- if site.analytics_id %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics_id }}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date());gtag("config","{{ site.analytics_id }}")</script>
+{%- endif %}
+<script defer src="/assets/lexicon/pages.js"></script>
+</head>
+<body class="pg">
+<svg class="sprite" width="0" height="0" aria-hidden="true">
+  <symbol id="i-gh" viewBox="0 0 16 16"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></symbol>
+  <symbol id="i-in" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M13.6 0H2.4A2.4 2.4 0 0 0 0 2.4v11.2A2.4 2.4 0 0 0 2.4 16h11.2a2.4 2.4 0 0 0 2.4-2.4V2.4A2.4 2.4 0 0 0 13.6 0ZM4.9 13.4H2.6V6.2h2.3v7.2ZM3.75 5.2a1.33 1.33 0 1 1 0-2.66 1.33 1.33 0 0 1 0 2.66Zm9.65 8.2h-2.3V9.9c0-.84-.02-1.9-1.17-1.9-1.17 0-1.35.9-1.35 1.85v3.55H6.3V6.2h2.2v.98h.03c.3-.58 1.06-1.2 2.17-1.2 2.33 0 2.7 1.53 2.7 3.52v3.9Z"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 16 16"><g fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"><circle cx="8" cy="8" r="3"/><path d="M8 1.2v1.6M8 13.2v1.6M1.2 8h1.6M13.2 8h1.6M3.2 3.2l1.1 1.1M11.7 11.7l1.1 1.1M3.2 12.8l1.1-1.1M11.7 4.3l1.1-1.1"/></g></symbol>
+  <symbol id="i-moon" viewBox="0 0 16 16"><path fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round" d="M13.6 9.7A6 6 0 0 1 6.3 2.4a6 6 0 1 0 7.3 7.3Z"/></symbol>
+  <symbol id="i-search" viewBox="0 0 16 16"><g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><circle cx="6.8" cy="6.8" r="4.6"/><path d="m10.3 10.3 4 4"/></g></symbol>
+</svg>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="ed" id="top">
+  <div class="ed-in">
+    <a class="ed-name" href="/">Simon Ilincev</a>
+    <div class="ed-live">
+      <button type="button" class="ed-date" id="ed-date" aria-description="Changes the language of the date"></button>
+      <div class="ed-clk"><span class="ed-l" id="ed-here-l">Ithaca, N.Y.</span> <time id="ed-here"></time></div>
+    </div>
+    <div class="ed-links">
+      <a class="ed-a" href="https://github.com/{{ site.github_username }}" rel="noopener" target="_blank" aria-label="GitHub: {{ site.github_username }}"><svg width="16" height="16" aria-hidden="true"><use href="#i-gh"/></svg><span>GitHub</span></a>
+      <a class="ed-a" href="https://www.linkedin.com/in/simon-ilincev/" rel="noopener" target="_blank" aria-label="LinkedIn: simon-ilincev"><svg width="16" height="16" aria-hidden="true"><use href="#i-in"/></svg><span>LinkedIn</span></a>
+      <button type="button" class="ed-t" id="theme" aria-label="Switch to dark theme"><svg class="t-moon" width="18" height="18" aria-hidden="true"><use href="#i-moon"/></svg><svg class="t-sun" width="18" height="18" aria-hidden="true"><use href="#i-sun"/></svg></button>
+    </div>
+  </div>
+</header>
+
+{%- assign in_writing = false -%}
+{%- if page.url == "/blog/" or page.collection == "posts" -%}{%- assign in_writing = true -%}{%- endif %}
+<nav class="sn" id="sn" aria-label="Site">
+  <div class="sn-in">
+    <ol class="sn-l">
+      <li><a href="/#lexicon">Lexicon</a></li>
+      <li><a href="/blog/"{% if page.url == "/blog/" %} aria-current="page"{% elsif in_writing %} aria-current="true"{% endif %}>Writing</a></li>
+      <li><a href="/#about">About</a></li>
+      <li><a href="/#contact">Contact</a></li>
+    </ol>
+    {%- if page.title and page.url != "/blog/" %}
+    <div class="sn-g" id="guide" aria-hidden="true"><div>{{ page.title | strip_html | escape_once }}</div></div>
+    {%- endif %}
+  </div>
+</nav>
+
+<main id="main">
+{{ content }}
+</main>
+
+<footer class="colophon">
+  <div class="col-in">
+    <span>© {{ site.time | date: "%Y" }} Simon Ilincev</span>
+    <a href="/feed.xml">RSS</a>
+    <a href="#top">Back to top</a>
+  </div>
+</footer>
+</body>
+</html>
